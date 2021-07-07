@@ -1,0 +1,656 @@
+<!DOCTYPE html><html lang="en-GB" data-ng-app="cmNewsletter" class="ng-scope"><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style><meta charset="utf-8">
+<link rel="manifest" href="/static/app-manifest/manifest.webmanifest">
+<title data-ng-bind="rootViewModel.title ? rootViewModel.title + ' | Underground Mathematics' : 'May 2017 | Newsletter Archive | Underground Mathematics'" class="ng-binding">May 2017 | Newsletter Archive | Underground Mathematics</title>
+<meta name="description" content="May 2017 from the newsletter archive">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="css/css.css" rel="stylesheet">
+<link rel="stylesheet" href="css/main.min.css">
+
+<script async src="js/analytics.js"></script><link rel="apple-touch-icon" sizes="152x152" href="images/icon-152.png"><link rel="apple-touch-icon" sizes="120x120" href="images/icon-120.png"><link rel="apple-touch-icon" sizes="76x76" href="images/icon-76.png"><link rel="apple-touch-icon" sizes="60x60" href="images/icon-60.png"><link rel="apple-touch-icon" sizes="57x57" href="images/icon-57.png"><link rel="apple-touch-icon" sizes="72x72" href="images/icon-72.png"><link rel="apple-touch-icon" sizes="114x114" href="images/icon-114.png"><link rel="icon" sizes="128x128" href="images/icon-128.png"><link rel="icon" sizes="192x192" href="images/icon-192.png"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="UndergroundMathematics"><meta name="application-name" content="UndergroundMathematics"><meta name="msapplication-TileColor" content="#ffffff"><meta name="msapplication-square70x70logo" content="/static/app-manifest/icon-70.png"><meta name="msapplication-square150x150logo" content="/static/app-manifest/icon-150.png"><meta name="msapplication-wide310x150logo" content="/static/app-manifest/icon-310x150.png"><meta name="msapplication-square310x310logo" content="/static/app-manifest/icon-310.png"><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1px; bottom: 2px; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head>
+<body class="admin-toolbar-open" data-ng-class="{'admin-toolbar-open': rootViewModel.adminData.showTools}"><div id="MathJax_Message" style="display: none;"></div><div class="full-height-container content-page-wrapper"><div class="auto-height-row content-page-top-wrapper" data-cm-header-wrapper><div class="header" id="header"><div class="header-main"><a class="header-logo" href="index.html"><span class="icon-logo"></span>
+<span class="header-logo-text"><span>underground</span>
+<span>mathematics</span>
+</span>
+</a>
+<ul><li data-ng-class="{selected: rootViewModel.headerMenuItemSelected == 'Map'}"><a tabindex="0" data-ng-click="toggleHeaderMenuItem('Map')"><span class="icon-map"></span>
+<span class="header-menu-item-text">Map</span>
+</a>
+</li>
+<li data-ng-class="{selected: rootViewModel.headerMenuItemSelected == 'Search'}"><a tabindex="0" data-ng-click="toggleHeaderMenuItem('Search')"><span class="icon-search"></span>
+<span class="header-menu-item-text">Search</span>
+</a>
+</li>
+<li data-ng-class="{selected: rootViewModel.headerMenuItemSelected == 'Browse'}"><a tabindex="0" data-ng-click="toggleHeaderMenuItem('Browse')"><span class="icon-folder-open"></span>
+<span class="header-menu-item-text">Browse</span>
+</a>
+</li>
+<li data-ng-class="{selected: rootViewModel.headerMenuItemSelected == 'User'}"><a tabindex="0" data-ng-click="toggleHeaderMenuItem('User')"><span class="icon-user"></span>
+<span class="header-menu-item-text">User</span>
+</a>
+</li>
+<li data-ng-class="{selected: rootViewModel.headerMenuItemSelected == 'More'}"><a tabindex="0" data-ng-click="toggleHeaderMenuItem('More')"><span class="icon-ellipsis"></span>
+<span class="header-menu-item-text">More</span>
+</a>
+</li>
+</ul>
+</div>
+
+<nav class="header-more-menu ng-hide" data-ng-show="rootViewModel.headerMenuItemSelected == 'More'"><ul><li><a href="index.html" target="_self">Home</a>
+</li>
+<li><a href="how-to-guide.html" target="_self">How-to guide</a>
+</li>
+<li><a href="hub.html" target="_self">Underground hub</a>
+</li>
+<li><a href="about.html" target="_self">About and contact</a>
+</li>
+<li class="menu-divider"></li>
+<li class="header-more-menu-mathematical-classroom"><a href="mathematical-classroom.html" target="_self"><span class="icon-mathematical-classroom"></span>
+Your mathematical classroom</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="full-height-row content-page-middle-wrapper" data-cm-middle-wrapper><div class="content-page-middle newsletter-middle-wrapper ng-scope" data-ng-controller="NewsletterController"><div class="content-page-main"><div class="content-page-header-wrapper"><div class="content-page-header"><div class="newsletter-header"><div class="newsletter-heading-wrapper"><a class="newsletter-heading-hub" tabindex="0" data-ng-click="goToHubPage($event)" href="hub.html"><span class="icon-news"></span>
+<h3>Newsletter archive</h3>
+</a>
+<div class="newsletter-heading"><h1>May 2017</h1>
+</div>
+</div>
+<div class="newsletter-printable-link-wrapper"><a target="_blank" href="/newsletters/may-2017/may-2017.pdf"><span class="icon-print"></span>
+Printable version</a>
+</div>
+</div>
+</div>
+</div>
+<div class="content-page-content-wrapper"><div class="content-page-content"><div class="newsletter-content"><table width="700" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr>
+<td bgcolor="#ffffff" width="1" height="1"></td>
+<td bgcolor="#fefefe" width="1" height="1"></td>
+<td bgcolor="#fbfbfb" width="1" height="1"></td>
+<td bgcolor="#f9f9f9" width="1" height="1"></td>
+<td bgcolor="#f5f5f5" width="692" height="1"></td>
+<td bgcolor="#f9f9f9" width="1" height="1"></td>
+<td bgcolor="#fbfbfb" width="1" height="1"></td>
+<td bgcolor="#fefefe" width="1" height="1"></td>
+<td bgcolor="#ffffff" width="1" height="1"></td>
+</tr>
+<tr>
+<td bgcolor="#fefefe" width="1" height="1"></td>
+<td bgcolor="#fbfbfb" width="1" height="1"></td>
+<td bgcolor="#f3f3f3" width="1" height="1"></td>
+<td bgcolor="#ededed" width="1" height="1"></td>
+<td bgcolor="#e1e1e1" width="692" height="1"></td>
+<td bgcolor="#ededed" width="1" height="1"></td>
+<td bgcolor="#f3f3f3" width="1" height="1"></td>
+<td bgcolor="#fbfbfb" width="1" height="1"></td>
+<td bgcolor="#fefefe" width="1" height="1"></td>
+</tr>
+<tr>
+<td bgcolor="#fdfdfd" width="1" height="1"></td>
+<td bgcolor="#f8f8f8" width="1" height="1"></td>
+<td bgcolor="#e7e7e7" width="1" height="1"></td>
+<td bgcolor="#dadada" width="1" height="1"></td>
+<td bgcolor="#c2c2c2" width="692" height="1"></td>
+<td bgcolor="#dadada" width="1" height="1"></td>
+<td bgcolor="#e7e7e7" width="1" height="1"></td>
+<td bgcolor="#f8f8f8" width="1" height="1"></td>
+<td bgcolor="#fdfdfd" width="1" height="1"></td>
+</tr>
+<tr>
+<td bgcolor="#fbfbfb" width="1" height="1"></td>
+<td bgcolor="#f3f3f3" width="1" height="1"></td>
+<td bgcolor="#d6d6d6" width="1" height="1"></td>
+<td bgcolor="#c2c2c2" width="1" height="1"></td>
+<td bgcolor="#999999" width="692" height="1"></td>
+<td bgcolor="#c2c2c2" width="1" height="1"></td>
+<td bgcolor="#d6d6d6" width="1" height="1"></td>
+<td bgcolor="#f3f3f3" width="1" height="1"></td>
+<td bgcolor="#fbfbfb" width="1" height="1"></td>
+</tr>
+<tr>
+<td bgcolor="#f5f5f5" width="1" height="1"></td>
+<td bgcolor="#e1e1e1" width="1" height="1"></td>
+<td bgcolor="#c2c2c2" width="1" height="1"></td>
+<td bgcolor="#999999" width="1" height="1"></td>
+<td valign="top">
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td bgcolor="#FFFFFF">
+<table width="100%" cellspacing="4" cellpadding="0" border="0">
+<tbody><tr>
+<td width="75%"><table width="100%" cellspacing="10" cellpadding="0" border="0"><tbody><tr><td><span style="font-family: verdana, arial, helvetica, sans-serif; font-size:20px; color: #009890; font-weight: bold">
+Underground Mathematics newsletter
+</span><br><span style="font-family: verdana, arial, helvetica, sans-serif; font-size:15px; color: #009890; font-weight: bold">
+May 2017
+</span></td></tr></tbody></table></td>
+<td width="20%" align="right">
+<a href="https://undergroundmathematics.org/tracking?category=Newsletter&amp;action=Click&amp;sourceId=may-2017&amp;url=%2F" target="_blank">
+<img src="https://undergroundmathematics.org/newsletters/common/logo-with-text.png" alt="Logo" border="0">
+</a>
+</td>
+</tr>
+</tbody></table>
+</td></tr>
+<tr><td bgcolor="#00bfb5" height="1"></td></tr>
+<tr>
+<td bgcolor="#FFFFFF">
+<br>
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody><tr>
+<td width="30%" valign="top">
+<table width="100%" cellpadding="15" cellspacing="0" border="0"><tbody><tr><td>
+<table width="100%" cellpadding="5" cellspacing="0" border="0" style="border-left: #EAEAEA 1px solid; border-right: #EAEAEA 1px solid; border-top: #EAEAEA 1px solid; border-bottom: #EAEAEA 1px solid">
+<tbody><tr><td bgcolor="#00bfb5"><span style="font-family: verdana, arial, helvetica, sans-serif; font-size:14px; color: #FFFFFF; font-weight: bold">In this newsletter:</span></td></tr>
+<tr><td bgcolor="#F9F9F9">
+<p style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #000000">
+<!--
+-->
+<a href="#1" style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #2F4B8C; font-weight:bold; text-decoration: none">
+Introduction
+</a><br><br>
+<!--
+-->
+<a href="#2" style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #2F4B8C; font-weight:bold; text-decoration: none">
+In the spotlight: Blog
+</a><br><br>
+<!--
+-->
+<a href="#3" style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #2F4B8C; font-weight:bold; text-decoration: none">
+Prepare for the new A level
+</a><br><br>
+<!--
+-->
+<a href="#4" style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #2F4B8C; font-weight:bold; text-decoration: none">
+Year 12 taster days
+</a><br><br>
+<!--
+-->
+<a href="#5" style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #2F4B8C; font-weight:bold; text-decoration: none">
+Free CPD: webinars
+</a><br><br>
+<!--
+-->
+<a href="#6" style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #2F4B8C; font-weight:bold; text-decoration: none">
+Free CPD: UM conference
+</a><br><br>
+<!--
+-->
+<a href="#7" style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #2F4B8C; font-weight:bold; text-decoration: none">
+Community
+</a><br><br>
+<!--
+-->
+<a href="#8" style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #2F4B8C; font-weight:bold; text-decoration: none">
+Meet the team
+</a><br><br>
+<!--
+-->
+</p>
+</td></tr>
+</tbody></table>
+<!--
+-->
+<br>
+</td></tr>
+</tbody></table>
+</td>
+<td width="1" bgcolor="#999999"><img src="https://undergroundmathematics.org/tracking?category=Newsletter&amp;action=Open&amp;sourceId=may-2017" width="1" height="1" alt></td>
+<td width="70%" valign="top">
+<table width="100%" cellpadding="15" cellspacing="0" border="0">
+<tbody><tr><td>
+<!--
+-->
+<table width="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td width="100%">
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td width="100%"><span style="font-family: verdana, arial, helvetica, sans-serif; font-size:15px; color: #000000; font-weight: bold"><a name="1"></a>
+Introduction
+</span></td></tr>
+<tr><td width="100%"><hr style="height:1px; color:#999999; border-style: solid; border-color: #999999; border-width: 1px 0px 0px 0px"></td></tr>
+<tr><td width="100%" height="5"></td></tr>
+</tbody></table>
+<!--
+-->
+<p style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #009890;">
+Written by Lynne McClure, co-director of Underground Mathematics
+</p>
+
+<p style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #000000">
+<img align="right" alt="Lynne" src="https://undergroundmathematics.org/newsletters/common/lynne-hills-road.jpg" width="150" height="156" style="float:right;width:150px;height:156px"> Following maths education in the news is a full time job these days - consultations, announcements, changes and (often silly) news items bombard us at a daily rate. As I write, there are articles and Twitter conversations about primary testing, Chinese textbooks and mastery, maths anxiety, A Level funding, maths for apprenticeships….to name but a few.<br> <br>For the followers of Underground Mathematics, though, possibly the one announcement we are eager to hear has been delayed by the purdah imposed because of the upcoming election – and I refer of course to the Smith report. Sir Adrian wrote ‘Making Mathematics Count’ in 2004, and his focus then was on post-14 maths education. Three major issues were identified: (1) the shortage of mathematics teachers, (2) the failure of the current curriculum and qualifications to meet the needs of many learners and to satisfy the requirements and expectations of employers and higher education institutions and (3) the lack of resources, infrastructure and a sustained continuing professional development culture.<br> <br>Thirteen years later and I wonder how much of his text could be lifted straight into the 2017 version. Certainly the maths teacher shortage is more acute, and the debate about Functional skills indicates that we still don’t have a curriculum and qualification framework that meets all required needs. CPD I think is a different matter. There have been national initiatives to promote maths PD – the NCETM and the Maths Hubs, for example – but events have recently been undermined by the financial constraints which prevent teachers from attending, even if the events don't explicitly charge a fee.<br> <br>Given that the situation is not going to improve in the near future, it’s perhaps even more important that projects such as Underground Mathematics combine the design of rich tasks with thoughtful online teacher support. It’s one of the defining aspects that we know teachers value. However even with that support, we recognise that some teachers find that our tasks challenge what they usually do in the classroom. There are many tasks out there that provide targeted practice to gain fluency in specific approaches, and we don’t need to add to them. What we really value are tasks which get to the core of what mathematical thinking is all about, that help teachers to teach in the way they enjoy, by focusing on the integrity of the subject. As we come to the end of the school year our thoughts turn to preparing to teach the revised A level courses. We have already embedded the new A level aims into our tasks and we hope that departments will find our resources useful and thought-provoking in equal measure. 
+</p>
+<br>
+</td></tr></tbody></table>
+<!--
+-->
+<table width="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td width="100%">
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td width="100%"><span style="font-family: verdana, arial, helvetica, sans-serif; font-size:15px; color: #000000; font-weight: bold"><a name="2"></a>
+In the spotlight: Blog
+</span></td></tr>
+<tr><td width="100%"><hr style="height:1px; color:#999999; border-style: solid; border-color: #999999; border-width: 1px 0px 0px 0px"></td></tr>
+<tr><td width="100%" height="5"></td></tr>
+</tbody></table>
+<!--
+-->
+<p style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #009890;">
+We take a closer look at our new Underground Mathematics blog.
+</p>
+
+<p style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #000000">
+<a href="https://undergroundmathematics.org/tracking?category=Newsletter&amp;action=Click&amp;sourceId=may-2017&amp;url=%2Fblog">The blog</a> has been developed by our Underground Mathematics Champions and is a place to celebrate mathematics. It features posts that consider interesting ways to teach and learn mathematics that we hope will make you wonder, ask questions and more! If anyone is interested in writing a blog post please contact <a href="mailto:blog@undergroundmathematics.org">blog@undergroundmathematics.org</a>. <br><br>Here is an extract from the latest blog post, written by Professor Brian Hudson.<br><br><img align="right" alt="Blog" src="https://undergroundmathematics.org/newsletters/may-2017/cylinders.png" width="150" height="137" style="float:right;width:150px;height:137px"><em>Driving to Cambridge on the morning of the first day of the Underground Mathematics workshop on Mathematical Thinking provided some welcome time to reflect after a week that had been much busier than expected. This time also provided an opportunity to think further about the tasks that had been set prior to the workshop but although I was looking forward to the day with a high degree of anticipation, I did feel quite under-prepared...</em><br><br><a href="https://undergroundmathematics.org/tracking?category=Newsletter&amp;action=Click&amp;sourceId=may-2017&amp;url=%2Fblog%2Ftaking-time-to-think">Read more</a>
+</p>
+<br>
+</td></tr></tbody></table>
+<!--
+-->
+<table width="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td width="100%">
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td width="100%"><span style="font-family: verdana, arial, helvetica, sans-serif; font-size:15px; color: #000000; font-weight: bold"><a name="3"></a>
+Prepare for the new A level
+</span></td></tr>
+<tr><td width="100%"><hr style="height:1px; color:#999999; border-style: solid; border-color: #999999; border-width: 1px 0px 0px 0px"></td></tr>
+<tr><td width="100%" height="5"></td></tr>
+</tbody></table>
+<!--
+-->
+<p style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #009890;">
+Underground Mathematics wants to help you prepare to teach the new A level. 
+</p>
+
+<p style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #000000">
+<img align="right" alt="Resource suggestions" src="https://undergroundmathematics.org/newsletters/may-2017/suggestions.jpg" width="200" height="124" style="float:right;width:200px;height:124px">To help embed our resources into your teaching, and support you in delivering the new A level, we have put together a spreadsheet that offers resource suggestions for each of the content statements in the DfE specification. <br><br>This document suggests where some of our favourite resources could be used as part of teaching the new A or AS level, and can be used as you and your department put together a new scheme of work for September. <br><br>To download this document visit our <a href="https://undergroundmathematics.org/tracking?category=Newsletter&amp;action=Click&amp;sourceId=may-2017&amp;url=%2Fnew-a-level" target="_blank">Prepare for the new A level</a> page.  You can also follow <a href="https://undergroundmathematics.org/tracking?category=Newsletter&amp;action=Click&amp;sourceId=may-2017&amp;url=https%3A%2F%2Ftwitter.com%2FUndergroundMath" target="_blank">@UndergroundMath</a> and keep an eye out for our posts with the hashtag #UMprepare. 
+</p>
+<br>
+</td></tr></tbody></table>
+<!--
+-->
+<table width="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td width="100%">
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td width="100%"><span style="font-family: verdana, arial, helvetica, sans-serif; font-size:15px; color: #000000; font-weight: bold"><a name="4"></a>
+Year 12 taster days
+</span></td></tr>
+<tr><td width="100%"><hr style="height:1px; color:#999999; border-style: solid; border-color: #999999; border-width: 1px 0px 0px 0px"></td></tr>
+<tr><td width="100%" height="5"></td></tr>
+</tbody></table>
+<!--
+-->
+<p style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #009890;">
+Do you have a Year 12 taster day coming up? Why not use an Underground Mathematics resource?
+</p>
+
+<p style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #000000">
+<img align="right" alt="Students" src="https://undergroundmathematics.org/newsletters/may-2017/yr12.jpg" width="200" height="133" style="float:right;width:200px;height:133px">What do you want students’ first experience of mathematics after GCSE to be? Several teachers have found that using an Underground Mathematics resource during a Year 12 taster day can be an excellent way to get students talking and discussing mathematics in a way that they may not be familiar with. <br><br>The resources suggested below don’t require knowledge beyond GCSE, and encourage mathematical behaviours such as:<br></p><ul style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #000000"><li>Talking about mathematics and working collaboratively</li><li>Asking questions of themselves and others</li><li>Justifying and communicating mathematical ideas.</li></ul><br><img src="https://undergroundmathematics.org/newsletters/may-2017/picture-the-process-i.png" alt="Picture the process I" width="200" height="84" align="right" style="width:200px;height:84px;float:right;"><p style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #000000"><a href="https://undergroundmathematics.org/tracking?category=Newsletter&amp;action=Click&amp;sourceId=may-2017&amp;url=%2Fthinking-about-functions%2Fpicture-the-process-i" target="_blank">Picture the process I</a></p><p style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #000000">Students are asked to relate real life process to their algebraic models via graphical representations. This offers lots of opportunities for discussion about the assumptions that are being made and how those assumptions would the impact the graphs that might be drawn to model each situation. </p><img src="https://undergroundmathematics.org/newsletters/may-2017/name-that-graph.png" alt="Name that graph" width="100" height="126" align="right" style="width:100px;height:126px;float:right;"><p style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #000000"><a href="https://undergroundmathematics.org/tracking?category=Newsletter&amp;action=Click&amp;sourceId=may-2017&amp;url=%2Fquadratics%2Fname-that-graph" target="_blank">Name that graph</a></p><p style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #000000">This resource prompts students to think about what information is needed to be able to identify an equation for a parabola directly from the graph. It encourages thinking about different approaches and reflecting on when and where different approaches are more beneficial. </p><br><p style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #000000">For other suggestions, you may wish to look at our <a href="https://undergroundmathematics.org/tracking?category=Newsletter&amp;action=Click&amp;sourceId=may-2017&amp;url=%2Fbundles%2Fmathematical-classroom" target="_blank">Developing a mathematical classroom bundle</a>. </p><br>
+<p></p>
+<br>
+</td></tr></tbody></table>
+<!--
+-->
+<table width="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td width="100%">
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td width="100%"><span style="font-family: verdana, arial, helvetica, sans-serif; font-size:15px; color: #000000; font-weight: bold"><a name="5"></a>
+Free CPD: webinars
+</span></td></tr>
+<tr><td width="100%"><hr style="height:1px; color:#999999; border-style: solid; border-color: #999999; border-width: 1px 0px 0px 0px"></td></tr>
+<tr><td width="100%" height="5"></td></tr>
+</tbody></table>
+<!--
+-->
+
+<p style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #000000">
+<img align="right" alt="Resource suggestions" src="https://undergroundmathematics.org/newsletters/may-2017/revision.jpg" width="200" height="123" style="float:right;width:200px;height:123px">Our most recent webinar, ‘Tying it together’ ran on 19th April and looks at how we can help students to revise effectively. The 40 minute recording is available to <a href="https://undergroundmathematics.org/tracking?category=Newsletter&amp;action=Click&amp;sourceId=may-2017&amp;url=%2Fwebinars%2Ftying-it-together">view</a> on the website alongside our previous webinars. 
+</p>
+<br>
+</td></tr></tbody></table>
+<!--
+-->
+<table width="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td width="100%">
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td width="100%"><span style="font-family: verdana, arial, helvetica, sans-serif; font-size:15px; color: #000000; font-weight: bold"><a name="6"></a>
+Free CPD: UM conference
+</span></td></tr>
+<tr><td width="100%"><hr style="height:1px; color:#999999; border-style: solid; border-color: #999999; border-width: 1px 0px 0px 0px"></td></tr>
+<tr><td width="100%" height="5"></td></tr>
+</tbody></table>
+<!--
+-->
+
+<p style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #000000">
+<img align="right" alt="UM conference" src="https://undergroundmathematics.org/newsletters/may-2017/cpd.jpg" width="200" height="111" style="float:right;width:200px;height:111px">Teachers who have attended any Underground Mathematics professional development sessions are invited to attend a free, one-day conference at the National STEM Learning Centre, York, on 12th July 2017.<br><br>The aim is to help you to get more out of Underground Mathematics as you prepare to teach the new A Level courses, including the following.<br></p><ul style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #000000"><li>Share your experience of using Underground Mathematics in the classroom</li><li>Discuss ways to develop your students as mathematical thinkers</li><li>Explore the website and new resources with the Underground Mathematics team</li></ul><p style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #000000">Bookings for this conference are managed by <a href="https://undergroundmathematics.org/tracking?category=Newsletter&amp;action=Click&amp;sourceId=may-2017&amp;url=http%3A%2F%2Fwww.mei.org.uk%2Funderground-mathematics%23footer" target="_blank">MEI</a>. If you would like to attend please <br><br><strong><a href="https://undergroundmathematics.org/tracking?category=Newsletter&amp;action=Click&amp;sourceId=may-2017&amp;url=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2F1DLmAFCgGdNErN6usxiaRd3x_zLgE1MThYHwiX7Z2Lco%2Fviewform%3Fedit_requested%3Dtrue" target="_blank">Book now</a></strong></p>
+<p></p>
+<br>
+</td></tr></tbody></table>
+<!--
+-->
+<table width="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td width="100%">
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td width="100%"><span style="font-family: verdana, arial, helvetica, sans-serif; font-size:15px; color: #000000; font-weight: bold"><a name="7"></a>
+Community
+</span></td></tr>
+<tr><td width="100%"><hr style="height:1px; color:#999999; border-style: solid; border-color: #999999; border-width: 1px 0px 0px 0px"></td></tr>
+<tr><td width="100%" height="5"></td></tr>
+</tbody></table>
+<!--
+-->
+
+<p style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #000000">
+The Underground Mathematics <a href="https://undergroundmathematics.org/tracking?category=Newsletter&amp;action=Click&amp;sourceId=may-2017&amp;url=%2F">site</a> is accessible to all, and its design is rooted in teacher experience. So we would value any contribution you can make by sharing your experiences of using our resources with your students. You can join the conversation by creating a login for the site and using the ‘Discuss’ link that appears at the top of each page.<br><br>Our Twitter feed is <a href="https://undergroundmathematics.org/tracking?category=Newsletter&amp;action=Click&amp;sourceId=may-2017&amp;url=https%3A%2F%2Ftwitter.com%2Fundergroundmath">@UndergroundMath</a>, where we regularly tweet resource suggestions, events we are involved in and any interesting maths we come across. You can also join <a href="https://undergroundmathematics.org/tracking?category=Newsletter&amp;action=Click&amp;sourceId=may-2017&amp;url=https%3A%2F%2Fwww.facebook.com%2Fgroups%2F289518338051180%2F" target="_blank">UMChat</a>, a Facebook group for teachers to share experiences and ideas for using Underground Mathematics in the classroom. 
+</p>
+<br>
+</td></tr></tbody></table>
+<!--
+-->
+<table width="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td width="100%">
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td width="100%"><span style="font-family: verdana, arial, helvetica, sans-serif; font-size:15px; color: #000000; font-weight: bold"><a name="8"></a>
+Meet the team
+</span></td></tr>
+<tr><td width="100%"><hr style="height:1px; color:#999999; border-style: solid; border-color: #999999; border-width: 1px 0px 0px 0px"></td></tr>
+<tr><td width="100%" height="5"></td></tr>
+</tbody></table>
+<!--
+-->
+<p style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #009890;">
+Over the next few months you can find the team and the Underground Mathematics Champions at the following events.
+</p>
+
+<p style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #000000">
+<a href="https://undergroundmathematics.org/tracking?category=Newsletter&amp;action=Click&amp;sourceId=may-2017&amp;url=https%3A%2F%2Fcpdhub.ocr.org.uk%2FDesktopDefault.aspx%3Fe%3Dfjefcbdbhgnidcpindncdphpabihkmpcehicklnfcaahoaaepc" target="_blank">Introduction to Underground Mathematics webinar</a> (part of OCR’s Festival of A level Maths), 4pm, 8th June<br><a href="https://undergroundmathematics.org/tracking?category=Newsletter&amp;action=Click&amp;sourceId=may-2017&amp;url=https%3A%2F%2Fcpdhub.ocr.org.uk%2FDesktopDefault.aspx%3Fe%3Dfjefcbdbhgnidcpindncdphpabihkmpcehicklnfcaaagfbokn" target="_blank">Linear A level OCR conference</a>, London, 9th June<br><a href="https://undergroundmathematics.org/tracking?category=Newsletter&amp;action=Click&amp;sourceId=may-2017&amp;url=http%3A%2F%2Fwww.bsrlm.org.uk%2Fnext-conference%2F" target="_blank">BSRLM</a>, 9th-10th June, Oxford<br><a href="https://undergroundmathematics.org/tracking?category=Newsletter&amp;action=Click&amp;sourceId=may-2017&amp;url=https%3A%2F%2Fcompletemaths.com%2Fevents%2Fengland" target="_blank">MathsConf10</a>, 24th June, London<br><a href="https://undergroundmathematics.org/tracking?category=Newsletter&amp;action=Click&amp;sourceId=may-2017&amp;url=https%3A%2F%2Fconference.mei.org.uk%2F" target="_blank">MEI Conference 2017</a>, 29th June – 1st July, Keele University
+</p>
+<br>
+</td></tr></tbody></table>
+<!--
+-->
+
+<!--
+-->
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td width="100%"><span style="font-family: verdana, arial, helvetica, sans-serif; font-size:15px; color: #000000; font-weight: bold"><a name="CONTACT"></a>Contact Details</span></td></tr>
+<tr><td width="100%"><hr style="height:1px; color:#999999; border-style: solid; border-color: #999999; border-width: 1px 0px 0px 0px"></td></tr>
+<tr><td width="100%" height="5"></td></tr>
+</tbody></table>
+<p style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #000000">
+<!--
+-->
+Centre for Mathematical Sciences<br>University of Cambridge<br>Wilberforce Road<br>Cambridge<br>CB3 0WB<br><br>
+<!--
+-->
+<!--
+-->
+01223 766857<br>
+<!--
+-->
+<!--
+-->
+<a href="mailto:info@undergroundmathematics.org" style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #2F4B8C; font-weight:bold; text-decoration: none">info@undergroundmathematics.org</a><br>
+<!--
+-->
+<!--
+-->
+<a href="https://undergroundmathematics.org/tracking?category=Newsletter&amp;action=Click&amp;sourceId=may-2017&amp;url=%2F" target="_blank" style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #2F4B8C; font-weight:bold; text-decoration: none">https://undergroundmathematics.org</a>
+<!--
+-->
+</p>
+<br>
+<hr style="height:1px; color:#999999; border-style: solid; border-color: #999999; border-width: 1px 0px 0px 0px">
+<p style="font-family: verdana, arial, helvetica, sans-serif; font-size:13px; color: #000000">
+Underground Mathematics is funded by a grant from the UK Department for Education and based at the University of Cambridge.
+</p>
+<table width="100%" style="width:100%">
+    <tbody><tr>
+        <td align="left" valign="bottom" style="text-align:left;vertical-align:bottom;">
+            <img src="https://undergroundmathematics.org/newsletters/common/cambridge-logo.jpg" alt="Cambridge logo" width="150" height="31" style="width:150px;height:31px;">
+        </td>
+        <td align="right" valign="bottom" style="text-align:right;vertical-align:bottom;">
+            <img src="https://undergroundmathematics.org/newsletters/common/dfe-logo.jpg" alt="DfE logo" width="120" height="71" style="width:120px;height:71px;">
+        </td>
+    </tr>
+</tbody></table>
+</td></tr>
+</tbody></table>
+</td></tr>
+</tbody></table>
+<br>
+</td></tr>
+<!--
+-->
+</tbody></table>
+</td>
+<td bgcolor="#999999" width="1" height="1"></td>
+<td bgcolor="#c2c2c2" width="1" height="1"></td>
+<td bgcolor="#e1e1e1" width="1" height="1"></td>
+<td bgcolor="#f5f5f5" width="1" height="1"></td>
+</tr>
+<tr>
+<td bgcolor="#fbfbfb" width="1" height="1"></td>
+<td bgcolor="#f3f3f3" width="1" height="1"></td>
+<td bgcolor="#d6d6d6" width="1" height="1"></td>
+<td bgcolor="#c2c2c2" width="1" height="1"></td>
+<td bgcolor="#999999" width="692" height="1"></td>
+<td bgcolor="#c2c2c2" width="1" height="1"></td>
+<td bgcolor="#d6d6d6" width="1" height="1"></td>
+<td bgcolor="#f3f3f3" width="1" height="1"></td>
+<td bgcolor="#fbfbfb" width="1" height="1"></td>
+</tr>
+<tr>
+<td bgcolor="#fdfdfd" width="1" height="1"></td>
+<td bgcolor="#f8f8f8" width="1" height="1"></td>
+<td bgcolor="#e7e7e7" width="1" height="1"></td>
+<td bgcolor="#dadada" width="1" height="1"></td>
+<td bgcolor="#c2c2c2" width="692" height="1"></td>
+<td bgcolor="#dadada" width="1" height="1"></td>
+<td bgcolor="#e7e7e7" width="1" height="1"></td>
+<td bgcolor="#f8f8f8" width="1" height="1"></td>
+<td bgcolor="#fdfdfd" width="1" height="1"></td>
+</tr>
+<tr>
+<td bgcolor="#fefefe" width="1" height="1"></td>
+<td bgcolor="#fbfbfb" width="1" height="1"></td>
+<td bgcolor="#f3f3f3" width="1" height="1"></td>
+<td bgcolor="#ededed" width="1" height="1"></td>
+<td bgcolor="#e1e1e1" width="692" height="1"></td>
+<td bgcolor="#ededed" width="1" height="1"></td>
+<td bgcolor="#f3f3f3" width="1" height="1"></td>
+<td bgcolor="#fbfbfb" width="1" height="1"></td>
+<td bgcolor="#fefefe" width="1" height="1"></td>
+</tr>
+<tr>
+<td bgcolor="#ffffff" width="1" height="1"></td>
+<td bgcolor="#fefefe" width="1" height="1"></td>
+<td bgcolor="#fbfbfb" width="1" height="1"></td>
+<td bgcolor="#f9f9f9" width="1" height="1"></td>
+<td bgcolor="#f5f5f5" width="692" height="1"></td>
+<td bgcolor="#f9f9f9" width="1" height="1"></td>
+<td bgcolor="#fbfbfb" width="1" height="1"></td>
+<td bgcolor="#fefefe" width="1" height="1"></td>
+<td bgcolor="#ffffff" width="1" height="1"></td>
+</tr>
+</tbody></table></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="auto-height-row content-page-bottom-wrapper" data-cm-footer-wrapper><div class="footer"><div class="footer-top"><div class="footer-contact"><a href="mailto:info@undergroundmathematics.org"><span class="icon-email"></span>
+<span class="sr-only">Email</span>
+</a>
+<a href="UndergroundMath.html" target="_blank"><span class="icon-twitter"></span>
+<span class="sr-only">Twitter</span>
+</a>
+</div>
+<div class="footer-policies"><a href="terms.html" target="_self">Terms</a>
+<span class="text-divider"></span>
+<a href="cookie-policy.html" target="_self">Cookies</a>
+<span class="text-divider"></span>
+<a href="privacy-policy.html" target="_self">Privacy</a>
+</div>
+</div>
+<div class="footer-middle"><a class="footer-logo" href="index.html"><span class="icon-logo"></span>
+<span class="footer-title"><span>underground</span>
+<span>mathematics</span>
+</span>
+</a>
+<div class="footer-strapline">Rich resources for teaching A level mathematics</div>
+<small>Copyright © and Database Right 2013-2021 University of Cambridge <br>
+<a href="terms.html#copyright">All rights reserved</a>
+</small>
+</div>
+<div class="footer-bottom"><div class="footer-cambridge"><img src="images/cambridge-logo-white.png" alt="University of Cambridge logo">
+</div>
+<div class="footer-dfe"><img src="images/dfe-logo-white.png" alt="Department for Education logo">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/js.cookie.min.js"></script>
+<script src="js/jquery.autocomplete.min.js"></script>
+<script src="js/angular.min.js"></script>
+<script src="js/angular-resource.min.js"></script>
+<script src="js/angular-sanitize.min.js"></script>
+<script src="js/markdown-it.min.js"></script>
+<script src="js/main.min.js"></script>
+<script type="text/x-mathjax-config;executed=true">MathJax.Hub.Config({skipStartupTypeset: true,
+TeX: { equationNumbers: { autoNumber: "AMS" },
+Macros: {Var: "\\mathrm{Var}",
+cosec: "\\mathop{\\rm cosec}\\nolimits",
+sech: "\\mathop{\\rm sech}\\nolimits",
+cosech: "\\mathop{\\rm cosech}\\nolimits",
+arsinh: "\\mathop{\\rm arsinh}\\nolimits",
+arcosh: "\\mathop{\\rm arcosh}\\nolimits",
+artanh: "\\mathop{\\rm artanh}\\nolimits",
+arccot: "\\mathop{\\rm arccot}\\nolimits",
+arcsec: "\\mathop{\\rm arcsec}\\nolimits",
+arccosec: "\\mathop{\\rm arccosec}\\nolimits",
+quantity: ["{#1}\\,\\mathrm{#2}", 2],
+cmlongdiv: ["\\enclose{longdiv}{#1}", 1],
+cmlongdivbr: ["\\\\[-3pt]"],
+cmarraystretch: ["{}", 1]}},
+"HTML-CSS": {linebreaks: {automatic: true,
+width: "57%"},
+mtextFontInherit: true,
+preferredFont: "STIX",
+webFont: "STIX-Web",
+imageFont:null,
+minScaleAdjust: 100},
+"SVG": {linebreaks: {automatic: true,
+width: "57%"},
+mtextFontInherit: true,
+font: "STIX-Web",
+minScaleAdjust: 100},
+tex2jax: {displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+processEscapes: true}});
+MathJax.Hub.Register.StartupHook("TeX AMSsymbols Ready",function () { MathJax.InputJax.TeX.Definitions.mathchar0mi.square = ["25FB",{mathvariant:"normal"}];});
+MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {MathJax.Hub.Insert(MathJax.InputJax.TeX.Definitions.macros,{cancel: ["Extension","cancel"],
+bcancel: ["Extension","cancel"],
+xcancel: ["Extension","cancel"],
+cancelto: ["Extension","cancel"],
+enclose: ["Extension","enclose"]});});</script>
+<script src="js/MathJax.js"></script>
+<script src="js/manup.min.js"></script>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-50571661-2', 'auto');</script>
+<script src="/static/js/public/newsletter.min.js"></script><script>var spaSetup = {"accountSettings":{"imminentPasswordExpiryHours":168,"invalidPasswordMessage":"Your password must contain at least 1 upper case letter, 1 lower case letter, 1 digit and be at least 8 characters long.","verificationExpiryHours":48,"passwordResetExpiryHours":48},"appSettings":{"disableLogins":false,"webmasterEmail":"info@undergroundmathematics.org","disabledLoginMessage":null,"webmasterName":"Underground Mathematics "},"contactSettings":{"linkedInPage":"underground-mathematics","googlePlusPage":"107933654652080928819","webmasterEmail":"info@undergroundmathematics.org","adminPhone":"+44 1223 766 839","twitterUsername":"UndergroundMath","facebookPage":"UndergroundMathematics","adminEmail":"info@undergroundmathematics.org"},"currentUser":{}};</script>
+
+
+<div class="autocomplete-suggestions" style="position: absolute; display: none; max-height: 300px; z-index: 9999;"></div></body></html>

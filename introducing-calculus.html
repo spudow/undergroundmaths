@@ -1,0 +1,1388 @@
+<!DOCTYPE html><html lang="en-GB" data-ng-app="cmStation" class="ng-scope"><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style><meta charset="utf-8">
+<link rel="manifest" href="/static/app-manifest/manifest.webmanifest">
+<title data-ng-bind="rootViewModel.title ? rootViewModel.title + ' | Underground Mathematics' : 'Introducing Calculus | Underground Mathematics'" class="ng-binding">Introducing Calculus | Underground Mathematics</title>
+<meta name="description" content="Why did calculus develop and how might we use it?">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="css/css.css" rel="stylesheet">
+<link rel="stylesheet" href="css/main.min.css">
+
+<style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1px; bottom: 2px; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><link rel="apple-touch-icon" sizes="152x152" href="images/icon-152.png"><link rel="apple-touch-icon" sizes="120x120" href="images/icon-120.png"><link rel="apple-touch-icon" sizes="76x76" href="images/icon-76.png"><link rel="apple-touch-icon" sizes="60x60" href="images/icon-60.png"><link rel="apple-touch-icon" sizes="57x57" href="images/icon-57.png"><link rel="apple-touch-icon" sizes="72x72" href="images/icon-72.png"><link rel="apple-touch-icon" sizes="114x114" href="images/icon-114.png"><link rel="icon" sizes="128x128" href="images/icon-128.png"><link rel="icon" sizes="192x192" href="images/icon-192.png"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="UndergroundMathematics"><meta name="application-name" content="UndergroundMathematics"><meta name="msapplication-TileColor" content="#ffffff"><meta name="msapplication-square70x70logo" content="/static/app-manifest/icon-70.png"><meta name="msapplication-square150x150logo" content="/static/app-manifest/icon-150.png"><meta name="msapplication-wide310x150logo" content="/static/app-manifest/icon-310x150.png"><meta name="msapplication-square310x310logo" content="/static/app-manifest/icon-310.png"><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><style type="text/css">.MathJax_Display {text-align: center; margin: 1em 0em; position: relative; display: block!important; text-indent: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; width: 100%}
+.MathJax .merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MathJax .MJX-monospace {font-family: monospace}
+.MathJax .MJX-sans-serif {font-family: sans-serif}
+#MathJax_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true'); padding: 3px 4px; z-index: 401; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
+.MathJax {display: inline; font-style: normal; font-weight: normal; line-height: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; padding: 0; margin: 0}
+.MathJax:focus, body :focus .MathJax {display: inline-table}
+.MathJax.MathJax_FullWidth {text-align: center; display: table-cell!important; width: 10000em!important}
+.MathJax img, .MathJax nobr, .MathJax a {border: 0; padding: 0; margin: 0; max-width: 5000em; max-height: 5000em; min-width: 0; min-height: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+img.MathJax_strut {border: 0!important; padding: 0!important; margin: 0!important; vertical-align: 0!important}
+.MathJax span {display: inline; position: static; border: 0; padding: 0; margin: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+.MathJax nobr {white-space: nowrap!important}
+.MathJax img {display: inline!important; float: none!important}
+.MathJax * {transition: none; -webkit-transition: none; -moz-transition: none; -ms-transition: none; -o-transition: none}
+.MathJax_Processing {visibility: hidden; position: fixed; width: 0; height: 0; overflow: hidden}
+.MathJax_Processed {display: none!important}
+.MathJax_ExBox {display: block!important; overflow: hidden; width: 1px; height: 60ex; min-height: 0; max-height: none}
+.MathJax .MathJax_EmBox {display: block!important; overflow: hidden; width: 1px; height: 60em; min-height: 0; max-height: none}
+.MathJax_LineBox {display: table!important}
+.MathJax_LineBox span {display: table-cell!important; width: 10000em!important; min-width: 0; max-width: none; padding: 0; border: 0; margin: 0}
+.MathJax .MathJax_HitBox {cursor: text; background: white; opacity: 0; filter: alpha(opacity=0)}
+.MathJax .MathJax_HitBox * {filter: none; opacity: 1; background: transparent}
+#MathJax_Tooltip * {filter: none; opacity: 1; background: transparent}
+@font-face {font-family: MathJax_Blank; src: url('about:blank')}
+.MathJax .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><style type="text/css">@font-face {font-family: STIXMathJax_Main-italic; src: url('fonts/STIXMathJax_Main-Italic.woff') format('woff'), url('STIXMathJax_Main-Italic.otf') format('opentype')}
+</style><style type="text/css">@font-face {font-family: STIXMathJax_Main; src: url('fonts/STIXMathJax_Main-Regular.woff') format('woff'), url('STIXMathJax_Main-Regular.otf') format('opentype')}
+</style></head>
+<body class="admin-toolbar-open" data-ng-class="{'admin-toolbar-open': rootViewModel.adminData.showTools}"><div style="visibility: hidden; overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal;"><div id="MathJax_Hidden"><br><br><br><br><br><br><br><br></div></div><div id="MathJax_Message" style="display: none;"></div><div class="full-height-container station-wrapper ng-scope" data-ng-controller="StationController"><div class="auto-height-row"><div class="header" id="header"><div class="header-main"><a class="header-logo" href="index.html"><span class="icon-logo"></span>
+<span class="header-logo-text"><span>underground</span>
+<span>mathematics</span>
+</span>
+</a>
+<ul><!-- ngIf: false && rootViewModel.commentsModal -->
+<li data-ng-class="{selected: rootViewModel.headerMenuItemSelected == 'Map'}"><a tabindex="0" data-ng-click="toggleHeaderMenuItem('Map')"><span class="icon-map"></span>
+<span class="header-menu-item-text">Map</span>
+</a>
+</li>
+<li data-ng-class="{selected: rootViewModel.headerMenuItemSelected == 'Search'}"><a tabindex="0" data-ng-click="toggleHeaderMenuItem('Search')"><span class="icon-search"></span>
+<span class="header-menu-item-text">Search</span>
+</a>
+</li>
+<li data-ng-class="{selected: rootViewModel.headerMenuItemSelected == 'Browse'}"><a tabindex="0" data-ng-click="toggleHeaderMenuItem('Browse')"><span class="icon-folder-open"></span>
+<span class="header-menu-item-text">Browse</span>
+</a>
+</li>
+<li data-ng-class="{selected: rootViewModel.headerMenuItemSelected == 'User'}"><a tabindex="0" data-ng-click="toggleHeaderMenuItem('User')"><span class="icon-user"></span>
+<span class="header-menu-item-text">User</span>
+</a>
+</li>
+<li data-ng-class="{selected: rootViewModel.headerMenuItemSelected == 'More'}"><a tabindex="0" data-ng-click="toggleHeaderMenuItem('More')"><span class="icon-ellipsis"></span>
+<span class="header-menu-item-text">More</span>
+</a>
+</li>
+</ul>
+</div>
+
+<nav class="header-more-menu ng-hide" data-ng-show="rootViewModel.headerMenuItemSelected == 'More'"><ul><li><a href="index.html" target="_self">Home</a>
+</li>
+<li><a href="how-to-guide.html" target="_self">How-to guide</a>
+</li>
+<li><a href="hub.html" target="_self">Underground hub</a>
+</li>
+<li><a href="about.html" target="_self">About and contact</a>
+</li>
+<li class="menu-divider"></li>
+<li class="header-more-menu-mathematical-classroom"><a href="mathematical-classroom.html" target="_self"><span class="icon-mathematical-classroom"></span>
+Your mathematical classroom</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="full-height-row"><div class="station-header-wrapper"><div class="station-header"><div class="station-title-wrapper"><div class="station-title"><a tabindex="0" data-ng-click="toggleHeaderMenuItem('Map')"><h1>Introducing Calculus</h1>
+</a>
+</div>
+<div class="station-line-buttons-wrapper"><ul class="station-line-buttons"><li><a class="station-line-button" style="background-color:#18b300" tabindex="0" data-ng-click="showMapWithLineSelected(5)">Calculus</a>
+</li>
+</ul>
+</div>
+<div class="station-nearby-button-wrapper"><a class="station-nearby-stations-button" tabindex="0" data-ng-click="showNearbyStationsModal()"><span class="icon-train"></span>
+Nearby stations</a>
+</div>
+</div>
+<div class="station-questions-wrapper"><h2 class="station-question">Why did calculus develop and how might we use it?</h2>
+<div class="station-key-questions-wrapper"><h3><span class="icon-key"></span> Key questions</h3>
+<ol class="station-key-question-list"><li><span class="key-question-marker" data-ng-class="{selected: viewModel.keyQuestionIdSelected == 70}">1</span>
+<p>What is the gradient of a curve and how might it be useful?</p></li>
+<li><span class="key-question-marker" data-ng-class="{selected: viewModel.keyQuestionIdSelected == 71}">2</span>
+<p>What do we mean by the area ‘under’ a curve and what might it represent?</p></li>
+<li><span class="key-question-marker" data-ng-class="{selected: viewModel.keyQuestionIdSelected == 72}">3</span>
+<p>What do we mean by the rate of change of a physical quantity and how do we represent this?</p></li>
+<li><span class="key-question-marker" data-ng-class="{selected: viewModel.keyQuestionIdSelected == 73}">4</span>
+<p>How can we make deeper connections between the appearance of a graph and the features of its equation?</p></li>
+</ol>
+</div>
+<div class="station-teacher-support-button-wrapper"><a class="station-teacher-support-button" href="station-guide_13.html" data-cm-teacher-support-toggle="introducing-calculus"><span class="icon-teacher"></span>
+Station guide</a>
+</div>
+</div>
+</div>
+</div>
+<div class="station-main"><div class="station-resources-wrapper"><!-- ngIf: !viewModel.resourcesLoaded || !viewModel.resourceLevelsLoaded -->
+<!-- ngIf: viewModel.resourcesLoaded && viewModel.resourceLevelsLoaded --><div data-ng-if="viewModel.resourcesLoaded &amp;&amp; viewModel.resourceLevelsLoaded" class="ng-scope"><!-- ngIf: viewModel.resourceDetailList.length == 0 -->
+<!-- ngRepeat: listData in viewModel.resourceDetailListSplit --><!-- ngIf: listData.all.length > 0 --><div class="station-resources-panel ng-scope" data-ng-repeat="listData in viewModel.resourceDetailListSplit" data-ng-if="listData.all.length > 0"><div class="station-resources-panel-heading"><h4 data-ng-bind="listData.resourceLevel.name" class="ng-binding">Introducing...</h4>
+<!-- ngIf: viewModel.lines.length > 1 || viewModel.keyQuestions.length > 1 --><div class="station-resources-filter-wrapper ng-scope" data-ng-if="viewModel.lines.length > 1 || viewModel.keyQuestions.length > 1"><!-- ngIf: viewModel.lines.length > 1 -->
+<!-- ngIf: viewModel.keyQuestions.length > 1 --><label data-ng-if="viewModel.keyQuestions.length > 1" class="ng-scope">Filter by key question:<select class="cm-form-control ng-pristine ng-untouched ng-valid" data-ng-model="viewModel.keyQuestionIdSelected" data-ng-options="item.id as getKeyQuestionFilterText(item) for item in viewModel.keyQuestions | orderBy: 'number'"><option value class selected="selected">All</option><option label="1. What is the gradient of a curv..." value="number:70">1. What is the gradient of a curv...</option><option label="2. What do we mean by the area ‘u..." value="number:71">2. What do we mean by the area ‘u...</option><option label="3. What do we mean by the rate of..." value="number:72">3. What do we mean by the rate of...</option><option label="4. How can we make deeper connect..." value="number:73">4. How can we make deeper connect...</option></select>
+</label><!-- end ngIf: viewModel.keyQuestions.length > 1 -->
+</div><!-- end ngIf: viewModel.lines.length > 1 || viewModel.keyQuestions.length > 1 -->
+</div>
+<div class="station-resources-table"><div class="station-resources-table-heading"><div></div>
+<div>Resource type
+<a class="order-asc-marker selected" tabindex="0" data-ng-class="{selected: isOrderSelected(listData.resourceLevel.value, 'ResourceType', 'Asc')}" data-ng-click="updateOrder(listData.resourceLevel.value, 'ResourceType', 'Asc')"></a>
+<a class="contextual-help-link resource-type-help-link" href="resource-types.html" data-cm-resource-types-toggle><span class="icon-question"></span>
+<span class="cm-tooltip">Click for information about resource types</span>
+</a>
+</div>
+<div>Title
+<a class="order-asc-marker" tabindex="0" data-ng-class="{selected: isOrderSelected(listData.resourceLevel.value, 'Title', 'Asc')}" data-ng-click="updateOrder(listData.resourceLevel.value, 'Title', 'Asc')"></a>
+<a class="order-desc-marker" tabindex="0" data-ng-class="{selected: isOrderSelected(listData.resourceLevel.value, 'Title', 'Desc')}" data-ng-click="updateOrder(listData.resourceLevel.value, 'Title', 'Desc')"></a>
+</div>
+<div>Lines</div>
+<div>Key questions</div>
+<div>Related ideas</div>
+</div>
+<!-- ngIf: listData.filtered.length == 0 -->
+<!-- ngRepeat: item in listData.filtered --><div class="station-resources-table-row-wrapper ng-scope" data-ng-repeat="item in listData.filtered" data-ng-class="{'non-featured-resource': item.resource.displayAtStation == false}"><!-- ngIf: bookmarkManager.getBookmarkForResource(item.resource.id) -->
+<div class="station-resources-table-row-main"><div><!-- ngIf: item.resource.description --><a class="resource-details-toggle ng-scope" tabindex="0" data-ng-click="toggleResourceSelected(item.resource)" data-ng-if="item.resource.description"><span data-ng-bind="viewModel.resourceSelected.id == item.resource.id ? '[-]' : '[+]'" class="ng-binding">[+]</span>
+<span class="sr-only">More details</span>
+</a><!-- end ngIf: item.resource.description -->
+</div>
+<div><!-- ngIf: item.resourceType.description && !item.resourceType.hidden --><a class="station-resource-type-link ng-scope" data-ng-if="item.resourceType.description &amp;&amp; !item.resourceType.hidden" tabindex="0" data-cm-resource-types-toggle="building-blocks"><span data-ng-attr-class="icon-{{item.resourceType.icon}} resource-type-icon" class="icon-building-blocks resource-type-icon"></span>
+<span data-ng-bind="item.resourceType.name" class="ng-binding">Building blocks</span>
+</a><!-- end ngIf: item.resourceType.description && !item.resourceType.hidden -->
+<!-- ngIf: !item.resourceType.description && !item.resourceType.hidden -->
+</div>
+<div><a data-ng-href="/introducing-calculus/a-tangent-is" href="a-tangent-is.html"><!-- ngIf: item.resource.publishStatus != 'Public' -->
+<!-- ngIf: item.resource.publishStatus == 'Public' && item.resource.underConstructionWarning -->
+<span data-ng-bind="item.title" class="ng-binding">A tangent is ...</span>
+<!-- ngIf: item.interactivityLabels.length > 0 --><span data-ng-attr-class="icon-{{item.interactivityLabels[0].icon ? item.interactivityLabels[0].icon : 'interactivity'}}" data-ng-if="item.interactivityLabels.length > 0" class="icon-geogebra"><span class="cm-tooltip ng-binding" data-ng-bind="getInteractivityLabelString(item)">Contains interactive elements - GeoGebra</span>
+</span><!-- end ngIf: item.interactivityLabels.length > 0 -->
+<!-- ngIf: item.resourceInAction -->
+</a>
+</div>
+<div><ul class="station-resource-lines"><!-- ngRepeat: line in item.lines --><li data-ng-repeat="line in item.lines" class="ng-scope"><span class="icon-line" data-ng-attr-style="color:{{line.colour}}" style="color:#18b300"></span>
+<span class="cm-tooltip ng-binding" data-ng-bind="line.name">Calculus</span>
+</li><!-- end ngRepeat: line in item.lines -->
+</ul>
+</div>
+<div><ul class="station-resource-key-questions"><!-- ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">1</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What is the gradient of a curve and how might it be useful?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">4</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>How can we make deeper connections between the appearance of a graph and the features of its equation?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions -->
+</ul>
+</div>
+<div><ul class="station-resource-related"><!-- ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas -->
+<!-- ngRepeat: tag in item.tags --><li data-ng-repeat="tag in item.tags" class="ng-scope"><a data-ng-href="/tags/visualising" data-cm-tag-toggle="visualising" href="visualising.html"><span class="icon-tag"></span>
+<span data-ng-bind="tag.title" class="ng-binding">Visualising</span>
+</a>
+</li><!-- end ngRepeat: tag in item.tags -->
+</ul>
+</div>
+</div>
+<div class="station-resources-table-row-detail ng-hide" data-ng-show="viewModel.resourceSelected.id == item.resource.id"><span data-ng-bind-html="item.resource.description" class="ng-binding">This resource is designed to provoke discussion and to help build up a sense of what a tangent is. Students are presented with several descriptions and asked to find or sketch an example to show that the proposed definition does not work for all curves.</span>
+</div>
+</div><!-- end ngRepeat: item in listData.filtered --><div class="station-resources-table-row-wrapper ng-scope" data-ng-repeat="item in listData.filtered" data-ng-class="{'non-featured-resource': item.resource.displayAtStation == false}"><!-- ngIf: bookmarkManager.getBookmarkForResource(item.resource.id) -->
+<div class="station-resources-table-row-main"><div><!-- ngIf: item.resource.description --><a class="resource-details-toggle ng-scope" tabindex="0" data-ng-click="toggleResourceSelected(item.resource)" data-ng-if="item.resource.description"><span data-ng-bind="viewModel.resourceSelected.id == item.resource.id ? '[-]' : '[+]'" class="ng-binding">[+]</span>
+<span class="sr-only">More details</span>
+</a><!-- end ngIf: item.resource.description -->
+</div>
+<div><!-- ngIf: item.resourceType.description && !item.resourceType.hidden --><a class="station-resource-type-link ng-scope" data-ng-if="item.resourceType.description &amp;&amp; !item.resourceType.hidden" tabindex="0" data-cm-resource-types-toggle="building-blocks"><span data-ng-attr-class="icon-{{item.resourceType.icon}} resource-type-icon" class="icon-building-blocks resource-type-icon"></span>
+<span data-ng-bind="item.resourceType.name" class="ng-binding">Building blocks</span>
+</a><!-- end ngIf: item.resourceType.description && !item.resourceType.hidden -->
+<!-- ngIf: !item.resourceType.description && !item.resourceType.hidden -->
+</div>
+<div><a data-ng-href="/introducing-calculus/serpentine-lake" href="serpentine-lake.html"><!-- ngIf: item.resource.publishStatus != 'Public' -->
+<!-- ngIf: item.resource.publishStatus == 'Public' && item.resource.underConstructionWarning -->
+<span data-ng-bind="item.title" class="ng-binding">Is the Serpentine Lake really 40 acres?</span>
+<!-- ngIf: item.interactivityLabels.length > 0 -->
+<!-- ngIf: item.resourceInAction -->
+</a>
+</div>
+<div><ul class="station-resource-lines"><!-- ngRepeat: line in item.lines --><li data-ng-repeat="line in item.lines" class="ng-scope"><span class="icon-line" data-ng-attr-style="color:{{line.colour}}" style="color:#18b300"></span>
+<span class="cm-tooltip ng-binding" data-ng-bind="line.name">Calculus</span>
+</li><!-- end ngRepeat: line in item.lines -->
+</ul>
+</div>
+<div><ul class="station-resource-key-questions"><!-- ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">2</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What do we mean by the area ‘under’ a curve and what might it represent?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions -->
+</ul>
+</div>
+<div><ul class="station-resource-related"><!-- ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas --><li data-ng-repeat="pervasiveIdea in item.relatedPervasiveIdeas" class="ng-scope"><!-- ngIf: currentUser.canViewItem(pervasiveIdea.publishStatus) --><a data-ng-if="currentUser.canViewItem(pervasiveIdea.publishStatus)" data-ng-href="/pervasive-ideas/averages" data-cm-pervasive-idea-toggle="averages" class="ng-scope" href="averages.html"><span class="icon-pervasive-idea"></span>
+<span data-ng-bind="pervasiveIdea.title" class="ng-binding">Averages</span>
+</a><!-- end ngIf: currentUser.canViewItem(pervasiveIdea.publishStatus) -->
+<!-- ngIf: !currentUser.canViewItem(pervasiveIdea.publishStatus) -->
+</li><!-- end ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas -->
+<!-- ngRepeat: tag in item.tags --><li data-ng-repeat="tag in item.tags" class="ng-scope"><a data-ng-href="/tags/modelling" data-cm-tag-toggle="modelling" href="modelling.html"><span class="icon-tag"></span>
+<span data-ng-bind="tag.title" class="ng-binding">Modelling</span>
+</a>
+</li><!-- end ngRepeat: tag in item.tags -->
+</ul>
+</div>
+</div>
+<div class="station-resources-table-row-detail ng-hide" data-ng-show="viewModel.resourceSelected.id == item.resource.id"><span data-ng-bind-html="item.resource.description" class="ng-binding">A ‘practical’ example to introduce the approximation of area using trapezia and the trapezium rule. It is claimed that the area of the Serpentine Lake is <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-5-Frame" tabindex="0" style="position: relative;" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>40</mn></math>" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-19" style="width: 1.213em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.979em; height: 0px; font-size: 124%;"><span style="position: absolute; clip: rect(1.686em, 1000.96em, 2.721em, -1000em); top: -2.535em; left: 0em;"><span class="mrow" id="MathJax-Span-20"><span class="mn" id="MathJax-Span-21" style="font-family: STIXMathJax_Main;">40</span></span><span style="display: inline-block; width: 0px; height: 2.535em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.089em; border-left: 0px solid; width: 0px; height: 0.998em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>40</mn></math></span></span><script type="math/tex" id="MathJax-Element-5">40</script> acres. Students are asked to test this claim by using a map of the lake and coordinates.</span>
+</div>
+</div><!-- end ngRepeat: item in listData.filtered --><div class="station-resources-table-row-wrapper ng-scope" data-ng-repeat="item in listData.filtered" data-ng-class="{'non-featured-resource': item.resource.displayAtStation == false}"><!-- ngIf: bookmarkManager.getBookmarkForResource(item.resource.id) -->
+<div class="station-resources-table-row-main"><div><!-- ngIf: item.resource.description --><a class="resource-details-toggle ng-scope" tabindex="0" data-ng-click="toggleResourceSelected(item.resource)" data-ng-if="item.resource.description"><span data-ng-bind="viewModel.resourceSelected.id == item.resource.id ? '[-]' : '[+]'" class="ng-binding">[+]</span>
+<span class="sr-only">More details</span>
+</a><!-- end ngIf: item.resource.description -->
+</div>
+<div><!-- ngIf: item.resourceType.description && !item.resourceType.hidden --><a class="station-resource-type-link ng-scope" data-ng-if="item.resourceType.description &amp;&amp; !item.resourceType.hidden" tabindex="0" data-cm-resource-types-toggle="building-blocks"><span data-ng-attr-class="icon-{{item.resourceType.icon}} resource-type-icon" class="icon-building-blocks resource-type-icon"></span>
+<span data-ng-bind="item.resourceType.name" class="ng-binding">Building blocks</span>
+</a><!-- end ngIf: item.resourceType.description && !item.resourceType.hidden -->
+<!-- ngIf: !item.resourceType.description && !item.resourceType.hidden -->
+</div>
+<div><a data-ng-href="/introducing-calculus/mapping-a-derivative" href="mapping-a-derivative.html"><!-- ngIf: item.resource.publishStatus != 'Public' -->
+<!-- ngIf: item.resource.publishStatus == 'Public' && item.resource.underConstructionWarning -->
+<span data-ng-bind="item.title" class="ng-binding">Mapping a derivative</span>
+<!-- ngIf: item.interactivityLabels.length > 0 --><span data-ng-attr-class="icon-{{item.interactivityLabels[0].icon ? item.interactivityLabels[0].icon : 'interactivity'}}" data-ng-if="item.interactivityLabels.length > 0" class="icon-geogebra"><span class="cm-tooltip ng-binding" data-ng-bind="getInteractivityLabelString(item)">Contains interactive elements - GeoGebra</span>
+</span><!-- end ngIf: item.interactivityLabels.length > 0 -->
+<!-- ngIf: item.resourceInAction -->
+</a>
+</div>
+<div><ul class="station-resource-lines"><!-- ngRepeat: line in item.lines --><li data-ng-repeat="line in item.lines" class="ng-scope"><span class="icon-line" data-ng-attr-style="color:{{line.colour}}" style="color:#18b300"></span>
+<span class="cm-tooltip ng-binding" data-ng-bind="line.name">Calculus</span>
+</li><!-- end ngRepeat: line in item.lines -->
+</ul>
+</div>
+<div><ul class="station-resource-key-questions"><!-- ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">1</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What is the gradient of a curve and how might it be useful?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions -->
+</ul>
+</div>
+<div><ul class="station-resource-related"><!-- ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas --><li data-ng-repeat="pervasiveIdea in item.relatedPervasiveIdeas" class="ng-scope"><!-- ngIf: currentUser.canViewItem(pervasiveIdea.publishStatus) --><a data-ng-if="currentUser.canViewItem(pervasiveIdea.publishStatus)" data-ng-href="/pervasive-ideas/limits" data-cm-pervasive-idea-toggle="limits" class="ng-scope" href="limits.html"><span class="icon-pervasive-idea"></span>
+<span data-ng-bind="pervasiveIdea.title" class="ng-binding">Limits</span>
+</a><!-- end ngIf: currentUser.canViewItem(pervasiveIdea.publishStatus) -->
+<!-- ngIf: !currentUser.canViewItem(pervasiveIdea.publishStatus) -->
+</li><!-- end ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas -->
+<!-- ngRepeat: tag in item.tags --><li data-ng-repeat="tag in item.tags" class="ng-scope"><a data-ng-href="/tags/representing" data-cm-tag-toggle="representing" href="representing.html"><span class="icon-tag"></span>
+<span data-ng-bind="tag.title" class="ng-binding">Representing</span>
+</a>
+</li><!-- end ngRepeat: tag in item.tags --><li data-ng-repeat="tag in item.tags" class="ng-scope"><a data-ng-href="/tags/visualising" data-cm-tag-toggle="visualising" href="visualising.html"><span class="icon-tag"></span>
+<span data-ng-bind="tag.title" class="ng-binding">Visualising</span>
+</a>
+</li><!-- end ngRepeat: tag in item.tags -->
+</ul>
+</div>
+</div>
+<div class="station-resources-table-row-detail ng-hide" data-ng-show="viewModel.resourceSelected.id == item.resource.id"><span data-ng-bind-html="item.resource.description" class="ng-binding">Students are introduced to using mapping diagrams as a way to think about derivatives; this can later be used to prove the chain rule.</span>
+</div>
+</div><!-- end ngRepeat: item in listData.filtered --><div class="station-resources-table-row-wrapper ng-scope" data-ng-repeat="item in listData.filtered" data-ng-class="{'non-featured-resource': item.resource.displayAtStation == false}"><!-- ngIf: bookmarkManager.getBookmarkForResource(item.resource.id) -->
+<div class="station-resources-table-row-main"><div><!-- ngIf: item.resource.description --><a class="resource-details-toggle ng-scope" tabindex="0" data-ng-click="toggleResourceSelected(item.resource)" data-ng-if="item.resource.description"><span data-ng-bind="viewModel.resourceSelected.id == item.resource.id ? '[-]' : '[+]'" class="ng-binding">[+]</span>
+<span class="sr-only">More details</span>
+</a><!-- end ngIf: item.resource.description -->
+</div>
+<div><!-- ngIf: item.resourceType.description && !item.resourceType.hidden --><a class="station-resource-type-link ng-scope" data-ng-if="item.resourceType.description &amp;&amp; !item.resourceType.hidden" tabindex="0" data-cm-resource-types-toggle="scaffolded-task"><span data-ng-attr-class="icon-{{item.resourceType.icon}} resource-type-icon" class="icon-scaffolded-task resource-type-icon"></span>
+<span data-ng-bind="item.resourceType.name" class="ng-binding">Scaffolded task</span>
+</a><!-- end ngIf: item.resourceType.description && !item.resourceType.hidden -->
+<!-- ngIf: !item.resourceType.description && !item.resourceType.hidden -->
+</div>
+<div><a data-ng-href="/introducing-calculus/zooming-in" href="zooming-in.html"><!-- ngIf: item.resource.publishStatus != 'Public' -->
+<!-- ngIf: item.resource.publishStatus == 'Public' && item.resource.underConstructionWarning -->
+<span data-ng-bind="item.title" class="ng-binding">Zooming in</span>
+<!-- ngIf: item.interactivityLabels.length > 0 --><span data-ng-attr-class="icon-{{item.interactivityLabels[0].icon ? item.interactivityLabels[0].icon : 'interactivity'}}" data-ng-if="item.interactivityLabels.length > 0" class="icon-geogebra"><span class="cm-tooltip ng-binding" data-ng-bind="getInteractivityLabelString(item)">Contains interactive elements - GeoGebra</span>
+</span><!-- end ngIf: item.interactivityLabels.length > 0 -->
+<!-- ngIf: item.resourceInAction -->
+</a>
+</div>
+<div><ul class="station-resource-lines"><!-- ngRepeat: line in item.lines --><li data-ng-repeat="line in item.lines" class="ng-scope"><span class="icon-line" data-ng-attr-style="color:{{line.colour}}" style="color:#18b300"></span>
+<span class="cm-tooltip ng-binding" data-ng-bind="line.name">Calculus</span>
+</li><!-- end ngRepeat: line in item.lines -->
+</ul>
+</div>
+<div><ul class="station-resource-key-questions"><!-- ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">1</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What is the gradient of a curve and how might it be useful?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">4</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>How can we make deeper connections between the appearance of a graph and the features of its equation?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions -->
+</ul>
+</div>
+<div><ul class="station-resource-related"><!-- ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas --><li data-ng-repeat="pervasiveIdea in item.relatedPervasiveIdeas" class="ng-scope"><!-- ngIf: currentUser.canViewItem(pervasiveIdea.publishStatus) --><a data-ng-if="currentUser.canViewItem(pervasiveIdea.publishStatus)" data-ng-href="/pervasive-ideas/limits" data-cm-pervasive-idea-toggle="limits" class="ng-scope" href="limits.html"><span class="icon-pervasive-idea"></span>
+<span data-ng-bind="pervasiveIdea.title" class="ng-binding">Limits</span>
+</a><!-- end ngIf: currentUser.canViewItem(pervasiveIdea.publishStatus) -->
+<!-- ngIf: !currentUser.canViewItem(pervasiveIdea.publishStatus) -->
+</li><!-- end ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas -->
+<!-- ngRepeat: tag in item.tags --><li data-ng-repeat="tag in item.tags" class="ng-scope"><a data-ng-href="/tags/visualising" data-cm-tag-toggle="visualising" href="visualising.html"><span class="icon-tag"></span>
+<span data-ng-bind="tag.title" class="ng-binding">Visualising</span>
+</a>
+</li><!-- end ngRepeat: tag in item.tags -->
+</ul>
+</div>
+</div>
+<div class="station-resources-table-row-detail ng-hide" data-ng-show="viewModel.resourceSelected.id == item.resource.id"><span data-ng-bind-html="item.resource.description" class="ng-binding">This problem develops the idea that the gradient of a curve can be understood by zooming in to the graph. The collected results at the end can lead to a formula for the gradient function (derivative) of <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-6-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><msup><mi>x</mi><mn>2</mn></msup></math>" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-22" style="width: 1.155em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.922em; height: 0px; font-size: 124%;"><span style="position: absolute; clip: rect(1.348em, 1000.92em, 2.546em, -1000em); top: -2.362em; left: 0em;"><span class="mrow" id="MathJax-Span-23"><span class="msubsup" id="MathJax-Span-24"><span style="display: inline-block; position: relative; width: 0.926em; height: 0px;"><span style="position: absolute; clip: rect(3.361em, 1000.45em, 4.158em, -1000em); top: -3.975em; left: 0em;"><span class="mi" id="MathJax-Span-25" style="font-family: STIXMathJax_Main-italic;">x<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span style="display: inline-block; width: 0px; height: 3.975em;"></span></span><span style="position: absolute; top: -4.338em; left: 0.498em;"><span class="mn" id="MathJax-Span-26" style="font-size: 70.7%; font-family: STIXMathJax_Main;">2</span><span style="display: inline-block; width: 0px; height: 3.975em;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 2.362em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.085em; border-left: 0px solid; width: 0px; height: 1.199em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>x</mi><mn>2</mn></msup></math></span></span><script type="math/tex" id="MathJax-Element-6">x^2</script>.</span>
+</div>
+</div><!-- end ngRepeat: item in listData.filtered --><div class="station-resources-table-row-wrapper ng-scope" data-ng-repeat="item in listData.filtered" data-ng-class="{'non-featured-resource': item.resource.displayAtStation == false}"><!-- ngIf: bookmarkManager.getBookmarkForResource(item.resource.id) -->
+<div class="station-resources-table-row-main"><div><!-- ngIf: item.resource.description --><a class="resource-details-toggle ng-scope" tabindex="0" data-ng-click="toggleResourceSelected(item.resource)" data-ng-if="item.resource.description"><span data-ng-bind="viewModel.resourceSelected.id == item.resource.id ? '[-]' : '[+]'" class="ng-binding">[+]</span>
+<span class="sr-only">More details</span>
+</a><!-- end ngIf: item.resource.description -->
+</div>
+<div><!-- ngIf: item.resourceType.description && !item.resourceType.hidden --><a class="station-resource-type-link ng-scope" data-ng-if="item.resourceType.description &amp;&amp; !item.resourceType.hidden" tabindex="0" data-cm-resource-types-toggle="problem-decisions"><span data-ng-attr-class="icon-{{item.resourceType.icon}} resource-type-icon" class="icon-problem-decisions resource-type-icon"></span>
+<span data-ng-bind="item.resourceType.name" class="ng-binding">Problem requiring decisions</span>
+</a><!-- end ngIf: item.resourceType.description && !item.resourceType.hidden -->
+<!-- ngIf: !item.resourceType.description && !item.resourceType.hidden -->
+</div>
+<div><a data-ng-href="/introducing-calculus/discussing-distance" href="discussing-distance.html"><!-- ngIf: item.resource.publishStatus != 'Public' -->
+<!-- ngIf: item.resource.publishStatus == 'Public' && item.resource.underConstructionWarning -->
+<span data-ng-bind="item.title" class="ng-binding">Discussing distance</span>
+<!-- ngIf: item.interactivityLabels.length > 0 -->
+<!-- ngIf: item.resourceInAction -->
+</a>
+</div>
+<div><ul class="station-resource-lines"><!-- ngRepeat: line in item.lines --><li data-ng-repeat="line in item.lines" class="ng-scope"><span class="icon-line" data-ng-attr-style="color:{{line.colour}}" style="color:#18b300"></span>
+<span class="cm-tooltip ng-binding" data-ng-bind="line.name">Calculus</span>
+</li><!-- end ngRepeat: line in item.lines -->
+</ul>
+</div>
+<div><ul class="station-resource-key-questions"><!-- ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">1</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What is the gradient of a curve and how might it be useful?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">3</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What do we mean by the rate of change of a physical quantity and how do we represent this?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">4</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>How can we make deeper connections between the appearance of a graph and the features of its equation?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions -->
+</ul>
+</div>
+<div><ul class="station-resource-related"><!-- ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas -->
+<!-- ngRepeat: tag in item.tags --><li data-ng-repeat="tag in item.tags" class="ng-scope"><a data-ng-href="/tags/mechanics" data-cm-tag-toggle="mechanics" href="mechanics.html"><span class="icon-tag"></span>
+<span data-ng-bind="tag.title" class="ng-binding">Mechanics</span>
+</a>
+</li><!-- end ngRepeat: tag in item.tags -->
+</ul>
+</div>
+</div>
+<div class="station-resources-table-row-detail ng-hide" data-ng-show="viewModel.resourceSelected.id == item.resource.id"><span data-ng-bind-html="item.resource.description" class="ng-binding">This resource asks students to decide what two unlabelled graphs represent. It goes on to ask students to think carefully about the difference between graphing distance and graphing displacement. Are the graphs always different?</span>
+</div>
+</div><!-- end ngRepeat: item in listData.filtered --><div class="station-resources-table-row-wrapper ng-scope" data-ng-repeat="item in listData.filtered" data-ng-class="{'non-featured-resource': item.resource.displayAtStation == false}"><!-- ngIf: bookmarkManager.getBookmarkForResource(item.resource.id) -->
+<div class="station-resources-table-row-main"><div><!-- ngIf: item.resource.description --><a class="resource-details-toggle ng-scope" tabindex="0" data-ng-click="toggleResourceSelected(item.resource)" data-ng-if="item.resource.description"><span data-ng-bind="viewModel.resourceSelected.id == item.resource.id ? '[-]' : '[+]'" class="ng-binding">[+]</span>
+<span class="sr-only">More details</span>
+</a><!-- end ngIf: item.resource.description -->
+</div>
+<div><!-- ngIf: item.resourceType.description && !item.resourceType.hidden --><a class="station-resource-type-link ng-scope" data-ng-if="item.resourceType.description &amp;&amp; !item.resourceType.hidden" tabindex="0" data-cm-resource-types-toggle="investigation"><span data-ng-attr-class="icon-{{item.resourceType.icon}} resource-type-icon" class="icon-investigation resource-type-icon"></span>
+<span data-ng-bind="item.resourceType.name" class="ng-binding">Investigation</span>
+</a><!-- end ngIf: item.resourceType.description && !item.resourceType.hidden -->
+<!-- ngIf: !item.resourceType.description && !item.resourceType.hidden -->
+</div>
+<div><a data-ng-href="/introducing-calculus/talking-about-curves" href="talking-about-curves.html"><!-- ngIf: item.resource.publishStatus != 'Public' -->
+<!-- ngIf: item.resource.publishStatus == 'Public' && item.resource.underConstructionWarning -->
+<span data-ng-bind="item.title" class="ng-binding">Talking about curves</span>
+<!-- ngIf: item.interactivityLabels.length > 0 -->
+<!-- ngIf: item.resourceInAction -->
+</a>
+</div>
+<div><ul class="station-resource-lines"><!-- ngRepeat: line in item.lines --><li data-ng-repeat="line in item.lines" class="ng-scope"><span class="icon-line" data-ng-attr-style="color:{{line.colour}}" style="color:#18b300"></span>
+<span class="cm-tooltip ng-binding" data-ng-bind="line.name">Calculus</span>
+</li><!-- end ngRepeat: line in item.lines -->
+</ul>
+</div>
+<div><ul class="station-resource-key-questions"><!-- ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">1</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What is the gradient of a curve and how might it be useful?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">4</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>How can we make deeper connections between the appearance of a graph and the features of its equation?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions -->
+</ul>
+</div>
+<div><ul class="station-resource-related"><!-- ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas -->
+<!-- ngRepeat: tag in item.tags -->
+</ul>
+</div>
+</div>
+<div class="station-resources-table-row-detail ng-hide" data-ng-show="viewModel.resourceSelected.id == item.resource.id"><span data-ng-bind-html="item.resource.description" class="ng-binding">This investigation encourages students to look at curves with turning points and to think about the qualitative behaviour of their gradients.  How are the signs of the function and its gradient related?</span>
+</div>
+</div><!-- end ngRepeat: item in listData.filtered -->
+</div>
+<div class="station-resources-panel-footer"><!-- ngIf: listData.nonFeaturedResources.length > 0 && isShowAllSelected(listData.resourceLevel.value) == false -->
+<!-- ngIf: isShowAllSelected(listData.resourceLevel.value) -->
+</div>
+</div><!-- end ngIf: listData.all.length > 0 --><!-- end ngRepeat: listData in viewModel.resourceDetailListSplit --><!-- ngIf: listData.all.length > 0 --><div class="station-resources-panel ng-scope" data-ng-repeat="listData in viewModel.resourceDetailListSplit" data-ng-if="listData.all.length > 0"><div class="station-resources-panel-heading"><h4 data-ng-bind="listData.resourceLevel.name" class="ng-binding">Developing...</h4>
+<!-- ngIf: viewModel.lines.length > 1 || viewModel.keyQuestions.length > 1 --><div class="station-resources-filter-wrapper ng-scope" data-ng-if="viewModel.lines.length > 1 || viewModel.keyQuestions.length > 1"><!-- ngIf: viewModel.lines.length > 1 -->
+<!-- ngIf: viewModel.keyQuestions.length > 1 --><label data-ng-if="viewModel.keyQuestions.length > 1" class="ng-scope">Filter by key question:<select class="cm-form-control ng-pristine ng-untouched ng-valid" data-ng-model="viewModel.keyQuestionIdSelected" data-ng-options="item.id as getKeyQuestionFilterText(item) for item in viewModel.keyQuestions | orderBy: 'number'"><option value class selected="selected">All</option><option label="1. What is the gradient of a curv..." value="number:70">1. What is the gradient of a curv...</option><option label="2. What do we mean by the area ‘u..." value="number:71">2. What do we mean by the area ‘u...</option><option label="3. What do we mean by the rate of..." value="number:72">3. What do we mean by the rate of...</option><option label="4. How can we make deeper connect..." value="number:73">4. How can we make deeper connect...</option></select>
+</label><!-- end ngIf: viewModel.keyQuestions.length > 1 -->
+</div><!-- end ngIf: viewModel.lines.length > 1 || viewModel.keyQuestions.length > 1 -->
+</div>
+<div class="station-resources-table"><div class="station-resources-table-heading"><div></div>
+<div>Resource type
+<a class="order-asc-marker selected" tabindex="0" data-ng-class="{selected: isOrderSelected(listData.resourceLevel.value, 'ResourceType', 'Asc')}" data-ng-click="updateOrder(listData.resourceLevel.value, 'ResourceType', 'Asc')"></a>
+<a class="contextual-help-link resource-type-help-link" href="resource-types.html" data-cm-resource-types-toggle><span class="icon-question"></span>
+<span class="cm-tooltip">Click for information about resource types</span>
+</a>
+</div>
+<div>Title
+<a class="order-asc-marker" tabindex="0" data-ng-class="{selected: isOrderSelected(listData.resourceLevel.value, 'Title', 'Asc')}" data-ng-click="updateOrder(listData.resourceLevel.value, 'Title', 'Asc')"></a>
+<a class="order-desc-marker" tabindex="0" data-ng-class="{selected: isOrderSelected(listData.resourceLevel.value, 'Title', 'Desc')}" data-ng-click="updateOrder(listData.resourceLevel.value, 'Title', 'Desc')"></a>
+</div>
+<div>Lines</div>
+<div>Key questions</div>
+<div>Related ideas</div>
+</div>
+<!-- ngIf: listData.filtered.length == 0 -->
+<!-- ngRepeat: item in listData.filtered --><div class="station-resources-table-row-wrapper ng-scope" data-ng-repeat="item in listData.filtered" data-ng-class="{'non-featured-resource': item.resource.displayAtStation == false}"><!-- ngIf: bookmarkManager.getBookmarkForResource(item.resource.id) -->
+<div class="station-resources-table-row-main"><div><!-- ngIf: item.resource.description --><a class="resource-details-toggle ng-scope" tabindex="0" data-ng-click="toggleResourceSelected(item.resource)" data-ng-if="item.resource.description"><span data-ng-bind="viewModel.resourceSelected.id == item.resource.id ? '[-]' : '[+]'" class="ng-binding">[+]</span>
+<span class="sr-only">More details</span>
+</a><!-- end ngIf: item.resource.description -->
+</div>
+<div><!-- ngIf: item.resourceType.description && !item.resourceType.hidden --><a class="station-resource-type-link ng-scope" data-ng-if="item.resourceType.description &amp;&amp; !item.resourceType.hidden" tabindex="0" data-cm-resource-types-toggle="building-blocks"><span data-ng-attr-class="icon-{{item.resourceType.icon}} resource-type-icon" class="icon-building-blocks resource-type-icon"></span>
+<span data-ng-bind="item.resourceType.name" class="ng-binding">Building blocks</span>
+</a><!-- end ngIf: item.resourceType.description && !item.resourceType.hidden -->
+<!-- ngIf: !item.resourceType.description && !item.resourceType.hidden -->
+</div>
+<div><a data-ng-href="/introducing-calculus/gradient-match" href="gradient-match.html"><!-- ngIf: item.resource.publishStatus != 'Public' -->
+<!-- ngIf: item.resource.publishStatus == 'Public' && item.resource.underConstructionWarning -->
+<span data-ng-bind="item.title" class="ng-binding">Gradient match</span>
+<!-- ngIf: item.interactivityLabels.length > 0 --><span data-ng-attr-class="icon-{{item.interactivityLabels[0].icon ? item.interactivityLabels[0].icon : 'interactivity'}}" data-ng-if="item.interactivityLabels.length > 0" class="icon-interactive-card-sort"><span class="cm-tooltip ng-binding" data-ng-bind="getInteractivityLabelString(item)">Contains interactive elements - card sort</span>
+</span><!-- end ngIf: item.interactivityLabels.length > 0 -->
+<!-- ngIf: item.resourceInAction -->
+</a>
+</div>
+<div><ul class="station-resource-lines"><!-- ngRepeat: line in item.lines --><li data-ng-repeat="line in item.lines" class="ng-scope"><span class="icon-line" data-ng-attr-style="color:{{line.colour}}" style="color:#18b300"></span>
+<span class="cm-tooltip ng-binding" data-ng-bind="line.name">Calculus</span>
+</li><!-- end ngRepeat: line in item.lines -->
+</ul>
+</div>
+<div><ul class="station-resource-key-questions"><!-- ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">1</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What is the gradient of a curve and how might it be useful?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">4</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>How can we make deeper connections between the appearance of a graph and the features of its equation?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions -->
+</ul>
+</div>
+<div><ul class="station-resource-related"><!-- ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas -->
+<!-- ngRepeat: tag in item.tags -->
+</ul>
+</div>
+</div>
+<div class="station-resources-table-row-detail ng-hide" data-ng-show="viewModel.resourceSelected.id == item.resource.id"><span data-ng-bind-html="item.resource.description" class="ng-binding">A resource to get students thinking about the graphical links between a function and its gradient.  Students are given a set of sketch graphs and asked to pair them up as the graph of a function and the graph of its gradient function.</span>
+</div>
+</div><!-- end ngRepeat: item in listData.filtered --><div class="station-resources-table-row-wrapper ng-scope" data-ng-repeat="item in listData.filtered" data-ng-class="{'non-featured-resource': item.resource.displayAtStation == false}"><!-- ngIf: bookmarkManager.getBookmarkForResource(item.resource.id) -->
+<div class="station-resources-table-row-main"><div><!-- ngIf: item.resource.description --><a class="resource-details-toggle ng-scope" tabindex="0" data-ng-click="toggleResourceSelected(item.resource)" data-ng-if="item.resource.description"><span data-ng-bind="viewModel.resourceSelected.id == item.resource.id ? '[-]' : '[+]'" class="ng-binding">[+]</span>
+<span class="sr-only">More details</span>
+</a><!-- end ngIf: item.resource.description -->
+</div>
+<div><!-- ngIf: item.resourceType.description && !item.resourceType.hidden --><a class="station-resource-type-link ng-scope" data-ng-if="item.resourceType.description &amp;&amp; !item.resourceType.hidden" tabindex="0" data-cm-resource-types-toggle="building-blocks"><span data-ng-attr-class="icon-{{item.resourceType.icon}} resource-type-icon" class="icon-building-blocks resource-type-icon"></span>
+<span data-ng-bind="item.resourceType.name" class="ng-binding">Building blocks</span>
+</a><!-- end ngIf: item.resourceType.description && !item.resourceType.hidden -->
+<!-- ngIf: !item.resourceType.description && !item.resourceType.hidden -->
+</div>
+<div><a data-ng-href="/introducing-calculus/speed-vs-velocity" href="speed-vs-velocity.html"><!-- ngIf: item.resource.publishStatus != 'Public' -->
+<!-- ngIf: item.resource.publishStatus == 'Public' && item.resource.underConstructionWarning -->
+<span data-ng-bind="item.title" class="ng-binding">Speed vs velocity</span>
+<!-- ngIf: item.interactivityLabels.length > 0 -->
+<!-- ngIf: item.resourceInAction -->
+</a>
+</div>
+<div><ul class="station-resource-lines"><!-- ngRepeat: line in item.lines --><li data-ng-repeat="line in item.lines" class="ng-scope"><span class="icon-line" data-ng-attr-style="color:{{line.colour}}" style="color:#18b300"></span>
+<span class="cm-tooltip ng-binding" data-ng-bind="line.name">Calculus</span>
+</li><!-- end ngRepeat: line in item.lines -->
+</ul>
+</div>
+<div><ul class="station-resource-key-questions"><!-- ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">1</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What is the gradient of a curve and how might it be useful?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">2</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What do we mean by the area ‘under’ a curve and what might it represent?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">3</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What do we mean by the rate of change of a physical quantity and how do we represent this?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">4</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>How can we make deeper connections between the appearance of a graph and the features of its equation?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions -->
+</ul>
+</div>
+<div><ul class="station-resource-related"><!-- ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas -->
+<!-- ngRepeat: tag in item.tags --><li data-ng-repeat="tag in item.tags" class="ng-scope"><a data-ng-href="/tags/mechanics" data-cm-tag-toggle="mechanics" href="mechanics.html"><span class="icon-tag"></span>
+<span data-ng-bind="tag.title" class="ng-binding">Mechanics</span>
+</a>
+</li><!-- end ngRepeat: tag in item.tags -->
+</ul>
+</div>
+</div>
+<div class="station-resources-table-row-detail ng-hide" data-ng-show="viewModel.resourceSelected.id == item.resource.id"><span data-ng-bind-html="item.resource.description" class="ng-binding">This resource asks students to sketch velocity-time graphs from displacement graphs, as well as vice versa, to develop an understanding of gradient functions and what the area under a curve can represent.</span>
+</div>
+</div><!-- end ngRepeat: item in listData.filtered --><div class="station-resources-table-row-wrapper ng-scope" data-ng-repeat="item in listData.filtered" data-ng-class="{'non-featured-resource': item.resource.displayAtStation == false}"><!-- ngIf: bookmarkManager.getBookmarkForResource(item.resource.id) -->
+<div class="station-resources-table-row-main"><div><!-- ngIf: item.resource.description --><a class="resource-details-toggle ng-scope" tabindex="0" data-ng-click="toggleResourceSelected(item.resource)" data-ng-if="item.resource.description"><span data-ng-bind="viewModel.resourceSelected.id == item.resource.id ? '[-]' : '[+]'" class="ng-binding">[+]</span>
+<span class="sr-only">More details</span>
+</a><!-- end ngIf: item.resource.description -->
+</div>
+<div><!-- ngIf: item.resourceType.description && !item.resourceType.hidden --><a class="station-resource-type-link ng-scope" data-ng-if="item.resourceType.description &amp;&amp; !item.resourceType.hidden" tabindex="0" data-cm-resource-types-toggle="building-blocks"><span data-ng-attr-class="icon-{{item.resourceType.icon}} resource-type-icon" class="icon-building-blocks resource-type-icon"></span>
+<span data-ng-bind="item.resourceType.name" class="ng-binding">Building blocks</span>
+</a><!-- end ngIf: item.resourceType.description && !item.resourceType.hidden -->
+<!-- ngIf: !item.resourceType.description && !item.resourceType.hidden -->
+</div>
+<div><a data-ng-href="/introducing-calculus/walk-sorting" href="walk-sorting.html"><!-- ngIf: item.resource.publishStatus != 'Public' -->
+<!-- ngIf: item.resource.publishStatus == 'Public' && item.resource.underConstructionWarning -->
+<span data-ng-bind="item.title" class="ng-binding">Walk-sorting</span>
+<!-- ngIf: item.interactivityLabels.length > 0 -->
+<!-- ngIf: item.resourceInAction -->
+</a>
+</div>
+<div><ul class="station-resource-lines"><!-- ngRepeat: line in item.lines --><li data-ng-repeat="line in item.lines" class="ng-scope"><span class="icon-line" data-ng-attr-style="color:{{line.colour}}" style="color:#18b300"></span>
+<span class="cm-tooltip ng-binding" data-ng-bind="line.name">Calculus</span>
+</li><!-- end ngRepeat: line in item.lines -->
+</ul>
+</div>
+<div><ul class="station-resource-key-questions"><!-- ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">1</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What is the gradient of a curve and how might it be useful?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">3</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What do we mean by the rate of change of a physical quantity and how do we represent this?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions -->
+</ul>
+</div>
+<div><ul class="station-resource-related"><!-- ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas -->
+<!-- ngRepeat: tag in item.tags --><li data-ng-repeat="tag in item.tags" class="ng-scope"><a data-ng-href="/tags/mechanics" data-cm-tag-toggle="mechanics" href="mechanics.html"><span class="icon-tag"></span>
+<span data-ng-bind="tag.title" class="ng-binding">Mechanics</span>
+</a>
+</li><!-- end ngRepeat: tag in item.tags -->
+</ul>
+</div>
+</div>
+<div class="station-resources-table-row-detail ng-hide" data-ng-show="viewModel.resourceSelected.id == item.resource.id"><span data-ng-bind-html="item.resource.description" class="ng-binding">This resource invites students to match displacement–time graphs with the corresponding velocity–time graphs and asks them to interpret them in a real context.</span>
+</div>
+</div><!-- end ngRepeat: item in listData.filtered --><div class="station-resources-table-row-wrapper ng-scope" data-ng-repeat="item in listData.filtered" data-ng-class="{'non-featured-resource': item.resource.displayAtStation == false}"><!-- ngIf: bookmarkManager.getBookmarkForResource(item.resource.id) -->
+<div class="station-resources-table-row-main"><div><!-- ngIf: item.resource.description --><a class="resource-details-toggle ng-scope" tabindex="0" data-ng-click="toggleResourceSelected(item.resource)" data-ng-if="item.resource.description"><span data-ng-bind="viewModel.resourceSelected.id == item.resource.id ? '[-]' : '[+]'" class="ng-binding">[+]</span>
+<span class="sr-only">More details</span>
+</a><!-- end ngIf: item.resource.description -->
+</div>
+<div><!-- ngIf: item.resourceType.description && !item.resourceType.hidden --><a class="station-resource-type-link ng-scope" data-ng-if="item.resourceType.description &amp;&amp; !item.resourceType.hidden" tabindex="0" data-cm-resource-types-toggle="many-ways-problem"><span data-ng-attr-class="icon-{{item.resourceType.icon}} resource-type-icon" class="icon-many-ways-problem resource-type-icon"></span>
+<span data-ng-bind="item.resourceType.name" class="ng-binding">Many ways problem</span>
+</a><!-- end ngIf: item.resourceType.description && !item.resourceType.hidden -->
+<!-- ngIf: !item.resourceType.description && !item.resourceType.hidden -->
+</div>
+<div><a data-ng-href="/introducing-calculus/rectangles-in-triangles" href="rectangles-in-triangles.html"><!-- ngIf: item.resource.publishStatus != 'Public' -->
+<!-- ngIf: item.resource.publishStatus == 'Public' && item.resource.underConstructionWarning -->
+<span data-ng-bind="item.title" class="ng-binding">Rectangles in triangles</span>
+<!-- ngIf: item.interactivityLabels.length > 0 -->
+<!-- ngIf: item.resourceInAction -->
+</a>
+</div>
+<div><ul class="station-resource-lines"><!-- ngRepeat: line in item.lines --><li data-ng-repeat="line in item.lines" class="ng-scope"><span class="icon-line" data-ng-attr-style="color:{{line.colour}}" style="color:#18b300"></span>
+<span class="cm-tooltip ng-binding" data-ng-bind="line.name">Calculus</span>
+</li><!-- end ngRepeat: line in item.lines -->
+</ul>
+</div>
+<div><ul class="station-resource-key-questions"><!-- ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">4</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>How can we make deeper connections between the appearance of a graph and the features of its equation?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions -->
+</ul>
+</div>
+<div><ul class="station-resource-related"><!-- ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas -->
+<!-- ngRepeat: tag in item.tags --><li data-ng-repeat="tag in item.tags" class="ng-scope"><a data-ng-href="/tags/representing" data-cm-tag-toggle="representing" href="representing.html"><span class="icon-tag"></span>
+<span data-ng-bind="tag.title" class="ng-binding">Representing</span>
+</a>
+</li><!-- end ngRepeat: tag in item.tags -->
+</ul>
+</div>
+</div>
+<div class="station-resources-table-row-detail ng-hide" data-ng-show="viewModel.resourceSelected.id == item.resource.id"><span data-ng-bind-html="item.resource.description" class="ng-binding">This is a maximising problem that students are expected to tackle without calculus. Ideally students should be allowed the time to explore their own chosen approach before comparing its efficiency and accuracy to those of others.</span>
+</div>
+</div><!-- end ngRepeat: item in listData.filtered --><div class="station-resources-table-row-wrapper ng-scope" data-ng-repeat="item in listData.filtered" data-ng-class="{'non-featured-resource': item.resource.displayAtStation == false}"><!-- ngIf: bookmarkManager.getBookmarkForResource(item.resource.id) -->
+<div class="station-resources-table-row-main"><div><!-- ngIf: item.resource.description --><a class="resource-details-toggle ng-scope" tabindex="0" data-ng-click="toggleResourceSelected(item.resource)" data-ng-if="item.resource.description"><span data-ng-bind="viewModel.resourceSelected.id == item.resource.id ? '[-]' : '[+]'" class="ng-binding">[+]</span>
+<span class="sr-only">More details</span>
+</a><!-- end ngIf: item.resource.description -->
+</div>
+<div><!-- ngIf: item.resourceType.description && !item.resourceType.hidden --><a class="station-resource-type-link ng-scope" data-ng-if="item.resourceType.description &amp;&amp; !item.resourceType.hidden" tabindex="0" data-cm-resource-types-toggle="problem-decisions"><span data-ng-attr-class="icon-{{item.resourceType.icon}} resource-type-icon" class="icon-problem-decisions resource-type-icon"></span>
+<span data-ng-bind="item.resourceType.name" class="ng-binding">Problem requiring decisions</span>
+</a><!-- end ngIf: item.resourceType.description && !item.resourceType.hidden -->
+<!-- ngIf: !item.resourceType.description && !item.resourceType.hidden -->
+</div>
+<div><a data-ng-href="/introducing-calculus/approximating-areas" href="approximating-areas.html"><!-- ngIf: item.resource.publishStatus != 'Public' -->
+<!-- ngIf: item.resource.publishStatus == 'Public' && item.resource.underConstructionWarning -->
+<span data-ng-bind="item.title" class="ng-binding">Approximating areas</span>
+<!-- ngIf: item.interactivityLabels.length > 0 --><span data-ng-attr-class="icon-{{item.interactivityLabels[0].icon ? item.interactivityLabels[0].icon : 'interactivity'}}" data-ng-if="item.interactivityLabels.length > 0" class="icon-interactive-card-sort"><span class="cm-tooltip ng-binding" data-ng-bind="getInteractivityLabelString(item)">Contains interactive elements - card sort</span>
+</span><!-- end ngIf: item.interactivityLabels.length > 0 -->
+<!-- ngIf: item.resourceInAction -->
+</a>
+</div>
+<div><ul class="station-resource-lines"><!-- ngRepeat: line in item.lines --><li data-ng-repeat="line in item.lines" class="ng-scope"><span class="icon-line" data-ng-attr-style="color:{{line.colour}}" style="color:#18b300"></span>
+<span class="cm-tooltip ng-binding" data-ng-bind="line.name">Calculus</span>
+</li><!-- end ngRepeat: line in item.lines -->
+</ul>
+</div>
+<div><ul class="station-resource-key-questions"><!-- ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">2</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What do we mean by the area ‘under’ a curve and what might it represent?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions -->
+</ul>
+</div>
+<div><ul class="station-resource-related"><!-- ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas -->
+<!-- ngRepeat: tag in item.tags -->
+</ul>
+</div>
+</div>
+<div class="station-resources-table-row-detail ng-hide" data-ng-show="viewModel.resourceSelected.id == item.resource.id"><span data-ng-bind-html="item.resource.description" class="ng-binding">Students are challenged to put four shaded areas in increasing order of size. This is a problem in which the concepts of area under a curve, over- and under-estimation, and the trapezium rule can be introduced.</span>
+</div>
+</div><!-- end ngRepeat: item in listData.filtered --><div class="station-resources-table-row-wrapper ng-scope" data-ng-repeat="item in listData.filtered" data-ng-class="{'non-featured-resource': item.resource.displayAtStation == false}"><!-- ngIf: bookmarkManager.getBookmarkForResource(item.resource.id) -->
+<div class="station-resources-table-row-main"><div><!-- ngIf: item.resource.description --><a class="resource-details-toggle ng-scope" tabindex="0" data-ng-click="toggleResourceSelected(item.resource)" data-ng-if="item.resource.description"><span data-ng-bind="viewModel.resourceSelected.id == item.resource.id ? '[-]' : '[+]'" class="ng-binding">[+]</span>
+<span class="sr-only">More details</span>
+</a><!-- end ngIf: item.resource.description -->
+</div>
+<div><!-- ngIf: item.resourceType.description && !item.resourceType.hidden --><a class="station-resource-type-link ng-scope" data-ng-if="item.resourceType.description &amp;&amp; !item.resourceType.hidden" tabindex="0" data-cm-resource-types-toggle="food-for-thought"><span data-ng-attr-class="icon-{{item.resourceType.icon}} resource-type-icon" class="icon-food-for-thought resource-type-icon"></span>
+<span data-ng-bind="item.resourceType.name" class="ng-binding">Food for thought</span>
+</a><!-- end ngIf: item.resourceType.description && !item.resourceType.hidden -->
+<!-- ngIf: !item.resourceType.description && !item.resourceType.hidden -->
+</div>
+<div><a data-ng-href="/introducing-calculus/average-speed" href="average-speed.html"><!-- ngIf: item.resource.publishStatus != 'Public' -->
+<!-- ngIf: item.resource.publishStatus == 'Public' && item.resource.underConstructionWarning -->
+<span data-ng-bind="item.title" class="ng-binding">Average speed</span>
+<!-- ngIf: item.interactivityLabels.length > 0 -->
+<!-- ngIf: item.resourceInAction -->
+</a>
+</div>
+<div><ul class="station-resource-lines"><!-- ngRepeat: line in item.lines --><li data-ng-repeat="line in item.lines" class="ng-scope"><span class="icon-line" data-ng-attr-style="color:{{line.colour}}" style="color:#18b300"></span>
+<span class="cm-tooltip ng-binding" data-ng-bind="line.name">Calculus</span>
+</li><!-- end ngRepeat: line in item.lines -->
+</ul>
+</div>
+<div><ul class="station-resource-key-questions"><!-- ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">3</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What do we mean by the rate of change of a physical quantity and how do we represent this?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions -->
+</ul>
+</div>
+<div><ul class="station-resource-related"><!-- ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas --><li data-ng-repeat="pervasiveIdea in item.relatedPervasiveIdeas" class="ng-scope"><!-- ngIf: currentUser.canViewItem(pervasiveIdea.publishStatus) --><a data-ng-if="currentUser.canViewItem(pervasiveIdea.publishStatus)" data-ng-href="/pervasive-ideas/averages" data-cm-pervasive-idea-toggle="averages" class="ng-scope" href="averages.html"><span class="icon-pervasive-idea"></span>
+<span data-ng-bind="pervasiveIdea.title" class="ng-binding">Averages</span>
+</a><!-- end ngIf: currentUser.canViewItem(pervasiveIdea.publishStatus) -->
+<!-- ngIf: !currentUser.canViewItem(pervasiveIdea.publishStatus) -->
+</li><!-- end ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas -->
+<!-- ngRepeat: tag in item.tags -->
+</ul>
+</div>
+</div>
+<div class="station-resources-table-row-detail ng-hide" data-ng-show="viewModel.resourceSelected.id == item.resource.id"><span data-ng-bind-html="item.resource.description" class="ng-binding">This resource has two interesting situations that require students to think carefully about how average speed is calculated, and in turn, think about different types of averages.</span>
+</div>
+</div><!-- end ngRepeat: item in listData.filtered --><div class="station-resources-table-row-wrapper ng-scope" data-ng-repeat="item in listData.filtered" data-ng-class="{'non-featured-resource': item.resource.displayAtStation == false}"><!-- ngIf: bookmarkManager.getBookmarkForResource(item.resource.id) -->
+<div class="station-resources-table-row-main"><div><!-- ngIf: item.resource.description --><a class="resource-details-toggle ng-scope" tabindex="0" data-ng-click="toggleResourceSelected(item.resource)" data-ng-if="item.resource.description"><span data-ng-bind="viewModel.resourceSelected.id == item.resource.id ? '[-]' : '[+]'" class="ng-binding">[+]</span>
+<span class="sr-only">More details</span>
+</a><!-- end ngIf: item.resource.description -->
+</div>
+<div><!-- ngIf: item.resourceType.description && !item.resourceType.hidden --><a class="station-resource-type-link ng-scope" data-ng-if="item.resourceType.description &amp;&amp; !item.resourceType.hidden" tabindex="0" data-cm-resource-types-toggle="food-for-thought"><span data-ng-attr-class="icon-{{item.resourceType.icon}} resource-type-icon" class="icon-food-for-thought resource-type-icon"></span>
+<span data-ng-bind="item.resourceType.name" class="ng-binding">Food for thought</span>
+</a><!-- end ngIf: item.resourceType.description && !item.resourceType.hidden -->
+<!-- ngIf: !item.resourceType.description && !item.resourceType.hidden -->
+</div>
+<div><a data-ng-href="/introducing-calculus/problem-areas" href="problem-areas.html"><!-- ngIf: item.resource.publishStatus != 'Public' -->
+<!-- ngIf: item.resource.publishStatus == 'Public' && item.resource.underConstructionWarning -->
+<span data-ng-bind="item.title" class="ng-binding">Problem areas</span>
+<!-- ngIf: item.interactivityLabels.length > 0 -->
+<!-- ngIf: item.resourceInAction -->
+</a>
+</div>
+<div><ul class="station-resource-lines"><!-- ngRepeat: line in item.lines --><li data-ng-repeat="line in item.lines" class="ng-scope"><span class="icon-line" data-ng-attr-style="color:{{line.colour}}" style="color:#18b300"></span>
+<span class="cm-tooltip ng-binding" data-ng-bind="line.name">Calculus</span>
+</li><!-- end ngRepeat: line in item.lines -->
+</ul>
+</div>
+<div><ul class="station-resource-key-questions"><!-- ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">2</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What do we mean by the area ‘under’ a curve and what might it represent?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">4</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>How can we make deeper connections between the appearance of a graph and the features of its equation?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions -->
+</ul>
+</div>
+<div><ul class="station-resource-related"><!-- ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas --><li data-ng-repeat="pervasiveIdea in item.relatedPervasiveIdeas" class="ng-scope"><!-- ngIf: currentUser.canViewItem(pervasiveIdea.publishStatus) --><a data-ng-if="currentUser.canViewItem(pervasiveIdea.publishStatus)" data-ng-href="/pervasive-ideas/symmetry" data-cm-pervasive-idea-toggle="symmetry" class="ng-scope" href="symmetry.html"><span class="icon-pervasive-idea"></span>
+<span data-ng-bind="pervasiveIdea.title" class="ng-binding">Symmetry</span>
+</a><!-- end ngIf: currentUser.canViewItem(pervasiveIdea.publishStatus) -->
+<!-- ngIf: !currentUser.canViewItem(pervasiveIdea.publishStatus) -->
+</li><!-- end ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas -->
+<!-- ngRepeat: tag in item.tags -->
+</ul>
+</div>
+</div>
+<div class="station-resources-table-row-detail ng-hide" data-ng-show="viewModel.resourceSelected.id == item.resource.id"><span data-ng-bind-html="item.resource.description" class="ng-binding">Students are asked to decide which of two functions has the greater area between <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-7-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>x</mi><mo>=</mo><mn>1</mn></math>" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-27" style="width: 2.825em; display: inline-block;"><span style="display: inline-block; position: relative; width: 2.247em; height: 0px; font-size: 124%;"><span style="position: absolute; clip: rect(1.686em, 1002.14em, 2.718em, -1000em); top: -2.535em; left: 0em;"><span class="mrow" id="MathJax-Span-28"><span class="mi" id="MathJax-Span-29" style="font-family: STIXMathJax_Main-italic;">x<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span class="mo" id="MathJax-Span-30" style="font-family: STIXMathJax_Main; padding-left: 0.313em;">=</span><span class="mn" id="MathJax-Span-31" style="font-family: STIXMathJax_Main; padding-left: 0.313em;">1</span></span><span style="display: inline-block; width: 0px; height: 2.535em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.085em; border-left: 0px solid; width: 0px; height: 0.995em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>x</mi><mo>=</mo><mn>1</mn></math></span></span><script type="math/tex" id="MathJax-Element-7">x = 1</script> and <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-8-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>x</mi><mo>=</mo><mn>2</mn></math>" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-32" style="width: 2.825em; display: inline-block;"><span style="display: inline-block; position: relative; width: 2.247em; height: 0px; font-size: 124%;"><span style="position: absolute; clip: rect(1.686em, 1002.22em, 2.718em, -1000em); top: -2.535em; left: 0em;"><span class="mrow" id="MathJax-Span-33"><span class="mi" id="MathJax-Span-34" style="font-family: STIXMathJax_Main-italic;">x<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span class="mo" id="MathJax-Span-35" style="font-family: STIXMathJax_Main; padding-left: 0.313em;">=</span><span class="mn" id="MathJax-Span-36" style="font-family: STIXMathJax_Main; padding-left: 0.313em;">2</span></span><span style="display: inline-block; width: 0px; height: 2.535em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.085em; border-left: 0px solid; width: 0px; height: 0.995em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>x</mi><mo>=</mo><mn>2</mn></math></span></span><script type="math/tex" id="MathJax-Element-8">x = 2</script> without using calculus. The functions share several key features, but one of the functions is not drawn for them, so students will have to sketch this function before thinking about the similarities and differences between the two.</span>
+</div>
+</div><!-- end ngRepeat: item in listData.filtered --><div class="station-resources-table-row-wrapper ng-scope" data-ng-repeat="item in listData.filtered" data-ng-class="{'non-featured-resource': item.resource.displayAtStation == false}"><!-- ngIf: bookmarkManager.getBookmarkForResource(item.resource.id) -->
+<div class="station-resources-table-row-main"><div><!-- ngIf: item.resource.description --><a class="resource-details-toggle ng-scope" tabindex="0" data-ng-click="toggleResourceSelected(item.resource)" data-ng-if="item.resource.description"><span data-ng-bind="viewModel.resourceSelected.id == item.resource.id ? '[-]' : '[+]'" class="ng-binding">[+]</span>
+<span class="sr-only">More details</span>
+</a><!-- end ngIf: item.resource.description -->
+</div>
+<div><!-- ngIf: item.resourceType.description && !item.resourceType.hidden --><a class="station-resource-type-link ng-scope" data-ng-if="item.resourceType.description &amp;&amp; !item.resourceType.hidden" tabindex="0" data-cm-resource-types-toggle="investigation"><span data-ng-attr-class="icon-{{item.resourceType.icon}} resource-type-icon" class="icon-investigation resource-type-icon"></span>
+<span data-ng-bind="item.resourceType.name" class="ng-binding">Investigation</span>
+</a><!-- end ngIf: item.resourceType.description && !item.resourceType.hidden -->
+<!-- ngIf: !item.resourceType.description && !item.resourceType.hidden -->
+</div>
+<div><a data-ng-href="/introducing-calculus/underneath-the-arches" href="underneath-the-arches.html"><!-- ngIf: item.resource.publishStatus != 'Public' -->
+<!-- ngIf: item.resource.publishStatus == 'Public' && item.resource.underConstructionWarning -->
+<span data-ng-bind="item.title" class="ng-binding">Underneath the arches</span>
+<!-- ngIf: item.interactivityLabels.length > 0 --><span data-ng-attr-class="icon-{{item.interactivityLabels[0].icon ? item.interactivityLabels[0].icon : 'interactivity'}}" data-ng-if="item.interactivityLabels.length > 0" class="icon-interactive-card-sort"><span class="cm-tooltip ng-binding" data-ng-bind="getInteractivityLabelString(item)">Contains interactive elements - card sort</span>
+</span><!-- end ngIf: item.interactivityLabels.length > 0 -->
+<!-- ngIf: item.resourceInAction -->
+</a>
+</div>
+<div><ul class="station-resource-lines"><!-- ngRepeat: line in item.lines --><li data-ng-repeat="line in item.lines" class="ng-scope"><span class="icon-line" data-ng-attr-style="color:{{line.colour}}" style="color:#18b300"></span>
+<span class="cm-tooltip ng-binding" data-ng-bind="line.name">Calculus</span>
+</li><!-- end ngRepeat: line in item.lines -->
+</ul>
+</div>
+<div><ul class="station-resource-key-questions"><!-- ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">2</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What do we mean by the area ‘under’ a curve and what might it represent?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">4</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>How can we make deeper connections between the appearance of a graph and the features of its equation?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions -->
+</ul>
+</div>
+<div><ul class="station-resource-related"><!-- ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas --><li data-ng-repeat="pervasiveIdea in item.relatedPervasiveIdeas" class="ng-scope"><!-- ngIf: currentUser.canViewItem(pervasiveIdea.publishStatus) --><a data-ng-if="currentUser.canViewItem(pervasiveIdea.publishStatus)" data-ng-href="/pervasive-ideas/averages" data-cm-pervasive-idea-toggle="averages" class="ng-scope" href="averages.html"><span class="icon-pervasive-idea"></span>
+<span data-ng-bind="pervasiveIdea.title" class="ng-binding">Averages</span>
+</a><!-- end ngIf: currentUser.canViewItem(pervasiveIdea.publishStatus) -->
+<!-- ngIf: !currentUser.canViewItem(pervasiveIdea.publishStatus) -->
+</li><!-- end ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas -->
+<!-- ngRepeat: tag in item.tags -->
+</ul>
+</div>
+</div>
+<div class="station-resources-table-row-detail ng-hide" data-ng-show="viewModel.resourceSelected.id == item.resource.id"><span data-ng-bind-html="item.resource.description" class="ng-binding">Students are asked to use geometric features of sketch graphs to decide whether using the trapezium rule would give an underestimate or an overestimate.</span>
+</div>
+</div><!-- end ngRepeat: item in listData.filtered --><div class="station-resources-table-row-wrapper ng-scope" data-ng-repeat="item in listData.filtered" data-ng-class="{'non-featured-resource': item.resource.displayAtStation == false}"><!-- ngIf: bookmarkManager.getBookmarkForResource(item.resource.id) -->
+<div class="station-resources-table-row-main"><div><!-- ngIf: item.resource.description --><a class="resource-details-toggle ng-scope" tabindex="0" data-ng-click="toggleResourceSelected(item.resource)" data-ng-if="item.resource.description"><span data-ng-bind="viewModel.resourceSelected.id == item.resource.id ? '[-]' : '[+]'" class="ng-binding">[+]</span>
+<span class="sr-only">More details</span>
+</a><!-- end ngIf: item.resource.description -->
+</div>
+<div><!-- ngIf: item.resourceType.description && !item.resourceType.hidden --><a class="station-resource-type-link ng-scope" data-ng-if="item.resourceType.description &amp;&amp; !item.resourceType.hidden" tabindex="0" data-cm-resource-types-toggle="bigger-picture"><span data-ng-attr-class="icon-{{item.resourceType.icon}} resource-type-icon" class="icon-bigger-picture resource-type-icon"></span>
+<span data-ng-bind="item.resourceType.name" class="ng-binding">Bigger picture</span>
+</a><!-- end ngIf: item.resourceType.description && !item.resourceType.hidden -->
+<!-- ngIf: !item.resourceType.description && !item.resourceType.hidden -->
+</div>
+<div><a data-ng-href="/introducing-calculus/newton-and-leibniz" href="newton-and-leibniz.html"><!-- ngIf: item.resource.publishStatus != 'Public' -->
+<!-- ngIf: item.resource.publishStatus == 'Public' && item.resource.underConstructionWarning -->
+<span data-ng-bind="item.title" class="ng-binding">Newton and Leibniz</span>
+<!-- ngIf: item.interactivityLabels.length > 0 -->
+<!-- ngIf: item.resourceInAction -->
+</a>
+</div>
+<div><ul class="station-resource-lines"><!-- ngRepeat: line in item.lines --><li data-ng-repeat="line in item.lines" class="ng-scope"><span class="icon-line" data-ng-attr-style="color:{{line.colour}}" style="color:#18b300"></span>
+<span class="cm-tooltip ng-binding" data-ng-bind="line.name">Calculus</span>
+</li><!-- end ngRepeat: line in item.lines -->
+</ul>
+</div>
+<div><ul class="station-resource-key-questions"><!-- ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">1</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What is the gradient of a curve and how might it be useful?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">3</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What do we mean by the rate of change of a physical quantity and how do we represent this?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions -->
+</ul>
+</div>
+<div><ul class="station-resource-related"><!-- ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas -->
+<!-- ngRepeat: tag in item.tags --><li data-ng-repeat="tag in item.tags" class="ng-scope"><a data-ng-href="/tags/history-of-mathematics" data-cm-tag-toggle="history-of-mathematics" href="history-of-mathematics.html"><span class="icon-tag"></span>
+<span data-ng-bind="tag.title" class="ng-binding">History</span>
+</a>
+</li><!-- end ngRepeat: tag in item.tags -->
+</ul>
+</div>
+</div>
+<div class="station-resources-table-row-detail ng-hide" data-ng-show="viewModel.resourceSelected.id == item.resource.id"><span data-ng-bind-html="item.resource.description" class="ng-binding">Some brief thoughts on the relationship between these two great mathematicians.</span>
+</div>
+</div><!-- end ngRepeat: item in listData.filtered --><div class="station-resources-table-row-wrapper ng-scope" data-ng-repeat="item in listData.filtered" data-ng-class="{'non-featured-resource': item.resource.displayAtStation == false}"><!-- ngIf: bookmarkManager.getBookmarkForResource(item.resource.id) -->
+<div class="station-resources-table-row-main"><div><!-- ngIf: item.resource.description --><a class="resource-details-toggle ng-scope" tabindex="0" data-ng-click="toggleResourceSelected(item.resource)" data-ng-if="item.resource.description"><span data-ng-bind="viewModel.resourceSelected.id == item.resource.id ? '[-]' : '[+]'" class="ng-binding">[+]</span>
+<span class="sr-only">More details</span>
+</a><!-- end ngIf: item.resource.description -->
+</div>
+<div><!-- ngIf: item.resourceType.description && !item.resourceType.hidden --><a class="station-resource-type-link ng-scope" data-ng-if="item.resourceType.description &amp;&amp; !item.resourceType.hidden" tabindex="0" data-cm-resource-types-toggle="bigger-picture"><span data-ng-attr-class="icon-{{item.resourceType.icon}} resource-type-icon" class="icon-bigger-picture resource-type-icon"></span>
+<span data-ng-bind="item.resourceType.name" class="ng-binding">Bigger picture</span>
+</a><!-- end ngIf: item.resourceType.description && !item.resourceType.hidden -->
+<!-- ngIf: !item.resourceType.description && !item.resourceType.hidden -->
+</div>
+<div><a data-ng-href="/introducing-calculus/gradients-important-real-world" href="gradients-important-real-world.html"><!-- ngIf: item.resource.publishStatus != 'Public' -->
+<!-- ngIf: item.resource.publishStatus == 'Public' && item.resource.underConstructionWarning -->
+<span data-ng-bind="item.title" class="ng-binding">Why are gradients important in the real world?</span>
+<!-- ngIf: item.interactivityLabels.length > 0 -->
+<!-- ngIf: item.resourceInAction -->
+</a>
+</div>
+<div><ul class="station-resource-lines"><!-- ngRepeat: line in item.lines --><li data-ng-repeat="line in item.lines" class="ng-scope"><span class="icon-line" data-ng-attr-style="color:{{line.colour}}" style="color:#18b300"></span>
+<span class="cm-tooltip ng-binding" data-ng-bind="line.name">Calculus</span>
+</li><!-- end ngRepeat: line in item.lines -->
+</ul>
+</div>
+<div><ul class="station-resource-key-questions"><!-- ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">1</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What is the gradient of a curve and how might it be useful?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">3</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What do we mean by the rate of change of a physical quantity and how do we represent this?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions -->
+</ul>
+</div>
+<div><ul class="station-resource-related"><!-- ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas -->
+<!-- ngRepeat: tag in item.tags -->
+</ul>
+</div>
+</div>
+<div class="station-resources-table-row-detail ng-hide" data-ng-show="viewModel.resourceSelected.id == item.resource.id"><span data-ng-bind-html="item.resource.description" class="ng-binding">An article that introduces the idea that any system that changes can be described using rates of change. These rates of change can be visualised as gradients of mathematical functions, so gradients play an important part in the real world.</span>
+</div>
+</div><!-- end ngRepeat: item in listData.filtered -->
+</div>
+<div class="station-resources-panel-footer"><!-- ngIf: listData.nonFeaturedResources.length > 0 && isShowAllSelected(listData.resourceLevel.value) == false -->
+<!-- ngIf: isShowAllSelected(listData.resourceLevel.value) -->
+</div>
+</div><!-- end ngIf: listData.all.length > 0 --><!-- end ngRepeat: listData in viewModel.resourceDetailListSplit -->
+<!-- ngIf: viewModel.reviewQuestionDetailListAll.length > 0 --><div class="station-resources-panel ng-scope" data-ng-if="viewModel.reviewQuestionDetailListAll.length > 0"><div class="station-resources-panel-heading"><h4><span class="icon-review-question"></span>
+Review questions
+<a class="contextual-help-link review-question-help-link" href="resource-types.html" data-cm-resource-types-toggle="review-question"><span class="icon-question"></span>
+<span class="cm-tooltip">Click for information about review questions</span>
+</a>
+</h4>
+<!-- ngIf: viewModel.lines.length > 1 || viewModel.keyQuestions.length > 1 --><div class="station-resources-filter-wrapper ng-scope" data-ng-if="viewModel.lines.length > 1 || viewModel.keyQuestions.length > 1"><!-- ngIf: viewModel.lines.length > 1 -->
+<!-- ngIf: viewModel.keyQuestions.length > 1 --><label data-ng-if="viewModel.keyQuestions.length > 1" class="ng-scope">Filter by key question:<select class="cm-form-control ng-pristine ng-untouched ng-valid" data-ng-model="viewModel.keyQuestionIdSelected" data-ng-options="item.id as getKeyQuestionFilterText(item) for item in viewModel.keyQuestions | orderBy: 'number'"><option value class selected="selected">All</option><option label="1. What is the gradient of a curv..." value="number:70">1. What is the gradient of a curv...</option><option label="2. What do we mean by the area ‘u..." value="number:71">2. What do we mean by the area ‘u...</option><option label="3. What do we mean by the rate of..." value="number:72">3. What do we mean by the rate of...</option><option label="4. How can we make deeper connect..." value="number:73">4. How can we make deeper connect...</option></select>
+</label><!-- end ngIf: viewModel.keyQuestions.length > 1 -->
+</div><!-- end ngIf: viewModel.lines.length > 1 || viewModel.keyQuestions.length > 1 -->
+</div>
+<div class="station-review-questions-table"><div class="station-resources-table-heading"><div></div>
+<div>Title
+<a class="order-asc-marker selected" tabindex="0" data-ng-class="{selected: isReviewQuestionOrderSelected('Title', 'Asc')}" data-ng-click="updateReviewQuestionOrder('Title', 'Asc')"></a>
+<a class="order-desc-marker" tabindex="0" data-ng-class="{selected: isReviewQuestionOrderSelected('Title', 'Desc')}" data-ng-click="updateReviewQuestionOrder('Title', 'Desc')"></a>
+</div>
+<div>Ref
+<a class="order-asc-marker" tabindex="0" data-ng-class="{selected: isReviewQuestionOrderSelected('Ref', 'Asc')}" data-ng-click="updateReviewQuestionOrder('Ref', 'Asc')"></a>
+<a class="order-desc-marker" tabindex="0" data-ng-class="{selected: isReviewQuestionOrderSelected('Ref', 'Desc')}" data-ng-click="updateReviewQuestionOrder('Ref', 'Desc')"></a>
+<a class="contextual-help-link ref-help-link" tabindex="0" data-cm-help-item-toggle="review-question-ref"><span class="icon-question"></span>
+<span class="cm-tooltip">Click to learn what Ref is for</span>
+</a>
+</div>
+<div>Lines</div>
+<div>Key questions</div>
+<div>Related ideas</div>
+</div>
+<!-- ngIf: viewModel.reviewQuestionDetailListFiltered.length == 0 -->
+<!-- ngRepeat: item in viewModel.reviewQuestionDetailListFiltered --><div class="station-resources-table-row-wrapper ng-scope" data-ng-repeat="item in viewModel.reviewQuestionDetailListFiltered" data-ng-class="{'non-featured-resource': item.resource.displayAtStation == false}"><!-- ngIf: bookmarkManager.getBookmarkForResource(item.resource.id) -->
+<div class="station-resources-table-row-main"><div><!-- ngIf: item.resource.description -->
+</div>
+<div><a data-ng-href="/introducing-calculus/r5782" href="r5782.html"><!-- ngIf: item.resource.publishStatus != 'Public' -->
+<!-- ngIf: item.resource.publishStatus == 'Public' && item.resource.underConstructionWarning -->
+<span data-ng-bind="item.title" class="ng-binding">At what time would these two trains meet?</span>
+<!-- ngIf: item.interactivityLabels.length > 0 -->
+</a>
+</div>
+<div data-ng-bind="getResourceRefText(item.resource.ref)" class="ng-binding">R5782</div>
+<div><ul class="station-resource-lines"><!-- ngRepeat: line in item.lines --><li data-ng-repeat="line in item.lines" class="ng-scope"><span class="icon-line" data-ng-attr-style="color:{{line.colour}}" style="color:#18b300"></span>
+<span class="cm-tooltip ng-binding" data-ng-bind="line.name">Calculus</span>
+</li><!-- end ngRepeat: line in item.lines -->
+</ul>
+</div>
+<div><ul class="station-resource-key-questions"><!-- ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">3</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What do we mean by the rate of change of a physical quantity and how do we represent this?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions -->
+</ul>
+</div>
+<div><ul class="station-resource-related"><!-- ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas -->
+<!-- ngRepeat: tag in item.tags -->
+</ul>
+</div>
+</div>
+<div class="station-resources-table-row-detail ng-hide" data-ng-show="viewModel.resourceSelected.id == item.resource.id"><span data-ng-bind-html="item.resource.description" class="ng-binding"></span>
+</div>
+</div><!-- end ngRepeat: item in viewModel.reviewQuestionDetailListFiltered --><div class="station-resources-table-row-wrapper ng-scope" data-ng-repeat="item in viewModel.reviewQuestionDetailListFiltered" data-ng-class="{'non-featured-resource': item.resource.displayAtStation == false}"><!-- ngIf: bookmarkManager.getBookmarkForResource(item.resource.id) -->
+<div class="station-resources-table-row-main"><div><!-- ngIf: item.resource.description -->
+</div>
+<div><a data-ng-href="/introducing-calculus/r7903" href="r7903.html"><!-- ngIf: item.resource.publishStatus != 'Public' -->
+<!-- ngIf: item.resource.publishStatus == 'Public' && item.resource.underConstructionWarning -->
+<span data-ng-bind="item.title" class="ng-binding">Can the trapezium rule help us find the area under <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-9-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>y</mi><mo>=</mo><mi>x</mi><mi>ln</mi><mo>&amp;#x2061;</mo><mi>x</mi></math>" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-37" style="width: 4.726em; display: inline-block;"><span style="display: inline-block; position: relative; width: 3.802em; height: 0px; font-size: 124%;"><span style="position: absolute; clip: rect(1.679em, 1003.8em, 2.913em, -1000em); top: -2.535em; left: 0em;"><span class="mrow" id="MathJax-Span-38"><span class="mi" id="MathJax-Span-39" style="font-family: STIXMathJax_Main-italic;">y</span><span class="mo" id="MathJax-Span-40" style="font-family: STIXMathJax_Main; padding-left: 0.313em;">=</span><span class="mi" id="MathJax-Span-41" style="font-family: STIXMathJax_Main-italic; padding-left: 0.313em;">x<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span class="mi" id="MathJax-Span-42" style="font-family: STIXMathJax_Main; padding-left: 0.188em;">ln</span><span class="mo" id="MathJax-Span-43"></span><span class="mi" id="MathJax-Span-44" style="font-family: STIXMathJax_Main-italic; padding-left: 0.188em;">x<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span></span><span style="display: inline-block; width: 0px; height: 2.535em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.327em; border-left: 0px solid; width: 0px; height: 1.245em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>y</mi><mo>=</mo><mi>x</mi><mi>ln</mi><mo>⁡</mo><mi>x</mi></math></span></span><script type="math/tex" id="MathJax-Element-9">y = x\ln x</script>?</span>
+<!-- ngIf: item.interactivityLabels.length > 0 -->
+</a>
+</div>
+<div data-ng-bind="getResourceRefText(item.resource.ref)" class="ng-binding">R7903</div>
+<div><ul class="station-resource-lines"><!-- ngRepeat: line in item.lines --><li data-ng-repeat="line in item.lines" class="ng-scope"><span class="icon-line" data-ng-attr-style="color:{{line.colour}}" style="color:#18b300"></span>
+<span class="cm-tooltip ng-binding" data-ng-bind="line.name">Calculus</span>
+</li><!-- end ngRepeat: line in item.lines -->
+</ul>
+</div>
+<div><ul class="station-resource-key-questions"><!-- ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">2</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What do we mean by the area ‘under’ a curve and what might it represent?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions -->
+</ul>
+</div>
+<div><ul class="station-resource-related"><!-- ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas -->
+<!-- ngRepeat: tag in item.tags -->
+</ul>
+</div>
+</div>
+<div class="station-resources-table-row-detail ng-hide" data-ng-show="viewModel.resourceSelected.id == item.resource.id"><span data-ng-bind-html="item.resource.description" class="ng-binding"></span>
+</div>
+</div><!-- end ngRepeat: item in viewModel.reviewQuestionDetailListFiltered --><div class="station-resources-table-row-wrapper ng-scope" data-ng-repeat="item in viewModel.reviewQuestionDetailListFiltered" data-ng-class="{'non-featured-resource': item.resource.displayAtStation == false}"><!-- ngIf: bookmarkManager.getBookmarkForResource(item.resource.id) -->
+<div class="station-resources-table-row-main"><div><!-- ngIf: item.resource.description -->
+</div>
+<div><a data-ng-href="/introducing-calculus/r8140" href="r8140.html"><!-- ngIf: item.resource.publishStatus != 'Public' -->
+<!-- ngIf: item.resource.publishStatus == 'Public' && item.resource.underConstructionWarning -->
+<span data-ng-bind="item.title" class="ng-binding">Can we apply the trapezium rule to <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-10-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>f</mi><mo stretchy=&quot;false&quot;>(</mo><mi>x</mi><mo stretchy=&quot;false&quot;>)</mo><mo>=</mo><mi>x</mi><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mo>/</mo></mrow><mn>2</mn><mo>&amp;#x2212;</mo><mo fence=&quot;false&quot; stretchy=&quot;false&quot;>&amp;#x230A;</mo><mi>x</mi><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mo>/</mo></mrow><mn>2</mn><mo fence=&quot;false&quot; stretchy=&quot;false&quot;>&amp;#x230B;</mo></math>" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-45" style="width: 9.219em; display: inline-block;"><span style="display: inline-block; position: relative; width: 7.431em; height: 0px; font-size: 124%;"><span style="position: absolute; clip: rect(1.649em, 1007.25em, 2.92em, -1000em); top: -2.535em; left: 0em;"><span class="mrow" id="MathJax-Span-46"><span class="mi" id="MathJax-Span-47" style="font-family: STIXMathJax_Main-italic;">f<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.146em;"></span></span><span class="mo" id="MathJax-Span-48" style="font-family: STIXMathJax_Main;">(</span><span class="mi" id="MathJax-Span-49" style="font-family: STIXMathJax_Main-italic;">x<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span class="mo" id="MathJax-Span-50" style="font-family: STIXMathJax_Main;">)</span><span class="mo" id="MathJax-Span-51" style="font-family: STIXMathJax_Main; padding-left: 0.313em;">=</span><span class="mi" id="MathJax-Span-52" style="font-family: STIXMathJax_Main-italic; padding-left: 0.313em;">x<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span class="texatom" id="MathJax-Span-53"><span class="mrow" id="MathJax-Span-54"><span class="mo" id="MathJax-Span-55" style="font-family: STIXMathJax_Main;">/</span></span></span><span class="mn" id="MathJax-Span-56" style="font-family: STIXMathJax_Main;">2</span><span class="mo" id="MathJax-Span-57" style="font-family: STIXMathJax_Main; padding-left: 0.25em;">−</span><span class="mo" id="MathJax-Span-58" style="font-family: STIXMathJax_Main; padding-left: 0.25em;">⌊</span><span class="mi" id="MathJax-Span-59" style="font-family: STIXMathJax_Main-italic;">x<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span class="texatom" id="MathJax-Span-60"><span class="mrow" id="MathJax-Span-61"><span class="mo" id="MathJax-Span-62" style="font-family: STIXMathJax_Main;">/</span></span></span><span class="mn" id="MathJax-Span-63" style="font-family: STIXMathJax_Main;">2</span><span class="mo" id="MathJax-Span-64" style="font-family: STIXMathJax_Main;">⌋</span></span><span style="display: inline-block; width: 0px; height: 2.535em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.336em; border-left: 0px solid; width: 0px; height: 1.291em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><mi>x</mi><mrow class="MJX-TeXAtom-ORD"><mo>/</mo></mrow><mn>2</mn><mo>−</mo><mo fence="false" stretchy="false">⌊</mo><mi>x</mi><mrow class="MJX-TeXAtom-ORD"><mo>/</mo></mrow><mn>2</mn><mo fence="false" stretchy="false">⌋</mo></math></span></span><script type="math/tex" id="MathJax-Element-10">f(x) = x/2 - \lfloor x/2 \rfloor</script>?</span>
+<!-- ngIf: item.interactivityLabels.length > 0 -->
+</a>
+</div>
+<div data-ng-bind="getResourceRefText(item.resource.ref)" class="ng-binding">R8140</div>
+<div><ul class="station-resource-lines"><!-- ngRepeat: line in item.lines --><li data-ng-repeat="line in item.lines" class="ng-scope"><span class="icon-line" data-ng-attr-style="color:{{line.colour}}" style="color:#18b300"></span>
+<span class="cm-tooltip ng-binding" data-ng-bind="line.name">Calculus</span>
+</li><!-- end ngRepeat: line in item.lines -->
+</ul>
+</div>
+<div><ul class="station-resource-key-questions"><!-- ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">2</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What do we mean by the area ‘under’ a curve and what might it represent?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions -->
+</ul>
+</div>
+<div><ul class="station-resource-related"><!-- ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas -->
+<!-- ngRepeat: tag in item.tags -->
+</ul>
+</div>
+</div>
+<div class="station-resources-table-row-detail ng-hide" data-ng-show="viewModel.resourceSelected.id == item.resource.id"><span data-ng-bind-html="item.resource.description" class="ng-binding"></span>
+</div>
+</div><!-- end ngRepeat: item in viewModel.reviewQuestionDetailListFiltered --><div class="station-resources-table-row-wrapper ng-scope" data-ng-repeat="item in viewModel.reviewQuestionDetailListFiltered" data-ng-class="{'non-featured-resource': item.resource.displayAtStation == false}"><!-- ngIf: bookmarkManager.getBookmarkForResource(item.resource.id) -->
+<div class="station-resources-table-row-main"><div><!-- ngIf: item.resource.description -->
+</div>
+<div><a data-ng-href="/introducing-calculus/r7912" href="r7912.html"><!-- ngIf: item.resource.publishStatus != 'Public' -->
+<!-- ngIf: item.resource.publishStatus == 'Public' && item.resource.underConstructionWarning -->
+<span data-ng-bind="item.title" class="ng-binding">Can we approximate the area under this sine curve?</span>
+<!-- ngIf: item.interactivityLabels.length > 0 -->
+</a>
+</div>
+<div data-ng-bind="getResourceRefText(item.resource.ref)" class="ng-binding">R7912</div>
+<div><ul class="station-resource-lines"><!-- ngRepeat: line in item.lines --><li data-ng-repeat="line in item.lines" class="ng-scope"><span class="icon-line" data-ng-attr-style="color:{{line.colour}}" style="color:#18b300"></span>
+<span class="cm-tooltip ng-binding" data-ng-bind="line.name">Calculus</span>
+</li><!-- end ngRepeat: line in item.lines -->
+</ul>
+</div>
+<div><ul class="station-resource-key-questions"><!-- ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">2</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What do we mean by the area ‘under’ a curve and what might it represent?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions -->
+</ul>
+</div>
+<div><ul class="station-resource-related"><!-- ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas -->
+<!-- ngRepeat: tag in item.tags -->
+</ul>
+</div>
+</div>
+<div class="station-resources-table-row-detail ng-hide" data-ng-show="viewModel.resourceSelected.id == item.resource.id"><span data-ng-bind-html="item.resource.description" class="ng-binding"></span>
+</div>
+</div><!-- end ngRepeat: item in viewModel.reviewQuestionDetailListFiltered --><div class="station-resources-table-row-wrapper ng-scope" data-ng-repeat="item in viewModel.reviewQuestionDetailListFiltered" data-ng-class="{'non-featured-resource': item.resource.displayAtStation == false}"><!-- ngIf: bookmarkManager.getBookmarkForResource(item.resource.id) -->
+<div class="station-resources-table-row-main"><div><!-- ngIf: item.resource.description -->
+</div>
+<div><a data-ng-href="/introducing-calculus/r7250" href="r7250.html"><!-- ngIf: item.resource.publishStatus != 'Public' -->
+<!-- ngIf: item.resource.publishStatus == 'Public' && item.resource.underConstructionWarning -->
+<span data-ng-bind="item.title" class="ng-binding">Can we calculate the total time taken for this car journey?</span>
+<!-- ngIf: item.interactivityLabels.length > 0 -->
+</a>
+</div>
+<div data-ng-bind="getResourceRefText(item.resource.ref)" class="ng-binding">R7250</div>
+<div><ul class="station-resource-lines"><!-- ngRepeat: line in item.lines --><li data-ng-repeat="line in item.lines" class="ng-scope"><span class="icon-line" data-ng-attr-style="color:{{line.colour}}" style="color:#18b300"></span>
+<span class="cm-tooltip ng-binding" data-ng-bind="line.name">Calculus</span>
+</li><!-- end ngRepeat: line in item.lines -->
+</ul>
+</div>
+<div><ul class="station-resource-key-questions"><!-- ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">1</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What is the gradient of a curve and how might it be useful?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">2</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What do we mean by the area ‘under’ a curve and what might it represent?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">3</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What do we mean by the rate of change of a physical quantity and how do we represent this?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions -->
+</ul>
+</div>
+<div><ul class="station-resource-related"><!-- ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas -->
+<!-- ngRepeat: tag in item.tags --><li data-ng-repeat="tag in item.tags" class="ng-scope"><a data-ng-href="/tags/mechanics" data-cm-tag-toggle="mechanics" href="mechanics.html"><span class="icon-tag"></span>
+<span data-ng-bind="tag.title" class="ng-binding">Mechanics</span>
+</a>
+</li><!-- end ngRepeat: tag in item.tags -->
+</ul>
+</div>
+</div>
+<div class="station-resources-table-row-detail ng-hide" data-ng-show="viewModel.resourceSelected.id == item.resource.id"><span data-ng-bind-html="item.resource.description" class="ng-binding"></span>
+</div>
+</div><!-- end ngRepeat: item in viewModel.reviewQuestionDetailListFiltered --><div class="station-resources-table-row-wrapper ng-scope" data-ng-repeat="item in viewModel.reviewQuestionDetailListFiltered" data-ng-class="{'non-featured-resource': item.resource.displayAtStation == false}"><!-- ngIf: bookmarkManager.getBookmarkForResource(item.resource.id) -->
+<div class="station-resources-table-row-main"><div><!-- ngIf: item.resource.description -->
+</div>
+<div><a data-ng-href="/introducing-calculus/r6592" href="r6592.html"><!-- ngIf: item.resource.publishStatus != 'Public' -->
+<!-- ngIf: item.resource.publishStatus == 'Public' && item.resource.underConstructionWarning -->
+<span data-ng-bind="item.title" class="ng-binding">Can we use the trapezium rule to estimate this integral?</span>
+<!-- ngIf: item.interactivityLabels.length > 0 -->
+</a>
+</div>
+<div data-ng-bind="getResourceRefText(item.resource.ref)" class="ng-binding">R6592</div>
+<div><ul class="station-resource-lines"><!-- ngRepeat: line in item.lines --><li data-ng-repeat="line in item.lines" class="ng-scope"><span class="icon-line" data-ng-attr-style="color:{{line.colour}}" style="color:#18b300"></span>
+<span class="cm-tooltip ng-binding" data-ng-bind="line.name">Calculus</span>
+</li><!-- end ngRepeat: line in item.lines -->
+</ul>
+</div>
+<div><ul class="station-resource-key-questions"><!-- ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">2</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What do we mean by the area ‘under’ a curve and what might it represent?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions -->
+</ul>
+</div>
+<div><ul class="station-resource-related"><!-- ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas -->
+<!-- ngRepeat: tag in item.tags -->
+</ul>
+</div>
+</div>
+<div class="station-resources-table-row-detail ng-hide" data-ng-show="viewModel.resourceSelected.id == item.resource.id"><span data-ng-bind-html="item.resource.description" class="ng-binding"></span>
+</div>
+</div><!-- end ngRepeat: item in viewModel.reviewQuestionDetailListFiltered --><div class="station-resources-table-row-wrapper ng-scope" data-ng-repeat="item in viewModel.reviewQuestionDetailListFiltered" data-ng-class="{'non-featured-resource': item.resource.displayAtStation == false}"><!-- ngIf: bookmarkManager.getBookmarkForResource(item.resource.id) -->
+<div class="station-resources-table-row-main"><div><!-- ngIf: item.resource.description -->
+</div>
+<div><a data-ng-href="/introducing-calculus/r9586" href="r9586.html"><!-- ngIf: item.resource.publishStatus != 'Public' -->
+<!-- ngIf: item.resource.publishStatus == 'Public' && item.resource.underConstructionWarning -->
+<span data-ng-bind="item.title" class="ng-binding">What is the acceleration of this particle?</span>
+<!-- ngIf: item.interactivityLabels.length > 0 -->
+</a>
+</div>
+<div data-ng-bind="getResourceRefText(item.resource.ref)" class="ng-binding">R9586</div>
+<div><ul class="station-resource-lines"><!-- ngRepeat: line in item.lines --><li data-ng-repeat="line in item.lines" class="ng-scope"><span class="icon-line" data-ng-attr-style="color:{{line.colour}}" style="color:#18b300"></span>
+<span class="cm-tooltip ng-binding" data-ng-bind="line.name">Calculus</span>
+</li><!-- end ngRepeat: line in item.lines -->
+</ul>
+</div>
+<div><ul class="station-resource-key-questions"><!-- ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">2</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What do we mean by the area ‘under’ a curve and what might it represent?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions -->
+</ul>
+</div>
+<div><ul class="station-resource-related"><!-- ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas -->
+<!-- ngRepeat: tag in item.tags --><li data-ng-repeat="tag in item.tags" class="ng-scope"><a data-ng-href="/tags/mechanics" data-cm-tag-toggle="mechanics" href="mechanics.html"><span class="icon-tag"></span>
+<span data-ng-bind="tag.title" class="ng-binding">Mechanics</span>
+</a>
+</li><!-- end ngRepeat: tag in item.tags -->
+</ul>
+</div>
+</div>
+<div class="station-resources-table-row-detail ng-hide" data-ng-show="viewModel.resourceSelected.id == item.resource.id"><span data-ng-bind-html="item.resource.description" class="ng-binding"></span>
+</div>
+</div><!-- end ngRepeat: item in viewModel.reviewQuestionDetailListFiltered --><div class="station-resources-table-row-wrapper ng-scope" data-ng-repeat="item in viewModel.reviewQuestionDetailListFiltered" data-ng-class="{'non-featured-resource': item.resource.displayAtStation == false}"><!-- ngIf: bookmarkManager.getBookmarkForResource(item.resource.id) -->
+<div class="station-resources-table-row-main"><div><!-- ngIf: item.resource.description -->
+</div>
+<div><a data-ng-href="/introducing-calculus/r6841" href="r6841.html"><!-- ngIf: item.resource.publishStatus != 'Public' -->
+<!-- ngIf: item.resource.publishStatus == 'Public' && item.resource.underConstructionWarning -->
+<span data-ng-bind="item.title" class="ng-binding">What is the stopping distance for this car?</span>
+<!-- ngIf: item.interactivityLabels.length > 0 -->
+</a>
+</div>
+<div data-ng-bind="getResourceRefText(item.resource.ref)" class="ng-binding">R6841</div>
+<div><ul class="station-resource-lines"><!-- ngRepeat: line in item.lines --><li data-ng-repeat="line in item.lines" class="ng-scope"><span class="icon-line" data-ng-attr-style="color:{{line.colour}}" style="color:#18b300"></span>
+<span class="cm-tooltip ng-binding" data-ng-bind="line.name">Calculus</span>
+</li><!-- end ngRepeat: line in item.lines -->
+</ul>
+</div>
+<div><ul class="station-resource-key-questions"><!-- ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">2</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What do we mean by the area ‘under’ a curve and what might it represent?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions -->
+</ul>
+</div>
+<div><ul class="station-resource-related"><!-- ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas -->
+<!-- ngRepeat: tag in item.tags --><li data-ng-repeat="tag in item.tags" class="ng-scope"><a data-ng-href="/tags/mechanics" data-cm-tag-toggle="mechanics" href="mechanics.html"><span class="icon-tag"></span>
+<span data-ng-bind="tag.title" class="ng-binding">Mechanics</span>
+</a>
+</li><!-- end ngRepeat: tag in item.tags -->
+</ul>
+</div>
+</div>
+<div class="station-resources-table-row-detail ng-hide" data-ng-show="viewModel.resourceSelected.id == item.resource.id"><span data-ng-bind-html="item.resource.description" class="ng-binding"></span>
+</div>
+</div><!-- end ngRepeat: item in viewModel.reviewQuestionDetailListFiltered --><div class="station-resources-table-row-wrapper ng-scope" data-ng-repeat="item in viewModel.reviewQuestionDetailListFiltered" data-ng-class="{'non-featured-resource': item.resource.displayAtStation == false}"><!-- ngIf: bookmarkManager.getBookmarkForResource(item.resource.id) -->
+<div class="station-resources-table-row-main"><div><!-- ngIf: item.resource.description -->
+</div>
+<div><a data-ng-href="/introducing-calculus/r7140" href="r7140.html"><!-- ngIf: item.resource.publishStatus != 'Public' -->
+<!-- ngIf: item.resource.publishStatus == 'Public' && item.resource.underConstructionWarning -->
+<span data-ng-bind="item.title" class="ng-binding">What's the average speed of the second car?</span>
+<!-- ngIf: item.interactivityLabels.length > 0 -->
+</a>
+</div>
+<div data-ng-bind="getResourceRefText(item.resource.ref)" class="ng-binding">R7140</div>
+<div><ul class="station-resource-lines"><!-- ngRepeat: line in item.lines --><li data-ng-repeat="line in item.lines" class="ng-scope"><span class="icon-line" data-ng-attr-style="color:{{line.colour}}" style="color:#18b300"></span>
+<span class="cm-tooltip ng-binding" data-ng-bind="line.name">Calculus</span>
+</li><!-- end ngRepeat: line in item.lines -->
+</ul>
+</div>
+<div><ul class="station-resource-key-questions"><!-- ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">3</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What do we mean by the rate of change of a physical quantity and how do we represent this?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions -->
+</ul>
+</div>
+<div><ul class="station-resource-related"><!-- ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas -->
+<!-- ngRepeat: tag in item.tags -->
+</ul>
+</div>
+</div>
+<div class="station-resources-table-row-detail ng-hide" data-ng-show="viewModel.resourceSelected.id == item.resource.id"><span data-ng-bind-html="item.resource.description" class="ng-binding"></span>
+</div>
+</div><!-- end ngRepeat: item in viewModel.reviewQuestionDetailListFiltered --><div class="station-resources-table-row-wrapper ng-scope" data-ng-repeat="item in viewModel.reviewQuestionDetailListFiltered" data-ng-class="{'non-featured-resource': item.resource.displayAtStation == false}"><!-- ngIf: bookmarkManager.getBookmarkForResource(item.resource.id) -->
+<div class="station-resources-table-row-main"><div><!-- ngIf: item.resource.description -->
+</div>
+<div><a data-ng-href="/introducing-calculus/r5642" href="r5642.html"><!-- ngIf: item.resource.publishStatus != 'Public' -->
+<!-- ngIf: item.resource.publishStatus == 'Public' && item.resource.underConstructionWarning -->
+<span data-ng-bind="item.title" class="ng-binding">When does the trapezium rule give the exact answer here?</span>
+<!-- ngIf: item.interactivityLabels.length > 0 -->
+</a>
+</div>
+<div data-ng-bind="getResourceRefText(item.resource.ref)" class="ng-binding">R5642</div>
+<div><ul class="station-resource-lines"><!-- ngRepeat: line in item.lines --><li data-ng-repeat="line in item.lines" class="ng-scope"><span class="icon-line" data-ng-attr-style="color:{{line.colour}}" style="color:#18b300"></span>
+<span class="cm-tooltip ng-binding" data-ng-bind="line.name">Calculus</span>
+</li><!-- end ngRepeat: line in item.lines -->
+</ul>
+</div>
+<div><ul class="station-resource-key-questions"><!-- ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">2</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What do we mean by the area ‘under’ a curve and what might it represent?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions -->
+</ul>
+</div>
+<div><ul class="station-resource-related"><!-- ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas -->
+<!-- ngRepeat: tag in item.tags -->
+</ul>
+</div>
+</div>
+<div class="station-resources-table-row-detail ng-hide" data-ng-show="viewModel.resourceSelected.id == item.resource.id"><span data-ng-bind-html="item.resource.description" class="ng-binding"></span>
+</div>
+</div><!-- end ngRepeat: item in viewModel.reviewQuestionDetailListFiltered --><div class="station-resources-table-row-wrapper ng-scope" data-ng-repeat="item in viewModel.reviewQuestionDetailListFiltered" data-ng-class="{'non-featured-resource': item.resource.displayAtStation == false}"><!-- ngIf: bookmarkManager.getBookmarkForResource(item.resource.id) -->
+<div class="station-resources-table-row-main"><div><!-- ngIf: item.resource.description -->
+</div>
+<div><a data-ng-href="/introducing-calculus/r9506" href="r9506.html"><!-- ngIf: item.resource.publishStatus != 'Public' -->
+<!-- ngIf: item.resource.publishStatus == 'Public' && item.resource.underConstructionWarning -->
+<span data-ng-bind="item.title" class="ng-binding">When is this parabola's turning point nearest to the origin?</span>
+<!-- ngIf: item.interactivityLabels.length > 0 --><span data-ng-attr-class="icon-{{item.interactivityLabels[0].icon ? item.interactivityLabels[0].icon : 'interactivity'}}" data-ng-if="item.interactivityLabels.length > 0" class="icon-geogebra"><span class="cm-tooltip ng-binding" data-ng-bind="getInteractivityLabelString(item)">Contains interactive elements - GeoGebra</span>
+</span><!-- end ngIf: item.interactivityLabels.length > 0 -->
+</a>
+</div>
+<div data-ng-bind="getResourceRefText(item.resource.ref)" class="ng-binding">R9506</div>
+<div><ul class="station-resource-lines"><!-- ngRepeat: line in item.lines --><li data-ng-repeat="line in item.lines" class="ng-scope"><span class="icon-line" data-ng-attr-style="color:{{line.colour}}" style="color:#18b300"></span>
+<span class="cm-tooltip ng-binding" data-ng-bind="line.name">Calculus</span>
+</li><!-- end ngRepeat: line in item.lines -->
+</ul>
+</div>
+<div><ul class="station-resource-key-questions"><!-- ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">3</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>What do we mean by the rate of change of a physical quantity and how do we represent this?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions --><li data-ng-repeat="keyQuestion in item.keyQuestions" class="ng-scope"><span class="key-question-marker"><span data-ng-bind="keyQuestion.number" class="ng-binding">4</span>
+<span class="cm-tooltip ng-binding" data-ng-bind-html="getKeyQuestionConvertedContent(keyQuestion.id)"><p>How can we make deeper connections between the appearance of a graph and the features of its equation?</p></span>
+</span>
+</li><!-- end ngRepeat: keyQuestion in item.keyQuestions -->
+</ul>
+</div>
+<div><ul class="station-resource-related"><!-- ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas --><li data-ng-repeat="pervasiveIdea in item.relatedPervasiveIdeas" class="ng-scope"><!-- ngIf: currentUser.canViewItem(pervasiveIdea.publishStatus) --><a data-ng-if="currentUser.canViewItem(pervasiveIdea.publishStatus)" data-ng-href="/pervasive-ideas/constraints" data-cm-pervasive-idea-toggle="constraints" class="ng-scope" href="constraints.html"><span class="icon-pervasive-idea"></span>
+<span data-ng-bind="pervasiveIdea.title" class="ng-binding">Constraints</span>
+</a><!-- end ngIf: currentUser.canViewItem(pervasiveIdea.publishStatus) -->
+<!-- ngIf: !currentUser.canViewItem(pervasiveIdea.publishStatus) -->
+</li><!-- end ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas --><li data-ng-repeat="pervasiveIdea in item.relatedPervasiveIdeas" class="ng-scope"><!-- ngIf: currentUser.canViewItem(pervasiveIdea.publishStatus) --><a data-ng-if="currentUser.canViewItem(pervasiveIdea.publishStatus)" data-ng-href="/pervasive-ideas/symmetry" data-cm-pervasive-idea-toggle="symmetry" class="ng-scope" href="symmetry.html"><span class="icon-pervasive-idea"></span>
+<span data-ng-bind="pervasiveIdea.title" class="ng-binding">Symmetry</span>
+</a><!-- end ngIf: currentUser.canViewItem(pervasiveIdea.publishStatus) -->
+<!-- ngIf: !currentUser.canViewItem(pervasiveIdea.publishStatus) -->
+</li><!-- end ngRepeat: pervasiveIdea in item.relatedPervasiveIdeas -->
+<!-- ngRepeat: tag in item.tags -->
+</ul>
+</div>
+</div>
+<div class="station-resources-table-row-detail ng-hide" data-ng-show="viewModel.resourceSelected.id == item.resource.id"><span data-ng-bind-html="item.resource.description" class="ng-binding"></span>
+</div>
+</div><!-- end ngRepeat: item in viewModel.reviewQuestionDetailListFiltered -->
+</div>
+<div class="station-resources-panel-footer"><!-- ngIf: viewModel.reviewQuestionDetailListNonFeatured.length > 0 && viewModel.reviewQuestionShowAllSelected == false -->
+<!-- ngIf: viewModel.reviewQuestionShowAllSelected -->
+</div>
+</div><!-- end ngIf: viewModel.reviewQuestionDetailListAll.length > 0 -->
+</div><!-- end ngIf: viewModel.resourcesLoaded && viewModel.resourceLevelsLoaded -->
+<!-- ngIf: viewModel.showSimpleView -->
+</div>
+</div>
+</div>
+<div class="auto-height-row"><div class="footer"><div class="footer-top"><div class="footer-contact"><a href="mailto:info@undergroundmathematics.org"><span class="icon-email"></span>
+<span class="sr-only">Email</span>
+</a>
+<a href="UndergroundMath.html" target="_blank"><span class="icon-twitter"></span>
+<span class="sr-only">Twitter</span>
+</a>
+</div>
+<div class="footer-policies"><a href="terms.html" target="_self">Terms</a>
+<span class="text-divider"></span>
+<a href="cookie-policy.html" target="_self">Cookies</a>
+<span class="text-divider"></span>
+<a href="privacy-policy.html" target="_self">Privacy</a>
+</div>
+</div>
+<div class="footer-middle"><a class="footer-logo" href="index.html"><span class="icon-logo"></span>
+<span class="footer-title"><span>underground</span>
+<span>mathematics</span>
+</span>
+</a>
+<div class="footer-strapline">Rich resources for teaching A level mathematics</div>
+<small>Copyright © and Database Right 2013-2021 University of Cambridge <br>
+<a href="terms.html#copyright">All rights reserved</a>
+</small>
+</div>
+<div class="footer-bottom"><div class="footer-cambridge"><img src="images/cambridge-logo-white.png" alt="University of Cambridge logo">
+</div>
+<div class="footer-dfe"><img src="images/dfe-logo-white.png" alt="Department for Education logo">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<script async src="js/analytics.js"></script><script src="js/jquery.min.js"></script>
+<script src="js/js.cookie.min.js"></script>
+<script src="js/jquery.autocomplete.min.js"></script>
+<script src="js/angular.min.js"></script>
+<script src="js/angular-resource.min.js"></script>
+<script src="js/angular-sanitize.min.js"></script>
+<script src="js/markdown-it.min.js"></script>
+<script src="js/main.min.js"></script>
+<script type="text/x-mathjax-config;executed=true">MathJax.Hub.Config({skipStartupTypeset: true,
+TeX: { equationNumbers: { autoNumber: "AMS" },
+Macros: {Var: "\\mathrm{Var}",
+cosec: "\\mathop{\\rm cosec}\\nolimits",
+sech: "\\mathop{\\rm sech}\\nolimits",
+cosech: "\\mathop{\\rm cosech}\\nolimits",
+arsinh: "\\mathop{\\rm arsinh}\\nolimits",
+arcosh: "\\mathop{\\rm arcosh}\\nolimits",
+artanh: "\\mathop{\\rm artanh}\\nolimits",
+arccot: "\\mathop{\\rm arccot}\\nolimits",
+arcsec: "\\mathop{\\rm arcsec}\\nolimits",
+arccosec: "\\mathop{\\rm arccosec}\\nolimits",
+quantity: ["{#1}\\,\\mathrm{#2}", 2],
+cmlongdiv: ["\\enclose{longdiv}{#1}", 1],
+cmlongdivbr: ["\\\\[-3pt]"],
+cmarraystretch: ["{}", 1]}},
+"HTML-CSS": {linebreaks: {automatic: true,
+width: "57%"},
+mtextFontInherit: true,
+preferredFont: "STIX",
+webFont: "STIX-Web",
+imageFont:null,
+minScaleAdjust: 100},
+"SVG": {linebreaks: {automatic: true,
+width: "57%"},
+mtextFontInherit: true,
+font: "STIX-Web",
+minScaleAdjust: 100},
+tex2jax: {displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+processEscapes: true}});
+MathJax.Hub.Register.StartupHook("TeX AMSsymbols Ready",function () { MathJax.InputJax.TeX.Definitions.mathchar0mi.square = ["25FB",{mathvariant:"normal"}];});
+MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {MathJax.Hub.Insert(MathJax.InputJax.TeX.Definitions.macros,{cancel: ["Extension","cancel"],
+bcancel: ["Extension","cancel"],
+xcancel: ["Extension","cancel"],
+cancelto: ["Extension","cancel"],
+enclose: ["Extension","enclose"]});});</script>
+<script src="js/MathJax.js"></script>
+<script src="js/manup.min.js"></script>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-50571661-2', 'auto');</script>
+<script src="js/station.min.js"></script><script>var spaSetup = {"accountSettings":{"imminentPasswordExpiryHours":168,"invalidPasswordMessage":"Your password must contain at least 1 upper case letter, 1 lower case letter, 1 digit and be at least 8 characters long.","verificationExpiryHours":48,"passwordResetExpiryHours":48},"appSettings":{"disableLogins":false,"webmasterEmail":"info@undergroundmathematics.org","disabledLoginMessage":null,"webmasterName":"Underground Mathematics "},"contactSettings":{"linkedInPage":"underground-mathematics","googlePlusPage":"107933654652080928819","webmasterEmail":"info@undergroundmathematics.org","adminPhone":"+44 1223 766 839","twitterUsername":"UndergroundMath","facebookPage":"UndergroundMathematics","adminEmail":"info@undergroundmathematics.org"},"currentUser":{}};</script>
+
+
+<div class="autocomplete-suggestions" style="position: absolute; display: none; max-height: 300px; z-index: 9999;"></div><div style="position: absolute; width: 0px; height: 0px; overflow: hidden; padding: 0px; border: 0px; margin: 0px;"><div id="MathJax_Font_Test" style="position: absolute; visibility: hidden; top: 0px; left: 0px; width: auto; padding: 0px; border: 0px; margin: 0px; white-space: nowrap; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; font-size: 40px; font-weight: normal; font-style: normal; font-family: STIXMathJax_Main, sans-serif;"></div></div></body></html>

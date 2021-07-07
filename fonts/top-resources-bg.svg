@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg5515"
+   viewBox="0 0 404.14287 284.10712"
+   height="80.181343mm"
+   width="114.0581mm">
+  <defs
+     id="defs5517" />
+  <metadata
+     id="metadata5520">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-209.35714,-601.73719)"
+     id="layer1">
+    <g
+       id="text4195-1-7-1-6-6-4-3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:342.36230469px;line-height:125%;font-family:FontAwesome;-inkscape-font-specification:'FontAwesome, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#008080;fill-opacity:0.05490196;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="scale(1.032897,0.96815075)">
+      <path
+         id="path6091"
+         style=""
+         d="m 593.96048,890.53149 0,24.45445 -391.27121,0 0,-293.4534 24.45445,0 0,268.99895 366.81676,0 z m -24.45445,-238.43089 0,83.10692 q 0,4.01206 -3.82101,5.73152 -3.62996,1.5284 -6.68677,-1.52841 l -23.11709,-23.11709 -120.9349,120.93489 q -1.91051,1.91051 -4.39416,1.91051 -2.48366,0 -4.39416,-1.91051 L 361.6432,792.71369 282.16623,872.19066 245.48456,835.50898 357.24904,723.7445 q 1.9105,-1.9105 4.39416,-1.9105 2.48365,0 4.39416,1.9105 l 44.51474,44.51474 88.64738,-88.64738 -23.1171,-23.1171 q -3.0568,-3.0568 -1.5284,-6.68676 1.71945,-3.82101 5.73151,-3.82101 l 83.10692,0 q 2.67471,0 4.39416,1.71945 1.71946,1.71946 1.71946,4.39416 z" />
+    </g>
+  </g>
+</svg>

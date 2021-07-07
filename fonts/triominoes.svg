@@ -1,0 +1,42 @@
+<?xml version='1.0' ?><svg xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" id="svg2" width="225.0" height="225.02442" viewBox="254.14243 159.08976 225.0 225.02442" preserveAspectRatio="none">
+  <defs id="defs4">
+    <linearGradient id="linearGradient5252" osb:paint="solid">
+      <stop style="stop-color:#ddafe9;stop-opacity:1;" offset="0" id="stop5254" />
+    </linearGradient>
+    <linearGradient id="linearGradient5252-2" osb:paint="solid">
+      <stop style="stop-color:#ddafe9;stop-opacity:1;" offset="0" id="stop5254-4" />
+    </linearGradient>
+    <linearGradient id="linearGradient5252-7" osb:paint="solid">
+      <stop style="stop-color:#ddafe9;stop-opacity:1;" offset="0" id="stop5254-6" />
+    </linearGradient>
+    <linearGradient id="linearGradient5252-79" osb:paint="solid">
+      <stop style="stop-color:#ddafe9;stop-opacity:1;" offset="0" id="stop5254-3" />
+    </linearGradient>
+    <linearGradient id="linearGradient5252-0" osb:paint="solid">
+      <stop style="stop-color:#ddafe9;stop-opacity:1;" offset="0" id="stop5254-66" />
+    </linearGradient>
+    <linearGradient id="linearGradient5252-00" osb:paint="solid">
+      <stop style="stop-color:#ddafe9;stop-opacity:1;" offset="0" id="stop5254-1" />
+    </linearGradient>
+    <linearGradient id="linearGradient5252-4" osb:paint="solid">
+      <stop style="stop-color:#ddafe9;stop-opacity:1;" offset="0" id="stop5254-14" />
+    </linearGradient>
+  </defs>
+  <metadata id="metadata7">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g id="layer1">
+    <g id="layer1-2" transform="matrix(0.21378072,0,0,0.21378072,197.78023,141.20247)">
+      <path style="fill:#ffccaa;stroke:#ff6600;stroke-width:1.74248135;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1" d="m 264.93742,347.32918 525.15228,0 0,-262.786756 -262.78677,0 -262.78676,0 0,262.786756 0,262.78675 262.78676,0 0,-525.116162" id="rect6164" />
+      <path id="path9228" d="m 790.10052,870.94865 0,-522.10544 -261.26207,0 0,261.26206 0,261.26208 261.26207,0 261.26198,0 0,-261.26208 -522.06936,0" style="fill:#ffeeaa;stroke:#ffcc00;stroke-width:1.73237145;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1" />
+      <path id="path9234" d="m 264.93742,872.60773 525.15228,0 0,262.78677 -262.78677,0 -262.78676,0 0,-262.78677 0,-262.78675 262.78676,0 0,525.11622" style="fill:#d7f4e3;stroke:#217844;stroke-width:1.74248135;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1" />
+      <path style="fill:#e3d7f4;stroke:#5a2ca0;stroke-width:1.74248135;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1" d="m 1314.8327,872.60773 -525.15218,0 0,262.78677 262.78668,0 262.7868,0 0,-262.78677 0,-262.78675 -262.7868,0 0,525.11622" id="path9236" />
+    </g>
+  </g>
+</svg>

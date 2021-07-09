@@ -1,0 +1,9 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.center input {
+	font-size:16px;
+}
+svg { display: block; }

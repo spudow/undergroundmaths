@@ -1,0 +1,435 @@
+<!DOCTYPE html><html lang="en-GB" data-ng-app="cmGuide" class="ng-scope"><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style><meta charset="utf-8">
+<link rel="manifest" href="/static/app-manifest/manifest.webmanifest">
+<title data-ng-bind="rootViewModel.title ? rootViewModel.title + ' | Underground Mathematics' : 'How-to guide | Underground Mathematics'" class="ng-binding">How-to guide | Underground Mathematics</title>
+<meta name="description" content="Learn how to make the most of the Underground Mathematics website by reading about our map, stations etc. or watching a walkthrough video.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link rel="stylesheet" href="../static/css/main.min_v%3D2.css">
+
+<script async src="//www.google-analytics.com/analytics.js"></script><link rel="apple-touch-icon" sizes="152x152" href="../static/app-manifest/icon-152.png"><link rel="apple-touch-icon" sizes="120x120" href="../static/app-manifest/icon-120.png"><link rel="apple-touch-icon" sizes="76x76" href="../static/app-manifest/icon-76.png"><link rel="apple-touch-icon" sizes="60x60" href="../static/app-manifest/icon-60.png"><link rel="apple-touch-icon" sizes="57x57" href="../static/app-manifest/icon-57.png"><link rel="apple-touch-icon" sizes="72x72" href="../static/app-manifest/icon-72.png"><link rel="apple-touch-icon" sizes="114x114" href="../static/app-manifest/icon-114.png"><link rel="icon" sizes="128x128" href="../static/app-manifest/icon-128.png"><link rel="icon" sizes="192x192" href="../static/app-manifest/icon-192.png"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="UndergroundMathematics"><meta name="application-name" content="UndergroundMathematics"><meta name="msapplication-TileColor" content="#ffffff"><meta name="msapplication-square70x70logo" content="/static/app-manifest/icon-70.png"><meta name="msapplication-square150x150logo" content="/static/app-manifest/icon-150.png"><meta name="msapplication-wide310x150logo" content="/static/app-manifest/icon-310x150.png"><meta name="msapplication-square310x310logo" content="/static/app-manifest/icon-310.png"><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1px; bottom: 2px; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head>
+<body class="admin-toolbar-open" data-ng-class="{'admin-toolbar-open': rootViewModel.adminData.showTools}"><div id="MathJax_Message" style="display: none;"></div><div class="guide-wrapper ng-scope" data-ng-controller="GuideController"><div class="header" id="header"><div class="header-main"><a class="header-logo" href="../"><span class="icon-logo"></span>
+<span class="header-logo-text"><span>underground</span>
+<span>mathematics</span>
+</span>
+</a>
+<ul><li data-ng-class="{selected: rootViewModel.headerMenuItemSelected == 'Map'}"><a tabindex="0" data-ng-click="toggleHeaderMenuItem('Map')"><span class="icon-map"></span>
+<span class="header-menu-item-text">Map</span>
+</a>
+</li>
+<li data-ng-class="{selected: rootViewModel.headerMenuItemSelected == 'Search'}"><a tabindex="0" data-ng-click="toggleHeaderMenuItem('Search')"><span class="icon-search"></span>
+<span class="header-menu-item-text">Search</span>
+</a>
+</li>
+<li data-ng-class="{selected: rootViewModel.headerMenuItemSelected == 'Browse'}"><a tabindex="0" data-ng-click="toggleHeaderMenuItem('Browse')"><span class="icon-folder-open"></span>
+<span class="header-menu-item-text">Browse</span>
+</a>
+</li>
+<li data-ng-class="{selected: rootViewModel.headerMenuItemSelected == 'User'}"><a tabindex="0" data-ng-click="toggleHeaderMenuItem('User')"><span class="icon-user"></span>
+<span class="header-menu-item-text">User</span>
+</a>
+</li>
+<li data-ng-class="{selected: rootViewModel.headerMenuItemSelected == 'More'}"><a tabindex="0" data-ng-click="toggleHeaderMenuItem('More')"><span class="icon-ellipsis"></span>
+<span class="header-menu-item-text">More</span>
+</a>
+</li>
+</ul>
+</div>
+
+<nav class="header-more-menu ng-hide" data-ng-show="rootViewModel.headerMenuItemSelected == 'More'"><ul><li><a href="../" target="_self">Home</a>
+</li>
+<li><a href target="_self">How-to guide</a>
+</li>
+<li><a href="../hub/" target="_self">Underground hub</a>
+</li>
+<li><a href="../about/" target="_self">About and contact</a>
+</li>
+<li class="menu-divider"></li>
+<li class="header-more-menu-mathematical-classroom"><a href="../mathematical-classroom/" target="_self"><span class="icon-mathematical-classroom"></span>
+Your mathematical classroom</a>
+</li>
+</ul>
+</nav>
+</div>
+
+<div class="guide-overview-wrapper" id="overview"><div class="how-to-item how-to-overview"><h1>How-to guide</h1>
+<div class="how-to-item-media"><video id="how-to-video" controls poster="/static/video/how-to-overview-poster.jpg" preload="none"><source src="../static/video/how-to-overview.mp4" type="video/mp4"></video>
+</div>
+<p>Our resources are organised into topics or stations on a map or tubemap showing the connections between them.</p>
+<p>Watch this video or see the following sections to find out more.</p>
+<ul class="guide-overview-links"><li><a tabindex="0" data-ng-click="scrollToSection('map')">The map</a>
+</li>
+<li><a tabindex="0" data-ng-click="scrollToSection('stations')">Stations</a>
+</li>
+<li><a tabindex="0" data-ng-click="scrollToSection('resources')">Resources</a>
+</li>
+<li><a tabindex="0" data-ng-click="scrollToSection('pervasive-ideas')">Pervasive ideas</a>
+</li>
+<li><a tabindex="0" data-ng-click="scrollToSection('search')">Search</a>
+</li>
+
+<li><a tabindex="0" data-ng-click="scrollToSection('saving-resources')">Saving resources</a>
+</li>
+<li><a tabindex="0" data-ng-click="scrollToSection('more')">Bundles and more</a>
+</li>
+<li><a tabindex="0" data-ng-click="scrollToSection('use')">Use in the classroom</a>
+</li>
+<li><a tabindex="0" data-ng-click="scrollToSection('more-videos')">More how-to videos</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="guide-map-wrapper" id="map"><div class="how-to-item how-to-map"><h2>The map</h2>
+<div class="how-to-item-media"><div class="how-to-image-wrapper"><img src="../static/img/how-to/map.jpg" alt="Map">
+<div class="how-to-map-lines" data-ng-class="{active: viewModel.howToItemHighlighted == 'MapLines' || viewModel.howToItemHighlightedTemp == 'MapLines'}"></div>
+<div class="how-to-map-station" data-ng-class="{active: viewModel.howToItemHighlighted == 'MapStation' || viewModel.howToItemHighlightedTemp == 'MapStation'}"></div>
+</div>
+</div>
+<p>The mathematics has been organised along a system of <a tabindex="0" data-cm-how-to-highlight-toggle="MapLines">tube lines</a>, which reflect big themes that run through mathematics. The tubemap offers a way to navigate to resources for teaching a particular area of mathematics; resources can be accessed by clicking on a <a tabindex="0" data-cm-how-to-highlight-toggle="MapStation">station name</a>. Some stations are still in development and this is indicated by a construction symbol.</p>
+<p>You can access the map at any time by clicking the <a tabindex="0" data-cm-how-to-highlight-toggle="MapButton">Map button</a> in the main menu.</p>
+<div class="how-to-item-media-inline"><div class="how-to-image-wrapper"><img src="../static/img/how-to/main-menu.jpg" alt="Map button">
+<div class="how-to-map-button" data-ng-class="{active: viewModel.howToItemHighlighted == 'MapButton' || viewModel.howToItemHighlightedTemp == 'MapButton'}"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="guide-stations-wrapper" id="stations"><div class="how-to-item how-to-stations"><h2>Stations</h2>
+<div class="how-to-item-media"><div class="how-to-image-wrapper"><img src="../static/img/how-to/stations.jpg" alt="Stations">
+<div class="how-to-stations-main-question" data-ng-class="{active: viewModel.howToItemHighlighted == 'StationMainQuestion' || viewModel.howToItemHighlightedTemp == 'StationMainQuestion'}"></div>
+<div class="how-to-stations-key-questions" data-ng-class="{active: viewModel.howToItemHighlighted == 'StationKeyQuestions' || viewModel.howToItemHighlightedTemp == 'StationKeyQuestions'}"></div>
+<div class="how-to-stations-filter-1" data-ng-class="{active: viewModel.howToItemHighlighted == 'StationFilter' || viewModel.howToItemHighlightedTemp == 'StationFilter'}"></div>
+<div class="how-to-stations-filter-2" data-ng-class="{active: viewModel.howToItemHighlighted == 'StationFilter' || viewModel.howToItemHighlightedTemp == 'StationFilter'}"></div>
+<div class="how-to-stations-headings-1" data-ng-class="{active: viewModel.howToItemHighlighted == 'StationHeadings' || viewModel.howToItemHighlightedTemp == 'StationHeadings'}"></div>
+<div class="how-to-stations-headings-2" data-ng-class="{active: viewModel.howToItemHighlighted == 'StationHeadings' || viewModel.howToItemHighlightedTemp == 'StationHeadings'}"></div>
+</div>
+</div>
+<p>Each station features an <a tabindex="0" data-cm-how-to-highlight-toggle="StationMainQuestion">overarching question</a> that could be used to stimulate curiosity. There are a number of <a tabindex="0" data-cm-how-to-highlight-toggle="StationKeyQuestions">key questions</a> that summarise the ideas that arise in the resources.   You can filter resources by selecting a key question. You can also <a tabindex="0" data-cm-how-to-highlight-toggle="StationFilter">filter resources</a> by tube line, if you wish to choose a resource with a particular emphasis.</p>
+<p>The resources that are available at each station may come under three <a tabindex="0" data-cm-how-to-highlight-toggle="StationHeadings">headings</a>. Resources that introduce new ideas relating to the station are in the “Introducing” section. “Developing” resources may build on these ideas or earlier work. “Review questions” are mostly drawn from past examination questions and have been chosen as ones that are interesting in nature and require non-routine thinking.  </p>
+</div>
+</div>
+<div class="guide-resources-wrapper" id="resources"><div class="how-to-item how-to-resources"><h2>Resources</h2>
+<div class="how-to-item-media"><div class="how-to-image-wrapper"><img src="../static/img/how-to/resources.jpg" alt="Resources">
+<div class="how-to-resources-sections" data-ng-class="{active: viewModel.howToItemHighlighted == 'ResourceSections' || viewModel.howToItemHighlightedTemp == 'ResourceSections'}"></div>
+<div class="how-to-resources-teacher-notes" data-ng-class="{active: viewModel.howToItemHighlighted == 'ResourceTeacherNotes' || viewModel.howToItemHighlightedTemp == 'ResourceTeacherNotes'}"></div>
+</div>
+</div>
+<p>To help you find the resources you are looking for, we have classified them according to <a href="../resource-types/" data-cm-resource-types-toggle>twelve resource types</a>.</p>
+<p>Resources are divided into <a tabindex="0" data-cm-how-to-highlight-toggle="ResourceSections">sections</a>. In some cases this may be a warm-up followed by a larger task, and others may have a problem followed by a suggestion of how to tackle it. Almost all resources contain a solution or a “Things you might have noticed” section. This may help you to think about questions you might ask students, to see areas where students could get stuck, or offer further insight into how you might use the resource in your classroom. Further support is offered in the <a tabindex="0" data-cm-how-to-highlight-toggle="ResourceTeacherNotes">teacher notes</a>. </p>
+</div>
+</div>
+<div class="guide-pervasive-ideas-wrapper" id="pervasive-ideas"><div class="how-to-item how-to-pervasive-ideas"><h2>Pervasive ideas</h2>
+<div class="how-to-item-media"><div class="how-to-image-wrapper"><img src="../static/img/how-to/pervasive-ideas-wheel.jpg" alt="Pervasive ideas wheel">
+<div class="how-to-pervasive-ideas-pervasive-idea" data-ng-class="{active: viewModel.howToItemHighlighted == 'PervasiveIdeaPervasiveIdea' || viewModel.howToItemHighlightedTemp == 'PervasiveIdeaPervasiveIdea'}"></div>
+</div>
+<div class="how-to-image-wrapper"><img src="../static/img/how-to/pervasive-ideas-sidebar.jpg" alt="Pervasive idea in resource sidebar">
+<div class="how-to-pervasive-ideas-sidebar" data-ng-class="{active: viewModel.howToItemHighlighted == 'PervasiveIdeaSidebar' || viewModel.howToItemHighlightedTemp == 'PervasiveIdeaSidebar'}"></div>
+</div>
+</div>
+<p>By clicking on a <a tabindex="0" data-cm-how-to-highlight-toggle="PervasiveIdeaPervasiveIdea">pervasive idea</a> you will find a description of how the idea arises within the resources. If pervasive ideas are highlighted in a resource they appear <a tabindex="0" data-cm-how-to-highlight-toggle="PervasiveIdeaSidebar">in the sidebar</a> (or bottom-bar on a small screen) and in the list of resources at the station (on a wide screen).</p>
+<p><a href="../pervasive-ideas-explanation/" data-cm-pervasive-idea-explanation-toggle>What are pervasive ideas?</a></p>
+</div>
+</div>
+<div class="guide-search-wrapper" id="search"><div class="how-to-item how-to-search"><h2>Search</h2>
+<div class="how-to-item-media"><div class="how-to-image-wrapper"><img src="../static/img/how-to/main-menu.jpg" alt="Search">
+<div class="how-to-search-button" data-ng-class="{active: viewModel.howToItemHighlighted == 'SearchButton' || viewModel.howToItemHighlightedTemp == 'SearchButton'}"></div>
+<div class="how-to-browse-button" data-ng-class="{active: viewModel.howToItemHighlighted == 'BrowseButton' || viewModel.howToItemHighlightedTemp == 'BrowseButton'}"></div>
+</div>
+</div>
+<p>Use the <a tabindex="0" data-cm-how-to-highlight-toggle="SearchButton">Search button</a> in the top menu bar to open the search dialog.</p>
+<p>You can search for resources by title, keywords or text within the resource. Review questions can be searched by question Ref. You can also search for pervasive ideas and mathematical processes such as visualising. </p>
+<p>You can also browse all our material with filtering options by clicking the <a tabindex="0" data-cm-how-to-highlight-toggle="BrowseButton">Browse button</a> in the main menu.</p>
+</div>
+</div>
+
+<div class="guide-saving-resources-wrapper" id="saving-resources"><div class="how-to-item how-to-save-resources"><h2>Saving resources</h2>
+<div class="how-to-item-media"><div class="how-to-image-wrapper how-to-save-resource-img"><img src="../static/img/how-to/save-resource.jpg" alt="Adding a resource to your collection">
+<div class="how-to-save-resource-button" data-ng-class="{active: viewModel.howToItemHighlighted == 'SaveResourceButton' || viewModel.howToItemHighlightedTemp == 'SaveResourceButton'}"></div>
+</div>
+<div class="how-to-image-wrapper how-to-open-resource-collection-img"><img src="../static/img/how-to/open-resource-collection.jpg" alt="Opening your resource collection">
+<div class="how-to-open-resource-collection-button" data-ng-class="{active: viewModel.howToItemHighlighted == 'OpenResourceCollectionButton' || viewModel.howToItemHighlightedTemp == 'OpenResourceCollectionButton'}"></div>
+</div>
+</div>
+<p>You can save a resource for later by adding it to your resource collection. To do this click the <a tabindex="0" data-cm-how-to-highlight-toggle="SaveResourceButton">star</a> next to the resource title. Note you must <a tabindex="0" data-cm-prompt-login-toggle data-ng-class="{disabled: currentUser.isLoggedIn()}">log in</a> or <a tabindex="0" data-cm-prompt-register-toggle data-ng-class="{disabled: currentUser.isLoggedIn()}">register</a> to use this facility. To access your resource collection, click the User button in the top menu bar then <a tabindex="0" data-cm-how-to-highlight-toggle="OpenResourceCollectionButton">Your resource collection</a>.</p>
+<div class="how-to-item-media how-to-subcollections-img"><div class="how-to-image-wrapper"><img src="../static/img/how-to/resource-subcollection.jpg" alt="Creating a subcollection">
+<div class="how-to-add-to-subcollection-button" data-ng-class="{active: viewModel.howToItemHighlighted == 'AddToSubcollectionButton' || viewModel.howToItemHighlightedTemp == 'AddToSubcollectionButton'}"></div>
+<div class="how-to-select-subcollection-button" data-ng-class="{active: viewModel.howToItemHighlighted == 'SelectSubcollectionButton' || viewModel.howToItemHighlightedTemp == 'SelectSubcollectionButton'}"></div>
+<div class="how-to-generate-pdf-from-subcollection-button" data-ng-class="{active: viewModel.howToItemHighlighted == 'GeneratePdfFromSubcollectionButton' || viewModel.howToItemHighlightedTemp == 'GeneratePdfFromSubcollectionButton'}"></div>
+</div>
+</div>
+<p>Within your resource collection, you can organise your resources by creating ordered subcollections. To <a tabindex="0" data-cm-how-to-highlight-toggle="AddToSubcollectionButton">add a resource to a subcollection</a>, click the add to subcollection icon <span class="icon-add-to-group"></span> in your resource collection table. To <a tabindex="0" data-cm-how-to-highlight-toggle="SelectSubcollectionButton">select a subcollection</a>, use the drop-down list above the table. You can also <a tabindex="0" data-cm-how-to-highlight-toggle="GeneratePdfFromSubcollectionButton">generate a PDF</a> of resources from a subcollection, which could be used to generate your own exam from our review questions, for example.</p>
+</div>
+</div>
+<div class="guide-more-wrapper" id="more"><div class="how-to-item how-to-more"><h2>Bundles and more</h2>
+<div class="how-to-item-media"><div class="how-to-image-wrapper how-to-more-img"><img src="../static/img/how-to/more-menu.jpg" alt="The more menu">
+</div>
+</div>
+<p>The <a tabindex="0" data-ng-click="toggleHeaderMenuItem('More')">More menu</a> in the top right contains links to the <a href="../hub/">Underground hub</a>, our <a href="../about/">About and contact page</a> and the <a href="../mathematical-classroom/">Your mathematical classroom</a> section of the site.</p>
+
+<p>Our About page contains a video explaining our philosophy.</p>
+<p>The Your mathematical classroom area of the site is accessible from the More menu and has been coloured purple to distinguish it from the rest of the site, as well as having its own menu once inside this area. It contains support for using our resources in the classroom as well as professional development opportunities. This includes the <a href="../bundles/">Bundles page</a>, which contains small collections of resources that have a particular focus or goal, our <a href="../resources-in-action/">Resources in action page</a>, which provides detailed teacher support for a handful of resources, our <a href="../blog/">blog</a>, <a href="../webinars/">upcoming and recorded webinars</a>, a <a href="../courses/">courses page</a>, and information about our Champions programme.</p>
+</div>
+</div>
+<div class="guide-how-to-use-wrapper" id="use"><div class="guide-how-to-use"><h2>Classroom use</h2>
+<p>The resources have been designed to be used flexibly in the classroom.</p>
+<div class="how-to-use-types"><div><span class="icon-projector"></span>
+<h4>Project</h4>
+<p>For using resources via a projector you can select the fullscreen mode.</p>
+</div>
+<div><span class="icon-print"></span>
+<h4>Print</h4>
+<p>The printable/supporting materials link allows you to print or download the resource or any extras, such as card sorts or worksheets. </p>
+</div>
+<div><span class="icon-tablet"></span>
+<h4>Device</h4>
+<p>Using individual devices will allow students to control the GeoGebra applets which appear in some resources.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="guide-more-videos-wrapper" id="more-videos"><div class="how-to-item how-to-more-videos"><h2>More how-to videos</h2>
+<ul class="how-to-more-videos-list"><li><h4>Fullscreen and zooming in</h4>
+<video class="how-to-more-video" poster="/static/video/how-to/did-you-know-poster.jpg" preload="none" controls><source src="../static/video/how-to/did-you-know-zooming-in.mp4" type="video/mp4">
+</video>
+<p>Watch this short video to find out how to show a resource in fullscreen and zoom in. </p>
+</li>
+<li><h4>Your resource collection</h4>
+<video class="how-to-more-video" poster="/static/video/how-to/did-you-know-poster.jpg" preload="none" controls><source src="../static/video/how-to/did-you-know-resource-collection.mp4" type="video/mp4">
+</video>
+<p>Watch this short video to find out how to add resources to your resource collection including adding notes. </p>
+</li>
+<li><h4>Pervasive ideas</h4>
+<video class="how-to-more-video" poster="/static/video/how-to/did-you-know-poster.jpg" preload="none" controls><source src="../static/video/how-to/did-you-know-pervasive-ideas.mp4" type="video/mp4">
+</video>
+<p>Watch this short video to find out more about our pervasive ideas.</p>
+</li>
+<li><h4>Mechanics</h4>
+<video class="how-to-more-video" poster="/static/video/how-to/did-you-know-poster.jpg" preload="none" controls><source src="../static/video/how-to/did-you-know-a-level-mechanics.mp4" type="video/mp4">
+</video>
+<p>Watch this short video to find out how to find mechanics resources.</p>
+</li>
+<li><h4>Browse review questions</h4>
+<video class="how-to-more-video" poster="/static/video/how-to/did-you-know-poster.jpg" preload="none" controls><source src="../static/video/how-to/did-you-know-browse-rqs.mp4" type="video/mp4">
+</video>
+<p>Watch this short video to find out how to browse review questions by type.</p>
+</li>
+<li><h4>Bundles</h4>
+<video class="how-to-more-video" poster="/static/video/how-to/did-you-know-poster.jpg" preload="none" controls><source src="../static/video/how-to/did-you-know-bundles.mp4" type="video/mp4">
+</video>
+<p>Watch this short video to find out more about our bundles of resources.</p>
+</li>
+<li><h4>Resources in action</h4>
+<video class="how-to-more-video" poster="/static/video/how-to/did-you-know-poster.jpg" preload="none" controls><source src="../static/video/how-to/did-you-know-resources-in-action.mp4" type="video/mp4">
+</video>
+<p>Watch this short video to find out more about our resources in action pages.</p>
+</li>
+<li><h4>New A level</h4>
+<video class="how-to-more-video" poster="/static/video/how-to/did-you-know-poster.jpg" preload="none" controls><source src="../static/video/how-to/did-you-know-new-a-level.mp4" type="video/mp4">
+</video>
+<p>Watch this short video to find out more about how to use our resources to support the new A level.</p>
+</li>
+<li><h4>Interactive card sorts</h4>
+<video class="how-to-more-video" poster="/static/video/how-to/did-you-know-poster.jpg" preload="none" controls><source src="../static/video/how-to/did-you-know-card-sorts.mp4" type="video/mp4">
+</video>
+<p>Watch this short video to find out more about our interactive card sort activities.</p>
+</li>
+<li><h4>Resource descriptions</h4>
+<video class="how-to-more-video" poster="/static/video/how-to/did-you-know-poster.jpg" preload="none" controls><source src="../static/video/how-to/did-you-know-resource-descriptions.mp4" type="video/mp4">
+</video>
+<p>Watch this short video to find out how to use resource descriptions to quickly find the one you want.</p>
+</li>
+<li><h4>Teacher notes</h4>
+<video class="how-to-more-video" poster="/static/video/how-to/did-you-know-poster.jpg" preload="none" controls><source src="../static/video/how-to/did-you-know-teacher-notes.mp4" type="video/mp4">
+</video>
+<p>Watch this short video to find out more about the support we offer teachers at each resource. </p>
+</li>
+<li><h4>Looking forward and back</h4>
+<video class="how-to-more-video" poster="/static/video/how-to/did-you-know-poster.jpg" preload="none" controls><source src="../static/video/how-to/did-you-know-look-forward-and-back.mp4" type="video/mp4">
+</video>
+<p>Watch this short video to find out how to see related resources from within a resource. </p>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer"><div class="footer-top"><div class="footer-contact"><a href="mailto:info@undergroundmathematics.org"><span class="icon-email"></span>
+<span class="sr-only">Email</span>
+</a>
+<a href="https://twitter.com/UndergroundMath" target="_blank"><span class="icon-twitter"></span>
+<span class="sr-only">Twitter</span>
+</a>
+</div>
+<div class="footer-policies"><a href="../terms/" target="_self">Terms</a>
+<span class="text-divider"></span>
+<a href="../cookie-policy/" target="_self">Cookies</a>
+<span class="text-divider"></span>
+<a href="../privacy-policy/" target="_self">Privacy</a>
+</div>
+</div>
+<div class="footer-middle"><a class="footer-logo" href="../"><span class="icon-logo"></span>
+<span class="footer-title"><span>underground</span>
+<span>mathematics</span>
+</span>
+</a>
+<div class="footer-strapline">Rich resources for teaching A level mathematics</div>
+<small>Copyright © and Database Right 2013-2021 University of Cambridge <br>
+<a href="../terms/#copyright">All rights reserved</a>
+</small>
+</div>
+<div class="footer-bottom"><div class="footer-cambridge"><img src="../static/img/cambridge-logo-white.png" alt="University of Cambridge logo">
+</div>
+<div class="footer-dfe"><img src="../static/img/dfe-logo-white.png" alt="Department for Education logo">
+</div>
+</div>
+</div>
+</div>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/js-cookie/2.1.1/js.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.devbridge-autocomplete/1.2.24/jquery.autocomplete.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-resource.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-sanitize.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/markdown-it/8.3.1/markdown-it.min.js"></script>
+<script src="../static/js/main.min.js"></script>
+<script type="text/x-mathjax-config;executed=true">MathJax.Hub.Config({skipStartupTypeset: true,
+TeX: { equationNumbers: { autoNumber: "AMS" },
+Macros: {Var: "\\mathrm{Var}",
+cosec: "\\mathop{\\rm cosec}\\nolimits",
+sech: "\\mathop{\\rm sech}\\nolimits",
+cosech: "\\mathop{\\rm cosech}\\nolimits",
+arsinh: "\\mathop{\\rm arsinh}\\nolimits",
+arcosh: "\\mathop{\\rm arcosh}\\nolimits",
+artanh: "\\mathop{\\rm artanh}\\nolimits",
+arccot: "\\mathop{\\rm arccot}\\nolimits",
+arcsec: "\\mathop{\\rm arcsec}\\nolimits",
+arccosec: "\\mathop{\\rm arccosec}\\nolimits",
+quantity: ["{#1}\\,\\mathrm{#2}", 2],
+cmlongdiv: ["\\enclose{longdiv}{#1}", 1],
+cmlongdivbr: ["\\\\[-3pt]"],
+cmarraystretch: ["{}", 1]}},
+"HTML-CSS": {linebreaks: {automatic: true,
+width: "57%"},
+mtextFontInherit: true,
+preferredFont: "STIX",
+webFont: "STIX-Web",
+imageFont:null,
+minScaleAdjust: 100},
+"SVG": {linebreaks: {automatic: true,
+width: "57%"},
+mtextFontInherit: true,
+font: "STIX-Web",
+minScaleAdjust: 100},
+tex2jax: {displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+processEscapes: true}});
+MathJax.Hub.Register.StartupHook("TeX AMSsymbols Ready",function () { MathJax.InputJax.TeX.Definitions.mathchar0mi.square = ["25FB",{mathvariant:"normal"}];});
+MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {MathJax.Hub.Insert(MathJax.InputJax.TeX.Definitions.macros,{cancel: ["Extension","cancel"],
+bcancel: ["Extension","cancel"],
+xcancel: ["Extension","cancel"],
+cancelto: ["Extension","cancel"],
+enclose: ["Extension","enclose"]});});</script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script src="../static/js/lib/manup/manup.min.js"></script>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-50571661-2', 'auto');</script>
+<script src="../static/js/public/guide.min.js"></script><script>var spaSetup = {"accountSettings":{"imminentPasswordExpiryHours":168,"invalidPasswordMessage":"Your password must contain at least 1 upper case letter, 1 lower case letter, 1 digit and be at least 8 characters long.","verificationExpiryHours":48,"passwordResetExpiryHours":48},"appSettings":{"disableLogins":false,"webmasterEmail":"info@undergroundmathematics.org","disabledLoginMessage":null,"webmasterName":"Underground Mathematics "},"contactSettings":{"linkedInPage":"underground-mathematics","googlePlusPage":"107933654652080928819","webmasterEmail":"info@undergroundmathematics.org","adminPhone":"+44 1223 554 985","twitterUsername":"UndergroundMath","facebookPage":"UndergroundMathematics","adminEmail":"info@undergroundmathematics.org"},"currentUser":{}};</script>
+
+
+<div class="autocomplete-suggestions" style="position: absolute; display: none; max-height: 300px; z-index: 9999;"></div></body></html>

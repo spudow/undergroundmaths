@@ -1,0 +1,578 @@
+<?xml version='1.0' ?><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" id="svg2" version="1.1" width="275.96963" height="256.07985" viewBox="88.82631188566002 1817.3135134432755 636.8103382749769 590.9139201436961" preserveAspectRatio="none">
+  <metadata id="metadata692">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs id="defs690">
+    <clipPath id="clip1">
+      <path d="m 0,0 0,509 574,0 0,-509 z" id="path9" />
+    </clipPath>
+    <clipPath id="clip2">
+      <path d="m 0,0 0,509 574,0 0,-509 z" id="path18" />
+    </clipPath>
+    <clipPath id="clip3">
+      <path d="m 0,0 0,509 574,0 0,-509 z" id="path27" />
+    </clipPath>
+    <clipPath id="clip4">
+      <path d="m 0,0 0,509 574,0 0,-509 z" id="path36" />
+    </clipPath>
+    <clipPath id="clip5">
+      <path d="m 0,0 0,509 574,0 0,-509 z" id="path45" />
+    </clipPath>
+    <clipPath id="clip6">
+      <path d="m 0,0 0,509 574,0 0,-509 z" id="path54" />
+    </clipPath>
+    <clipPath id="clip7">
+      <path d="m 0,0 0,509 574,0 0,-509 z" id="path63" />
+    </clipPath>
+    <clipPath id="clip8">
+      <path d="m 0,0 0,509 574,0 0,-509 z" id="path72" />
+    </clipPath>
+    <clipPath id="clip9">
+      <path id="path83" d="m 0,0 0,509 574,0 0,-509 z" />
+    </clipPath>
+    <clipPath id="clip10">
+      <path id="path96" d="m 0,0 0,509 574,0 0,-509 z" />
+    </clipPath>
+    <clipPath id="clip12">
+      <path id="path122" d="m 0,0 0,509 574,0 0,-509 z" />
+    </clipPath>
+    <clipPath id="clip13">
+      <path id="path135" d="m 0,0 0,509 574,0 0,-509 z" />
+    </clipPath>
+    <clipPath id="clip15">
+      <path id="path163" d="m 0,0 0,509 574,0 0,-509 z" />
+    </clipPath>
+    <clipPath id="clip16">
+      <path id="path176" d="m 0,0 0,509 574,0 0,-509 z" />
+    </clipPath>
+    <clipPath id="clip17">
+      <path id="path189" d="m 0,0 0,509 574,0 0,-509 z" />
+    </clipPath>
+    <clipPath id="clip18">
+      <path id="path202" d="m 0,0 0,509 574,0 0,-509 z" />
+    </clipPath>
+    <clipPath id="clip19">
+      <path id="path215" d="m 0,0 0,509 574,0 0,-509 z" />
+    </clipPath>
+    <clipPath id="clip20">
+      <path id="path228" d="m 0,0 0,509 574,0 0,-509 z" />
+    </clipPath>
+    <clipPath id="clip22">
+      <path id="path256" d="m 0,0 0,509 574,0 0,-509 z" />
+    </clipPath>
+    <clipPath id="clip23">
+      <path id="path269" d="m 0,0 0,509 574,0 0,-509 z" />
+    </clipPath>
+    <clipPath id="clip24">
+      <path id="path282" d="m 0,0 0,509 574,0 0,-509 z" />
+    </clipPath>
+    <clipPath id="clip25">
+      <path id="path295" d="m 0,0 0,509 574,0 0,-509 z" />
+    </clipPath>
+    <clipPath id="clip26">
+      <path id="path308" d="m 0,0 0,509 574,0 0,-509 z" />
+    </clipPath>
+    <clipPath id="clip27">
+      <path id="path321" d="m 0,0 0,509 574,0 0,-509 z" />
+    </clipPath>
+    <clipPath id="clip28">
+      <path id="path334" d="m 0,0 0,509 574,0 0,-509 z" />
+    </clipPath>
+    <clipPath id="clip29">
+      <path id="path347" d="m 0,0 0,509 574,0 0,-509 z" />
+    </clipPath>
+    <clipPath id="clip30">
+      <path id="path360" d="m 0,0 0,509 574,0 0,-509 z" />
+    </clipPath>
+    <clipPath id="clip31">
+      <path id="path373" d="m 0,0 0,509 574,0 0,-509 z" />
+    </clipPath>
+    <clipPath id="clip33">
+      <path id="path401" d="m 0,0 0,509 574,0 0,-509 z" />
+    </clipPath>
+    <clipPath id="clip34">
+      <path id="path414" d="m 0,0 0,509 574,0 0,-509 z" />
+    </clipPath>
+    <clipPath id="clip36">
+      <path id="path442" d="m 0,0 0,509 574,0 0,-509 z" />
+    </clipPath>
+    <clipPath id="clip37">
+      <path id="path455" d="m 0,0 0,509 574,0 0,-509 z" />
+    </clipPath>
+    <clipPath id="clip50">
+      <path id="path648" d="m 0,0 0,509 574,0 0,-509 z" />
+    </clipPath>
+  </defs>
+  <title id="title4" />
+  <g transform="matrix(1.2,0,0,1.2,0,1816.0228)" id="misc" style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" />
+  <g transform="matrix(1.6409213,0,0,1.6409213,426.80151,1533.5484)" id="misc-8" style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" />
+  <g id="g3699">
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" id="g11" clip-path="url(#clip1)" transform="matrix(1.2,0,0,1.1606995,0,1816.1407)">
+      <g style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-opacity:1" id="g13">
+        <path id="path15" d="m 276.49,3 0,506" />
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" id="g20" clip-path="url(#clip2)" transform="matrix(1.2,0,0,1.2,0,1816.0228)">
+      <g style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" id="g22">
+        <path id="path24" d="m 276.49,2 -5,20 10,0" />
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" id="g29" clip-path="url(#clip3)" transform="matrix(1.0633969,0,0,1.2,88.82631,1816.0228)">
+      <g style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-opacity:1" id="g31">
+        <path id="path33" d="m 0,259.93 571,0" />
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" id="g38" clip-path="url(#clip4)" transform="matrix(1.2,0,0,1.2,23.075376,1816.0228)">
+      <g style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" id="g40">
+        <path id="path42" d="m 572,259.93 -20,-5 0,10" />
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" id="g47" clip-path="url(#clip5)" transform="matrix(1.2,0,0,1.2,0,1816.0228)">
+      <g style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-opacity:1" id="g49">
+        <path id="path51" d="m 104.19,259.93 0,3" />
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" id="g56" clip-path="url(#clip6)" transform="matrix(1.2,0,0,1.2,0,1816.0228)">
+      <g style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-opacity:1" id="g58">
+        <path id="path60" d="m 448.79,259.93 0,3" />
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" id="g65" clip-path="url(#clip7)" transform="matrix(1.2,0,0,1.2,0,1816.0228)">
+      <g style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-opacity:1" id="g67">
+        <path id="path69" d="m 273.49,432.23 3,0" />
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" id="g74" clip-path="url(#clip8)" transform="matrix(1.2,0,0,1.2,0,1816.0228)">
+      <g style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-opacity:1" id="g76">
+        <path id="path78" d="m 273.49,87.633 3,0" />
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" clip-path="url(#clip9)" id="g85" transform="matrix(1.2,0,0,1.2,0,1816.0228)">
+      <g id="g87" style="fill:#2b83ba;fill-opacity:0.09803898;fill-rule:evenodd;stroke:none">
+        <path d="m 276.49,259.93 145.29,0 0,-92.61 z" id="path89" />
+        <title id="title91">Triangle poly1</title>
+        <desc id="desc93">Triangle poly1: Polygon A, D, C</desc>
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" clip-path="url(#clip10)" id="g98" transform="matrix(1.2,0,0,1.2,0,1816.0228)">
+      <g id="g100" style="fill:#d7191c;fill-opacity:0.09803898;fill-rule:evenodd;stroke:none">
+        <path d="m 329.17,22.027 92.61,0 0,145.293 z" id="path102" />
+        <title id="title104">Triangle poly4</title>
+        <desc id="desc106">Triangle poly4: Polygon A&#39;, G, C</desc>
+      </g>
+    </g>
+    <g style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" id="g113" transform="matrix(1.2,0,0,1.2,0,1816.0228)">
+      <path id="path115" d="m 448.79,259.93 c 0,95.16 -77.14,172.3 -172.3,172.3 -95.16,0 -172.3,-77.14 -172.3,-172.3 0,-95.16 77.14,-172.297 172.3,-172.297 95.16,0 172.3,77.137 172.3,172.297 z" />
+      <title id="title117">Circle c</title>
+      <desc id="desc119">Circle c: Circle through B with center A</desc>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" clip-path="url(#clip12)" id="g124" transform="matrix(1.2,0,0,1.2,0,1816.0228)">
+      <g id="g126" style="fill:#2b83ba;fill-opacity:0.09803898;fill-rule:nonzero;stroke:none">
+        <path d="m 306.49,259.93 c 0,-5.71 -1.63,-11.31 -4.7,-16.12 l -25.3,16.12 z" id="path128" />
+        <title id="title130">Angle Ã&#131;Â&#142;Ã&#130;Â³</title>
+        <desc id="desc132">Angle Ã&#131;Â&#142;Ã&#130;Â³: Angle between B, A, C</desc>
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" clip-path="url(#clip13)" id="g137" transform="matrix(1.2,0,0,1.2,0,1816.0228)">
+      <g id="g139" style="fill:none;stroke:#2b83ba;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path d="m 306.49,259.93 c 0,-5.71 -1.63,-11.31 -4.7,-16.12 l -25.3,16.12 z" id="path141" />
+        <title id="title143">Angle Ã&#131;Â&#142;Ã&#130;Â³</title>
+        <desc id="desc145">Angle Ã&#131;Â&#142;Ã&#130;Â³: Angle between B, A, C</desc>
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" transform="matrix(37.8,0,0,37.8,380.20312,2120.5299)" id="g147">
+      <clipPath id="clip14">
+        <path d="m -15.095,-12.091 0,24.238 27.333,0 0,-24.238 z" id="path150" />
+      </clipPath>
+      <g clip-path="url(#clip14)" id="g152">
+        <g id="g154" style="fill:#2b83ba;fill-opacity:1;fill-rule:nonzero;stroke:none">
+          <path d="M 0.20312,-0.40625 0.125,-0.10938 q 0,0.031255 0,0.04688 0,0.046875 0.03125,0.046875 0.0625,0 0.10937,-0.093755 l 0.01563,-0.03124 q 0.01563,-0.01563 0.01563,-0.01563 0.01562,0 0.01562,0.01563 0,0.01562 -0.03125,0.04687 -0.04687,0.109375 -0.125,0.109375 -0.0625,0 -0.078125,-0.046875 Q 0.0625,-0.0625 0.0625,-0.078125 q 0,-0.015625 0.0625,-0.265625 l 0.01562,-0.0625 -0.093745,0 q -0.015625,0 -0.015625,0 l -0.015625,0 0,0 q 0,-0.01563 0.015625,-0.03125 l 0.015625,0 0.093745,0 0.04688,-0.15625 q 0,-0.03125 0.03125,-0.03125 0.03125,0 0.03125,0.03125 0,0 -0.03125,0.15625 l 0.07813,0 q 0.03124,0 0.03124,0.01562 0,0.01563 -0.01562,0.01563 l 0,0 -0.01562,0 -0.09376,0 z" id="path156" />
+          <title id="title158">Angle Ã&#131;Â&#142;Ã&#130;Â³</title>
+          <desc id="desc160">Angle Ã&#131;Â&#142;Ã&#130;Â³: Angle between B, A, C</desc>
+        </g>
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" clip-path="url(#clip15)" id="g165" transform="matrix(1.2,0,0,1.2,0,1816.0228)">
+      <g id="g167" style="fill:#2b83ba;fill-opacity:0.09803898;fill-rule:evenodd;stroke:none">
+        <path d="m 421.78,259.93 0,-21.21 -21.21,0 0,21.21 21.21,0" id="path169" />
+        <title id="title171">Angle Ã&#131;Â&#142;Ã&#130;Âµ</title>
+        <desc id="desc173">Angle Ã&#131;Â&#142;Ã&#130;Âµ: Angle between C, D, A</desc>
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" clip-path="url(#clip16)" id="g178" transform="matrix(1.2,0,0,1.2,0,1816.0228)">
+      <g id="g180" style="fill:none;stroke:#2b83ba;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path d="m 421.78,259.93 0,-21.21 -21.21,0 0,21.21 21.21,0" id="path182" />
+        <title id="title184">Angle Ã&#131;Â&#142;Ã&#130;Âµ</title>
+        <desc id="desc186">Angle Ã&#131;Â&#142;Ã&#130;Âµ: Angle between C, D, A</desc>
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" clip-path="url(#clip17)" id="g191" transform="matrix(1.2,0,0,1.2,0,1816.0228)">
+      <g id="g193" style="fill:#d7191c;fill-opacity:0.09803898;fill-rule:evenodd;stroke:none">
+        <path d="m 421.78,22.027 -21.21,0 0,21.213 21.21,0 0,-21.213" id="path195" />
+        <title id="title197">Angle Ã&#131;Â&#142;Ã&#130;Â¸</title>
+        <desc id="desc199">Angle Ã&#131;Â&#142;Ã&#130;Â¸: Angle between A&#39;, G, C</desc>
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" clip-path="url(#clip18)" id="g204" transform="matrix(1.2,0,0,1.2,0,1816.0228)">
+      <g id="g206" style="fill:none;stroke:#d7191c;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path d="m 421.78,22.027 -21.21,0 0,21.213 21.21,0 0,-21.213" id="path208" />
+        <title id="title210">Angle Ã&#131;Â&#142;Ã&#130;Â¸</title>
+        <desc id="desc212">Angle Ã&#131;Â&#142;Ã&#130;Â¸: Angle between A&#39;, G, C</desc>
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" clip-path="url(#clip19)" id="g217" transform="matrix(1.2,0,0,1.2,0,1816.0228)">
+      <g id="g219" style="fill:#d7191c;fill-opacity:0.09803898;fill-rule:nonzero;stroke:none">
+        <path d="m 421.78,137.32 c -5.71,0 -11.3,1.63 -16.12,4.7 l 16.12,25.3 z" id="path221" />
+        <title id="title223">Angle Ã&#131;Â&#142;Ã&#130;Â¹</title>
+        <desc id="desc225">Angle Ã&#131;Â&#142;Ã&#130;Â¹: Angle between G, C, A&#39;</desc>
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" clip-path="url(#clip20)" id="g230" transform="matrix(1.2,0,0,1.2,0,1816.0228)">
+      <g id="g232" style="fill:none;stroke:#d7191c;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path d="m 421.78,137.32 c -5.71,0 -11.3,1.63 -16.12,4.7 l 16.12,25.3 z" id="path234" />
+        <title id="title236">Angle Ã&#131;Â&#142;Ã&#130;Â¹</title>
+        <desc id="desc238">Angle Ã&#131;Â&#142;Ã&#130;Â¹: Angle between G, C, A&#39;</desc>
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" transform="matrix(37.8,0,0,37.8,489.40312,1971.7299)" id="g240">
+      <clipPath id="clip21">
+        <path d="m -19.429,-6.1865 0,24.2385 27.3338,0 0,-24.2385 z" id="path243" />
+      </clipPath>
+      <g clip-path="url(#clip21)" id="g245">
+        <g id="g247" style="fill:#d7191c;fill-opacity:1;fill-rule:nonzero;stroke:none">
+          <path d="M 0.20312,-0.40625 0.125,-0.10938 q 0,0.031255 0,0.04688 0,0.046875 0.03125,0.046875 0.0625,0 0.10937,-0.093755 l 0.01563,-0.03124 q 0.01563,-0.01563 0.01563,-0.01563 0.01562,0 0.01562,0.01563 0,0.01562 -0.03125,0.04687 -0.04687,0.109375 -0.125,0.109375 -0.0625,0 -0.078125,-0.046875 Q 0.0625,-0.0625 0.0625,-0.078125 q 0,-0.015625 0.0625,-0.265625 l 0.01562,-0.0625 -0.093745,0 q -0.015625,0 -0.015625,0 l -0.015625,0 0,0 q 0,-0.01563 0.015625,-0.03125 l 0.015625,0 0.093745,0 0.04688,-0.15625 q 0,-0.03125 0.03125,-0.03125 0.03125,0 0.03125,0.03125 0,0 -0.03125,0.15625 l 0.07813,0 q 0.03124,0 0.03124,0.01562 0,0.01563 -0.01562,0.01563 l 0,0 -0.01562,0 -0.09376,0 z" id="path249" />
+          <title id="title251">Angle Ã&#131;Â&#142;Ã&#130;Â¹</title>
+          <desc id="desc253">Angle Ã&#131;Â&#142;Ã&#130;Â¹: Angle between G, C, A&#39;</desc>
+        </g>
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" clip-path="url(#clip22)" id="g258" transform="matrix(1.2,0,0,1.2,0,1816.0228)">
+      <g id="g260" style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:9.5, 8">
+        <path d="M 579,413.96 311.94,-5" id="path262" />
+        <title id="title264">Line b</title>
+        <desc id="desc266">Line b: Tangent to c through C</desc>
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" clip-path="url(#clip23)" id="g271" transform="matrix(1.2,0,0,1.2,0,1816.0228)">
+      <g id="g273" style="fill:none;stroke:#2b83ba;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path d="M 276.49,259.93 421.78,167.32" id="path275" />
+        <title id="title277">Segment a</title>
+        <desc id="desc279">Segment a: Segment [A, C]</desc>
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" clip-path="url(#clip24)" id="g284" transform="matrix(1.2,0,0,1.2,0,1816.0228)">
+      <g id="g286" style="fill:none;stroke:#2b83ba;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path d="m 276.49,259.93 145.29,0" id="path288" />
+        <title id="title290">Segment c_1</title>
+        <desc id="desc292">Segment c_1: Segment [A, D] of Triangle poly1</desc>
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" clip-path="url(#clip25)" id="g297" transform="matrix(1.2,0,0,1.2,0,1816.0228)">
+      <g id="g299" style="fill:none;stroke:#2b83ba;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path d="m 421.78,259.93 0,-92.61" id="path301" />
+        <title id="title303">Segment a_1</title>
+        <desc id="desc305">Segment a_1: Segment [D, C] of Triangle poly1</desc>
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" clip-path="url(#clip26)" id="g310" transform="matrix(1.2,0,0,1.2,0,1816.0228)">
+      <g id="g312" style="fill:none;stroke:#2b83ba;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path d="M 421.78,167.32 276.49,259.93" id="path314" />
+        <title id="title316">Segment d_1</title>
+        <desc id="desc318">Segment d_1: Segment [C, A] of Triangle poly1</desc>
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" clip-path="url(#clip27)" id="g323" transform="matrix(1.2,0,0,1.2,0,1816.0228)">
+      <g id="g325" style="fill:none;stroke:#d7191c;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path d="m 329.17,22.027 92.61,0" id="path327" />
+        <title id="title329">Segment c_3</title>
+        <desc id="desc331">Segment c_3: Segment [A&#39;, G] of Triangle poly4</desc>
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" clip-path="url(#clip28)" id="g336" transform="matrix(1.2,0,0,1.2,0,1816.0228)">
+      <g id="g338" style="fill:none;stroke:#d7191c;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path d="m 421.78,22.027 0,145.293" id="path340" />
+        <title id="title342">Segment a&#39;</title>
+        <desc id="desc344">Segment a&#39;: Segment [G, C] of Triangle poly4</desc>
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" clip-path="url(#clip29)" id="g349" transform="matrix(1.2,0,0,1.2,0,1816.0228)">
+      <g id="g351" style="fill:none;stroke:#d7191c;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path d="M 421.78,167.32 329.17,22.027" id="path353" />
+        <title id="title355">Segment g_1</title>
+        <desc id="desc357">Segment g_1: Segment [C, A&#39;] of Triangle poly4</desc>
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" clip-path="url(#clip30)" id="g362" transform="matrix(1.2,0,0,1.2,0,1816.0228)">
+      <g id="g364" style="fill:none;stroke:#d7191c;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path d="M 421.78,167.32 338.31,36.363" id="path366" />
+        <title id="title368">Vector u</title>
+        <desc id="desc370">Vector u: Vector[C, A&#39;]</desc>
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" clip-path="url(#clip31)" id="g375" transform="matrix(1.2,0,0,1.2,0,1816.0228)">
+      <g id="g377" style="fill:#d7191c;fill-opacity:1;fill-rule:evenodd;stroke:none">
+        <path d="m 329.17,22.027 12.72,12.051 -7.17,4.569 z" id="path379" />
+        <title id="title381">Vector u</title>
+        <desc id="desc383">Vector u: Vector[C, A&#39;]</desc>
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" transform="matrix(37.8,0,0,37.8,448.40625,1912.4224)" id="g385">
+      <clipPath id="clip32">
+        <path d="m -17.81,-3.8254 0,24.2384 27.3338,0 0,-24.2384 z" id="path388" />
+      </clipPath>
+      <g clip-path="url(#clip32)" id="g390">
+        <g id="g392" style="fill:#d7191c;fill-opacity:1;fill-rule:nonzero;stroke:none">
+          <path d="M 0.5,-0.375 0.34375,-0.015625 Q 0.32812,0 0.30469,0 0.28125,0 0.26562,-0.015625 l -0.17187,-0.374995 -0.0625,0 0,-0.04688 q 0,0 0.046875,0 0.046875,0 0.062495,0 0.07813,0 0.125,0 l 0,0.04688 -0.0625,0 0.14063,0.26562 0.10937,-0.25 q 0,-0.01562 0,-0.01562 0,0 -0.04687,0 l 0,-0.04688 q 0.0625,0 0.09375,0 0.04688,0 0.07812,0 l 0,0.04688 q -0.04687,0 -0.05468,0 -0.00782,0 -0.02344,0.01562 z" id="path394" />
+          <title id="title396">Vector u</title>
+          <desc id="desc398">Vector u: Vector[C, A&#39;]</desc>
+        </g>
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" clip-path="url(#clip33)" id="g403" transform="matrix(1.2,0,0,1.2,0,1816.0228)">
+      <g id="g405" style="fill:#2b83ba;fill-opacity:1;fill-rule:nonzero;stroke:none">
+        <path d="m 277.49,259.93 c 0,0.55 -0.45,1 -1,1 -0.55,0 -1,-0.45 -1,-1 0,-0.55 0.45,-1 1,-1 0.55,0 1,0.45 1,1 z" id="path407" />
+        <title id="title409">Point A</title>
+        <desc id="desc411">Point A: Point on yAxis</desc>
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" clip-path="url(#clip34)" id="g416" transform="matrix(1.2,0,0,1.2,0,1816.0228)">
+      <g id="g418" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path d="m 277.49,259.93 c 0,0.55 -0.45,1 -1,1 -0.55,0 -1,-0.45 -1,-1 0,-0.55 0.45,-1 1,-1 0.55,0 1,0.45 1,1 z" id="path420" />
+        <title id="title422">Point A</title>
+        <desc id="desc424">Point A: Point on yAxis</desc>
+      </g>
+    </g>
+    <g style="fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" transform="matrix(37.8,0,0,37.8,299.5943,2161.661)" id="g426">
+      <clipPath id="clip35">
+        <path d="m -12.095,-13.54 0,24.238 27.333,0 0,-24.238 z" id="path429" />
+      </clipPath>
+      <g clip-path="url(#clip35)" id="g431" style="fill:#000000;fill-opacity:1">
+        <g id="g433" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none">
+          <path d="m 0.73438,-0.4375 0,0 q 0,0.15625 -0.10938,0.28125 -0.09375,0.125 -0.23438,0.171875 -0.04687,0 -0.07812,0 -0.125,0 -0.20312,-0.078125 -0.062505,-0.07812 -0.062505,-0.1875 0,-0.14062 0.109375,-0.28125 0.09375,-0.125 0.23437,-0.15625 0.04688,-0.01562 0.09376,-0.01562 0.125,0 0.20312,0.09374 0.04688,0.0625 0.04688,0.17188 z M 0.3125,0 l 0,0 Q 0.40625,0 0.48438,-0.09375 0.51562,-0.10938 0.53125,-0.125 0.625,-0.25 0.64062,-0.42188 q 0.01563,-0.03124 0.01563,-0.04687 0,-0.14063 -0.09375,-0.1875 0,0 0,0 -0.04688,-0.03125 -0.07812,-0.03125 -0.09376,0 -0.1875,0.09375 -0.03126,0.03125 -0.0625,0.0625 -0.07813,0.125 -0.09376,0.28125 0,0.01562 0,0.03125 0,0.125 0.07813,0.1875 Q 0.26562,0 0.3125,0 z" id="path435" style="fill:#000000;fill-opacity:1" />
+          <title id="title437">Point A</title>
+          <desc id="desc439">Point A: Point on yAxis</desc>
+        </g>
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" clip-path="url(#clip36)" id="g444" transform="matrix(1.2,0,0,1.2,0,1816.0228)">
+      <g id="g446" style="fill:#2b83ba;fill-opacity:1;fill-rule:nonzero;stroke:none">
+        <path d="m 424.78,167.32 c 0,1.66 -1.34,3 -3,3 -1.65,0 -3,-1.34 -3,-3 0,-1.66 1.35,-3 3,-3 1.66,0 3,1.34 3,3 z" id="path448" />
+        <title id="title450">Point C</title>
+        <desc id="desc452">Point C: Point on c</desc>
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" clip-path="url(#clip37)" id="g457" transform="matrix(1.2,0,0,1.2,0,1816.0228)">
+      <g id="g459" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path d="m 424.78,167.32 c 0,1.66 -1.34,3 -3,3 -1.65,0 -3,-1.34 -3,-3 0,-1.66 1.35,-3 3,-3 1.66,0 3,1.34 3,3 z" id="path461" />
+        <title id="title463">Point C</title>
+        <desc id="desc465">Point C: Point on c</desc>
+      </g>
+    </g>
+    <g id="g4361" transform="matrix(1.5,0,0,1.5,-260.99062,-1013.6114)">
+      <g id="g467" transform="matrix(25.2,0,0,25.2,520.8,2020.9228)" style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <clipPath id="clip38">
+          <path id="path470" d="m -20.667,-8.131 0,24.238 27.3337,0 0,-24.238 z" />
+        </clipPath>
+        <g id="g472" clip-path="url(#clip38)">
+          <g style="fill:#2b83ba;fill-opacity:1;fill-rule:nonzero;stroke:none" id="g474">
+            <path id="path476" d="m 0.29688,-0.3125 0,0 -0.0625,0.25 0,0.015625 q 0,0.015625 0.04687,0.015625 l 0,0 0,0 0.01563,0 q 0.03124,0 0.03124,0.015625 Q 0.32812,0 0.3125,0 L 0.25,0 l 0,0 -0.0625,0 0,0 -0.125,0 0,0 q -0.015625,0 -0.015625,-0.015625 0,-0.015625 0.015625,-0.015625 l 0,0 q 0.07812,0 0.07812,-0.015625 0.01563,0 0.01563,-0.03125 0,0 0,0 L 0.29688,-0.60938 q 0,-0.01562 0,-0.03124 0,0 -0.01563,-0.01563 l 0,0 0,0 q 0,0 0,0 -0.03125,0 -0.04687,0 -0.03126,0 -0.03126,0 0,0 0,0 0,-0.03125 0.01563,-0.03125 l 0,0 0.01563,0 0.32812,0 q 0.10938,0 0.17188,0.07812 0.01562,0.03126 0.01562,0.07813 0,0.07813 -0.07812,0.14063 -0.09376,0.07812 -0.20313,0.07812 l -0.17187,0 z m 0.07812,-0.29688 -0.0625,0.26563 0.14062,0 q 0.09376,0 0.15626,-0.04687 0.03124,-0.04688 0.04687,-0.125 l 0,0 q 0,-0.03126 0,-0.04688 0,-0.09375 -0.125,-0.09375 l -0.10937,0 q -0.03126,0 -0.03126,0.01563 l 0,0 0,0 0,0 0,0 q -0.01562,0 -0.01562,0.03124 z" />
+            <title id="title478">Point C</title>
+            <desc id="desc480">Point C: Point on c</desc>
+          </g>
+        </g>
+      </g>
+      <g id="g482" transform="matrix(25.2,0,0,25.2,536.976,2020.9228)" style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <clipPath id="clip39">
+          <path id="path485" d="m -21.309,-8.131 0,24.238 27.3337,0 0,-24.238 z" />
+        </clipPath>
+        <g id="g487" clip-path="url(#clip39)">
+          <g style="fill:#2b83ba;fill-opacity:1;fill-rule:nonzero;stroke:none" id="g489">
+            <path id="path491" d="m 0.32812,0.23438 0,0 q 0,0.01562 0,0.01562 Q 0.3125,0.25 0.26562,0.20312 0.20312,0.14062 0.17188,0.0625 0.09375,-0.078125 0.09375,-0.25 q 0,-0.17188 0.0625,-0.3125 0.0625,-0.10938 0.14063,-0.17188 Q 0.3125,-0.75 0.32812,-0.75 q 0,0 0,0.01562 0,0 -0.01562,0.01563 -0.15625,0.15625 -0.15625,0.46875 0,0.3125 0.15625,0.46875 0.01562,0.01563 0.01562,0.01563 z" />
+            <title id="title493">Point C</title>
+            <desc id="desc495">Point C: Point on c</desc>
+          </g>
+        </g>
+      </g>
+      <g id="g497" transform="matrix(25.2,0,0,25.2,546.78,2020.9228)" style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <clipPath id="clip40">
+          <path id="path500" d="m -21.698,-8.131 0,24.238 27.3338,0 0,-24.238 z" />
+        </clipPath>
+        <g id="g502" clip-path="url(#clip40)">
+          <g style="fill:#2b83ba;fill-opacity:1;fill-rule:nonzero;stroke:none" id="g504">
+            <path id="path506" d="M 0.35938,-0.39062 Q 0.32812,-0.42188 0.25,-0.42188 q -0.0625,0 -0.09375,0.0625 -0.04687,0.04688 -0.04687,0.14063 0,0.140625 0.09374,0.1875 0.03126,0.015625 0.0625,0.015625 0.09376,0 0.125,-0.109375 0,0 0.01563,0 0.01563,0 0.01563,0 0,0.03125 -0.03126,0.0625 Q 0.34375,0.015625 0.25,0.015625 q -0.09375,0 -0.15625,-0.078125 -0.0625,-0.0625 -0.0625,-0.15625 0,-0.09375 0.07813,-0.17187 0.0625,-0.0625 0.14062,-0.0625 0.07812,0 0.125,0.04687 0.03125,0.03125 0.03125,0.0625 0,0.04687 -0.03125,0.04687 -0.01562,0 -0.01562,0 -0.03126,0 -0.04688,-0.03124 0,0 0,-0.01563 0,-0.03125 0.03125,-0.04687 0.01563,0 0.01563,0 z" />
+            <title id="title508">Point C</title>
+            <desc id="desc510">Point C: Point on c</desc>
+          </g>
+        </g>
+      </g>
+      <g id="g512" transform="matrix(25.2,0,0,25.2,557.976,2020.9228)" style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <clipPath id="clip41">
+          <path id="path515" d="m -22.142,-8.131 0,24.238 27.3333,0 0,-24.238 z" />
+        </clipPath>
+        <g id="g517" clip-path="url(#clip41)">
+          <g style="fill:#2b83ba;fill-opacity:1;fill-rule:nonzero;stroke:none" id="g519">
+            <path id="path521" d="m 0.46875,-0.21875 0,0 q 0,0.10937 -0.07813,0.171875 -0.0625,0.0625 -0.14062,0.0625 -0.09375,0 -0.15625,-0.078125 -0.0625,-0.0625 -0.0625,-0.15625 0,-0.09375 0.0625,-0.17187 0.0625,-0.0625 0.15625,-0.0625 0.09375,0 0.15625,0.07812 0.0625,0.07812 0.0625,0.15625 z M 0.25,-0.015625 l 0,0 q 0.0625,0 0.10938,-0.046875 l 0,-0.03125 q 0.03124,-0.03125 0.03124,-0.125 0,-0.09375 -0.03124,-0.14063 -0.04688,-0.0625 -0.10938,-0.0625 -0.0625,0 -0.10938,0.04688 0,0 0,0.01562 -0.03124,0.04688 -0.03124,0.14063 0,0.09375 0.03124,0.140625 0.03126,0.0625 0.10938,0.0625 z" />
+            <title id="title523">Point C</title>
+            <desc id="desc525">Point C: Point on c</desc>
+          </g>
+        </g>
+      </g>
+      <g id="g527" transform="matrix(25.2,0,0,25.2,570.576,2020.9228)" style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <clipPath id="clip42">
+          <path id="path530" d="m -22.642,-8.131 0,24.238 27.3333,0 0,-24.238 z" />
+        </clipPath>
+        <g id="g532" clip-path="url(#clip42)">
+          <g style="fill:#2b83ba;fill-opacity:1;fill-rule:nonzero;stroke:none" id="g534">
+            <path id="path536" d="m 0.20312,-0.1875 0,0 Q 0.125,-0.21875 0.09375,-0.23438 q -0.015625,0 -0.015625,0 -0.046875,-0.04687 -0.046875,-0.09374 0,-0.0625 0.0625,-0.09376 0.04687,-0.03124 0.09375,-0.03124 0.0625,0 0.09375,0.03124 0.01563,0 0.01563,-0.01562 0.01562,-0.01562 0.03124,-0.01562 0,0.01562 0,0.03124 l 0,0.09376 q 0,0.03124 0,0.03124 l 0,0 0,0 0,0 q -0.01562,0 -0.01562,-0.01562 -0.01562,-0.09375 -0.07812,-0.10938 -0.01563,0 -0.04688,0 -0.09375,0 -0.109375,0.04688 0,0.01562 0,0.01562 0,0.0625 0.078125,0.07813 0.01563,0 0.04687,0.01563 0.07813,0.01562 0.10938,0.03124 0,0 0,0.01563 0.04688,0.03125 0.04688,0.09375 0,0.078125 -0.0625,0.109375 -0.04688,0.03125 -0.09376,0.03125 -0.0625,0 -0.10937,-0.046875 L 0.0625,-0.015625 Q 0.046875,0.015625 0.046875,0.015625 0.03125,0 0.03125,-0.015625 l 0,-0.124995 q 0,-0.03126 0.015625,-0.03126 l 0,0 0,0 0,0 q 0.015625,0 0.015625,0.01563 0,0 0,0 0.03125,0.125 0.09375,0.140625 0.01563,0 0.04687,0 0.07813,0 0.10938,-0.0625 0,-0.015625 0,-0.031255 0,-0.0625 -0.10938,-0.07812 z" />
+            <title id="title538">Point C</title>
+            <desc id="desc540">Point C: Point on c</desc>
+          </g>
+        </g>
+      </g>
+      <g id="g542" transform="matrix(25.2,0,0,25.2,584.724,2020.9228)" style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <clipPath id="clip43">
+          <path id="path545" d="m -23.203,-8.131 0,24.238 27.3332,0 0,-24.238 z" />
+        </clipPath>
+        <g id="g547" clip-path="url(#clip43)">
+          <g style="fill:#2b83ba;fill-opacity:1;fill-rule:nonzero;stroke:none" id="g549">
+            <path id="path551" d="M 0.20312,-0.40625 0.125,-0.10938 q 0,0.031255 0,0.04688 0,0.046875 0.03125,0.046875 0.0625,0 0.10937,-0.093755 l 0.01563,-0.03124 q 0.01563,-0.01563 0.01563,-0.01563 0.01562,0 0.01562,0.01563 0,0.01562 -0.03125,0.04687 -0.04687,0.109375 -0.125,0.109375 -0.0625,0 -0.078125,-0.046875 Q 0.0625,-0.0625 0.0625,-0.078125 q 0,-0.015625 0.0625,-0.265625 l 0.01562,-0.0625 -0.093745,0 q -0.015625,0 -0.015625,0 l -0.015625,0 0,0 q 0,-0.01563 0.015625,-0.03125 l 0.015625,0 0.093745,0 0.04688,-0.15625 q 0,-0.03125 0.03125,-0.03125 0.03125,0 0.03125,0.03125 0,0 -0.03125,0.15625 l 0.07813,0 q 0.03124,0 0.03124,0.01562 0,0.01563 -0.01562,0.01563 l 0,0 -0.01562,0 -0.09376,0 z" />
+            <title id="title553">Point C</title>
+            <desc id="desc555">Point C: Point on c</desc>
+          </g>
+        </g>
+      </g>
+      <g id="g557" transform="matrix(25.2,0,0,25.2,593.82,2020.9228)" style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <clipPath id="clip44">
+          <path id="path560" d="m -23.564,-8.131 0,24.238 27.3331,0 0,-24.238 z" />
+        </clipPath>
+        <g id="g562" clip-path="url(#clip44)">
+          <g style="fill:#2b83ba;fill-opacity:1;fill-rule:nonzero;stroke:none" id="g564">
+            <path id="path566" d="m 0.20312,0 0,0 q 0,0.09375 -0.0625,0.17188 Q 0.125,0.1875 0.10938,0.1875 q 0,0 0,0 0,-0.01562 0,-0.01562 0.0625,-0.0625 0.07812,-0.156255 0,0 0,-0.015625 0,-0.015625 -0.01562,-0.015625 0,0 0,0 Q 0.15625,0 0.14062,0 0.10938,0 0.09375,-0.03125 q 0,-0.015625 0,-0.015625 0,-0.046875 0.01563,-0.062505 0.01562,0 0.03124,0 0.04688,0 0.0625,0.062505 0,0.015625 0,0.046875 z" />
+            <title id="title568">Point C</title>
+            <desc id="desc570">Point C: Point on c</desc>
+          </g>
+        </g>
+      </g>
+      <g id="g572" transform="matrix(25.2,0,0,25.2,606.42,2020.9228)" style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <clipPath id="clip45">
+          <path id="path575" d="m -24.064,-8.131 0,24.238 27.3331,0 0,-24.238 z" />
+        </clipPath>
+        <g id="g577" clip-path="url(#clip45)">
+          <g style="fill:#2b83ba;fill-opacity:1;fill-rule:nonzero;stroke:none" id="g579">
+            <path id="path581" d="m 0.20312,-0.1875 0,0 Q 0.125,-0.21875 0.09375,-0.23438 q -0.015625,0 -0.015625,0 -0.046875,-0.04687 -0.046875,-0.09374 0,-0.0625 0.0625,-0.09376 0.04687,-0.03124 0.09375,-0.03124 0.0625,0 0.09375,0.03124 0.01563,0 0.01563,-0.01562 0.01562,-0.01562 0.03124,-0.01562 0,0.01562 0,0.03124 l 0,0.09376 q 0,0.03124 0,0.03124 l 0,0 0,0 0,0 q -0.01562,0 -0.01562,-0.01562 -0.01562,-0.09375 -0.07812,-0.10938 -0.01563,0 -0.04688,0 -0.09375,0 -0.109375,0.04688 0,0.01562 0,0.01562 0,0.0625 0.078125,0.07813 0.01563,0 0.04687,0.01563 0.07813,0.01562 0.10938,0.03124 0,0 0,0.01563 0.04688,0.03125 0.04688,0.09375 0,0.078125 -0.0625,0.109375 -0.04688,0.03125 -0.09376,0.03125 -0.0625,0 -0.10937,-0.046875 L 0.0625,-0.015625 Q 0.046875,0.015625 0.046875,0.015625 0.03125,0 0.03125,-0.015625 l 0,-0.124995 q 0,-0.03126 0.015625,-0.03126 l 0,0 0,0 0,0 q 0.015625,0 0.015625,0.01563 0,0 0,0 0.03125,0.125 0.09375,0.140625 0.01563,0 0.04687,0 0.07813,0 0.10938,-0.0625 0,-0.015625 0,-0.031255 0,-0.0625 -0.10938,-0.07812 z" />
+            <title id="title583">Point C</title>
+            <desc id="desc585">Point C: Point on c</desc>
+          </g>
+        </g>
+      </g>
+      <g id="g587" transform="matrix(25.2,0,0,25.2,616.356,2020.9228)" style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <clipPath id="clip46">
+          <path id="path590" d="m -24.459,-8.131 0,24.238 27.3336,0 0,-24.238 z" />
+        </clipPath>
+        <g id="g592" clip-path="url(#clip46)">
+          <g style="fill:#2b83ba;fill-opacity:1;fill-rule:nonzero;stroke:none" id="g594">
+            <path id="path596" d="m 0.17188,-0.4375 0,0 0,0.359375 q 0,0.03125 0.01562,0.046875 l 0,0 q 0.01562,0 0.0625,0 L 0.25,0 Q 0.14062,0 0.14062,0 0.125,0 0.03125,0 l 0,-0.03125 q 0.0625,0 0.07813,-0.015625 l 0,0 q 0,0 0,-0.03125 l 0,-0.265625 q 0,-0.04687 -0.01563,-0.04687 l 0,0 0,0 0,0 0,0 Q 0.078125,-0.40625 0.03125,-0.40625 l 0,-0.03125 0.14063,0 z M 0.1875,-0.60938 q 0,0.03126 -0.04688,0.04688 0,0 -0.01562,0 -0.03125,0 -0.046875,-0.03125 l 0,0 q 0,-0.01563 0,-0.01563 0,-0.03124 0.031255,-0.04687 0,-0.01563 0.01562,-0.01563 0.03125,0 0.04688,0.03126 0.01562,0.01562 0.01562,0.03124 z" />
+            <title id="title598">Point C</title>
+            <desc id="desc600">Point C: Point on c</desc>
+          </g>
+        </g>
+      </g>
+      <g id="g602" transform="matrix(25.2,0,0,25.2,623.364,2020.9228)" style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <clipPath id="clip47">
+          <path id="path605" d="m -24.736,-8.131 0,24.238 27.3329,0 0,-24.238 z" />
+        </clipPath>
+        <g id="g607" clip-path="url(#clip47)">
+          <g style="fill:#2b83ba;fill-opacity:1;fill-rule:nonzero;stroke:none" id="g609">
+            <path id="path611" d="m 0.10938,-0.34375 q 0,-0.04687 -0.01563,-0.04687 -0.015625,-0.01563 -0.046875,-0.01563 l -0.015625,0 0,-0.03125 0.14063,0 0,0.09375 q 0.04687,-0.09375 0.15624,-0.09375 0.0625,0 0.09376,0.03125 0.03124,0.03125 0.03124,0.09375 0,0.01562 0,0.0625 l 0,0.1875 q 0,0.03125 0.03126,0.03125 0.01562,0 0.04687,0 L 0.53125,0 Q 0.4375,0 0.42188,0 q 0,0 -0.10938,0 l 0,-0.03125 q 0.0625,0 0.0625,-0.015625 l 0,0 q 0.01562,0 0.01562,-0.03125 l 0,-0.234375 q 0,-0.09375 -0.0625,-0.10938 0,0 -0.01562,0 -0.0625,0 -0.09375,0.0625 -0.04687,0.03126 -0.04687,0.09376 l 0,0.187495 q 0,0.03125 0.01562,0.046875 0.01562,0 0.0625,0 L 0.25,0 q -0.09375,0 -0.10938,0 0,0 -0.10937,0 l 0,-0.03125 q 0.0625,0 0.0625,-0.015625 l 0.01563,0 q 0,0 0,-0.03125 l 0,-0.265625 z" />
+            <title id="title613">Point C</title>
+            <desc id="desc615">Point C: Point on c</desc>
+          </g>
+        </g>
+      </g>
+      <g id="g617" transform="matrix(25.2,0,0,25.2,641.556,2020.9228)" style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <clipPath id="clip48">
+          <path id="path620" d="m -25.459,-8.131 0,24.238 27.3336,0 0,-24.238 z" />
+        </clipPath>
+        <g id="g622" clip-path="url(#clip48)">
+          <g style="fill:#2b83ba;fill-opacity:1;fill-rule:nonzero;stroke:none" id="g624">
+            <path id="path626" d="M 0.20312,-0.40625 0.125,-0.10938 q 0,0.031255 0,0.04688 0,0.046875 0.03125,0.046875 0.0625,0 0.10937,-0.093755 l 0.01563,-0.03124 q 0.01563,-0.01563 0.01563,-0.01563 0.01562,0 0.01562,0.01563 0,0.01562 -0.03125,0.04687 -0.04687,0.109375 -0.125,0.109375 -0.0625,0 -0.078125,-0.046875 Q 0.0625,-0.0625 0.0625,-0.078125 q 0,-0.015625 0.0625,-0.265625 l 0.01562,-0.0625 -0.093745,0 q -0.015625,0 -0.015625,0 l -0.015625,0 0,0 q 0,-0.01563 0.015625,-0.03125 l 0.015625,0 0.093745,0 0.04688,-0.15625 q 0,-0.03125 0.03125,-0.03125 0.03125,0 0.03125,0.03125 0,0 -0.03125,0.15625 l 0.07813,0 q 0.03124,0 0.03124,0.01562 0,0.01563 -0.01562,0.01563 l 0,0 -0.01562,0 -0.09376,0 z" />
+            <title id="title628">Point C</title>
+            <desc id="desc630">Point C: Point on c</desc>
+          </g>
+        </g>
+      </g>
+      <g id="g632" transform="matrix(25.2,0,0,25.2,650.664,2020.9228)" style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <clipPath id="clip49">
+          <path id="path635" d="m -25.82,-8.131 0,24.238 27.3335,0 0,-24.238 z" />
+        </clipPath>
+        <g id="g637" clip-path="url(#clip49)">
+          <g style="fill:#2b83ba;fill-opacity:1;fill-rule:nonzero;stroke:none" id="g639">
+            <path id="path641" d="m 0.28125,-0.25 0,0 q 0,0.171875 -0.0625,0.3125 Q 0.17188,0.17188 0.09375,0.23438 0.078125,0.25 0.0625,0.25 q 0,0 0,-0.01562 0,0 0,-0.01563 Q 0.23438,0.0625 0.23438,-0.25 q 0,-0.3125 -0.156255,-0.46875 l 0,0 Q 0.0625,-0.73438 0.0625,-0.73438 q 0,-0.01562 0,-0.01562 0.015625,0 0.0625,0.04688 0.0625,0.0625 0.09375,0.14062 0.0625,0.14062 0.0625,0.3125 z" />
+            <title id="title643">Point C</title>
+            <desc id="desc645">Point C: Point on c</desc>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" clip-path="url(#clip50)" id="g650" transform="matrix(1.2,0,0,1.2,0,1816.0228)">
+      <g id="g652" style="fill:#2b83ba;fill-opacity:1;fill-rule:nonzero;stroke:none">
+        <path d="m 184.88,114.64 c 0,0.55 -0.45,1 -1,1 -0.55,0 -1,-0.45 -1,-1 0,-0.55 0.45,-1 1,-1 0.55,0 1,0.45 1,1 z" id="path654" />
+        <title id="title656">Point C&#39;_1</title>
+        <desc id="desc658">Point C&#39;_1: C rotated by angle 90Ã&#131;Â&#130;Ã&#130;Â°</desc>
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" transform="matrix(37.8,0,0,34.38489,420.58369,2161.1776)" id="g673">
+      <clipPath id="clip52">
+        <path d="m -21.714,-13.454 0,24.238 27.333,0 0,-24.238 z" id="path676" />
+      </clipPath>
+      <g clip-path="url(#clip52)" id="g678">
+        <g id="g680" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none">
+          <path d="m 0.29688,-0.64062 0,0.562495 q 0,0.03125 0.01562,0.03125 0.01562,0.015625 0.07812,0.015625 l 0.03126,0 0,0.03125 Q 0.39062,0 0.25,0 0.125,0 0.09375,0 l 0,-0.03125 0.03125,0 q 0.07812,0 0.09375,-0.015625 l 0,0 q 0,-0.015625 0,-0.03125 l 0,-0.515625 q -0.04687,0.01563 -0.125,0.01563 l 0,-0.03126 q 0.10937,0 0.17187,-0.0625 0.03126,0 0.03126,0.01563 l 0,0 0,0 q 0,0 0,0.01563 z" id="path682" />
+          <title id="title684">$1$</title>
+          <desc id="desc686">text1 = &quot;$1$&quot;</desc>
+        </g>
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" id="g5580" transform="matrix(36.92073,0,0,36.92073,673.24993,2160.3374)">
+      <clipPath id="clip1-7">
+        <path id="path5583" d="m -11.333,-8.6306 0,29.8666 38.666,0 0,-29.8666 z" />
+      </clipPath>
+      <g id="g5585" clip-path="url(#clip1-7)">
+        <g id="g5587" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none">
+          <path id="path5589" d="m 0.32812,-0.29688 -0.03124,0.125 q -0.01563,0.07813 -0.01563,0.093755 0,0.046875 0.03125,0.0625 0.01562,0 0.03125,0 0.04687,0 0.07813,-0.046875 0.03124,-0.03125 0.04687,-0.07812 0,-0.01563 0.01563,-0.01563 0.01562,0 0.01562,0.01563 0,0.01562 -0.03125,0.062495 -0.0625,0.09375 -0.125,0.09375 -0.07813,0 -0.10937,-0.0625 0,-0.015625 0,-0.015625 Q 0.20312,-0.015625 0.15625,0 0.14062,0.015625 0.125,0.015625 q -0.0625,0 -0.09375,-0.046875 0,0 0,-0.03125 0,-0.03125 0.03125,-0.04688 0.015625,0 0.015625,0 0.031255,0 0.046875,0.01563 0,0.015625 0,0.015625 0,0.03125 -0.03125,0.046875 -0.015625,0 -0.015625,0 0.015625,0.015625 0.046875,0.015625 0.04688,0 0.07812,-0.0625 0.01563,-0.015625 0.01563,-0.031255 0.04687,-0.20312 0.04687,-0.25 0,-0.0625 -0.04687,-0.0625 -0.04687,0 -0.09375,0.0625 l 0,0 q 0,0 0,0 -0.01562,0.01563 -0.03125,0.04688 0,0 0,0.01562 l -0.015625,0.01563 q 0,0 0,0 -0.015625,0 -0.015625,0 0,-0.03125 0.03125,-0.07813 0.04687,-0.07812 0.125,-0.07812 0.07813,0 0.10937,0.07812 0.03126,-0.0625 0.07813,-0.07812 0.01563,0 0.03125,0 0.0625,0 0.07812,0.03125 0.01563,0.01563 0.01563,0.03125 0,0.04688 -0.04687,0.04688 0,0.01562 -0.01563,0.01562 -0.03125,0 -0.03125,-0.03125 0,0 0,-0.01563 0,-0.03124 0.03125,-0.04687 0,0 0.01563,0 -0.01563,-0.01563 -0.04688,-0.01563 -0.07812,0 -0.09375,0.10938 -0.01563,0 -0.01563,0.01562 z" />
+          <title id="title5591">$x$</title>
+          <desc id="desc5593">text1 = &quot;$x$&quot;</desc>
+        </g>
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" id="g5595" transform="matrix(36.92073,0,0,36.92073,298.14077,1852.228)">
+      <clipPath id="clip2-6">
+        <path id="path5598" d="m -11.133,-13.297 0,29.866 38.666,0 0,-29.866 z" />
+      </clipPath>
+      <g id="g5600" clip-path="url(#clip2-6)">
+        <g id="g5602" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none">
+          <path id="path5604" d="M 0.48438,-0.375 0.39062,0 Q 0.35938,0.09375 0.28125,0.15625 0.21875,0.20312 0.15625,0.20312 0.09375,0.20312 0.0625,0.15625 0.046875,0.14062 0.046875,0.125 q 0,-0.0625 0.046875,-0.0625 0,-0.015625 0.01563,-0.015625 0.03124,0 0.03124,0.03125 0,0 0,0.015625 0,0.01563 -0.01562,0.03125 Q 0.10938,0.14062 0.078125,0.14062 0.09375,0.1875 0.15625,0.1875 q 0.0625,0 0.10937,-0.0625 0.04688,-0.0625 0.0625,-0.140625 0,-0.015625 0,-0.015625 -0.04687,0.046875 -0.09374,0.046875 -0.07813,0 -0.10938,-0.0625 -0.01562,-0.03125 -0.01562,-0.062505 0,-0.04687 0.04687,-0.20312 0,0 0.01563,0 0.01562,-0.04688 0.01562,-0.07812 0,-0.03126 -0.03125,-0.03126 -0.04687,0 -0.09375,0.09376 l 0,0 q 0,0.01562 0,0.03124 -0.015625,0.01563 -0.015625,0.01563 -0.015625,0 -0.015625,0 0,-0.03125 0.015625,-0.0625 0.046875,-0.09375 0.109375,-0.09375 0.0625,0 0.07813,0.04688 Q 0.25,-0.375 0.25,-0.35938 q 0,0.01563 -0.03125,0.07813 -0.04687,0.125 -0.04687,0.1875 0,0.078125 0.0625,0.078125 0.0625,0 0.09374,-0.0625 0.01563,-0.015625 0.01563,-0.015625 l 0.04687,-0.1875 Q 0.40625,-0.3125 0.40625,-0.35938 0.42188,-0.40625 0.42188,-0.40625 0.4375,-0.4375 0.46875,-0.4375 q 0.01563,0.01562 0.01563,0.03125 0,0.01563 0,0.03125 z" />
+          <title id="title5606">$y$</title>
+          <desc id="desc5608">text2 = &quot;$y$&quot;</desc>
+        </g>
+      </g>
+    </g>
+    <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" id="g5610" transform="matrix(31.177505,0,0,31.177505,536.82008,2160.7142)">
+      <clipPath id="clip3-0">
+        <path id="path5613" d="m -17.316,-9.4202 0,23.5792 30.527,0 0,-23.5792 z" />
+      </clipPath>
+      <g id="g5615" clip-path="url(#clip3-0)">
+        <g id="g5617" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none">
+          <path id="path5619" d="m 0.17188,-0.10938 0.35937,-0.59374 q 0,-0.01563 0.01563,-0.01563 0.01562,0 0.01562,0.01563 0.01562,0 0.01562,0.01562 l 0.0625,0.625 q 0,0.015625 0,0.03125 l 0,0 0,0 0,0 0,0 0,0 q 0.01563,0 0.0625,0 0.01563,0 0.01563,0.015625 Q 0.71875,0 0.70312,0 l -0.10937,0 0,0 -0.125,0 0,0 q -0.01563,0 -0.01563,-0.015625 0,-0.015625 0.01563,-0.015625 0.07813,0 0.07813,-0.03125 0,0 -0.01563,-0.17188 l -0.25,0 -0.07813,0.125 Q 0.1875,-0.078125 0.1875,-0.0625 q 0,0.03125 0.04688,0.03125 0.01562,0 0.01562,0.015625 Q 0.25,0 0.23438,0 l -0.09376,0 0,0 -0.093745,0 0,0 Q 0.03125,0 0.03125,-0.015625 q 0,-0.015625 0.015625,-0.015625 l 0,0 0.015625,0 q 0.0625,0 0.09375,-0.046875 0.01563,-0.015625 0.01563,-0.031255 z m 0.125,-0.15624 0.23437,0 L 0.5,-0.59375 0.29688,-0.26562 z" />
+          <title id="title5621">$A$</title>
+          <desc id="desc5623">text3 = &quot;$A$&quot;</desc>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

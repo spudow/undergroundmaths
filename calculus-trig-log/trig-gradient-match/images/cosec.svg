@@ -1,0 +1,98 @@
+<?xml version='1.0' ?><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" id="svg2" version="1.1" width="320.04797" height="233.55889" viewBox="0.0 -13.738956340883535 659.1188715502009 480.9999951485944" preserveAspectRatio="none">
+  <metadata id="metadata115">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs id="defs113">
+    <clipPath id="clip1">
+      <path d="M 0.0000 0.0000 L 0.0000 467.00 L 641.00 467.00 L 641.00 0.0000 z" id="path9" />
+    </clipPath>
+    <clipPath id="clip2">
+      <path d="M 0.0000 0.0000 L 0.0000 467.00 L 641.00 467.00 L 641.00 0.0000 z" id="path18" />
+    </clipPath>
+    <clipPath id="clip3">
+      <path d="M 0.0000 0.0000 L 0.0000 467.00 L 641.00 467.00 L 641.00 0.0000 z" id="path27" />
+    </clipPath>
+    <clipPath id="clip4">
+      <path d="M 0.0000 0.0000 L 0.0000 467.00 L 641.00 467.00 L 641.00 0.0000 z" id="path36" />
+    </clipPath>
+  </defs>
+  <title id="title4" />
+  <g clip-path="url(#clip1)" id="g11" style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+    <g id="g13" style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-opacity:1">
+      <path d="m 315,3 0,464" id="path15" />
+    </g>
+  </g>
+  <g transform="matrix(2,0,0,2,-315.11888,-18)" clip-path="url(#clip2)" id="g20" style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+    <g id="g22" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none">
+      <path d="m 315,2 -4,16 8,0" id="path24" />
+    </g>
+  </g>
+  <g clip-path="url(#clip3)" id="g29" style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+    <g id="g31" style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-opacity:1">
+      <path d="m 0,235 638,0" id="path33" />
+    </g>
+  </g>
+  <g transform="matrix(2,0,0,2,-618.88112,-234.88112)" clip-path="url(#clip4)" id="g38" style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+    <g id="g40" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none">
+      <path d="m 639,235 -16,-4 0,8" id="path42" />
+    </g>
+  </g>
+  <g id="misc" style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" />
+  <g id="layer0" style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+    <clipPath id="clip5">
+      <path d="m 0,0 0,467 641,0 0,-467 z" id="path47" />
+    </clipPath>
+    <g clip-path="url(#clip5)" id="g49">
+      <g id="g51" style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path d="m 23.474,-12.665 0.313,7.7361 0.313,7.2583 0.313,6.8226 0.313,6.425 0.313,6.06 0.313,5.727 0.313,5.418 0.313,5.135 0.313,4.872 0.626,9.033 0.626,8.194 0.626,7.465 0.626,6.828 0.626,6.268 0.626,5.772 0.626,5.333 0.626,4.941 1.252,8.867 1.252,7.71 1.252,6.78 1.252,5.99 1.252,5.33 2.503,9.06 2.504,7.38 2.504,6.11 5.008,9.44 5.008,6.84 5.008,5.05 5.008,3.76 5.007,2.76 5.008,1.97 5.008,1.31 5.008,0.71 5.008,0.17 5.007,-0.38 5.012,-0.93 5,-1.55 5.01,-2.26 5.01,-3.12 5.01,-4.21 5.01,-5.66 5,-7.72 2.51,-4.92 2.5,-5.86 2.5,-7.06 2.51,-8.62 1.25,-5.06 1.25,-5.68 1.25,-6.39 1.26,-7.26 1.25,-8.31 1.25,-9.583 0.63,-5.365 0.62,-5.809 0.63,-6.308 0.62,-6.874 0.63,-7.518 0.63,-8.254 0.62,-9.103 0.32,-4.912 0.31,-5.177 0.31,-5.464 0.31,-5.775 0.32,-6.115 0.31,-6.4838 0.31,-6.8871 0.32,-7.3289 m 19.71,481.0368 0.32,-7.26 0.31,-6.82 0.31,-6.43 0.32,-6.06 0.31,-5.73 0.31,-5.42 0.32,-5.13 0.62,-9.51 0.63,-8.59 0.62,-7.82 0.63,-7.14 0.63,-6.54 0.62,-6.01 0.63,-5.55 0.62,-5.13 1.26,-9.19 1.25,-7.98 1.25,-7 1.25,-6.17 1.25,-5.49 2.51,-9.3 2.5,-7.57 2.5,-6.25 5.01,-9.65 5.01,-6.97 5.01,-5.15 5.01,-3.82 5,-2.82 5.01,-2.02 5.01,-1.34 5.01,-0.75 5.01,-0.2 5,0.34 5.01,0.9 5.01,1.51 5.01,2.2 5,3.06 5.01,4.13 5.01,5.57 5.01,7.56 2.5,4.82 2.51,5.72 2.5,6.89 2.5,8.41 1.26,4.92 1.25,5.51 1.25,6.2 1.25,7.03 1.25,8.03 1.25,9.23 0.63,5.17 0.63,5.58 0.62,6.05 0.63,6.58 0.62,7.18 0.63,7.87 0.63,8.67 0.62,9.57 0.32,5.18 0.31,5.46 0.31,5.78 0.31,6.11 0.32,6.48 0.31,6.89 0.31,7.32 m 19.41,-488.772 0.31,7.7394 0.31,7.2609 0.32,6.8251 0.31,6.4266 0.31,6.063 0.32,5.728 0.31,5.42 0.31,5.136 0.32,4.874 0.62,9.036 0.63,8.197 0.62,7.466 0.63,6.83 0.63,6.269 0.62,5.774 0.63,5.334 1.25,9.533 1.25,8.26 1.25,7.23 1.26,6.37 1.25,5.64 2.5,9.56 2.51,7.76 2.5,6.4 5.01,9.85 5,7.11 5.01,5.25 5.01,3.9 5.01,2.87 5.01,2.06 5,1.39 5.01,0.78 5.01,0.23 5.01,-0.3 5,-0.86 5.01,-1.47 5.01,-2.16 5.01,-3 5.01,-4.06 5,-5.46 5.01,-7.41 2.51,-4.72 2.5,-5.6 2.5,-6.73 2.51,-8.19 1.25,-4.79 1.25,-5.35 1.25,-6.02 1.26,-6.8 1.25,-7.76 1.25,-8.91 0.63,-4.968 0.62,-5.364 0.63,-5.807 0.62,-6.307 0.63,-6.872 0.63,-7.516 0.62,-8.252 0.63,-9.1 0.31,-4.91 0.31,-5.176 0.32,-5.462 0.31,-5.774 0.31,-6.112 0.31,-6.4818 0.32,-6.8846 0.31,-7.3263 m 19.72,481.0327 0.31,-7.26 0.32,-6.82 0.31,-6.43 0.31,-6.07 0.31,-5.72 0.32,-5.43 0.31,-5.13 0.63,-9.51 0.62,-8.6 0.63,-7.82 0.62,-7.14 0.63,-6.54 0.63,-6.02 0.62,-5.54 1.25,-9.9 1.26,-8.56 1.25,-7.46 1.25,-6.57 1.25,-5.82 2.51,-9.83 2.5,-7.95 2.5,-6.55 2.51,-5.46 2.5,-4.61 5.01,-7.25 5.01,-5.34 5,-3.97 5.01,-2.94 5.01,-2.1 5.01,-1.43 5.01,-0.82 5,-0.26 5.01,0.27 5.01,0.82 5.01,1.43 5.01,2.11 5,2.95 5.01,3.98 5.01,5.35 5.01,7.28 2.5,4.61 2.5,5.48 2.51,6.57 2.5,7.99 2.51,9.86 1.25,5.84 1.25,6.59 1.25,7.51 1.25,8.59 1.26,9.95 0.62,5.58 0.63,6.05 0.62,6.58 0.63,7.18 0.63,7.87 0.62,8.66 0.63,9.57 0.31,5.18 0.31,5.46 0.32,5.77 0.31,6.11 0.31,6.48 0.32,6.89 0.31,7.32 m 14.71,-725.13" id="path53" />
+        <title id="title55">Function t_1</title>
+        <desc id="desc57">Function t_1: t_1(x) = If[-6.4 Ã&#131;Â¢Ã&#130;Â&#137;Ã&#130;Â¤ x Ã&#131;Â¢Ã&#130;Â&#137;Ã&#130;Â¤ 6.4, csc(x)]</desc>
+      </g>
+    </g>
+    <clipPath id="clip6">
+      <path d="m 0,0 0,467 641,0 0,-467 z" id="path60" />
+    </clipPath>
+    <g clip-path="url(#clip6)" id="g62">
+      <g id="g64" style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:5.5, 4;stroke-opacity:1">
+        <path d="m 465.55,472 0,-477" id="path66" />
+        <title id="title68">Line k</title>
+        <desc id="desc70">k: x = Ã&#131;Â&#143;Ã&#130;Â&#128;</desc>
+      </g>
+    </g>
+    <clipPath id="clip7">
+      <path d="m 0,0 0,467 641,0 0,-467 z" id="path73" />
+    </clipPath>
+    <g clip-path="url(#clip7)" id="g75">
+      <g id="g77" style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:5.5, 4;stroke-opacity:1">
+        <path d="m 616.1,472 0,-477" id="path79" />
+        <title id="title81">Line l</title>
+        <desc id="desc83">l: x = 6.28</desc>
+      </g>
+    </g>
+    <clipPath id="clip8">
+      <path d="m 0,0 0,467 641,0 0,-467 z" id="path86" />
+    </clipPath>
+    <g clip-path="url(#clip8)" id="g88">
+      <g id="g90" style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:5.5, 4;stroke-opacity:1">
+        <path d="m 164.45,472 0,-477" id="path92" />
+        <title id="title94">Line m</title>
+        <desc id="desc96">m: x = -3.14</desc>
+      </g>
+    </g>
+    <clipPath id="clip9">
+      <path d="m 0,0 0,467 641,0 0,-467 z" id="path99" />
+    </clipPath>
+    <g clip-path="url(#clip9)" id="g101">
+      <g id="g103" style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:5.5, 4;stroke-opacity:1">
+        <path d="m 13.903,472 0,-477" id="path105" />
+        <title id="title107">Line n</title>
+        <desc id="desc109">n: x = -6.28</desc>
+      </g>
+    </g>
+  </g>
+</svg>

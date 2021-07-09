@@ -1,0 +1,600 @@
+<!DOCTYPE html><html lang="en-GB" data-ng-app="cmBrowse" class="ng-scope"><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style><meta charset="utf-8">
+<link rel="manifest" href="/static/app-manifest/manifest.webmanifest">
+<title data-ng-bind="rootViewModel.title ? rootViewModel.title + ' | Underground Mathematics' : 'Browse | Underground Mathematics'" class="ng-binding">Browse | Underground Mathematics</title>
+<meta name="description" content="Browse stations/topics, pervasive ideas, rich resources, review questions and glossary entries.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link rel="stylesheet" href="../static/css/main.min_v%3D2.css">
+
+<script async src="//www.google-analytics.com/analytics.js"></script><link rel="apple-touch-icon" sizes="152x152" href="../static/app-manifest/icon-152.png"><link rel="apple-touch-icon" sizes="120x120" href="../static/app-manifest/icon-120.png"><link rel="apple-touch-icon" sizes="76x76" href="../static/app-manifest/icon-76.png"><link rel="apple-touch-icon" sizes="60x60" href="../static/app-manifest/icon-60.png"><link rel="apple-touch-icon" sizes="57x57" href="../static/app-manifest/icon-57.png"><link rel="apple-touch-icon" sizes="72x72" href="../static/app-manifest/icon-72.png"><link rel="apple-touch-icon" sizes="114x114" href="../static/app-manifest/icon-114.png"><link rel="icon" sizes="128x128" href="../static/app-manifest/icon-128.png"><link rel="icon" sizes="192x192" href="../static/app-manifest/icon-192.png"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="UndergroundMathematics"><meta name="application-name" content="UndergroundMathematics"><meta name="msapplication-TileColor" content="#ffffff"><meta name="msapplication-square70x70logo" content="/static/app-manifest/icon-70.png"><meta name="msapplication-square150x150logo" content="/static/app-manifest/icon-150.png"><meta name="msapplication-wide310x150logo" content="/static/app-manifest/icon-310x150.png"><meta name="msapplication-square310x310logo" content="/static/app-manifest/icon-310.png"><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1px; bottom: 2px; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head>
+<body class="admin-toolbar-open" data-ng-class="{'admin-toolbar-open': rootViewModel.adminData.showTools}"><div id="MathJax_Message" style="display: none;"></div><div class="full-height-container browse-wrapper ng-scope" data-ng-controller="BrowseController"><div class="auto-height-row"><div class="header" id="header"><div class="header-main"><a class="header-logo" href="../"><span class="icon-logo"></span>
+<span class="header-logo-text"><span>underground</span>
+<span>mathematics</span>
+</span>
+</a>
+<ul><li data-ng-class="{selected: rootViewModel.headerMenuItemSelected == 'Map'}"><a tabindex="0" data-ng-click="toggleHeaderMenuItem('Map')"><span class="icon-map"></span>
+<span class="header-menu-item-text">Map</span>
+</a>
+</li>
+<li data-ng-class="{selected: rootViewModel.headerMenuItemSelected == 'Search'}"><a tabindex="0" data-ng-click="toggleHeaderMenuItem('Search')"><span class="icon-search"></span>
+<span class="header-menu-item-text">Search</span>
+</a>
+</li>
+<li data-ng-class="{selected: rootViewModel.headerMenuItemSelected == 'Browse'}"><a tabindex="0" data-ng-click="toggleHeaderMenuItem('Browse')"><span class="icon-folder-open"></span>
+<span class="header-menu-item-text">Browse</span>
+</a>
+</li>
+<li data-ng-class="{selected: rootViewModel.headerMenuItemSelected == 'User'}"><a tabindex="0" data-ng-click="toggleHeaderMenuItem('User')"><span class="icon-user"></span>
+<span class="header-menu-item-text">User</span>
+</a>
+</li>
+<li data-ng-class="{selected: rootViewModel.headerMenuItemSelected == 'More'}"><a tabindex="0" data-ng-click="toggleHeaderMenuItem('More')"><span class="icon-ellipsis"></span>
+<span class="header-menu-item-text">More</span>
+</a>
+</li>
+</ul>
+</div>
+
+<nav class="header-more-menu ng-hide" data-ng-show="rootViewModel.headerMenuItemSelected == 'More'"><ul><li><a href="../" target="_self">Home</a>
+</li>
+<li><a href="../how-to-guide/" target="_self">How-to guide</a>
+</li>
+<li><a href="../hub/" target="_self">Underground hub</a>
+</li>
+<li><a href="../about/" target="_self">About and contact</a>
+</li>
+<li class="menu-divider"></li>
+<li class="header-more-menu-mathematical-classroom"><a href="../mathematical-classroom/" target="_self"><span class="icon-mathematical-classroom"></span>
+Your mathematical classroom</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="full-height-row"><div class="browse-main-wrapper"><div class="browse-main"><div class="browse-main-header"><h1><span class="icon-folder-open"></span>
+Browse all our material</h1>
+</div>
+<div class="browse-main-content"><!-- ngInclude: viewModel.browseComponent --><div data-ng-include="viewModel.browseComponent" class="ng-scope"><div class="cm-form-group browse-look-for ng-scope">
+  <span>Look for...</span>
+  <a tabindex="0" class="cm-button-primary" data-ng-class="{selected: viewModel.typeOption == 'Station'}" data-ng-click="toggleTypeOption('Station')">Stations/topics</a>
+  <a tabindex="0" class="cm-button-primary" data-ng-class="{selected: viewModel.typeOption == 'PervasiveIdea'}" data-ng-click="toggleTypeOption('PervasiveIdea')">Pervasive ideas</a>
+  <a tabindex="0" class="cm-button-primary" data-ng-class="{selected: viewModel.typeOption == 'RichResource'}" data-ng-click="toggleTypeOption('RichResource')">Rich resources</a>
+  <a tabindex="0" class="cm-button-primary" data-ng-class="{selected: viewModel.typeOption == 'ReviewQuestion'}" data-ng-click="toggleTypeOption('ReviewQuestion')">Review questions</a>
+  <a tabindex="0" class="cm-button-primary" data-ng-class="{selected: viewModel.typeOption == 'Bundle'}" data-ng-click="toggleTypeOption('Bundle')">Bundles of resources</a>
+  <div class="browse-extra-buttons">
+    <a tabindex="0" class="cm-button-primary selected" data-ng-class="{selected: viewModel.typeOption == 'Glossary'}" data-ng-click="toggleTypeOption('Glossary')">Glossary entries</a>
+  </div>
+</div>
+<!-- ngIf: viewModel.typeOption --><div data-ng-if="viewModel.typeOption" class="ng-scope">
+  <!-- ngIf: viewModel.typeOption == 'RichResource' -->
+  <!-- ngIf: viewModel.typeOption == 'ReviewQuestion' -->
+  <!-- ngIf: viewModel.typeOption == 'RichResource' || viewModel.typeOption == 'ReviewQuestion' || viewModel.typeOption == 'Station' -->
+  <!-- ngIf: viewModel.typeOption == 'Glossary' --><div class="cm-form-group-inline ng-scope" data-ng-if="viewModel.typeOption == 'Glossary'">
+    <label for="browse-letter-select-15">Letter:</label>
+    <select id="browse-letter-select-15" class="cm-form-control ng-pristine ng-untouched ng-valid" data-ng-model="viewModel.letterSelected" data-ng-options="item as item for item in viewModel.letters"><option value class selected="selected">All</option><option label="a" value="string:a">a</option><option label="b" value="string:b">b</option><option label="c" value="string:c">c</option><option label="d" value="string:d">d</option><option label="e" value="string:e">e</option><option label="f" value="string:f">f</option><option label="g" value="string:g">g</option><option label="h" value="string:h">h</option><option label="i" value="string:i">i</option><option label="j" value="string:j">j</option><option label="k" value="string:k">k</option><option label="l" value="string:l">l</option><option label="m" value="string:m">m</option><option label="n" value="string:n">n</option><option label="o" value="string:o">o</option><option label="p" value="string:p">p</option><option label="q" value="string:q">q</option><option label="r" value="string:r">r</option><option label="s" value="string:s">s</option><option label="t" value="string:t">t</option><option label="u" value="string:u">u</option><option label="v" value="string:v">v</option><option label="w" value="string:w">w</option><option label="x" value="string:x">x</option><option label="y" value="string:y">y</option><option label="z" value="string:z">z</option></select>
+  </div><!-- end ngIf: viewModel.typeOption == 'Glossary' -->
+  <!-- ngIf: viewModel.searching -->
+  <!-- ngIf: !viewModel.searching --><div data-ng-if="!viewModel.searching" class="ng-scope"> 
+    <!-- ngIf: viewModel.resourceList.length == 0 && viewModel.typeOption == 'RichResource' -->
+    <!-- ngIf: viewModel.resourceList.length == 0 && viewModel.typeOption == 'ReviewQuestion' -->
+    <!-- ngIf: viewModel.resourceList.length > 0 && (viewModel.typeOption == 'RichResource' || viewModel.typeOption == 'ReviewQuestion') -->
+    <!-- ngIf: filterStations().length == 0 && viewModel.typeOption == 'Station' -->
+    <!-- ngIf: filterStations().length > 0 && viewModel.typeOption == 'Station' -->
+    <!-- ngIf: viewModel.pervasiveIdeas.length == 0 && viewModel.typeOption == 'PervasiveIdea' -->
+    <!-- ngIf: viewModel.pervasiveIdeas.length > 0 && viewModel.typeOption == 'PervasiveIdea' -->
+    <!-- ngIf: viewModel.glossaryList.length == 0 && viewModel.typeOption == 'Glossary' -->
+    <!-- ngIf: viewModel.glossaryList.length > 0 && viewModel.typeOption == 'Glossary' --><ul data-ng-if="viewModel.glossaryList.length > 0 &amp;&amp; viewModel.typeOption == 'Glossary'" class="cm-table browse-glossary-list ng-scope">
+      <!-- ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/absolute-value" data-cm-glossary-toggle="absolute-value" href="../glossary/absolute-value/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Absolute value</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/affine-transformation" data-cm-glossary-toggle="affine-transformation" href="../glossary/affine-transformation/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Affine transformation</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/altitude-of-triangle" data-cm-glossary-toggle="altitude-of-triangle" href="../glossary/altitude-of-triangle/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Altitude of triangle</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/am-gm-inequality" data-cm-glossary-toggle="am-gm-inequality" href="../glossary/am-gm-inequality/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">AM-GM inequality</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/annulus" data-cm-glossary-toggle="annulus" href="../glossary/annulus/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Annulus</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/apex" data-cm-glossary-toggle="apex" href="../glossary/apex/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Apex</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/approximation" data-cm-glossary-toggle="approximation" href="../glossary/approximation/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Approximation</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/arithmetic-mean" data-cm-glossary-toggle="arithmetic-mean" href="../glossary/arithmetic-mean/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Arithmetic mean</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/arithmetic-sequence" data-cm-glossary-toggle="arithmetic-sequence" href="../glossary/arithmetic-sequence/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Arithmetic sequence</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/asymptote" data-cm-glossary-toggle="asymptote" href="../glossary/asymptote/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Asymptote</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/average" data-cm-glossary-toggle="average" href="../glossary/average/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Average</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/bezouts-theorem" data-cm-glossary-toggle="bezouts-theorem" href="../glossary/bezouts-theorem/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Bézout's Theorem</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/bijective" data-cm-glossary-toggle="bijective" href="../glossary/bijective/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Bijective</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/binomial-theorem" data-cm-glossary-toggle="binomial-theorem" href="../glossary/binomial-theorem/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Binomial theorem</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/bisector" data-cm-glossary-toggle="bisector" href="../glossary/bisector/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Bisector</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/cartesian-coordinates" data-cm-glossary-toggle="cartesian-coordinates" href="../glossary/cartesian-coordinates/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Cartesian coordinates</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/centre-of-curvature" data-cm-glossary-toggle="centre-of-curvature" href="../glossary/centre-of-curvature/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Centre of curvature</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/centre-of-mass" data-cm-glossary-toggle="centre-of-mass" href="../glossary/centre-of-mass/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Centre of mass</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/centroid" data-cm-glossary-toggle="centroid" href="../glossary/centroid/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Centroid</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/chain-rule" data-cm-glossary-toggle="chain-rule" href="../glossary/chain-rule/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Chain rule</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/characteristic" data-cm-glossary-toggle="characteristic" href="../glossary/characteristic/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Characteristic</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/chord" data-cm-glossary-toggle="chord" href="../glossary/chord/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Chord</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/circumcircle" data-cm-glossary-toggle="circumcircle" href="../glossary/circumcircle/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Circumcircle</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/circumscribe" data-cm-glossary-toggle="circumscribe" href="../glossary/circumscribe/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Circumscribe</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/common-difference" data-cm-glossary-toggle="common-difference" href="../glossary/common-difference/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Common difference</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/complementary-angle" data-cm-glossary-toggle="complementary-angle" href="../glossary/complementary-angle/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Complementary angle</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/completing-the-square" data-cm-glossary-toggle="completing-the-square" href="../glossary/completing-the-square/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Completing the square</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/complex" data-cm-glossary-toggle="complex" href="../glossary/complex/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Complex</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/complex-conjugate" data-cm-glossary-toggle="complex-conjugate" href="../glossary/complex-conjugate/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Complex conjugate</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/complex-number" data-cm-glossary-toggle="complex-number" href="../glossary/complex-number/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Complex number</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/composite-function" data-cm-glossary-toggle="composite-function" href="../glossary/composite-function/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Composite function</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/composite-number" data-cm-glossary-toggle="composite-number" href="../glossary/composite-number/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Composite number</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/compound-angle-formula" data-cm-glossary-toggle="compound-angle-formula" href="../glossary/compound-angle-formula/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Compound angle formula</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/concurrent" data-cm-glossary-toggle="concurrent" href="../glossary/concurrent/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Concurrent</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/conic" data-cm-glossary-toggle="conic" href="../glossary/conic/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Conic</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/conjecture" data-cm-glossary-toggle="conjecture" href="../glossary/conjecture/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Conjecture</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/continued-fraction" data-cm-glossary-toggle="continued-fraction" href="../glossary/continued-fraction/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Continued fraction</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/continuous-function" data-cm-glossary-toggle="continuous-function" href="../glossary/continuous-function/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Continuous function</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/convergent-sequence" data-cm-glossary-toggle="convergent-sequence" href="../glossary/convergent-sequence/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Convergent sequence</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/convex-shape" data-cm-glossary-toggle="convex-shape" href="../glossary/convex-shape/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Convex shape</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/coprime" data-cm-glossary-toggle="coprime" href="../glossary/coprime/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Coprime</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/cosine" data-cm-glossary-toggle="cosine" href="../glossary/cosine/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Cosine (cos)</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/cosine-rule" data-cm-glossary-toggle="cosine-rule" href="../glossary/cosine-rule/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Cosine rule</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/counterexample" data-cm-glossary-toggle="counterexample" href="../glossary/counterexample/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Counterexample</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/critical-point" data-cm-glossary-toggle="critical-point" href="../glossary/critical-point/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Critical point</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/cross-product" data-cm-glossary-toggle="cross-product" href="../glossary/cross-product/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Cross product</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/curvature" data-cm-glossary-toggle="curvature" href="../glossary/curvature/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Curvature</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/decreasing-sequence" data-cm-glossary-toggle="decreasing-sequence" href="../glossary/decreasing-sequence/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Decreasing sequence</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/degenerate" data-cm-glossary-toggle="degenerate" href="../glossary/degenerate/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Degenerate</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList --><li data-ng-repeat="item in viewModel.glossaryList" class="ng-scope">
+        <a data-ng-href="/glossary/degree-of-a-polynomial" data-cm-glossary-toggle="degree-of-a-polynomial" href="../glossary/degree-of-a-polynomial/">
+          <!-- ngIf: item.publishStatus != 'Public' -->
+          <!-- ngIf: item.publishStatus == 'Public' && item.underConstructionWarning -->
+          <span data-ng-bind="item.title" class="ng-binding">Degree of a polynomial</span>
+        </a>
+      </li><!-- end ngRepeat: item in viewModel.glossaryList -->
+    </ul><!-- end ngIf: viewModel.glossaryList.length > 0 && viewModel.typeOption == 'Glossary' -->
+    <!-- ngIf: viewModel.bundles.length == 0 && viewModel.typeOption == 'Bundle' -->
+    <!-- ngIf: viewModel.bundles.length > 0 && viewModel.typeOption == 'Bundle' -->
+    <!-- ngIf: viewModel.typeOption == 'RichResource' || viewModel.typeOption == 'ReviewQuestion' || viewModel.typeOption == 'Glossary' || viewModel.typeOption == 'Bundle' --><div data-ng-if="viewModel.typeOption == 'RichResource' || viewModel.typeOption == 'ReviewQuestion' || viewModel.typeOption == 'Glossary' || viewModel.typeOption == 'Bundle'" data-cm-pager data-cm-page-size="viewModel.pageSize" data-cm-total-rows="viewModel.totalRows" data-cm-current-page="viewModel.currentPage" data-cm-on-page-change="pageChange" class="ng-scope ng-isolate-scope"><!-- ngIf: getPageRangeTruncated().length > 1 --><ul class="cm-pager ng-scope" data-ng-if="getPageRangeTruncated().length > 1">
+  <!-- ngIf: currentPage > 0 -->
+  <!-- ngIf: currentPage > 0 -->
+  <!-- ngRepeat: item in getPageRangeTruncated() --><li data-ng-repeat="item in getPageRangeTruncated()" class="ng-scope">
+    <a tabindex="0" data-ng-click="setCurrentPage(item)" data-ng-bind="item+1" data-ng-class="{disabled: currentPage == item}" class="ng-binding disabled">1</a>
+  </li><!-- end ngRepeat: item in getPageRangeTruncated() --><li data-ng-repeat="item in getPageRangeTruncated()" class="ng-scope">
+    <a tabindex="0" data-ng-click="setCurrentPage(item)" data-ng-bind="item+1" data-ng-class="{disabled: currentPage == item}" class="ng-binding">2</a>
+  </li><!-- end ngRepeat: item in getPageRangeTruncated() --><li data-ng-repeat="item in getPageRangeTruncated()" class="ng-scope">
+    <a tabindex="0" data-ng-click="setCurrentPage(item)" data-ng-bind="item+1" data-ng-class="{disabled: currentPage == item}" class="ng-binding">3</a>
+  </li><!-- end ngRepeat: item in getPageRangeTruncated() --><li data-ng-repeat="item in getPageRangeTruncated()" class="ng-scope">
+    <a tabindex="0" data-ng-click="setCurrentPage(item)" data-ng-bind="item+1" data-ng-class="{disabled: currentPage == item}" class="ng-binding">4</a>
+  </li><!-- end ngRepeat: item in getPageRangeTruncated() -->
+  <!-- ngIf: currentPage < getNumPages() - 1 --><li data-ng-if="currentPage < getNumPages() - 1" class="ng-scope">
+    <a tabindex="0" data-ng-click="setCurrentPage(currentPage + 1)">&gt;</a>
+  </li><!-- end ngIf: currentPage < getNumPages() - 1 -->
+  <!-- ngIf: currentPage < getNumPages() - 1 --><li data-ng-if="currentPage < getNumPages() - 1" class="ng-scope">
+    <a tabindex="0" data-ng-click="setCurrentPage(getNumPages() - 1)">&gt;&gt;</a>
+  </li><!-- end ngIf: currentPage < getNumPages() - 1 -->
+</ul><!-- end ngIf: getPageRangeTruncated().length > 1 --></div><!-- end ngIf: viewModel.typeOption == 'RichResource' || viewModel.typeOption == 'ReviewQuestion' || viewModel.typeOption == 'Glossary' || viewModel.typeOption == 'Bundle' -->
+  </div><!-- end ngIf: !viewModel.searching -->
+</div><!-- end ngIf: viewModel.typeOption --></div>
+</div>
+</div>
+</div>
+</div>
+<div class="auto-height-row"><div class="footer"><div class="footer-top"><div class="footer-contact"><a href="mailto:info@undergroundmathematics.org"><span class="icon-email"></span>
+<span class="sr-only">Email</span>
+</a>
+<a href="https://twitter.com/UndergroundMath" target="_blank"><span class="icon-twitter"></span>
+<span class="sr-only">Twitter</span>
+</a>
+</div>
+<div class="footer-policies"><a href="../terms/" target="_self">Terms</a>
+<span class="text-divider"></span>
+<a href="../cookie-policy/" target="_self">Cookies</a>
+<span class="text-divider"></span>
+<a href="../privacy-policy/" target="_self">Privacy</a>
+</div>
+</div>
+<div class="footer-middle"><a class="footer-logo" href="../"><span class="icon-logo"></span>
+<span class="footer-title"><span>underground</span>
+<span>mathematics</span>
+</span>
+</a>
+<div class="footer-strapline">Rich resources for teaching A level mathematics</div>
+<small>Copyright © and Database Right 2013-2021 University of Cambridge <br>
+<a href="../terms/#copyright">All rights reserved</a>
+</small>
+</div>
+<div class="footer-bottom"><div class="footer-cambridge"><img src="../static/img/cambridge-logo-white.png" alt="University of Cambridge logo">
+</div>
+<div class="footer-dfe"><img src="../static/img/dfe-logo-white.png" alt="Department for Education logo">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/js-cookie/2.1.1/js.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.devbridge-autocomplete/1.2.24/jquery.autocomplete.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-resource.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-sanitize.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/markdown-it/8.3.1/markdown-it.min.js"></script>
+<script src="../static/js/main.min.js"></script>
+<script type="text/x-mathjax-config;executed=true">MathJax.Hub.Config({skipStartupTypeset: true,
+TeX: { equationNumbers: { autoNumber: "AMS" },
+Macros: {Var: "\\mathrm{Var}",
+cosec: "\\mathop{\\rm cosec}\\nolimits",
+sech: "\\mathop{\\rm sech}\\nolimits",
+cosech: "\\mathop{\\rm cosech}\\nolimits",
+arsinh: "\\mathop{\\rm arsinh}\\nolimits",
+arcosh: "\\mathop{\\rm arcosh}\\nolimits",
+artanh: "\\mathop{\\rm artanh}\\nolimits",
+arccot: "\\mathop{\\rm arccot}\\nolimits",
+arcsec: "\\mathop{\\rm arcsec}\\nolimits",
+arccosec: "\\mathop{\\rm arccosec}\\nolimits",
+quantity: ["{#1}\\,\\mathrm{#2}", 2],
+cmlongdiv: ["\\enclose{longdiv}{#1}", 1],
+cmlongdivbr: ["\\\\[-3pt]"],
+cmarraystretch: ["{}", 1]}},
+"HTML-CSS": {linebreaks: {automatic: true,
+width: "57%"},
+mtextFontInherit: true,
+preferredFont: "STIX",
+webFont: "STIX-Web",
+imageFont:null,
+minScaleAdjust: 100},
+"SVG": {linebreaks: {automatic: true,
+width: "57%"},
+mtextFontInherit: true,
+font: "STIX-Web",
+minScaleAdjust: 100},
+tex2jax: {displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+processEscapes: true}});
+MathJax.Hub.Register.StartupHook("TeX AMSsymbols Ready",function () { MathJax.InputJax.TeX.Definitions.mathchar0mi.square = ["25FB",{mathvariant:"normal"}];});
+MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {MathJax.Hub.Insert(MathJax.InputJax.TeX.Definitions.macros,{cancel: ["Extension","cancel"],
+bcancel: ["Extension","cancel"],
+xcancel: ["Extension","cancel"],
+cancelto: ["Extension","cancel"],
+enclose: ["Extension","enclose"]});});</script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script src="../static/js/lib/manup/manup.min.js"></script>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-50571661-2', 'auto');</script>
+<script src="../static/js/public/browse.min.js"></script><script>var spaSetup = {"accountSettings":{"imminentPasswordExpiryHours":168,"invalidPasswordMessage":"Your password must contain at least 1 upper case letter, 1 lower case letter, 1 digit and be at least 8 characters long.","verificationExpiryHours":48,"passwordResetExpiryHours":48},"appSettings":{"disableLogins":false,"webmasterEmail":"info@undergroundmathematics.org","disabledLoginMessage":null,"webmasterName":"Underground Mathematics "},"contactSettings":{"linkedInPage":"underground-mathematics","googlePlusPage":"107933654652080928819","webmasterEmail":"info@undergroundmathematics.org","adminPhone":"+44 1223 554 985","twitterUsername":"UndergroundMath","facebookPage":"UndergroundMathematics","adminEmail":"info@undergroundmathematics.org"},"currentUser":{}};</script>
+
+
+<div class="autocomplete-suggestions" style="position: absolute; display: none; max-height: 300px; z-index: 9999;"></div></body></html>

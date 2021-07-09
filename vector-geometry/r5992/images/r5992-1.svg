@@ -1,0 +1,291 @@
+<?xml version='1.0' ?><svg xmlns:ns0="http://www.iki.fi/pav/software/textext/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" id="svg2" version="1.1" width="252.33701" height="249.2848" viewBox="129.86790182825197 1305.5835821145974 395.26180094443674 390.4808057925142" preserveAspectRatio="none">
+  <metadata id="metadata365">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs id="defs363" />
+  <g transform="translate(0,1317.9798)" style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" id="g6" stroke-miterlimit="10.000">
+    <g id="misc" />
+    <g id="layer0">
+      <clipPath id="clip1">
+        <path id="path11" d="m 0,0 0,441 668,0 0,-441 z" />
+      </clipPath>
+      <g id="g13" clip-path="url(#clip1)">
+        <g style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" id="g15">
+          <path id="path17" d="m 259.03,354.25 141.98,0 100.4,-100.4 0,-141.99 -100.4,-100.395 -141.98,0 -100.4,100.395 0,141.99 z" />
+          <title id="title19">Polygon poly1</title>
+          <desc id="desc21">Polygon poly1: Polygon[A, B, 8]</desc>
+        </g>
+      </g>
+      <clipPath id="clip2">
+        <path id="path24" d="m 0,0 0,441 668,0 0,-441 z" />
+      </clipPath>
+      <g id="g26" clip-path="url(#clip2)">
+        <g style="fill:none;stroke:#993300;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" id="g28">
+          <path id="path30" d="M 259.03,354.25 501.41,253.85 401.01,11.465 158.63,111.86 Z" />
+          <title id="title32">Polygon poly2</title>
+          <desc id="desc34">Polygon poly2: Polygon[A, C, 4]</desc>
+        </g>
+      </g>
+      <clipPath id="clip3">
+        <path id="path37" d="m 0,0 0,441 668,0 0,-441 z" />
+      </clipPath>
+      <g id="g39" clip-path="url(#clip3)">
+        <g style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" id="g41">
+          <path id="path43" d="m 259.03,354.25 141.98,0" />
+          <title id="title45">Segment f</title>
+          <desc id="desc47">Segment f: Segment [A, B] of Polygon poly1</desc>
+        </g>
+      </g>
+      <clipPath id="clip4">
+        <path id="path50" d="m 0,0 0,441 668,0 0,-441 z" />
+      </clipPath>
+      <g id="g52" clip-path="url(#clip4)">
+        <g style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" id="g54">
+          <path id="path56" d="m 401.01,354.25 100.4,-100.4" />
+          <title id="title58">Segment g</title>
+          <desc id="desc60">Segment g: Segment [B, C] of Polygon poly1</desc>
+        </g>
+      </g>
+      <clipPath id="clip5">
+        <path id="path63" d="m 0,0 0,441 668,0 0,-441 z" />
+      </clipPath>
+      <g id="g65" clip-path="url(#clip5)">
+        <g style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" id="g67">
+          <path id="path69" d="m 501.41,253.85 0,-141.99" />
+          <title id="title71">Segment h</title>
+          <desc id="desc73">Segment h: Segment [C, D] of Polygon poly1</desc>
+        </g>
+      </g>
+      <clipPath id="clip6">
+        <path id="path76" d="m 0,0 0,441 668,0 0,-441 z" />
+      </clipPath>
+      <g id="g78" clip-path="url(#clip6)">
+        <g style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" id="g80">
+          <path id="path82" d="M 501.41,111.86 401.01,11.465" />
+          <title id="title84">Segment i</title>
+          <desc id="desc86">Segment i: Segment [D, E] of Polygon poly1</desc>
+        </g>
+      </g>
+      <clipPath id="clip7">
+        <path id="path89" d="m 0,0 0,441 668,0 0,-441 z" />
+      </clipPath>
+      <g id="g91" clip-path="url(#clip7)">
+        <g style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" id="g93">
+          <path id="path95" d="m 401.01,11.465 -141.98,0" />
+          <title id="title97">Segment j</title>
+          <desc id="desc99">Segment j: Segment [E, F] of Polygon poly1</desc>
+        </g>
+      </g>
+      <clipPath id="clip8">
+        <path id="path102" d="m 0,0 0,441 668,0 0,-441 z" />
+      </clipPath>
+      <g id="g104" clip-path="url(#clip8)">
+        <g style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" id="g106">
+          <path id="path108" d="M 259.03,11.465 158.63,111.86" />
+          <title id="title110">Segment k</title>
+          <desc id="desc112">Segment k: Segment [F, G] of Polygon poly1</desc>
+        </g>
+      </g>
+      <clipPath id="clip9">
+        <path id="path115" d="m 0,0 0,441 668,0 0,-441 z" />
+      </clipPath>
+      <g id="g117" clip-path="url(#clip9)">
+        <g style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" id="g119">
+          <path id="path121" d="m 158.63,111.86 0,141.99" />
+          <title id="title123">Segment l</title>
+          <desc id="desc125">Segment l: Segment [G, H] of Polygon poly1</desc>
+        </g>
+      </g>
+      <clipPath id="clip10">
+        <path id="path128" d="m 0,0 0,441 668,0 0,-441 z" />
+      </clipPath>
+      <g transform="matrix(-1.4999999,5.7578202e-4,-5.757818e-4,-1.4999999,396.64957,460.30553)" id="g130" clip-path="url(#clip10)">
+        <g style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" id="g132">
+          <path id="path134" d="m 158.63,186.36 -4.5,-3.5" />
+          <title id="title136">Segment l</title>
+          <desc id="desc138">Segment l: Segment [G, H] of Polygon poly1</desc>
+        </g>
+      </g>
+      <clipPath id="clip11">
+        <path id="path141" d="m 0,0 0,441 668,0 0,-441 z" />
+      </clipPath>
+      <g transform="matrix(-1.4999999,5.7578202e-4,-5.757818e-4,-1.4999999,396.64957,460.30553)" id="g143" clip-path="url(#clip11)">
+        <g style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" id="g145">
+          <path id="path147" d="m 158.63,186.36 4.5,-3.5" />
+          <title id="title149">Segment l</title>
+          <desc id="desc151">Segment l: Segment [G, H] of Polygon poly1</desc>
+        </g>
+      </g>
+      <clipPath id="clip12">
+        <path id="path154" d="m 0,0 0,441 668,0 0,-441 z" />
+      </clipPath>
+      <g id="g156" clip-path="url(#clip12)">
+        <g style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" id="g158">
+          <path id="path160" d="m 158.63,253.85 100.4,100.4" />
+          <title id="title162">Segment m</title>
+          <desc id="desc164">Segment m: Segment [H, A] of Polygon poly1</desc>
+        </g>
+      </g>
+      <clipPath id="clip13">
+        <path id="path167" d="m 0,0 0,441 668,0 0,-441 z" />
+      </clipPath>
+      <clipPath id="clip14">
+        <path id="path180" d="m 0,0 0,441 668,0 0,-441 z" />
+      </clipPath>
+      <g transform="matrix(-1.4988847,-0.05783177,0.05783173,-1.4988848,504.62255,772.60958)" id="g7772">
+        <g clip-path="url(#clip13)" id="g169">
+          <g id="g171" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+            <path d="m 211.3,306.52 -5.66,0.71" id="path173" />
+            <title id="title175">Segment m</title>
+            <desc id="desc177">Segment m: Segment [H, A] of Polygon poly1</desc>
+          </g>
+        </g>
+        <g clip-path="url(#clip14)" id="g182">
+          <g id="g184" style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+            <path d="m 211.3,306.52 0.71,-5.65" id="path186" />
+            <title id="title188">Segment m</title>
+            <desc id="desc190">Segment m: Segment [H, A] of Polygon poly1</desc>
+          </g>
+        </g>
+      </g>
+      <clipPath id="clip15">
+        <path id="path193" d="m 0,0 0,441 668,0 0,-441 z" />
+      </clipPath>
+      <g id="g195" clip-path="url(#clip15)">
+        <g style="fill:none;stroke:#993300;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" id="g197">
+          <path id="path199" d="M 259.03,354.25 501.41,253.85" />
+          <title id="title201">Segment n</title>
+          <desc id="desc203">Segment n: Segment [A, C] of Polygon poly2</desc>
+        </g>
+      </g>
+      <clipPath id="clip16">
+        <path id="path206" d="m 0,0 0,441 668,0 0,-441 z" />
+      </clipPath>
+      <g transform="matrix(1.5,0,0,1.5,-188.74348,-152.8379)" id="g208" clip-path="url(#clip16)">
+        <g style="fill:none;stroke:#993300;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" id="g210">
+          <path id="path212" d="m 383.45,302.71 -1.51,5.5" />
+          <title id="title214">Segment n</title>
+          <desc id="desc216">Segment n: Segment [A, C] of Polygon poly2</desc>
+        </g>
+      </g>
+      <clipPath id="clip17">
+        <path id="path219" d="m 0,0 0,441 668,0 0,-441 z" />
+      </clipPath>
+      <g transform="matrix(1.5,0,0,1.5,-188.74348,-152.8379)" id="g221" clip-path="url(#clip17)">
+        <g style="fill:none;stroke:#993300;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" id="g223">
+          <path id="path225" d="m 383.45,302.71 -4.95,-2.82" />
+          <title id="title227">Segment n</title>
+          <desc id="desc229">Segment n: Segment [A, C] of Polygon poly2</desc>
+        </g>
+      </g>
+      <clipPath id="clip18">
+        <path id="path232" d="m 0,0 0,441 668,0 0,-441 z" />
+      </clipPath>
+      <g id="g234" clip-path="url(#clip18)">
+        <g style="fill:none;stroke:#993300;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" id="g236">
+          <path id="path238" d="M 501.41,253.85 401.01,11.465" />
+          <title id="title240">Segment p</title>
+          <desc id="desc242">Segment p: Segment [C, I] of Polygon poly2</desc>
+        </g>
+      </g>
+      <clipPath id="clip19">
+        <path id="path245" d="m 0,0 0,441 668,0 0,-441 z" />
+      </clipPath>
+      <g id="g247" clip-path="url(#clip19)">
+        <g style="fill:none;stroke:#993300;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" id="g249">
+          <path id="path251" d="M 401.01,11.465 158.63,111.86" />
+          <title id="title253">Segment q</title>
+          <desc id="desc255">Segment q: Segment [I, J] of Polygon poly2</desc>
+        </g>
+      </g>
+      <clipPath id="clip20">
+        <path id="path258" d="m 0,0 0,441 668,0 0,-441 z" />
+      </clipPath>
+      <g id="g260" clip-path="url(#clip20)">
+        <g style="fill:none;stroke:#993300;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" id="g262">
+          <path id="path264" d="m 158.63,111.86 100.4,242.39" />
+          <title id="title266">Segment r</title>
+          <desc id="desc268">Segment r: Segment [J, A] of Polygon poly2</desc>
+        </g>
+      </g>
+      <clipPath id="clip21">
+        <path id="path271" d="m 0,0 0,441 668,0 0,-441 z" />
+      </clipPath>
+      <clipPath id="clip22">
+        <path id="path284" d="m 0,0 0,441 668,0 0,-441 z" />
+      </clipPath>
+      <clipPath id="clip23">
+        <path id="path297" d="m 0,0 0,441 668,0 0,-441 z" />
+      </clipPath>
+      <clipPath id="clip24">
+        <path id="path310" d="m 0,0 0,441 668,0 0,-441 z" />
+      </clipPath>
+      <g transform="matrix(-1.498559,-0.0657347,0.06573468,-1.498559,505.82109,594.11112)" id="g7784">
+        <g clip-path="url(#clip21)" id="g273">
+          <g id="g275" style="fill:none;stroke:#993300;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+            <path d="m 211.5,239.52 -5.49,-1.51" id="path277" />
+            <title id="title279">Segment r</title>
+            <desc id="desc281">Segment r: Segment [J, A] of Polygon poly2</desc>
+          </g>
+        </g>
+        <g clip-path="url(#clip22)" id="g286">
+          <g id="g288" style="fill:none;stroke:#993300;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+            <path d="m 211.5,239.52 2.82,-4.95" id="path290" />
+            <title id="title292">Segment r</title>
+            <desc id="desc294">Segment r: Segment [J, A] of Polygon poly2</desc>
+          </g>
+        </g>
+        <g clip-path="url(#clip23)" id="g299">
+          <g id="g301" style="fill:none;stroke:#993300;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+            <path d="m 208.83,233.06 -5.5,-1.52" id="path303" />
+            <title id="title305">Segment r</title>
+            <desc id="desc307">Segment r: Segment [J, A] of Polygon poly2</desc>
+          </g>
+        </g>
+        <g clip-path="url(#clip24)" id="g312">
+          <g id="g314" style="fill:none;stroke:#993300;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+            <path d="m 208.83,233.06 2.81,-4.96" id="path316" />
+            <title id="title318">Segment r</title>
+            <desc id="desc320">Segment r: Segment [J, A] of Polygon poly2</desc>
+          </g>
+        </g>
+      </g>
+      <clipPath id="clip25">
+        <path id="path323" d="m 0,0 0,441 668,0 0,-441 z" />
+      </clipPath>
+      <g id="g325" clip-path="url(#clip25)">
+        <g style="fill:none;stroke:#800080;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" id="g327">
+          <path id="path329" d="M 259.03,354.25 401.01,11.465" />
+          <title id="title331">Segment s</title>
+          <desc id="desc333">Segment s: Segment [A, E]</desc>
+        </g>
+      </g>
+      <clipPath id="clip26">
+        <path id="path336" d="m 0,0 0,441 668,0 0,-441 z" />
+      </clipPath>
+      <g transform="matrix(1.5,0,0,1.5,-165.21076,-91.022563)" id="g338" clip-path="url(#clip26)">
+        <g style="fill:none;stroke:#800080;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" id="g340">
+          <path id="path342" d="m 331.36,179.62 2.82,4.96" />
+          <title id="title344">Segment s</title>
+          <desc id="desc346">Segment s: Segment [A, E]</desc>
+        </g>
+      </g>
+      <clipPath id="clip27">
+        <path id="path349" d="m 0,0 0,441 668,0 0,-441 z" />
+      </clipPath>
+      <g transform="matrix(1.5,0,0,1.5,-165.21076,-91.022563)" id="g351" clip-path="url(#clip27)">
+        <g style="fill:none;stroke:#800080;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" id="g353">
+          <path id="path355" d="m 331.36,179.62 -5.5,1.51" />
+          <title id="title357">Segment s</title>
+          <desc id="desc359">Segment s: Segment [A, E]</desc>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" ns0:preamble="/Users/prmb/CMEP/underground-inkscape-preamble.tex" ns0:text="$A$" word-spacing="normal" letter-spacing="normal" font-size-adjust="none" font-stretch="normal" font-weight="normal" font-variant="normal" font-style="normal" stroke-miterlimit="10.433" xml:space="preserve" transform="matrix(2,0,0,-2,-205.37388,2649.5107)" id="content"><path style="fill:#000000;stroke-width:0" id="path4690" d="m 231.52,477.23 0,0.19 -0.19,0 c -0.5,0 -0.79,0.25 -0.87,0.83 l -0.92,6.86 -0.22,0 -4.2,-6.81 c -0.42,-0.69 -0.86,-0.83 -1.27,-0.88 l 0,-0.19 2.57,0 0,0.19 -0.34,0 c -0.31,0 -0.5,0.13 -0.51,0.35 0,0.08 0.03,0.21 0.12,0.3 l 0.99,1.66 2.34,0 -0.09,0.43 -2,0 1.64,2.68 0.07,0 0.29,-2.68 0.09,-0.43 0.15,-1.34 c 0.01,-0.08 0.02,-0.18 0.02,-0.25 0,-0.47 -0.19,-0.72 -0.85,-0.72 l -0.19,0 0,-0.19 z" /></g>  <g style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="g5086" transform="matrix(2,0,0,-2,-47.240158,2650.5244)" xml:space="preserve" stroke-miterlimit="10.433" font-style="normal" font-variant="normal" font-weight="normal" font-stretch="normal" font-size-adjust="none" letter-spacing="normal" word-spacing="normal" ns0:text="$B$" ns0:preamble="/Users/prmb/CMEP/underground-inkscape-preamble.tex"><path style="fill:#000000;stroke-width:0" d="m 225.77,484.94 -0.06,-0.18 0.22,0 c 0.7,0 0.93,-0.19 0.93,-0.5 0,-0.07 -0.02,-0.19 -0.03,-0.25 l -1.45,-5.84 c -0.09,-0.4 -0.32,-0.75 -1.22,-0.75 l -0.23,0 -0.05,-0.19 3.83,0 c 2.44,0 3.41,1.12 3.41,2.28 0,1.01 -0.79,1.5 -1.5,1.63 l -0.04,0.05 c 0.24,0.06 0.58,0.15 0.88,0.31 0.56,0.28 1.07,0.81 1.07,1.73 0,1.61 -1.79,1.71 -2.79,1.71 l -0.01,-0.46 c 0.64,0 1.41,-0.24 1.41,-1.15 0,-1.15 -0.66,-1.93 -1.99,-1.93 l -0.13,-0.41 c 0.93,0 1.68,-0.41 1.68,-1.28 0,-1.53 -1.13,-2.03 -2.24,-2.03 -0.31,0 -0.55,0.03 -0.84,0.11 l 0.8,3.15 c 0.18,0.05 0.42,0.05 0.6,0.05 l 0.13,0.41 c -0.17,0 -0.39,0.03 -0.62,0.07 l 0.7,2.98 c 0.15,0.02 0.33,0.03 0.5,0.03 l 0.01,0.46 z" id="path5088" /></g>  <g style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" ns0:preamble="/Users/prmb/CMEP/underground-inkscape-preamble.tex" ns0:text="$C$" word-spacing="normal" letter-spacing="normal" font-size-adjust="none" font-stretch="normal" font-weight="normal" font-variant="normal" font-style="normal" stroke-miterlimit="10.433" xml:space="preserve" transform="matrix(2,0,0,-2,61.223356,2540.0335)" id="g5488"><path style="fill:#000000;stroke-width:0" id="path5490" d="m 231.83,485.02 -0.22,0 c -0.17,-0.3 -0.36,-0.32 -0.49,-0.32 -0.62,0 -1.23,0.32 -1.87,0.32 -2.85,0 -5.23,-1.93 -5.23,-4.64 0,-1.74 1.12,-3.29 3.4,-3.29 0.46,0 1.36,0.07 2.28,0.72 0.34,0.25 0.73,0.61 1.05,1.09 l -0.23,0.15 c -0.06,-0.08 -0.12,-0.15 -0.2,-0.23 -0.54,-0.58 -1.4,-1.16 -2.56,-1.16 -1.59,0 -2.3,1.2 -2.3,2.53 0,2.01 1.4,4.39 3.77,4.39 1.43,0 1.79,-0.93 1.79,-1.7 0,-0.3 0,-0.4 -0.01,-0.5 l 0.19,0 z" /></g>  <g style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="g5894" transform="matrix(2,0,0,-2,60.209683,2387.9818)" xml:space="preserve" stroke-miterlimit="10.433" font-style="normal" font-variant="normal" font-weight="normal" font-stretch="normal" font-size-adjust="none" letter-spacing="normal" word-spacing="normal" ns0:text="$D$" ns0:preamble="/Users/prmb/CMEP/underground-inkscape-preamble.tex"><path style="fill:#000000;stroke-width:0" d="m 225.72,484.94 -0.06,-0.2 0.3,0 c 0.69,0 0.91,-0.17 0.91,-0.43 0,-0.09 -0.03,-0.19 -0.05,-0.29 l -1.44,-5.86 c -0.09,-0.41 -0.37,-0.74 -1.24,-0.74 l -0.21,0 -0.05,-0.19 3.61,0 c 3.05,0 4.97,1.98 4.97,4.47 0,2.03 -1.19,3.24 -3.41,3.24 l -0.14,-0.44 c 1.74,0 2.13,-1.62 2.13,-2.98 0,-1.66 -0.94,-3.84 -3.2,-3.84 -0.42,0 -1.13,0.03 -1.13,0.51 0,0.04 0,0.1 0.06,0.32 l 1.44,5.95 c 0.19,0.02 0.46,0.04 0.7,0.04 l 0.14,0.44 z" id="path5896" /></g>  <g style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" ns0:preamble="/Users/prmb/CMEP/underground-inkscape-preamble.tex" ns0:text="$E$" word-spacing="normal" letter-spacing="normal" font-size-adjust="none" font-stretch="normal" font-weight="normal" font-variant="normal" font-style="normal" stroke-miterlimit="10.433" xml:space="preserve" transform="matrix(2,0,0,-2,-48.253836,2277.491)" id="g6304"><path style="fill:#000000;stroke-width:0" id="path6306" d="m 232.1,484.94 -6.31,0 -0.04,-0.18 0.22,0 c 0.7,0 0.89,-0.13 0.89,-0.42 0,-0.08 -0.02,-0.21 -0.06,-0.42 l -1.42,-5.76 c -0.09,-0.41 -0.37,-0.74 -1.23,-0.74 l -0.22,0 -0.05,-0.19 6.74,0 0.78,2.34 -0.19,0 c -0.5,-1.33 -1.17,-1.89 -3.03,-1.89 l -0.79,0 c -0.56,0 -0.75,0.13 -0.75,0.32 0,0.04 0.01,0.07 0.03,0.12 l 0.78,3.05 1.06,0 c 0.37,0 0.85,-0.05 0.85,-0.61 0,-0.2 -0.06,-0.55 -0.07,-0.7 l 0.2,0 0.68,2.85 -0.19,0 c -0.25,-0.97 -0.77,-1.12 -1.48,-1.12 l -0.95,0 0.71,2.93 1.89,0 c 0.6,0 1.25,-0.15 1.29,-1.03 0,-0.13 -0.01,-0.26 -0.03,-0.41 l 0.19,0 z" /></g>  <g style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="g6718" transform="matrix(2,0,0,-2,-202.33284,2275.4636)" xml:space="preserve" stroke-miterlimit="10.433" font-style="normal" font-variant="normal" font-weight="normal" font-stretch="normal" font-size-adjust="none" letter-spacing="normal" word-spacing="normal" ns0:text="$F$" ns0:preamble="/Users/prmb/CMEP/underground-inkscape-preamble.tex"><path style="fill:#000000;stroke-width:0" d="m 231.97,484.94 -6.14,0 -0.05,-0.17 0.23,0 c 0.7,0 0.89,-0.22 0.89,-0.46 0,-0.09 -0.02,-0.19 -0.04,-0.29 l -1.47,-5.86 c -0.1,-0.41 -0.35,-0.74 -1.25,-0.74 l -0.21,0 -0.05,-0.19 4.04,0 0.05,0.19 -0.38,0 c -0.71,0 -0.94,0.19 -0.94,0.49 0,0.08 0.04,0.17 0.05,0.25 l 0.73,2.99 1.15,0 c 0.34,0 0.83,-0.03 0.83,-0.59 0,-0.21 -0.03,-0.55 -0.06,-0.72 l 0.19,0 0.7,2.86 -0.19,0 c -0.24,-1 -0.79,-1.12 -1.52,-1.12 l -0.98,0 0.73,2.93 1.74,0 c 0.55,0 1.26,-0.11 1.3,-1.03 0,-0.16 0,-0.33 -0.01,-0.43 l 0.19,0 z" id="path6720" /></g>  <g style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" ns0:preamble="/Users/prmb/CMEP/underground-inkscape-preamble.tex" ns0:text="$G$" word-spacing="normal" letter-spacing="normal" font-size-adjust="none" font-stretch="normal" font-weight="normal" font-variant="normal" font-style="normal" stroke-miterlimit="10.433" xml:space="preserve" transform="matrix(2,0,0,-2,-314.85107,2385.9544)" id="g7136"><path style="fill:#000000;stroke-width:0" id="path7138" d="m 232.1,481.12 -3.7,0 -0.05,-0.19 0.23,0 c 0.72,0 0.88,-0.18 0.88,-0.44 0,-0.08 -0.01,-0.2 -0.03,-0.29 l -0.67,-2.37 c -0.32,-0.21 -0.66,-0.3 -1.15,-0.3 -1.73,0 -2.14,1.14 -2.14,2.11 0,2.12 1.05,5.04 3.76,5.04 1.33,0 1.89,-0.95 1.89,-1.81 0,-0.13 -0.01,-0.26 -0.03,-0.38 l 0.19,0 0.53,2.63 -0.19,0 c -0.03,-0.19 -0.24,-0.44 -0.5,-0.44 -0.26,0 -0.49,0.18 -0.75,0.25 -0.26,0.09 -0.63,0.19 -1.21,0.19 -2.99,0 -5.14,-2.55 -5.14,-5.03 0,-2.11 1.6,-3 3.45,-3 0.74,0 1.63,0 2.56,0.56 l 0.73,2.55 c 0.12,0.42 0.33,0.73 1.34,0.73 z" /></g>  <g style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="g7558" transform="matrix(2,0,0,-2,-317.8921,2538.0061)" xml:space="preserve" stroke-miterlimit="10.433" font-style="normal" font-variant="normal" font-weight="normal" font-stretch="normal" font-size-adjust="none" letter-spacing="normal" word-spacing="normal" ns0:text="$H$" ns0:preamble="/Users/prmb/CMEP/underground-inkscape-preamble.tex"><path style="fill:#000000;stroke-width:0" d="m 234.33,484.94 -3.9,0 -0.04,-0.18 0.23,0 c 0.67,0 0.9,-0.18 0.9,-0.46 0,-0.09 -0.02,-0.17 -0.05,-0.29 l -0.62,-2.56 -3.29,0 0.62,2.56 c 0.09,0.41 0.31,0.75 1.24,0.75 l 0.21,0 0.05,0.18 -3.9,0 -0.05,-0.18 0.24,0 c 0.73,0 0.92,-0.22 0.92,-0.46 0,-0.09 -0.02,-0.22 -0.05,-0.29 l -1.45,-5.85 c -0.09,-0.41 -0.36,-0.74 -1.25,-0.74 l -0.21,0 -0.05,-0.19 3.9,0 0.04,0.19 -0.23,0 c -0.7,0 -0.91,0.17 -0.91,0.45 0,0.1 0.02,0.21 0.05,0.29 l 0.72,2.85 3.3,0 -0.72,-2.85 c -0.1,-0.44 -0.39,-0.74 -1.24,-0.74 l -0.21,0 -0.05,-0.19 3.89,0 0.04,0.19 -0.22,0 c -0.7,0 -0.92,0.16 -0.92,0.41 0,0.11 0.02,0.22 0.05,0.33 l 1.45,5.85 c 0.1,0.41 0.35,0.75 1.25,0.75 l 0.21,0 z" id="path7560" /></g></svg>

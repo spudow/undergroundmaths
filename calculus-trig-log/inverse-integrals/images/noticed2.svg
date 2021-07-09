@@ -1,0 +1,159 @@
+<?xml version='1.0' ?><svg xmlns:ns0="http://www.iki.fi/pav/software/textext/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" id="svg2" version="1.1" width="373.74999" height="242.00094" viewBox="0.0 0.7752044154381269 676.9999818862875 438.3535421538461" preserveAspectRatio="none">
+  <metadata id="metadata333">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs id="defs331" />
+  <g id="g6" stroke-linecap="square" stroke-miterlimit="10.000" stroke-width="1.0000" stroke-dasharray="none" stroke-dashoffset="0.0000" stroke-linejoin="miter">
+    <clipPath id="clip1">
+      <path id="path9" d="M 0.0000 0.0000 L 0.0000 439.00 L 677.00 439.00 L 677.00 0.0000 z" />
+    </clipPath>
+    <g id="g11" clip-path="url(#clip1)">
+      <g id="g13" stroke="#000000" stroke-opacity="1.0000" fill="none" stroke-linecap="butt">
+        <path id="path15" d="M 48.570 2.0000 L 48.570 439.00" />
+      </g>
+    </g>
+    <clipPath id="clip2">
+      <path id="path18" d="M 0.0000 0.0000 L 0.0000 439.00 L 677.00 439.00 L 677.00 0.0000 z" />
+    </clipPath>
+    <g id="g20" clip-path="url(#clip2)">
+      <g id="g22" stroke="#000000" stroke-opacity="1.0000" fill="none" stroke-linecap="butt">
+        <path id="path24" d="M 48.570 1.0000 L 43.570 6.0000" />
+      </g>
+    </g>
+    <clipPath id="clip3">
+      <path id="path27" d="M 0.0000 0.0000 L 0.0000 439.00 L 677.00 439.00 L 677.00 0.0000 z" />
+    </clipPath>
+    <g id="g29" clip-path="url(#clip3)">
+      <g id="g31" stroke="#000000" stroke-opacity="1.0000" fill="none" stroke-linecap="butt">
+        <path id="path33" d="M 48.570 1.0000 L 53.570 6.0000" />
+      </g>
+    </g>
+    <clipPath id="clip4">
+      <path id="path36" d="M 0.0000 0.0000 L 0.0000 439.00 L 677.00 439.00 L 677.00 0.0000 z" />
+    </clipPath>
+    <g id="g38" clip-path="url(#clip4)">
+      <g id="g40" stroke="#000000" stroke-opacity="1.0000" fill="none" stroke-linecap="butt">
+        <path id="path42" d="M 0.0000 315.75 L 675.00 315.75" />
+      </g>
+    </g>
+    <clipPath id="clip5">
+      <path id="path45" d="M 0.0000 0.0000 L 0.0000 439.00 L 677.00 439.00 L 677.00 0.0000 z" />
+    </clipPath>
+    <g id="g47" clip-path="url(#clip5)">
+      <g id="g49" stroke="#000000" stroke-opacity="1.0000" fill="none" stroke-linecap="butt">
+        <path id="path51" d="M 676.00 315.75 L 671.00 310.75" />
+      </g>
+    </g>
+    <clipPath id="clip6">
+      <path id="path54" d="M 0.0000 0.0000 L 0.0000 439.00 L 677.00 439.00 L 677.00 0.0000 z" />
+    </clipPath>
+    <g id="g56" clip-path="url(#clip6)">
+      <g id="g58" stroke="#000000" stroke-opacity="1.0000" fill="none" stroke-linecap="butt">
+        <path id="path60" d="M 676.00 315.75 L 671.00 320.75" />
+      </g>
+    </g>
+    <g id="misc" />
+    <g id="layer0">
+      <clipPath id="clip7">
+        <path id="path65" d="M 0.0000 0.0000 L 0.0000 439.00 L 677.00 439.00 L 677.00 0.0000 z" />
+      </clipPath>
+      <g id="g67" clip-path="url(#clip7)">
+        <g fill="none" stroke="#006400" stroke-width="3.5000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0000" id="g69">
+          <path id="path71" d="M 95.203 445.48 L 97.848 437.58 L 100.49 430.10 L 103.14 422.98 L 105.78 416.21 L 108.43 409.74 L 111.07 403.55 L 113.71 397.62 L 116.36 391.92 L 119.00 386.44 L 121.65 381.16 L 124.29 376.07 L 126.94 371.16 L 132.23 361.81 L 137.52 353.03 L 142.80 344.76 L 148.09 336.94 L 153.38 329.53 L 158.67 322.48 L 163.96 315.77 L 169.25 309.35 L 174.54 303.21 L 179.83 297.32 L 185.12 291.66 L 190.41 286.22 L 195.70 280.98 L 200.98 275.93 L 206.27 271.04 L 211.56 266.32 L 216.85 261.75 L 222.14 257.32 L 227.43 253.02 L 232.72 248.85 L 238.01 244.79 L 243.30 240.85 L 248.59 237.01 L 253.88 233.28 L 259.16 229.64 L 264.45 226.08 L 269.74 222.62 L 275.03 219.24 L 280.32 215.93 L 285.61 212.70 L 290.90 209.54 L 296.19 206.45 L 301.48 203.42 L 306.77 200.46 L 312.05 197.56 L 317.34 194.71 L 322.63 191.92 L 327.92 189.19 L 333.21 186.50 L 338.50 183.86 L 343.79 181.28 L 349.08 178.73 L 354.37 176.24 L 359.66 173.78 L 364.95 171.37 L 370.23 168.99 L 375.52 166.66 L 380.81 164.36 L 386.10 162.10 L 391.39 159.87 L 396.68 157.68 L 401.97 155.52 L 407.26 153.40 L 412.55 151.30 L 417.84 149.24 L 423.12 147.20 L 428.41 145.19 L 433.70 143.21 L 438.99 141.26 L 444.28 139.33 L 449.57 137.43 L 454.86 135.56 L 460.15 133.70 L 465.44 131.88 L 470.73 130.07 L 476.02 128.29 L 481.30 126.53 L 486.59 124.79 L 491.88 123.07 L 497.17 121.37 L 502.46 119.69 L 507.75 118.04 L 513.04 116.40 L 518.33 114.78 L 523.62 113.17 L 528.91 111.59 L 534.20 110.02 L 539.48 108.47 L 544.77 106.93 L 550.06 105.42 L 555.35 103.91 L 560.64 102.43 L 565.93 100.96 L 571.22 99.501 L 576.51 98.059 L 581.80 96.632 L 587.09 95.219 L 592.38 93.820 L 597.66 92.434 L 602.95 91.061 L 608.24 89.702 L 613.53 88.355 L 618.82 87.021 L 624.11 85.700 L 629.40 84.390 L 634.69 83.092 L 639.98 81.806 L 645.27 80.531 L 650.55 79.268 L 655.84 78.016 L 661.13 76.774 L 666.42 75.543 L 671.71 74.323 L 677.00 73.113" />
+          <title id="title73">Function f</title>
+          <desc id="desc75">f(x) = ln(x)</desc>
+        </g>
+      </g>
+      <clipPath id="clip8">
+        <path id="path78" d="M 0.0000 0.0000 L 0.0000 439.00 L 677.00 439.00 L 677.00 0.0000 z" />
+      </clipPath>
+      <g id="g80" clip-path="url(#clip8)">
+        <g fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0000" id="g82">
+          <path id="path84" d="M 394.01 158.78 L 48.570 158.78" />
+          <title id="title86">Segment h</title>
+          <desc id="desc88">Segment h: Segment [B, C]</desc>
+        </g>
+      </g>
+      <clipPath id="clip9">
+        <path id="path91" d="M 0.0000 0.0000 L 0.0000 439.00 L 677.00 439.00 L 677.00 0.0000 z" />
+      </clipPath>
+      <g id="g93" clip-path="url(#clip9)">
+        <g fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0000" id="g95">
+          <path id="path97" d="M 48.570 232.28 L 255.31 232.28" />
+          <title id="title99">Segment i</title>
+          <desc id="desc101">Segment i: Segment [D, A]</desc>
+        </g>
+      </g>
+      <clipPath id="clip10">
+        <path id="path104" d="M 0.0000 0.0000 L 0.0000 439.00 L 677.00 439.00 L 677.00 0.0000 z" />
+      </clipPath>
+      <g id="g106" clip-path="url(#clip10)">
+        <g fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0000" id="g108">
+          <path id="path110" d="M 255.31 232.28 L 255.31 318.31" />
+          <title id="title112">Segment j</title>
+          <desc id="desc114">Segment j: Segment [A, E]</desc>
+        </g>
+      </g>
+      <clipPath id="clip11">
+        <path id="path117" d="M 0.0000 0.0000 L 0.0000 439.00 L 677.00 439.00 L 677.00 0.0000 z" />
+      </clipPath>
+      <g id="g119" clip-path="url(#clip11)">
+        <g fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0000" id="g121">
+          <path id="path123" d="M 394.01 158.78 L 394.01 315.75" />
+          <title id="title125">Segment k</title>
+          <desc id="desc127">Segment k: Segment [B, F]</desc>
+        </g>
+      </g>
+      <clipPath id="clip12">
+        <path id="path130" d="M 0.0000 0.0000 L 0.0000 439.00 L 677.00 439.00 L 677.00 0.0000 z" />
+      </clipPath>
+      <g id="g132" clip-path="url(#clip12)">
+        <g fill="#000000" fill-opacity="1.0000" fill-rule="nonzero" stroke="none" id="g134">
+          <path id="path136" d="M 258.31 232.28 C 258.31 233.94 256.97 235.28 255.31 235.28 C 253.65 235.28 252.31 233.94 252.31 232.28 C 252.31 230.62 253.65 229.28 255.31 229.28 C 256.97 229.28 258.31 230.62 258.31 232.28 z" />
+          <title id="title138">Point A</title>
+          <desc id="desc140">Point A: Point on f</desc>
+        </g>
+      </g>
+      <clipPath id="clip13">
+        <path id="path143" d="M 0.0000 0.0000 L 0.0000 439.00 L 677.00 439.00 L 677.00 0.0000 z" />
+      </clipPath>
+      <g id="g145" clip-path="url(#clip13)">
+        <g fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0000" id="g147">
+          <path id="path149" d="M 258.31 232.28 C 258.31 233.94 256.97 235.28 255.31 235.28 C 253.65 235.28 252.31 233.94 252.31 232.28 C 252.31 230.62 253.65 229.28 255.31 229.28 C 256.97 229.28 258.31 230.62 258.31 232.28 z" />
+          <title id="title151">Point A</title>
+          <desc id="desc153">Point A: Point on f</desc>
+        </g>
+      </g>
+      <clipPath id="clip14">
+        <path id="path156" d="M 0.0000 0.0000 L 0.0000 439.00 L 677.00 439.00 L 677.00 0.0000 z" />
+      </clipPath>
+      <g id="g158" clip-path="url(#clip14)">
+        <g fill="#000000" fill-opacity="1.0000" fill-rule="nonzero" stroke="none" id="g160">
+          <path id="path162" d="M 397.01 158.78 C 397.01 160.44 395.67 161.78 394.01 161.78 C 392.36 161.78 391.01 160.44 391.01 158.78 C 391.01 157.13 392.36 155.78 394.01 155.78 C 395.67 155.78 397.01 157.13 397.01 158.78 z" />
+          <title id="title164">Point B</title>
+          <desc id="desc166">Point B: Point on f</desc>
+        </g>
+      </g>
+      <clipPath id="clip15">
+        <path id="path169" d="M 0.0000 0.0000 L 0.0000 439.00 L 677.00 439.00 L 677.00 0.0000 z" />
+      </clipPath>
+      <g id="g171" clip-path="url(#clip15)">
+        <g fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1.0000" id="g173">
+          <path id="path175" d="M 397.01 158.78 C 397.01 160.44 395.67 161.78 394.01 161.78 C 392.36 161.78 391.01 160.44 391.01 158.78 C 391.01 157.13 392.36 155.78 394.01 155.78 C 395.67 155.78 397.01 157.13 397.01 158.78 z" />
+          <title id="title177">Point B</title>
+          <desc id="desc179">Point B: Point on f</desc>
+        </g>
+      </g>
+      <clipPath id="clip25">
+        <path id="path317" d="M 0.0000 0.0000 L 0.0000 439.00 L 677.00 439.00 L 677.00 0.0000 z" />
+      </clipPath>
+    </g>
+  </g>
+  <path transform="matrix(1.8113713,0,0,1.8113713,0,-0.12875783)" id="path4304" d="m 27.115201,107.89527 0,-19.786768 92.948939,0.03124 c 80.61982,0.0271 92.75452,0.123156 91.48325,0.724156 -0.80613,0.3811 -5.42304,2.469341 -10.25981,4.640535 -18.18134,8.161487 -38.94294,19.342367 -53.15627,28.626557 -3.43986,2.24694 -6.65577,4.08534 -7.14646,4.08534 -0.49069,0 -1.16586,0.32978 -1.50037,0.73285 -0.53414,0.6436 -7.41318,0.73284 -56.488741,0.73284 l -55.880538,0 0,-19.78676 z" style="fill:#00ffe8;stroke:#271740;stroke-width:0.8794117;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:0.19215687;stroke-opacity:1.0" />
+  <g ns0:preamble="/Users/ABaker/cmep/Inkscape/underground-inkscape-preamble.tex" ns0:text="$y = \\ln x$" word-spacing="normal" letter-spacing="normal" font-size-adjust="none" font-stretch="normal" font-weight="normal" font-variant="normal" font-style="normal" stroke-miterlimit="10.433" xml:space="preserve" transform="matrix(3,0,0,-3,-208.73776,1522.8158)" id="content" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><path id="path3679" d="m 226.62,480.86 -0.01,0.08 -0.01,0.08 -0.01,0.07 -0.01,0.07 -0.01,0.07 -0.01,0.07 -0.01,0.06 -0.01,0.06 -0.01,0.06 -0.01,0.05 -0.01,0.06 -0.01,0.05 -0.01,0.05 -0.01,0.04 -0.02,0.05 -0.01,0.05 -0.01,0.04 -0.02,0.04 -0.01,0.04 -0.01,0.04 -0.04,0.08 -0.03,0.07 -0.04,0.08 -0.04,0.07 -0.04,0.07 -0.05,0.07 -1.77,-0.3 0.02,-0.18 c 0.11,0.01 0.3,0.04 0.43,0.04 0.66,0 0.76,-0.71 0.82,-1.24 l 0.45,-3.7 c -0.31,-0.48 -0.98,-1.21 -1.18,-1.21 -0.19,0 -0.16,0.37 -0.67,0.37 -0.16,0 -0.47,-0.13 -0.47,-0.49 0,-0.28 0.22,-0.64 0.66,-0.64 0.8,0 1.57,1.15 2.43,2.24 0.5,0.62 2.41,3.46 2.41,4.38 0,0.46 -0.3,0.73 -0.67,0.73 -0.35,0 -0.56,-0.21 -0.56,-0.47 0,-0.45 0.61,-0.57 0.61,-0.82 0,-0.21 -0.09,-0.45 -0.33,-0.88 -0.26,-0.49 -0.67,-1.19 -1.39,-2.18 z" style="fill:#000000;stroke-width:0" /><polygon id="polygon3681" points="232.64,481.79 232.64,481.01 239.59,481.01 239.59,481.79 " style="fill:#000000;stroke-width:0" /><polygon id="polygon3683" points="232.64,479.43 232.64,478.65 239.59,478.65 239.59,479.43 " style="fill:#000000;stroke-width:0" /><path id="path3685" d="m 245.99,477.23 0,0.18 c -0.75,0.05 -0.88,0.2 -0.88,0.85 l 0,6.99 -0.06,0.05 c -0.62,-0.2 -1.05,-0.32 -1.87,-0.52 l 0,-0.19 c 0.19,0.02 0.34,0.02 0.44,0.02 0.38,0 0.49,-0.19 0.49,-0.75 l 0,-5.54 c 0,-0.65 -0.16,-0.85 -0.9,-0.91 l 0,-0.18 z" style="fill:#000000;stroke-width:0" /><path id="path3687" d="m 251.98,477.23 0,0.18 c -0.58,0.06 -0.72,0.19 -0.72,0.83 l 0,2.61 c 0,1.17 -0.5,1.82 -1.4,1.82 -0.54,0 -1.08,-0.26 -1.7,-0.96 l -0.01,0 0,0.92 -0.09,0.04 c -0.58,-0.22 -0.97,-0.35 -1.62,-0.54 l 0,-0.2 c 0.08,0.04 0.21,0.05 0.34,0.05 0.33,0 0.42,-0.19 0.42,-0.77 l 0,-2.86 c 0,-0.7 -0.13,-0.89 -0.74,-0.94 l 0,-0.18 2.5,0 0,0.18 c -0.61,0.05 -0.77,0.21 -0.77,0.67 l 0,3.26 c 0.54,0.54 0.82,0.68 1.21,0.68 0.58,0 0.86,-0.36 0.86,-1.2 l 0,-2.34 c 0,-0.78 -0.14,-1.02 -0.73,-1.07 l -0.01,-0.18 z" style="fill:#000000;stroke-width:0" /><path id="path3689" d="m 257.43,480.64 -0.23,0.64 c -0.14,0.39 -0.37,0.88 -0.89,1.16 l -1.55,-0.39 0.03,-0.21 c 0.12,0.05 0.3,0.07 0.45,0.07 0.65,0 0.96,-0.48 1.16,-1.05 l 0.39,-1.09 -0.77,-1.19 c -0.38,-0.58 -0.69,-0.7 -0.83,-0.7 -0.29,0 -0.25,0.24 -0.55,0.24 -0.3,0 -0.45,-0.25 -0.45,-0.44 0,-0.26 0.19,-0.55 0.61,-0.55 0.66,0 1,0.51 1.38,1.08 l 0.75,1.16 0.47,-1.33 c 0.15,-0.43 0.38,-0.91 0.86,-0.91 0.69,0 1.22,1.13 1.36,1.31 l -0.17,0.12 c -0.24,-0.51 -0.53,-0.68 -0.72,-0.68 -0.53,0 -0.8,1.6 -1.15,2.33 l 0.65,1 c 0.16,0.26 0.29,0.45 0.65,0.45 0.2,0 0.26,-0.1 0.51,-0.1 0.31,0 0.47,0.27 0.47,0.49 0,0.25 -0.21,0.39 -0.58,0.39 -0.59,0 -1.01,-0.52 -1.31,-0.99 z" style="fill:#000000;stroke-width:0" /></g>  <g id="g4053" transform="matrix(2.5,0,0,-2.5,95.525196,1529.3816)" xml:space="preserve" stroke-miterlimit="10.433" font-style="normal" font-variant="normal" font-weight="normal" font-stretch="normal" font-size-adjust="none" letter-spacing="normal" word-spacing="normal" ns0:text="$x$" ns0:preamble="/Users/ABaker/cmep/Inkscape/underground-inkscape-preamble.tex" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><path d="m 227.03,480.64 -0.23,0.64 c -0.15,0.39 -0.37,0.88 -0.89,1.16 l -1.56,-0.39 0.04,-0.21 c 0.12,0.05 0.29,0.07 0.45,0.07 0.65,0 0.95,-0.48 1.15,-1.05 l 0.39,-1.09 -0.76,-1.19 c -0.38,-0.58 -0.69,-0.7 -0.83,-0.7 -0.3,0 -0.25,0.24 -0.55,0.24 -0.3,0 -0.45,-0.25 -0.45,-0.44 0,-0.26 0.19,-0.55 0.61,-0.55 0.66,0 1,0.51 1.38,1.08 l 0.74,1.16 0.48,-1.33 c 0.15,-0.43 0.38,-0.91 0.86,-0.91 0.68,0 1.21,1.13 1.36,1.31 l -0.17,0.12 c -0.25,-0.51 -0.53,-0.68 -0.72,-0.68 -0.53,0 -0.8,1.6 -1.15,2.33 l 0.64,1 c 0.17,0.26 0.3,0.45 0.65,0.45 0.2,0 0.26,-0.1 0.52,-0.1 0.31,0 0.46,0.27 0.46,0.49 0,0.25 -0.2,0.39 -0.57,0.39 -0.6,0 -1.01,-0.52 -1.32,-0.99 z" id="path4055" style="fill:#000000;stroke-width:0" /></g>  <g ns0:preamble="/Users/ABaker/cmep/Inkscape/underground-inkscape-preamble.tex" ns0:text="$y$" word-spacing="normal" letter-spacing="normal" font-size-adjust="none" font-stretch="normal" font-weight="normal" font-variant="normal" font-style="normal" stroke-miterlimit="10.433" xml:space="preserve" transform="matrix(2.5,0,0,-2.5,-531.99434,1216.8044)" id="g4423" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><path id="path4425" d="m 226.62,480.86 -0.01,0.08 -0.01,0.08 -0.01,0.07 -0.01,0.07 -0.01,0.07 -0.01,0.07 -0.01,0.06 -0.01,0.06 -0.01,0.06 -0.01,0.05 -0.01,0.06 -0.01,0.05 -0.01,0.05 -0.01,0.04 -0.02,0.05 -0.01,0.05 -0.01,0.04 -0.02,0.04 -0.01,0.04 -0.01,0.04 -0.04,0.08 -0.03,0.07 -0.04,0.08 -0.04,0.07 -0.04,0.07 -0.05,0.07 -1.77,-0.3 0.02,-0.18 c 0.11,0.01 0.3,0.04 0.43,0.04 0.66,0 0.76,-0.71 0.82,-1.24 l 0.45,-3.7 c -0.31,-0.48 -0.98,-1.21 -1.18,-1.21 -0.19,0 -0.16,0.37 -0.67,0.37 -0.16,0 -0.47,-0.13 -0.47,-0.49 0,-0.28 0.22,-0.64 0.66,-0.64 0.8,0 1.57,1.15 2.43,2.24 0.5,0.62 2.41,3.46 2.41,4.38 0,0.46 -0.3,0.73 -0.67,0.73 -0.35,0 -0.56,-0.21 -0.56,-0.47 0,-0.45 0.61,-0.57 0.61,-0.82 0,-0.21 -0.09,-0.45 -0.33,-0.88 -0.26,-0.49 -0.67,-1.19 -1.39,-2.18 z" style="fill:#000000;stroke-width:0" /></g>  <g id="g4797" transform="matrix(2.5,0,0,-2.5,-311.27799,1538.5036)" xml:space="preserve" stroke-miterlimit="10.433" font-style="normal" font-variant="normal" font-weight="normal" font-stretch="normal" font-size-adjust="none" letter-spacing="normal" word-spacing="normal" ns0:text="$2$" ns0:preamble="/Users/ABaker/cmep/Inkscape/underground-inkscape-preamble.tex" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><path d="m 229.03,478.85 -0.17,0.07 c -0.39,-0.66 -0.63,-0.79 -1.13,-0.79 l -2.76,0 1.94,2.08 c 1.06,1.11 1.52,1.99 1.52,2.93 0,1.17 -0.85,2.08 -2.19,2.08 -1.45,0 -2.21,-0.97 -2.45,-2.35 l 0.24,-0.06 c 0.48,1.15 0.89,1.53 1.74,1.53 1,0 1.64,-0.59 1.64,-1.66 0,-1.01 -0.42,-1.9 -1.53,-3.07 l -2.11,-2.23 0,-0.15 4.62,0 z" id="path4799" style="fill:#000000;stroke-width:0" /></g>  <g ns0:preamble="/Users/ABaker/cmep/Inkscape/underground-inkscape-preamble.tex" ns0:text="$3$" word-spacing="normal" letter-spacing="normal" font-size-adjust="none" font-stretch="normal" font-weight="normal" font-variant="normal" font-style="normal" stroke-miterlimit="10.433" xml:space="preserve" transform="matrix(2.5,0,0,-2.5,-170.36135,1537.2197)" id="g5175" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><path id="path5177" d="m 224.15,483.26 0.05,0.08 0.04,0.07 0.05,0.08 0.05,0.07 0.04,0.07 0.05,0.07 0.05,0.06 0.05,0.06 0.05,0.06 0.05,0.05 0.05,0.06 0.05,0.05 0.05,0.04 0.05,0.05 0.05,0.04 0.06,0.04 0.05,0.04 0.06,0.03 0.05,0.03 0.06,0.03 0.06,0.03 0.06,0.02 0.06,0.03 0.06,0.02 0.06,0.01 0.06,0.02 0.06,0.01 0.07,0.01 0.06,0.01 0.07,0 0.06,0.01 0.07,0 c 0.78,0 1.28,-0.4 1.28,-1.21 0,-0.72 -0.38,-1.25 -0.96,-1.58 -0.24,-0.14 -0.54,-0.27 -0.99,-0.42 l 0,-0.17 c 0.67,0 0.94,-0.03 1.2,-0.12 0.82,-0.23 1.23,-0.81 1.23,-1.71 0,-1 -0.66,-1.81 -1.53,-1.81 -0.34,0 -0.58,0.06 -1.02,0.37 -0.33,0.24 -0.52,0.31 -0.72,0.31 -0.27,0 -0.48,-0.18 -0.48,-0.43 0,-0.42 0.46,-0.67 1.32,-0.67 1.05,0 2.17,0.34 2.74,1.1 0.34,0.45 0.54,1.03 0.54,1.65 0,0.61 -0.19,1.16 -0.52,1.52 -0.25,0.26 -0.46,0.4 -0.98,0.63 0.79,0.47 1.1,1.06 1.1,1.63 0,0.97 -0.74,1.62 -1.84,1.62 -1.23,0 -1.97,-0.8 -2.32,-1.92 z" style="fill:#000000;stroke-width:0" /></g>  <g style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="g5557" transform="matrix(3.8067113,0,0,-3.8067113,-704.3513,2022.8776)" xml:space="preserve" stroke-miterlimit="10.433" font-style="normal" font-variant="normal" font-weight="normal" font-stretch="normal" font-size-adjust="none" letter-spacing="normal" word-spacing="normal" ns0:text="B" ns0:preamble="/Users/ABaker/cmep/Inkscape/underground-inkscape-preamble.tex"><path style="fill:#000000;stroke-width:0" d="m 224.41,484.34 2,0 c 0.94,-0.01 1.63,-0.14 2.05,-0.43 0.42,-0.28 0.63,-0.72 0.63,-1.33 0,-0.43 -0.12,-0.77 -0.35,-1.05 -0.24,-0.27 -0.58,-0.45 -1.03,-0.53 l 0.14,0.57 c 0.26,0.18 0.38,0.49 0.38,0.92 0,0.4 -0.14,0.69 -0.42,0.87 -0.29,0.17 -0.74,0.26 -1.36,0.26 l -1.21,0 0,-2.33 0,-0.7 0,-2.65 1.48,0 c 0.57,0 1,0.11 1.29,0.33 0.29,0.22 0.43,0.57 0.43,1.04 0,0.44 -0.15,0.77 -0.44,0.97 -0.3,0.21 -0.75,0.31 -1.35,0.31 l -1.41,0 0,0.7 1.35,0 c 0.59,0 1.01,0.1 1.26,0.28 l -0.14,-0.57 0,-0.05 c 1.08,-0.18 1.62,-0.75 1.62,-1.7 0,-0.63 -0.22,-1.13 -0.65,-1.48 -0.42,-0.36 -1.02,-0.54 -1.79,-0.54 l -2.48,0 z" id="path5559" /></g></svg>

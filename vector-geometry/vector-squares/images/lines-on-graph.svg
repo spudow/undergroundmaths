@@ -1,0 +1,113 @@
+<?xml version='1.0' ?><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" id="svg2" version="1.1" width="373.75" height="286.11207" viewBox="0.0 0.10702994424080266 580.0 444.00000160535114" preserveAspectRatio="none">
+  <metadata id="metadata132">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs id="defs130" />
+  <title id="title4" />
+  <g id="g6" stroke-linecap="square" stroke-miterlimit="10.000" stroke-width="1.0000" stroke-dasharray="none" stroke-dashoffset="0.0000" stroke-linejoin="miter">
+    <clipPath id="clip1">
+      <path id="path9" d="M 0.0000 0.0000 L 0.0000 444.00 L 580.00 444.00 L 580.00 0.0000 z" />
+    </clipPath>
+    <g id="g11" clip-path="url(#clip1)">
+      <g id="g13" stroke="#000000" stroke-opacity="1.0000" fill="none" stroke-linecap="butt" stroke-width="2.0000">
+        <path id="path15" d="M 93.150 3.0000 L 93.150 444.00" />
+      </g>
+    </g>
+    <clipPath id="clip2">
+      <path id="path18" d="M 0.0000 0.0000 L 0.0000 444.00 L 580.00 444.00 L 580.00 0.0000 z" />
+    </clipPath>
+    <g id="g20" clip-path="url(#clip2)">
+      <g id="g22" fill="#000000" stroke="none" fill-rule="evenodd" fill-opacity="1.0000">
+        <path id="path24" d="M 93.150 2.0000 L 88.150 22.000 L 98.150 22.000" />
+      </g>
+    </g>
+    <clipPath id="clip3">
+      <path id="path27" d="M 0.0000 0.0000 L 0.0000 444.00 L 580.00 444.00 L 580.00 0.0000 z" />
+    </clipPath>
+    <g id="g29" clip-path="url(#clip3)">
+      <g id="g31" stroke="#000000" stroke-opacity="1.0000" fill="none" stroke-linecap="butt" stroke-width="2.0000">
+        <path id="path33" d="M 0.0000 378.15 L 577.00 378.15" />
+      </g>
+    </g>
+    <clipPath id="clip4">
+      <path id="path36" d="M 0.0000 0.0000 L 0.0000 444.00 L 580.00 444.00 L 580.00 0.0000 z" />
+    </clipPath>
+    <g id="g38" clip-path="url(#clip4)">
+      <g id="g40" fill="#000000" stroke="none" fill-rule="evenodd" fill-opacity="1.0000">
+        <path id="path42" d="M 578.00 378.15 L 558.00 373.15 L 558.00 383.15" />
+      </g>
+    </g>
+    <g id="misc" />
+    <g id="layer0">
+      <clipPath id="clip5">
+        <path id="path47" d="M 0.0000 0.0000 L 0.0000 444.00 L 580.00 444.00 L 580.00 0.0000 z" />
+      </clipPath>
+      <g id="g49" clip-path="url(#clip5)">
+        <g id="g51" stroke="#ff00ff" stroke-opacity="1.0000" fill="none" stroke-linecap="round" stroke-width="2.0000" stroke-linejoin="round">
+          <path id="path53" d="M -5.0000 335.86 L 335.86 -5.0000" />
+          <title id="title55">Line f</title>
+          <desc id="desc57">f: y = x + 2</desc>
+        </g>
+      </g>
+      <clipPath id="clip6">
+        <path id="path60" d="M 0.0000 0.0000 L 0.0000 444.00 L 580.00 444.00 L 580.00 0.0000 z" />
+      </clipPath>
+      <g id="g62" clip-path="url(#clip6)">
+        <g id="g64" stroke="#000000" stroke-opacity="1.0000" fill="none" stroke-linecap="round" stroke-width="2.0000" stroke-linejoin="round">
+          <path id="path66" d="M 585.00 448.68 L 131.32 -5.0000" />
+          <title id="title68">Line g</title>
+          <desc id="desc70">g: y = -x + 6</desc>
+        </g>
+      </g>
+      <clipPath id="clip7">
+        <path id="path73" d="M 0.0000 0.0000 L 0.0000 444.00 L 580.00 444.00 L 580.00 0.0000 z" />
+      </clipPath>
+      <g id="g75" clip-path="url(#clip7)">
+        <g id="g77" stroke="#7f00ff" stroke-opacity="1.0000" fill="none" stroke-linecap="round" stroke-width="2.0000" stroke-linejoin="round">
+          <path id="path79" d="M 92.524 449.00 L 546.52 -5.0000" />
+          <title id="title81">Line h</title>
+          <desc id="desc83">h: y = x - 1</desc>
+        </g>
+      </g>
+      <clipPath id="clip8">
+        <path id="path86" d="M 0.0000 0.0000 L 0.0000 444.00 L 580.00 444.00 L 580.00 0.0000 z" />
+      </clipPath>
+      <g id="g88" clip-path="url(#clip8)">
+        <g id="g90" stroke="#0000ff" stroke-opacity="1.0000" fill="none" stroke-linecap="round" stroke-width="2.0000" stroke-linejoin="round">
+          <path id="path92" d="M 374.66 449.00 L -5.0000 69.341" />
+          <title id="title94">Line i</title>
+          <desc id="desc96">i: y = -x + 3</desc>
+        </g>
+      </g>
+      <g id="g98" transform="matrix(25.000, 0.0000, 0.0000, 25.000, 65.000, 22.111)">
+        <clipPath id="clip9">
+          <path id="path101" d="M -2.6000 -.88445 L -2.6000 16.876 L 20.600 16.876 L 20.600 -.88445 z" />
+        </clipPath>
+        <g id="g103" clip-path="url(#clip9)">
+          <g id="g105" fill="#000000" stroke="none" fill-rule="nonzero" fill-opacity="1.0000">
+            <path id="path107" d="M .57812 -.37500 L .48438 -0.0000 Q .46875 .093750 .38281 .14844 Q .29688 .20312 .20312 .20312 Q .14062 .20312 .10938 .17969 Q .078125 .15625 .078125 .10938 Q .078125 .078125 .093750 .054688 Q .10938 .031250 .14062 .031250 Q .15625 .031250 .17188 .046875 Q .18750 .062500 .18750 .078125 Q .18750 .12500 .14062 .15625 Q .17188 .17188 .20312 .17188 Q .26562 .17188 .31250 .11719 Q .35938 .062500 .37500 -.015625 Q .32812 .015625 .28125 .015625 Q .25000 .015625 .22656 .0078125 Q .20312 -0.0000 .17969 -.015625 Q .15625 -.031250 .14062 -.054688 Q .12500 -.078125 .12500 -.12500 Q .12500 -.15625 .14062 -.20312 Q .15625 -.25000 .18750 -.32812 Q .20312 -.37500 .20312 -.39062 Q .20312 -.40625 .19531 -.41406 Q .18750 -.42188 .18750 -.42188 Q .18750 -.42188 .18750 -.42188 Q .17188 -.42188 .16406 -.41406 Q .15625 -.40625 .14062 -.39844 Q .12500 -.39062 .10938 -.35938 Q .093750 -.32812 .078125 -.29688 Q .078125 -.28125 .062500 -.28125 Q .031250 -.28125 .031250 -.29688 Q .031250 -.31250 .039062 -.33594 Q .046875 -.35938 .070312 -.38281 Q .093750 -.40625 .12500 -.42969 Q .15625 -.45312 .18750 -.45312 Q .23438 -.45312 .26562 -.42969 Q .29688 -.40625 .29688 -.35938 Q .29688 -.34375 .28125 -.31250 Q .23438 -.15625 .23438 -.093750 Q .23438 -.031250 .28125 -.031250 Q .31250 -.031250 .35938 -.046875 Q .35938 -.046875 .36719 -.054688 Q .37500 -.062500 .38281 -.078125 Q .39062 -.093750 .39062 -.093750 Q .40625 -.12500 .43750 -.26562 L .46875 -.37500 Q .46875 -.39062 .46875 -.39844 Q .46875 -.40625 .47656 -.42188 Q .48438 -.43750 .50000 -.43750 Q .51562 -.43750 .53125 -.43750 Q .56250 -.43750 .57031 -.42969 Q .57812 -.42188 .57812 -.40625 Q .57812 -.39062 .57812 -.37500 z" />
+            <title id="title109">$y$</title>
+            <desc id="desc111">text1 = &quot;$y$&quot;</desc>
+          </g>
+        </g>
+      </g>
+      <g id="g113" transform="matrix(25.000, 0.0000, 0.0000, 25.000, 553.00, 406.11)">
+        <clipPath id="clip10">
+          <path id="path116" d="M -22.120 -16.244 L -22.120 1.5156 L 1.0800 1.5156 L 1.0800 -16.244 z" />
+        </clipPath>
+        <g id="g118" clip-path="url(#clip10)">
+          <g id="g120" fill="#000000" stroke="none" fill-rule="nonzero" fill-opacity="1.0000">
+            <path id="path122" d="M .53125 -.40625 Q .51562 -.42188 .48438 -.42188 Q .46875 -.42188 .43750 -.39844 Q .40625 -.37500 .40625 -.32812 Q .40625 -.31250 .39062 -.25781 Q .37500 -.20312 .37500 -.18750 Q .34375 -.093750 .34375 -.078125 Q .34375 -.031250 .40625 -.031250 Q .43750 -.031250 .48438 -.062500 Q .53125 -.093750 .54688 -.15625 Q .54688 -.15625 .56250 -.15625 Q .59375 -.15625 .59375 -.14844 Q .59375 -.14062 .57812 -.10938 Q .56250 -.078125 .53906 -.054688 Q .51562 -.031250 .47656 -.0078125 Q .43750 .015625 .39062 .015625 Q .29688 .015625 .26562 -.046875 Q .21875 .015625 .15625 .015625 Q .10938 .015625 .070312 -.015625 Q .031250 -.046875 .031250 -.078125 Q .031250 -.10938 .054688 -.13281 Q .078125 -.15625 .10938 -.15625 Q .14062 -.15625 .14844 -.14062 Q .15625 -.12500 .15625 -.10938 Q .15625 -.093750 .14062 -.070312 Q .12500 -.046875 .10938 -.046875 Q .12500 -.031250 .15625 -.031250 Q .18750 -.031250 .21094 -.054688 Q .23438 -.078125 .23438 -.12500 L .26562 -.25000 Q .29688 -.34375 .29688 -.35938 Q .29688 -.42188 .23438 -.42188 Q .20312 -.42188 .16406 -.39062 Q .12500 -.35938 .093750 -.29688 Q .093750 -.28125 .078125 -.28125 Q .046875 -.28125 .046875 -.29688 Q .046875 -.31250 .062500 -.33594 Q .078125 -.35938 .10156 -.38281 Q .12500 -.40625 .16406 -.42969 Q .20312 -.45312 .25000 -.45312 Q .34375 -.45312 .39062 -.39062 Q .42188 -.45312 .48438 -.45312 Q .53125 -.45312 .57031 -.42969 Q .60938 -.40625 .60938 -.35938 Q .60938 -.32812 .58594 -.30469 Q .56250 -.28125 .53125 -.28125 Q .51562 -.28125 .50000 -.29688 Q .48438 -.31250 .48438 -.32812 Q .48438 -.35938 .50000 -.37500 Q .51562 -.39062 .53125 -.40625 z" />
+            <title id="title124">$x$</title>
+            <desc id="desc126">text2 = &quot;$x$&quot;</desc>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,58 @@
+<?xml version='1.0' ?><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" id="svg3580" version="1.1" width="320.04797" height="233.55889" viewBox="0.0 -13.738956340883535 659.1188715502009 480.9999951485944" preserveAspectRatio="none">
+  <metadata id="metadata3641">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs id="defs3639">
+    <clipPath id="clip1">
+      <path d="M 0.0000 0.0000 L 0.0000 467.00 L 641.00 467.00 L 641.00 0.0000 z" id="path3587" />
+    </clipPath>
+    <clipPath id="clip2">
+      <path d="M 0.0000 0.0000 L 0.0000 467.00 L 641.00 467.00 L 641.00 0.0000 z" id="path3596" />
+    </clipPath>
+    <clipPath id="clip3">
+      <path d="M 0.0000 0.0000 L 0.0000 467.00 L 641.00 467.00 L 641.00 0.0000 z" id="path3605" />
+    </clipPath>
+    <clipPath id="clip4">
+      <path d="M 0.0000 0.0000 L 0.0000 467.00 L 641.00 467.00 L 641.00 0.0000 z" id="path3614" />
+    </clipPath>
+  </defs>
+  <title id="title3582" />
+  <g clip-path="url(#clip1)" id="g3589" style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+    <g id="g3591" style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-opacity:1">
+      <path d="m 315,3 0,464" id="path3593" />
+    </g>
+  </g>
+  <g transform="matrix(2,0,0,2,-315.11888,-18)" clip-path="url(#clip2)" id="g3598" style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+    <g id="g3600" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none">
+      <path d="m 315,2 -4,16 8,0" id="path3602" />
+    </g>
+  </g>
+  <g clip-path="url(#clip3)" id="g3607" style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+    <g id="g3609" style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-opacity:1">
+      <path d="m 0,235 638,0" id="path3611" />
+    </g>
+  </g>
+  <g transform="matrix(2,0,0,2,-618.88112,-234.88112)" clip-path="url(#clip4)" id="g3616" style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+    <g id="g3618" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none">
+      <path d="m 639,235 -16,-4 0,8" id="path3620" />
+    </g>
+  </g>
+  <g id="misc" style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" />
+  <g id="layer0" style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+    <clipPath id="clip5">
+      <path d="m 0,0 0,467 641,0 0,-467 z" id="path3625" />
+    </clipPath>
+    <g clip-path="url(#clip5)" id="g3627">
+      <g id="g3629" style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path d="m 8.3056,186.2 1.7104,-0.17 5.007,-0.15 5.008,0.39 5.008,0.92 5.008,1.44 5.008,1.94 5.007,2.44 5.008,2.89 5.008,3.31 5.008,3.71 5.008,4.06 5.008,4.36 5.007,4.62 5.008,4.83 5.008,4.98 5.008,5.09 5.008,5.13 5.007,5.12 5.012,5.05 5,4.93 5.01,4.75 5.01,4.53 5.01,4.25 5.01,3.93 5,3.56 5.01,3.16 5.01,2.72 5.01,2.24 5,1.76 5.01,1.24 5.01,0.72 5.01,0.18 5.01,-0.36 5,-0.88 5.01,-1.41 5.01,-1.92 5.01,-2.4 5,-2.86 5.01,-3.29 5.01,-3.69 5.01,-4.03 5.01,-4.35 5,-4.6 5.01,-4.82 5.01,-4.98 5.01,-5.08 5.01,-5.13 5,-5.12 5.01,-5.05 5.01,-4.94 5.01,-4.77 5,-4.55 5.01,-4.27 5.01,-3.94 5.01,-3.59 5.01,-3.18 5,-2.75 5.01,-2.28 5.01,-1.78 5.01,-1.28 5,-0.75 5.01,-0.21 5.01,0.32 5.01,0.85 5.01,1.38 5,1.88 5.01,2.38 5.01,2.83 5.01,3.26 5,3.66 5.01,4.02 5.01,4.33 5.01,4.59 5.01,4.8 5,4.97 5.01,5.08 5.01,5.12 5.01,5.13 5,5.06 5.01,4.95 5.01,4.78 5.01,4.56 5.01,4.29 5,3.97 5.01,3.61 5.01,3.21 5.01,2.77 5.01,2.31 5,1.82 5.01,1.3 5.01,0.79 5.01,0.24 5,-0.28 5.01,-0.82 5.01,-1.35 5.01,-1.85 5.01,-2.34 5,-2.81 5.01,-3.24 5.01,-3.63 5.01,-4 5,-4.31 5.01,-4.57 5.01,-4.8 5.01,-4.96 5.01,-5.07 5,-5.12 5.01,-5.13 5.01,-5.07 5.01,-4.95 5.01,-4.8 5,-4.57 5.01,-4.31 5.01,-3.99 5.01,-3.63 5,-3.24 5.01,-2.8 5.01,-2.34 5.01,-1.85 5.01,-1.34 5,-0.81 5.01,-0.28 5.01,0.25 0.72,0.08" id="path3631" />
+        <title id="title3633">Function r_1</title>
+        <desc id="desc3635">Function r_1: r_1(x) = If[-6.4 Ã&#131;Â¢Ã&#130;Â&#137;Ã&#130;Â¤ x Ã&#131;Â¢Ã&#130;Â&#137;Ã&#130;Â¤ 6.4, cos(x)]</desc>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,62 @@
+<?xml version='1.0' ?><svg xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" id="svg2" version="1.1" width="317.76223" height="258.40071" viewBox="0.0 -6.1117367296000005 589.76669888 479.59171776000005" preserveAspectRatio="none">
+  <metadata id="metadata63">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs id="defs61">
+    <linearGradient osb:paint="solid" id="linearGradient4170">
+      <stop id="stop4172" offset="0" style="stop-color:#ff0000;stop-opacity:1;" />
+    </linearGradient>
+    <clipPath id="clip1">
+      <path d="M 0.0000 0.0000 L 0.0000 473.00 L 580.00 473.00 L 580.00 0.0000 z" id="path9" />
+    </clipPath>
+    <clipPath id="clip2">
+      <path d="M 0.0000 0.0000 L 0.0000 473.00 L 580.00 473.00 L 580.00 0.0000 z" id="path18" />
+    </clipPath>
+    <clipPath id="clip3">
+      <path d="M 0.0000 0.0000 L 0.0000 473.00 L 580.00 473.00 L 580.00 0.0000 z" id="path27" />
+    </clipPath>
+    <clipPath id="clip4">
+      <path d="M 0.0000 0.0000 L 0.0000 473.00 L 580.00 473.00 L 580.00 0.0000 z" id="path36" />
+    </clipPath>
+  </defs>
+  <title id="title4" />
+  <g clip-path="url(#clip1)" id="g11" style="stroke-width:3.71200011;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0">
+    <g id="g13" style="fill:none;stroke:#000000;stroke-width:3.71200011;stroke-linecap:butt;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none">
+      <path style="stroke-width:3.71200011;stroke-miterlimit:4;stroke-dasharray:none" d="m 231.2,3 0,470" id="path15" />
+    </g>
+  </g>
+  <g transform="matrix(2,0,0,2,-231.08052,-10.591738)" clip-path="url(#clip2)" id="g20" style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+    <g id="g22" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none">
+      <path d="m 231.2,2 -4,16 8,0" id="path24" />
+    </g>
+  </g>
+  <g clip-path="url(#clip3)" id="g29" style="stroke-width:3.71200011;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0">
+    <g id="g31" style="fill:none;stroke:#000000;stroke-width:3.71200011;stroke-linecap:butt;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none">
+      <path style="stroke-width:3.71200011;stroke-miterlimit:4;stroke-dasharray:none" d="m 0,242.11 577,0" id="path33" />
+    </g>
+  </g>
+  <g transform="matrix(2,0,0,2,-566.23329,-242.93503)" clip-path="url(#clip4)" id="g38" style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+    <g id="g40" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none">
+      <path d="m 578,242.11 -16,-4 0,8" id="path42" />
+    </g>
+  </g>
+  <g id="misc" style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" />
+  <g id="layer0" style="stroke-width:5.01120015;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0">
+    <clipPath id="clip5">
+      <path d="m 0,0 0,473 580,0 0,-473 z" id="path47" />
+    </clipPath>
+    <g style="stroke-width:5.01120015;stroke-miterlimit:4;stroke-dasharray:none" clip-path="url(#clip5)" id="g49">
+      <g id="g51" style="fill:none;stroke:#9933ff;stroke-width:5.01120015;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none">
+        <path style="stroke-width:5.01120015;stroke-miterlimit:4;stroke-dasharray:none" d="m 0,405.35 4.5312,-2.27 4.5313,-2.26 4.5315,-2.27 4.531,-2.27 4.531,-2.26 4.532,-2.27 4.531,-2.26 4.531,-2.27 4.531,-2.26 4.531,-2.27 4.532,-2.27 4.531,-2.26 4.531,-2.27 4.532,-2.26 4.531,-2.27 4.531,-2.26 4.531,-2.27 4.531,-2.26 4.532,-2.27 4.531,-2.27 4.531,-2.26 4.532,-2.27 4.532,-2.26 4.53,-2.27 4.53,-2.26 4.53,-2.27 4.53,-2.27 4.54,-2.26 4.53,-2.27 4.53,-2.26 4.53,-2.27 4.53,-2.26 4.53,-2.27 4.53,-2.26 4.53,-2.27 4.53,-2.27 4.54,-2.26 4.53,-2.27 4.53,-2.26 4.53,-2.27 4.53,-2.26 4.53,-2.27 4.53,-2.27 4.54,-2.26 4.53,-2.27 4.53,-2.26 4.53,-2.27 4.53,-2.26 4.53,-2.27 4.53,-2.26 4.53,-2.27 4.53,-2.27 4.54,-2.26 4.53,-2.27 4.53,-2.26 4.53,-2.27 4.53,-2.26 4.53,-2.27 4.53,-2.27 4.54,-2.26 4.53,-2.27 4.53,-2.26 4.53,-2.27 4.53,-2.26 4.53,-2.27 4.53,-2.26 4.53,-2.27 4.53,-2.27 4.54,-2.26 4.53,-2.27 4.53,-2.26 4.53,-2.27 4.53,-2.26 4.53,-2.27 4.53,-2.27 4.54,-2.26 4.53,-2.27 4.53,-2.26 4.53,-2.27 4.53,-2.26 4.53,-2.27 4.53,-2.26 4.53,-2.27 4.53,-2.27 4.54,-2.26 4.53,-2.27 4.53,-2.26 4.53,-2.27 4.53,-2.26 4.53,-2.27 4.53,-2.27 4.54,-2.26 4.53,-2.27 4.53,-2.26 4.53,-2.27 4.53,-2.26 4.53,-2.27 4.53,-2.26 4.53,-2.27 4.53,-2.27 4.54,-2.26 4.53,-2.27 4.53,-2.26 4.53,-2.27 4.53,-2.26 4.53,-2.27 4.53,-2.27 4.54,-2.26 4.53,-2.27 4.53,-2.26 4.53,-2.27 4.53,-2.26 4.53,-2.27 4.53,-2.26 4.53,-2.27 4.53,-2.27 4.54,-2.26 4.53,-2.27 4.53,-2.26 4.53,-2.27 4.53,-2.26 4.53,-2.27 4.53,-2.27 4.54,-2.26 4.53,-2.27 4.53,-2.26 4.53,-2.27 4.53,-2.26" id="path53" />
+        <title id="title55">Function f</title>
+        <desc id="desc57">Function f: f(x) = b3(x) / a(x)</desc>
+      </g>
+    </g>
+  </g>
+  <circle r="6.4856787" cy="299.81094" cx="210.89395" id="path4168" style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#9933ff;stroke-width:3.34080005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+</svg>

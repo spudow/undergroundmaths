@@ -1,0 +1,59 @@
+<?xml version='1.0' ?><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" id="svg2" version="1.1" width="249.13793" height="201.29311" viewBox="0.0 2.4499921519999996 577.9999976 467.0000152" preserveAspectRatio="none">
+  <metadata id="metadata63">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs id="defs61" />
+  <title id="title4" />
+  <g id="g6" stroke-linecap="square" stroke-miterlimit="10.000" stroke-width="1.0000" stroke-dasharray="none" stroke-dashoffset="0.0000" stroke-linejoin="miter">
+    <clipPath id="clip1">
+      <path id="path9" d="M 0.0000 0.0000 L 0.0000 469.00 L 580.00 469.00 L 580.00 0.0000 z" />
+    </clipPath>
+    <g id="g11" clip-path="url(#clip1)">
+      <g id="g13" stroke="#000000" stroke-opacity="1.0000" fill="none" stroke-linecap="butt" stroke-width="2.0000">
+        <path id="path15" d="M 189.13 3.0000 L 189.13 469.00" />
+      </g>
+    </g>
+    <clipPath id="clip2">
+      <path id="path18" d="M 0.0000 0.0000 L 0.0000 469.00 L 580.00 469.00 L 580.00 0.0000 z" />
+    </clipPath>
+    <g id="g20" clip-path="url(#clip2)">
+      <g id="g22" fill="#000000" stroke="none" fill-rule="evenodd" fill-opacity="1.0000">
+        <path id="path24" d="M 189.13 2.0000 L 184.13 22.000 L 194.13 22.000" />
+      </g>
+    </g>
+    <clipPath id="clip3">
+      <path id="path27" d="M 0.0000 0.0000 L 0.0000 469.00 L 580.00 469.00 L 580.00 0.0000 z" />
+    </clipPath>
+    <g id="g29" clip-path="url(#clip3)">
+      <g id="g31" stroke="#000000" stroke-opacity="1.0000" fill="none" stroke-linecap="butt" stroke-width="2.0000">
+        <path id="path33" d="M 0.0000 396.27 L 577.00 396.27" />
+      </g>
+    </g>
+    <clipPath id="clip4">
+      <path id="path36" d="M 0.0000 0.0000 L 0.0000 469.00 L 580.00 469.00 L 580.00 0.0000 z" />
+    </clipPath>
+    <g id="g38" clip-path="url(#clip4)">
+      <g id="g40" fill="#000000" stroke="none" fill-rule="evenodd" fill-opacity="1.0000">
+        <path id="path42" d="M 578.00 396.27 L 558.00 391.27 L 558.00 401.27" />
+      </g>
+    </g>
+    <g id="misc" />
+    <g id="layer0">
+      <clipPath id="clip5">
+        <path id="path47" d="M 0.0000 0.0000 L 0.0000 469.00 L 580.00 469.00 L 580.00 0.0000 z" />
+      </clipPath>
+      <g id="g49" clip-path="url(#clip5)">
+        <g id="g51" stroke="#000000" stroke-opacity="1.0000" fill="none" stroke-linecap="round" stroke-width="2.0000" stroke-linejoin="round">
+          <path id="path53" d="M 393.04 233.14 L 393.00 228.13 L 392.89 223.13 L 392.45 213.15 L 391.72 203.22 L 390.69 193.35 L 389.37 183.59 L 387.77 173.94 L 385.89 164.44 L 383.73 155.10 L 381.29 145.95 L 378.59 137.01 L 375.63 128.30 L 372.42 119.85 L 368.96 111.66 L 365.27 103.77 L 361.35 96.195 L 357.21 88.946 L 352.86 82.045 L 348.31 75.508 L 343.57 69.350 L 338.66 63.587 L 333.59 58.232 L 328.37 53.299 L 323.00 48.799 L 317.51 44.743 L 311.91 41.141 L 306.21 38.002 L 300.42 35.332 L 294.56 33.139 L 288.64 31.428 L 282.68 30.203 L 276.70 29.467 L 270.69 29.221 L 264.69 29.467 L 258.70 30.203 L 252.74 31.428 L 246.82 33.139 L 240.96 35.332 L 235.18 38.002 L 229.47 41.141 L 223.87 44.743 L 218.38 48.799 L 213.02 53.299 L 207.79 58.232 L 202.72 63.587 L 197.81 69.350 L 193.07 75.508 L 188.53 82.045 L 184.18 88.946 L 180.04 96.195 L 176.12 103.77 L 172.42 111.66 L 168.96 119.85 L 165.75 128.30 L 162.79 137.01 L 160.09 145.95 L 157.66 155.10 L 155.50 164.44 L 153.61 173.94 L 152.01 183.59 L 150.69 193.35 L 149.67 203.22 L 148.93 213.15 L 148.49 223.13 L 148.38 228.13 L 148.34 233.14 L 148.38 238.14 L 148.49 243.14 L 148.93 253.12 L 149.67 263.06 L 150.69 272.92 L 152.01 282.68 L 153.61 292.33 L 155.50 301.83 L 157.66 311.17 L 160.09 320.32 L 162.79 329.26 L 165.75 337.97 L 168.96 346.42 L 172.42 354.61 L 176.12 362.50 L 180.04 370.08 L 184.18 377.32 L 188.53 384.23 L 193.07 390.76 L 197.81 396.92 L 202.72 402.68 L 207.79 408.04 L 213.02 412.97 L 218.38 417.47 L 223.87 421.53 L 229.47 425.13 L 235.18 428.27 L 240.96 430.94 L 246.82 433.13 L 252.74 434.84 L 258.70 436.07 L 264.69 436.80 L 270.69 437.05 L 276.70 436.80 L 282.68 436.07 L 288.64 434.84 L 294.56 433.13 L 300.42 430.94 L 306.21 428.27 L 311.91 425.13 L 317.51 421.53 L 323.00 417.47 L 328.37 412.97 L 333.59 408.04 L 338.66 402.68 L 343.57 396.92 L 348.31 390.76 L 352.86 384.23 L 357.21 377.32 L 361.35 370.08 L 365.27 362.50 L 368.96 354.61 L 372.42 346.42 L 375.63 337.97 L 378.59 329.26 L 381.29 320.32 L 383.73 311.17 L 385.89 301.83 L 387.77 292.33 L 389.37 282.68 L 390.69 272.92 L 391.72 263.06 L 392.45 253.12 L 392.89 243.14 L 393.00 238.14 L 393.04 233.14" />
+          <title id="title55">Curve c6</title>
+          <desc id="desc57">Curve c6: Curve[3cos(t) + 2, 5sin(t) + 4, t, 0, 2Ã&#143;Â&#128;]</desc>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

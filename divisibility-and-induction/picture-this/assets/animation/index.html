@@ -1,0 +1,58 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../../../../static/css/main.min.css">
+<title>Picture this!</title>
+
+<style>
+@import url(chart.css);
+.center {
+  text-align: center;
+}
+
+#spiral {
+  display: none;
+}
+[for="spiral"] {
+  display: none;
+}
+svg {
+  margin: 0 auto;
+  display: block;
+}
+#p, #q {
+  width: 50px;
+}
+.mainContent {
+  padding: 10px;
+}
+</style>
+
+</head><body><div class="mainContent">
+
+  <div id="backButton" style="text-align:left;">
+    <a href="../../">Back</a>
+  </div>
+
+  <p class="center"><input type="number" id="p" value="197" min="1" max="200" step="1">
+     <input type="number" id="q" value="113" min="1" max="200" step="1">
+  <input type="button" value="Update" id="update">
+
+  </p><div id="vis"><svg width="780" height="448.26395939086296"><g transform="translate(.5,.5)"><g class="cell" transform="translate(0,0)"><rect width="446.26395939086296" height="446.26395939086296" style="stroke: rgb(51, 51, 51); stroke-width: 1; fill: rgb(49, 130, 189);"/></g><g class="cell" transform="translate(446.26395939086296,0)"><rect width="331.73604060913704" height="331.73604060913704" style="stroke: rgb(51, 51, 51); stroke-width: 1; fill: rgb(107, 174, 214);"/></g><g class="cell" transform="translate(663.4720812182741,331.73604060913704)"><rect width="114.52791878172589" height="114.52791878172589" style="stroke: rgb(51, 51, 51); stroke-width: 1; fill: rgb(158, 202, 225);"/></g><g class="cell" transform="translate(548.9441624365483,331.73604060913704)"><rect width="114.52791878172589" height="114.52791878172589" style="stroke: rgb(51, 51, 51); stroke-width: 1; fill: rgb(158, 202, 225);"/></g><g class="cell" transform="translate(446.26395939086296,343.5837563451777)"><rect width="102.68020304568529" height="102.68020304568529" style="stroke: rgb(51, 51, 51); stroke-width: 1; fill: rgb(198, 219, 239);"/></g><g class="cell" transform="translate(446.26395939086296,331.73604060913704)"><rect width="11.847715736040609" height="11.847715736040609" style="stroke: rgb(51, 51, 51); stroke-width: 1; fill: rgb(230, 85, 13);"/></g><g class="cell" transform="translate(458.11167512690355,331.73604060913704)"><rect width="11.847715736040609" height="11.847715736040609" style="stroke: rgb(51, 51, 51); stroke-width: 1; fill: rgb(230, 85, 13);"/></g><g class="cell" transform="translate(469.9593908629442,331.73604060913704)"><rect width="11.847715736040609" height="11.847715736040609" style="stroke: rgb(51, 51, 51); stroke-width: 1; fill: rgb(230, 85, 13);"/></g><g class="cell" transform="translate(481.8071065989848,331.73604060913704)"><rect width="11.847715736040609" height="11.847715736040609" style="stroke: rgb(51, 51, 51); stroke-width: 1; fill: rgb(230, 85, 13);"/></g><g class="cell" transform="translate(493.6548223350254,331.73604060913704)"><rect width="11.847715736040609" height="11.847715736040609" style="stroke: rgb(51, 51, 51); stroke-width: 1; fill: rgb(230, 85, 13);"/></g><g class="cell" transform="translate(505.50253807106594,331.73604060913704)"><rect width="11.847715736040609" height="11.847715736040609" style="stroke: rgb(51, 51, 51); stroke-width: 1; fill: rgb(230, 85, 13);"/></g><g class="cell" transform="translate(517.3502538071066,331.73604060913704)"><rect width="11.847715736040609" height="11.847715736040609" style="stroke: rgb(51, 51, 51); stroke-width: 1; fill: rgb(230, 85, 13);"/></g><g class="cell" transform="translate(529.1979695431472,331.73604060913704)"><rect width="11.847715736040609" height="11.847715736040609" style="stroke: rgb(51, 51, 51); stroke-width: 1; fill: rgb(230, 85, 13);"/></g><g class="cell" transform="translate(541.0456852791878,331.73604060913704)"><rect width="7.898477157360405" height="7.898477157360405" style="stroke: rgb(51, 51, 51); stroke-width: 1; fill: rgb(253, 141, 60);"/></g><g class="cell" transform="translate(544.994923857868,339.6345177664974)"><rect width="3.9492385786802027" height="3.9492385786802027" style="stroke: rgb(51, 51, 51); stroke-width: 1; fill: rgb(253, 174, 107);"/></g><g class="cell" transform="translate(541.0456852791878,339.6345177664974)"><rect width="3.9492385786802027" height="3.9492385786802027" style="stroke: rgb(51, 51, 51); stroke-width: 1; fill: rgb(253, 174, 107);"/></g></g></svg></div>
+
+  <p class="center"><label for="spiral"><input type="checkbox" id="spiral" checked> Spiral</label>
+    <label for="animate"><input type="checkbox" id="animate"> Show construction</label>
+
+  </p><p>Programmed by Jason Davies and released under an <a href="licence.txt">open source licence</a>.</p>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.9/d3.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="euclid.js"></script>
+<script>
+  $(function() {
+    if(window.location !== window.parent.location) {
+      $('#backButton').hide();
+    }
+  })
+
+</script>
+</body></html>

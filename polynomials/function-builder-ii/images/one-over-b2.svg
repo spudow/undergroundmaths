@@ -1,0 +1,59 @@
+<?xml version='1.0' ?><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" id="svg2" version="1.1" width="437.05772" height="356.84438" viewBox="2.4414062400000003e-5 187.524448 349.646176 285.475504" preserveAspectRatio="none">
+  <metadata id="metadata63">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs id="defs61" />
+  <title id="title4" />
+  <g style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" transform="matrix(0.5931035,0,0,0.5931035,0,192.46204)" id="g6" stroke-miterlimit="10.000">
+    <clipPath id="clip1">
+      <path id="path9" d="m 0,0 0,473 580,0 0,-473 z" />
+    </clipPath>
+    <g id="g11" clip-path="url(#clip1)">
+      <g style="fill:none;stroke:#000000;stroke-width:3.37209272;stroke-linecap:butt;stroke-opacity:1" id="g13">
+        <path style="stroke-width:3.37209272" id="path15" d="m 114.82,3 0,470" />
+      </g>
+    </g>
+    <clipPath id="clip2">
+      <path id="path18" d="m 0,0 0,473 580,0 0,-473 z" />
+    </clipPath>
+    <g transform="matrix(2,0,0,2,-114.70291,-12.324981)" id="g20" clip-path="url(#clip2)">
+      <g style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" id="g22">
+        <path id="path24" d="m 114.82,2 -4,16 8,0" />
+      </g>
+    </g>
+    <clipPath id="clip3">
+      <path id="path27" d="m 0,0 0,473 580,0 0,-473 z" />
+    </clipPath>
+    <g id="g29" clip-path="url(#clip3)">
+      <g style="fill:none;stroke:#000000;stroke-width:3.37209272;stroke-linecap:butt;stroke-opacity:1" id="g31">
+        <path style="stroke-width:3.37209272" id="path33" d="m 0,296.58 577,0" />
+      </g>
+    </g>
+    <clipPath id="clip4">
+      <path id="path36" d="m 0,0 0,473 580,0 0,-473 z" />
+    </clipPath>
+    <g transform="matrix(2,0,0,2,-566.48028,-296.39841)" id="g38" clip-path="url(#clip4)">
+      <g style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" id="g40">
+        <path id="path42" d="m 578,296.58 -16,-4 0,8" />
+      </g>
+    </g>
+    <g id="misc" />
+    <g id="layer0">
+      <clipPath id="clip5">
+        <path id="path47" d="m 0,0 0,473 580,0 0,-473 z" />
+      </clipPath>
+      <g id="g49" clip-path="url(#clip5)">
+        <g style="fill:none;stroke:#9933ff;stroke-width:4.21511602;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" id="g51">
+          <path style="stroke-width:4.21511602" id="path53" d="m 0,275.26 4.5312,-0.53 4.5313,-0.55 4.5315,-0.57 4.531,-0.58 4.531,-0.61 4.532,-0.64 4.531,-0.65 4.531,-0.68 4.531,-0.71 4.531,-0.74 4.532,-0.76 4.531,-0.8 4.531,-0.82 4.532,-0.86 4.531,-0.9 4.531,-0.93 4.531,-0.97 4.531,-1.01 4.532,-1.06 4.531,-1.1 4.531,-1.15 4.532,-1.2 4.532,-1.25 4.53,-1.3 4.53,-1.37 4.53,-1.42 4.53,-1.49 4.54,-1.56 4.53,-1.63 4.53,-1.71 4.53,-1.79 4.53,-1.87 4.53,-1.95 4.53,-2.05 4.53,-2.15 4.53,-2.25 4.54,-2.36 4.53,-2.47 4.53,-2.58 4.53,-2.71 4.53,-2.83 4.53,-2.97 4.53,-3.1 4.54,-3.25 4.53,-3.39 4.53,-3.53 4.53,-3.69 4.53,-3.85 4.53,-3.99 4.53,-4.15 4.53,-4.3 4.53,-4.45 4.54,-4.58 4.53,-4.72 4.53,-4.83 4.53,-4.92 4.53,-5.01 4.53,-5.06 4.53,-5.08 4.54,-5.07 4.53,-5.02 4.53,-4.93 4.53,-4.79 4.53,-4.59 4.53,-4.34 4.53,-4.04 4.53,-3.68 4.53,-3.26 4.54,-2.8 4.53,-2.28 4.53,-1.732 4.53,-1.147 4.53,-0.544 4.53,0.07 4.53,0.683 4.54,1.284 4.53,1.856 4.53,2.41 4.53,2.91 4.53,3.36 4.53,3.76 4.53,4.12 4.53,4.4 4.53,4.64 4.54,4.82 4.53,4.96 4.53,5.03 4.53,5.08 4.53,5.08 4.53,5.05 4.53,4.99 4.54,4.91 4.53,4.8 4.53,4.69 4.53,4.55 4.53,4.41 4.53,4.27 4.53,4.11 4.53,3.97 4.53,3.8 4.54,3.66 4.53,3.5 4.53,3.36 4.53,3.21 4.53,3.07 4.53,2.94 4.53,2.8 4.54,2.68 4.53,2.56 4.53,2.44 4.53,2.33 4.53,2.23 4.53,2.12 4.53,2.03 4.53,1.94 4.53,1.85 4.54,1.77 4.53,1.69 4.53,1.61 4.53,1.54 4.53,1.48 4.53,1.41 4.53,1.35 4.54,1.3 4.53,1.23 4.53,1.19 4.53,1.14 4.53,1.09" />
+          <title id="title55">Function f</title>
+          <desc id="desc57">Function f: f(x) = 1 / b2(x)</desc>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

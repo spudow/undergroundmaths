@@ -1,0 +1,109 @@
+<?xml version='1.0' ?><svg xmlns:ns0="http://www.iki.fi/pav/software/textext/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" id="svg2" version="1.1" width="397.25294" height="259.41607" viewBox="0.0 4.6757190727647925e-6 561.9999786622074 366.99999200668896" preserveAspectRatio="none">
+  <metadata id="metadata128">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs id="defs126" />
+  <title id="title4" />
+  <g id="g6" stroke-linecap="square" stroke-miterlimit="10.000" stroke-width="1.0000" stroke-dasharray="none" stroke-dashoffset="0.0000" stroke-linejoin="miter">
+    <clipPath id="clip1">
+      <path id="path9" d="M 0.0000 0.0000 L 0.0000 367.00 L 564.00 367.00 L 564.00 0.0000 z" />
+    </clipPath>
+    <g id="g11" clip-path="url(#clip1)">
+      <g id="g13" stroke="#000000" stroke-opacity="1.0000" fill="none" stroke-linecap="butt" stroke-width="2.0000">
+        <path id="path15" d="M 292.75 3.0000 L 292.75 367.00" />
+      </g>
+    </g>
+    <clipPath id="clip2">
+      <path id="path18" d="M 0.0000 0.0000 L 0.0000 367.00 L 564.00 367.00 L 564.00 0.0000 z" />
+    </clipPath>
+    <g id="g20" clip-path="url(#clip2)">
+      <g id="g22" fill="#000000" stroke="none" fill-rule="evenodd" fill-opacity="1.0000">
+        <path id="path24" d="M 292.75 2.0000 L 287.75 22.000 L 297.75 22.000" />
+      </g>
+    </g>
+    <clipPath id="clip3">
+      <path id="path27" d="M 0.0000 0.0000 L 0.0000 367.00 L 564.00 367.00 L 564.00 0.0000 z" />
+    </clipPath>
+    <g id="g29" clip-path="url(#clip3)">
+      <g id="g31" stroke="#000000" stroke-opacity="1.0000" fill="none" stroke-linecap="butt" stroke-width="2.0000">
+        <path id="path33" d="M 0.0000 176.00 L 561.00 176.00" />
+      </g>
+    </g>
+    <clipPath id="clip4">
+      <path id="path36" d="M 0.0000 0.0000 L 0.0000 367.00 L 564.00 367.00 L 564.00 0.0000 z" />
+    </clipPath>
+    <g id="g38" clip-path="url(#clip4)">
+      <g id="g40" fill="#000000" stroke="none" fill-rule="evenodd" fill-opacity="1.0000">
+        <path id="path42" d="M 562.00 176.00 L 542.00 171.00 L 542.00 181.00" />
+      </g>
+    </g>
+    <g id="misc" />
+    <g id="layer0">
+      <clipPath id="clip5">
+        <path id="path47" d="M 0.0000 0.0000 L 0.0000 367.00 L 564.00 367.00 L 564.00 0.0000 z" />
+      </clipPath>
+      <g id="g49" clip-path="url(#clip5)">
+        <g id="g51" stroke="#000000" stroke-opacity="1.0000" fill="none" stroke-linecap="round" stroke-width="3.5000" stroke-linejoin="round">
+          <path id="path53" d="M 95.836 377.12 L 96.938 367.53 L 98.039 358.14 L 99.141 348.94 L 100.24 339.92 L 101.34 331.10 L 102.45 322.46 L 103.55 314.01 L 104.65 305.75 L 105.75 297.66 L 106.85 289.76 L 107.95 282.03 L 109.05 274.49 L 110.16 267.12 L 111.26 259.92 L 112.36 252.90 L 113.46 246.05 L 114.56 239.37 L 115.66 232.86 L 116.77 226.52 L 117.87 220.34 L 118.97 214.33 L 120.07 208.48 L 121.17 202.79 L 122.27 197.26 L 123.38 191.89 L 124.48 186.67 L 125.58 181.61 L 127.78 171.95 L 129.98 162.90 L 132.19 154.43 L 134.39 146.55 L 136.59 139.23 L 138.80 132.46 L 141.00 126.24 L 143.20 120.54 L 145.41 115.37 L 149.81 106.52 L 154.22 99.601 L 158.62 94.511 L 160.83 92.622 L 163.03 91.153 L 165.23 90.094 L 167.44 89.432 L 169.64 89.155 L 171.84 89.250 L 174.05 89.706 L 176.25 90.510 L 178.45 91.651 L 180.66 93.115 L 185.06 96.969 L 189.47 101.97 L 193.88 108.04 L 198.28 115.05 L 202.69 122.93 L 207.09 131.58 L 211.50 140.89 L 215.91 150.77 L 218.11 155.89 L 220.31 161.12 L 222.52 166.45 L 224.72 171.85 L 226.92 177.33 L 229.12 182.87 L 231.33 188.45 L 233.53 194.06 L 235.73 199.70 L 237.94 205.34 L 240.14 210.98 L 242.34 216.61 L 244.55 222.21 L 246.75 227.77 L 248.95 233.28 L 251.16 238.73 L 253.36 244.10 L 255.56 249.39 L 257.77 254.57 L 259.97 259.65 L 264.38 269.41 L 268.78 278.58 L 273.19 287.07 L 277.59 294.76 L 282.00 301.58 L 286.41 307.41 L 290.81 312.17 L 295.22 315.76 L 297.42 317.08 L 299.62 318.07 L 301.83 318.73 L 304.03 319.02 L 306.23 318.96 L 308.44 318.51 L 310.64 317.67 L 312.84 316.43 L 315.05 314.78 L 317.25 312.70 L 321.66 307.22 L 326.06 299.88 L 330.47 290.59 L 332.67 285.19 L 334.88 279.26 L 337.08 272.80 L 339.28 265.79 L 341.48 258.22 L 343.69 250.08 L 345.89 241.36 L 348.09 232.03 L 350.30 222.11 L 351.40 216.91 L 352.50 211.56 L 353.60 206.05 L 354.70 200.38 L 355.80 194.54 L 356.91 188.55 L 358.01 182.39 L 359.11 176.07 L 360.21 169.58 L 361.31 162.92 L 362.41 156.09 L 363.52 149.08 L 364.62 141.91 L 365.72 134.56 L 366.82 127.03 L 367.92 119.33 L 369.02 111.45 L 370.12 103.38 L 371.23 95.138 L 372.33 86.708 L 373.43 78.093 L 374.53 69.291 L 375.63 60.301 L 376.73 51.121 L 377.84 41.750 L 378.94 32.185 L 380.04 22.427 L 381.14 12.472 L 381.69 7.4207 L 382.24 2.3199 L 382.79 -2.8306 L 383.34 -8.0310" />
+          <title id="title55">Function h</title>
+          <desc id="desc57">h(x) = (x + 5) (x - 2) (x + 2)</desc>
+        </g>
+      </g>
+      <clipPath id="clip6">
+        <path id="path60" d="M 0.0000 0.0000 L 0.0000 367.00 L 564.00 367.00 L 564.00 0.0000 z" />
+      </clipPath>
+      <g id="g62" clip-path="url(#clip6)">
+        <g id="g64" stroke="#0000ff" stroke-opacity="1.0000" fill="none" stroke-linecap="round" stroke-width="3.5000" stroke-linejoin="round">
+          <path id="path66" d="M 226.39 176.00 L 359.12 176.00" />
+          <title id="title68">Segment f</title>
+          <desc id="desc70">Segment f: Segment [B, C]</desc>
+        </g>
+      </g>
+      <clipPath id="clip7">
+        <path id="path73" d="M 0.0000 0.0000 L 0.0000 367.00 L 564.00 367.00 L 564.00 0.0000 z" />
+      </clipPath>
+      <g id="g75" clip-path="url(#clip7)">
+        <g id="g77" stroke="#0000ff" stroke-opacity="1.0000" fill="none" stroke-linecap="round" stroke-width="3.5000" stroke-linejoin="round">
+          <path id="path79" d="M 126.84 176.00 L 0.0000 176.00" />
+          <title id="title81">Ray g</title>
+          <desc id="desc83">Ray g: Ray through A, D</desc>
+        </g>
+      </g>
+      <clipPath id="clip8">
+        <path id="path86" d="M 0.0000 0.0000 L 0.0000 367.00 L 564.00 367.00 L 564.00 0.0000 z" />
+      </clipPath>
+      <g id="g88" clip-path="url(#clip8)">
+        <g id="g90" stroke="#0000ff" stroke-opacity="1.0000" fill="none" stroke-width="3.5000">
+          <path id="path92" d="M 133.84 176.00 C 133.84 179.87 130.71 183.00 126.84 183.00 C 122.98 183.00 119.84 179.87 119.84 176.00 C 119.84 172.14 122.98 169.00 126.84 169.00 C 130.71 169.00 133.84 172.14 133.84 176.00 z" />
+          <title id="title94">Point A</title>
+          <desc id="desc96">A = (-5, 0)</desc>
+        </g>
+      </g>
+      <clipPath id="clip9">
+        <path id="path99" d="M 0.0000 0.0000 L 0.0000 367.00 L 564.00 367.00 L 564.00 0.0000 z" />
+      </clipPath>
+      <g id="g101" clip-path="url(#clip9)">
+        <g id="g103" stroke="#0000ff" stroke-opacity="1.0000" fill="none" stroke-width="3.5000">
+          <path id="path105" d="M 233.39 176.00 C 233.39 179.87 230.26 183.00 226.39 183.00 C 222.52 183.00 219.39 179.87 219.39 176.00 C 219.39 172.14 222.52 169.00 226.39 169.00 C 230.26 169.00 233.39 172.14 233.39 176.00 z" />
+          <title id="title107">Point B</title>
+          <desc id="desc109">B = (-2, 0)</desc>
+        </g>
+      </g>
+      <clipPath id="clip10">
+        <path id="path112" d="M 0.0000 0.0000 L 0.0000 367.00 L 564.00 367.00 L 564.00 0.0000 z" />
+      </clipPath>
+      <g id="g114" clip-path="url(#clip10)">
+        <g id="g116" stroke="#0000ff" stroke-opacity="1.0000" fill="none" stroke-width="3.5000">
+          <path id="path118" d="M 366.12 176.00 C 366.12 179.87 362.99 183.00 359.12 183.00 C 355.25 183.00 352.12 179.87 352.12 176.00 C 352.12 172.14 355.25 169.00 359.12 169.00 C 362.99 169.00 366.12 172.14 366.12 176.00 z" />
+          <title id="title120">Point C</title>
+          <desc id="desc122">C = (2, 0)</desc>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="g3965" transform="matrix(2,0,0,-2,-354.69619,1155.8032)" xml:space="preserve" stroke-miterlimit="10.433" font-style="normal" font-variant="normal" font-weight="normal" font-stretch="normal" font-size-adjust="none" letter-spacing="normal" word-spacing="normal" ns0:text="$-5$" ns0:preamble="/Users/ABaker/cmep/Inkscape/underground-inkscape-preamble.tex"><polygon style="fill:#000000;stroke-width:0" points="230.76,479.83 230.76,480.61 224.19,480.61 224.19,479.83 " id="polygon3967" /><path style="fill:#000000;stroke-width:0" d="m 236.72,485.27 -0.11,0.09 c -0.19,-0.25 -0.29,-0.31 -0.56,-0.31 l -2.45,0 -1.28,-2.8 c 0,0 -0.02,-0.03 -0.02,-0.06 0,-0.07 0.04,-0.09 0.15,-0.09 1.13,0 1.95,-0.38 2.51,-0.83 0.53,-0.42 0.79,-1.01 0.79,-1.77 0,-1.01 -0.77,-1.99 -1.59,-1.99 -0.24,0 -0.51,0.1 -0.84,0.37 -0.38,0.31 -0.6,0.37 -0.87,0.37 -0.33,0 -0.54,-0.15 -0.54,-0.45 0,-0.45 0.62,-0.73 1.5,-0.73 0.81,0 1.46,0.18 2.01,0.58 0.8,0.59 1.16,1.32 1.16,2.45 0,0.63 -0.11,1.08 -0.42,1.5 -0.67,0.94 -1.26,1.2 -2.95,1.51 l 0.47,1.01 2.3,0 c 0.18,0 0.28,0.07 0.31,0.15 z" id="path3969" /></g>  <g ns0:preamble="/Users/ABaker/cmep/Inkscape/underground-inkscape-preamble.tex" ns0:text="$-2$" word-spacing="normal" letter-spacing="normal" font-size-adjust="none" font-stretch="normal" font-weight="normal" font-variant="normal" font-style="normal" stroke-miterlimit="10.433" xml:space="preserve" transform="matrix(2,0,0,-2,-246.65221,1155.414)" id="g4165" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><polygon id="polygon4167" points="224.19,479.83 230.76,479.83 230.76,480.61 224.19,480.61 " style="fill:#000000;stroke-width:0" /><path id="path4169" d="m 237.14,478.85 -0.16,0.07 c -0.39,-0.66 -0.64,-0.79 -1.13,-0.79 l -2.77,0 1.95,2.08 c 1.05,1.11 1.51,1.99 1.51,2.93 0,1.17 -0.85,2.08 -2.18,2.08 -1.45,0 -2.21,-0.97 -2.46,-2.35 l 0.25,-0.06 c 0.47,1.15 0.89,1.53 1.73,1.53 1.01,0 1.65,-0.59 1.65,-1.66 0,-1.01 -0.43,-1.9 -1.54,-3.07 l -2.1,-2.23 0,-0.15 4.62,0 z" style="fill:#000000;stroke-width:0" /></g>  <g style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="g4371" transform="matrix(2,0,0,-2,-86.24796,1155.6597)" xml:space="preserve" stroke-miterlimit="10.433" font-style="normal" font-variant="normal" font-weight="normal" font-stretch="normal" font-size-adjust="none" letter-spacing="normal" word-spacing="normal" ns0:text="$2$" ns0:preamble="/Users/ABaker/cmep/Inkscape/underground-inkscape-preamble.tex"><path style="fill:#000000;stroke-width:0" d="m 229.03,478.85 -0.17,0.07 c -0.39,-0.66 -0.63,-0.79 -1.13,-0.79 l -2.76,0 1.94,2.08 c 1.06,1.11 1.52,1.99 1.52,2.93 0,1.17 -0.85,2.08 -2.19,2.08 -1.45,0 -2.21,-0.97 -2.45,-2.35 l 0.24,-0.06 c 0.48,1.15 0.89,1.53 1.74,1.53 1,0 1.64,-0.59 1.64,-1.66 0,-1.01 -0.42,-1.9 -1.53,-3.07 l -2.11,-2.23 0,-0.15 4.62,0 z" id="path4373" /></g>  <g ns0:preamble="/Users/ABaker/cmep/Inkscape/underground-inkscape-preamble.tex" ns0:text="$y$" word-spacing="normal" letter-spacing="normal" font-size-adjust="none" font-stretch="normal" font-weight="normal" font-variant="normal" font-style="normal" stroke-miterlimit="10.433" xml:space="preserve" transform="matrix(2,0,0,-2,-177.24544,973.67307)" id="g3773" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><path id="path3775" d="m 226.62,480.86 -0.01,0.08 -0.01,0.08 -0.01,0.07 -0.01,0.07 -0.01,0.07 -0.01,0.07 -0.01,0.06 -0.01,0.06 -0.01,0.06 -0.01,0.05 -0.01,0.06 -0.01,0.05 -0.01,0.05 -0.01,0.04 -0.02,0.05 -0.01,0.05 -0.01,0.04 -0.02,0.04 -0.01,0.04 -0.01,0.04 -0.04,0.08 -0.03,0.07 -0.04,0.08 -0.04,0.07 -0.04,0.07 -0.05,0.07 -1.77,-0.3 0.02,-0.18 c 0.11,0.01 0.3,0.04 0.43,0.04 0.66,0 0.76,-0.71 0.82,-1.24 l 0.45,-3.7 c -0.31,-0.48 -0.98,-1.21 -1.18,-1.21 -0.19,0 -0.16,0.37 -0.67,0.37 -0.16,0 -0.47,-0.13 -0.47,-0.49 0,-0.28 0.22,-0.64 0.66,-0.64 0.8,0 1.57,1.15 2.43,2.24 0.5,0.62 2.41,3.46 2.41,4.38 0,0.46 -0.3,0.73 -0.67,0.73 -0.35,0 -0.56,-0.21 -0.56,-0.47 0,-0.45 0.61,-0.57 0.61,-0.82 0,-0.21 -0.09,-0.45 -0.33,-0.88 -0.26,-0.49 -0.67,-1.19 -1.39,-2.18 z" style="fill:#000000;stroke-width:0" /></g>  <g style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="content" transform="matrix(2,0,0,-2,95.329853,1151.358)" xml:space="preserve" stroke-miterlimit="10.433" font-style="normal" font-variant="normal" font-weight="normal" font-stretch="normal" font-size-adjust="none" letter-spacing="normal" word-spacing="normal" ns0:text="$x$" ns0:preamble="/Users/ABaker/cmep/Inkscape/underground-inkscape-preamble.tex"><path style="fill:#000000;stroke-width:0" d="m 227.03,480.64 -0.23,0.64 c -0.15,0.39 -0.37,0.88 -0.89,1.16 l -1.56,-0.39 0.04,-0.21 c 0.12,0.05 0.29,0.07 0.45,0.07 0.65,0 0.95,-0.48 1.15,-1.05 l 0.39,-1.09 -0.76,-1.19 c -0.38,-0.58 -0.69,-0.7 -0.83,-0.7 -0.3,0 -0.25,0.24 -0.55,0.24 -0.3,0 -0.45,-0.25 -0.45,-0.44 0,-0.26 0.19,-0.55 0.61,-0.55 0.66,0 1,0.51 1.38,1.08 l 0.74,1.16 0.48,-1.33 c 0.15,-0.43 0.38,-0.91 0.86,-0.91 0.68,0 1.21,1.13 1.36,1.31 l -0.17,0.12 c -0.25,-0.51 -0.53,-0.68 -0.72,-0.68 -0.53,0 -0.8,1.6 -1.15,2.33 l 0.64,1 c 0.17,0.26 0.3,0.45 0.65,0.45 0.2,0 0.26,-0.1 0.52,-0.1 0.31,0 0.46,0.27 0.46,0.49 0,0.25 -0.2,0.39 -0.57,0.39 -0.6,0 -1.01,-0.52 -1.32,-0.99 z" id="path3587" /></g></svg>

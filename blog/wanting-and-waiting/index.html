@@ -1,0 +1,344 @@
+<!DOCTYPE html><html lang="en-GB" data-ng-app="cmBlog" class="ng-scope"><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style><meta charset="utf-8">
+<link rel="manifest" href="/static/app-manifest/manifest.webmanifest">
+<title data-ng-bind="rootViewModel.title ? rootViewModel.title + ' | Underground Mathematics' : 'Blog entry | Underground Mathematics'" class="ng-binding">Blog entry | Underground Mathematics</title>
+<meta name="description" content="Blog entry from the Underground Mathematics blog.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link rel="stylesheet" href="../../static/css/main.min_v%3D2.css">
+
+<script async src="//www.google-analytics.com/analytics.js"></script><link rel="apple-touch-icon" sizes="152x152" href="../../static/app-manifest/icon-152.png"><link rel="apple-touch-icon" sizes="120x120" href="../../static/app-manifest/icon-120.png"><link rel="apple-touch-icon" sizes="76x76" href="../../static/app-manifest/icon-76.png"><link rel="apple-touch-icon" sizes="60x60" href="../../static/app-manifest/icon-60.png"><link rel="apple-touch-icon" sizes="57x57" href="../../static/app-manifest/icon-57.png"><link rel="apple-touch-icon" sizes="72x72" href="../../static/app-manifest/icon-72.png"><link rel="apple-touch-icon" sizes="114x114" href="../../static/app-manifest/icon-114.png"><link rel="icon" sizes="128x128" href="../../static/app-manifest/icon-128.png"><link rel="icon" sizes="192x192" href="../../static/app-manifest/icon-192.png"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="UndergroundMathematics"><meta name="application-name" content="UndergroundMathematics"><meta name="msapplication-TileColor" content="#ffffff"><meta name="msapplication-square70x70logo" content="/static/app-manifest/icon-70.png"><meta name="msapplication-square150x150logo" content="/static/app-manifest/icon-150.png"><meta name="msapplication-wide310x150logo" content="/static/app-manifest/icon-310x150.png"><meta name="msapplication-square310x310logo" content="/static/app-manifest/icon-310.png"><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1px; bottom: 2px; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head>
+<body class="admin-toolbar-open" data-ng-class="{'admin-toolbar-open': rootViewModel.adminData.showTools}"><div id="MathJax_Message" style="display: none;"></div><div class="teacher-perspective-entry-wrapper mathematical-classroom-page full-height-container ng-scope" data-ng-controller="BlogEntryController"><div class="auto-height-row"><div class="header" id="header"><div class="header-main"><a class="header-logo" href="../../"><span class="icon-logo"></span>
+<span class="header-logo-text"><span>underground</span>
+<span>mathematics</span>
+</span>
+</a>
+<ul><li data-ng-class="{selected: rootViewModel.headerMenuItemSelected == 'Map'}"><a tabindex="0" data-ng-click="toggleHeaderMenuItem('Map')"><span class="icon-map"></span>
+<span class="header-menu-item-text">Map</span>
+</a>
+</li>
+<li data-ng-class="{selected: rootViewModel.headerMenuItemSelected == 'Search'}"><a tabindex="0" data-ng-click="toggleHeaderMenuItem('Search')"><span class="icon-search"></span>
+<span class="header-menu-item-text">Search</span>
+</a>
+</li>
+<li data-ng-class="{selected: rootViewModel.headerMenuItemSelected == 'Browse'}"><a tabindex="0" data-ng-click="toggleHeaderMenuItem('Browse')"><span class="icon-folder-open"></span>
+<span class="header-menu-item-text">Browse</span>
+</a>
+</li>
+<li data-ng-class="{selected: rootViewModel.headerMenuItemSelected == 'User'}"><a tabindex="0" data-ng-click="toggleHeaderMenuItem('User')"><span class="icon-user"></span>
+<span class="header-menu-item-text">User</span>
+</a>
+</li>
+<li data-ng-class="{selected: rootViewModel.headerMenuItemSelected == 'More'}"><a tabindex="0" data-ng-click="toggleHeaderMenuItem('More')"><span class="icon-ellipsis"></span>
+<span class="header-menu-item-text">More</span>
+</a>
+</li>
+</ul>
+</div>
+
+<nav class="header-more-menu ng-hide" data-ng-show="rootViewModel.headerMenuItemSelected == 'More'"><ul><li><a href="../../" target="_self">Home</a>
+</li>
+<li><a href="../../how-to-guide/" target="_self">How-to guide</a>
+</li>
+<li><a href="../../hub/" target="_self">Underground hub</a>
+</li>
+<li><a href="../../about/" target="_self">About and contact</a>
+</li>
+<li class="menu-divider"></li>
+<li class="header-more-menu-mathematical-classroom"><a href="../../mathematical-classroom/" target="_self"><span class="icon-mathematical-classroom"></span>
+Your mathematical classroom</a>
+</li>
+</ul>
+</nav>
+</div>
+
+<div class="mathematical-classroom-header" id="mathematical-classroom-header"><div class="mathematical-classroom-header-main"><a class="mathematical-classroom-header-title" href="../../mathematical-classroom/"><span class="icon-mathematical-classroom"></span>
+<span class="mathematical-classroom-header-title-text">Your mathematical classroom</span>
+</a>
+<a class="mathematical-classroom-header-menu-button" tabindex="0" data-ng-click="mathematicalClassroomRootViewModel.menuOpen = !mathematicalClassroomRootViewModel.menuOpen" data-ng-class="{open: mathematicalClassroomRootViewModel.menuOpen}"><span class="icon-menu"></span>
+<span class="sr-only">Your mathematical classroom menu</span>
+</a>
+<ul data-ng-class="{open: mathematicalClassroomRootViewModel.menuOpen}"><li data-ng-class="{selected: mathematicalClassroomRootViewModel.headerMenuItemSelected == 'Bundles'}"><a href="../../bundles/"><span class="icon-bundle"></span>
+Bundles</a>
+</li>
+<li data-ng-class="{selected: mathematicalClassroomRootViewModel.headerMenuItemSelected == 'ResourcesInAction'}"><a href="../../resources-in-action/"><span class="icon-resource-in-action"></span>
+Resources in action</a>
+</li>
+<li data-ng-class="{selected: mathematicalClassroomRootViewModel.headerMenuItemSelected == 'TeacherPerspective'}" class="selected"><a href="../"><span class="icon-teacher-perspective"></span>
+Blog</a>
+</li>
+<li data-ng-class="{selected: mathematicalClassroomRootViewModel.headerMenuItemSelected == 'Webinars'}"><a href="../../webinars/"><span class="icon-video"></span>
+Webinars</a>
+</li>
+
+<li data-ng-class="{selected: mathematicalClassroomRootViewModel.headerMenuItemSelected == 'NewALevel'}"><a href="../../new-a-level/"><span class="icon-info"></span>
+2017 A level</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="full-height-row"><!-- ngIf: viewModel.teacherPerspective.teacherPerspective.publishStatus && viewModel.teacherPerspective.teacherPerspective.publishStatus != 'Public' -->
+<div class="teacher-perspective-entry-header-wrapper"><div class="teacher-perspective-entry-header"><div class="teacher-perspective-entry-header-next-prev"><!-- ngIf: viewModel.teacherPerspective.prev --><a class="cm-button-primary cm-small ng-scope" data-ng-if="viewModel.teacherPerspective.prev" data-ng-attr-href="{{'/blog/' + viewModel.teacherPerspective.prev.friendlyId}}" href="../welcome/"><span class="icon-left"></span>
+Previous post</a><!-- end ngIf: viewModel.teacherPerspective.prev -->
+<!-- ngIf: viewModel.teacherPerspective.next --><a class="cm-button-primary cm-small ng-scope" data-ng-if="viewModel.teacherPerspective.next" data-ng-attr-href="{{'/blog/' + viewModel.teacherPerspective.next.friendlyId}}" href="../taking-time-to-think/">Next post
+<span class="icon-right"></span>
+</a><!-- end ngIf: viewModel.teacherPerspective.next -->
+</div>
+<div class="teacher-perspective-entry-header-main"><div class="teacher-perspective-entry-heading-wrapper"><a class="teacher-perspective-entry-heading-blog" href="../"><span class="icon-teacher-perspective"></span>
+<h3>Blog</h3>
+</a>
+<div class="teacher-perspective-entry-heading"><div class="teacher-perspective-entry-date"><span class="icon-calendar"></span>
+<span data-ng-bind="viewModel.teacherPerspective.teacherPerspective.date | date: 'dd-MMM-yy'" class="ng-binding">13-Apr-17</span>
+</div>
+<h1><span data-ng-bind="viewModel.teacherPerspective.teacherPerspective.title" class="ng-binding">Wanting and waiting</span>
+<!-- ngIf: canEditTeacherPerspective(viewModel.teacherPerspective.teacherPerspective) -->
+</h1>
+<div class="teacher-perspective-entry-teacher"><a tabindex="0" data-ng-class="{disabled: !viewModel.teacherPerspective.bioConvertedContent}" data-ng-click="showBio(viewModel.teacherPerspective)" class><span class="icon-user"></span>
+<span data-ng-bind="viewModel.teacherPerspective.teacherPerspective.teacherName + (viewModel.teacherPerspective.teacherPerspective.teacherSchool ? ', ' + viewModel.teacherPerspective.teacherPerspective.teacherSchool : '')" class="ng-binding">Danny Brown</span>
+</a>
+</div>
+</div>
+</div>
+<!-- ngIf: viewModel.teacherPerspective.resource -->
+<!-- ngIf: viewModel.teacherPerspective.station && !viewModel.teacherPerspective.resource -->
+</div>
+</div>
+</div>
+<div class="teacher-perspective-entry-main-wrapper"><div class="teacher-perspective-entry-main"><div class="teacher-perspective-entry-item"><div class="teacher-perspective-entry-item-inner"><div class="teacher-perspective-entry-item-main"><div class="teacher-perspective-entry-item-body"><div class="teacher-perspective-entry-item-content"><div class="cm-content ng-binding" data-ng-bind-html="getComputedContent(viewModel.teacherPerspective)" data-cm-teacher-perspective-content><h3>Introduction</h3>
+<p>I always have in mind Dick Tahta’s phrase ‘taking the wanting out of the waiting’ when teaching. This does not mean I always achieve it.</p>
+<p>I have chosen to analyse Clip A from the collection of videos at <a data-cm-element="link" href="../../calculus-trig-log/inverse-integrals-teacher-support/" target="_blank">Inverse integrals - teacher support</a>, shown below, as it highlights my difficulties in balancing wanting and waiting.</p>
+<div data-cm-element="video">
+<video controls poster="/calculus-trig-log/inverse-integrals-teacher-support/images/areaandinversesposter.png" preload="none" style="width:320px;height:auto">
+<source src="../../calculus-trig-log/inverse-integrals-teacher-support/assets/areasandinversess.mp4" type="video/mp4">
+</video>
+</div>
+<h3>The conversation</h3>
+<p>I am sitting on a chair facing the two students so I can meet them fully.</p>
+<p>I am aware that Student Z is talking and Student Y is not. I decide I am happy that he is speaking for both of them as Y seems to agree with what is being said at 00:20 and 00:36, and choose not to invite student Y to comment separately.</p>
+<p>In the first 38 seconds, Z is making a conjecture that, whilst useful, will not get to the heart of the problem - that is, proving that the two areas are equal. I am trying to find a way of revealing to the students what the problem demands of them, without doing the comprehension for them.</p>
+<p>There is some of what Mary Boole would describe as ‘teacher lust’ present. I do not want to direct them too much, but at the same time I would not like them to spend too long on their initial line of thought.</p>
+<p>At 00:38, I respond with the word ‘interesting’, followed by an intentional silence.</p>
+<p>Z taps the table twice at 00:40, suggesting… what - impatience? thought?</p>
+<p>It lasts for 6 seconds, but feels much longer. I wait in the hope that either student will break the silence with a fresh insight. This happens at 00:44, when Z suggests that the two shaded areas might be equal, and Y agrees.</p>
+<p>Although I want the students to follow their own route through the problem, this is what I hoped they might attend to.</p>
+<p>I cannot help uttering ‘mmm’ at 00:47. I try to resist guiding their thinking too much, but agree that ‘It suggests something’. Z says ‘It could be the area,’ then looks at me for further affirmation.</p>
+<p>I hold another silence from 00:58 to 01:02, giving myself time to think about what I can say that will provide the ‘right’ amount of stimulus.</p>
+<p>At 01:08, I make a conscious decision to clarify what has been said so far, and how they might proceed. I re-iterate the ‘second conjecture’, whilst saying ‘I think we can agree’ with the first, in order to channel their energies.</p>
+<p>I point at both shaded areas a number of times between 01:18 and 01:22, in order to direct attention.</p>
+<p>After some babbling, I arrive at the most succinct form of question at 01:22: ‘Your conjecture about those two being the same… How could you know that they were?’ We have arrived at the heart of the problem.</p>
+<p>At 01:24, Z starts rotating his pen in the fingers of his right hand. What does this signify?</p>
+<p>There is a third silence between 01:28 and 01:33, which is again broken by Z. Unfortunately, we will never know what he was going to say as I interrupt to give further suggestions, and instantly regret it. But I carry on, becoming aware that other students may require my attention.</p>
+<h3>Conclusion</h3>
+<p>Did I intervene too much in this video? It is a fine line between wanting and waiting.</p>
+<p>It might now be interesting to compare this conversation with that in Clip C, shown below, in which I am not present.</p>
+<div data-cm-element="video">
+<video controls poster="/calculus-trig-log/inverse-integrals-teacher-support/images/areadebateposter.png" preload="none" style="width:320px;height:auto">
+<source src="../../calculus-trig-log/inverse-integrals-teacher-support/assets/b6areadebateclipcs.mp4" type="video/mp4">
+</video>
+</div>
+<h5>About the author</h5>
+<figure class="cm-float-right">
+<img src="../../teacher-perspective/wanting-and-waiting/wanting-and-waiting.jpg/" alt="Danny Brown" style="width:120px">
+</figure>
+<p><em>Danny is currently taking a break from teaching to spend some time with his daughter, walk around the Orkney islands, and is taking a course in counselling. However, he still spends a lot of time solving - and writing about - maths problems, which you can read at <a data-cm-element="link" href="http://www.squeaktime.com/" target="_blank">http://www.squeaktime.com/</a>.</em></p></div>
+</div>
+<!-- ngIf: false -->
+<div class="teacher-perspective-entry-item-next-prev"><!-- ngIf: viewModel.teacherPerspective.prev --><a class="cm-button-primary cm-small ng-scope" data-ng-if="viewModel.teacherPerspective.prev" data-ng-attr-href="{{'/blog/' + viewModel.teacherPerspective.prev.friendlyId}}" href="../welcome/"><span class="icon-left"></span>
+Previous post</a><!-- end ngIf: viewModel.teacherPerspective.prev -->
+<!-- ngIf: viewModel.teacherPerspective.next --><a class="cm-button-primary cm-small ng-scope" data-ng-if="viewModel.teacherPerspective.next" data-ng-attr-href="{{'/blog/' + viewModel.teacherPerspective.next.friendlyId}}" href="../taking-time-to-think/">Next post
+<span class="icon-right"></span>
+</a><!-- end ngIf: viewModel.teacherPerspective.next -->
+</div>
+<div class="teacher-perspective-entry-disclaimer">Please note that the views expressed in each blog entry are those of the author(s) of individual entries and do not necessarily represent the views of Underground Mathematics or its members.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="auto-height-row"><div class="footer"><div class="footer-top"><div class="footer-contact"><a href="mailto:info@undergroundmathematics.org"><span class="icon-email"></span>
+<span class="sr-only">Email</span>
+</a>
+<a href="https://twitter.com/UndergroundMath" target="_blank"><span class="icon-twitter"></span>
+<span class="sr-only">Twitter</span>
+</a>
+</div>
+<div class="footer-policies"><a href="../../terms/" target="_self">Terms</a>
+<span class="text-divider"></span>
+<a href="../../cookie-policy/" target="_self">Cookies</a>
+<span class="text-divider"></span>
+<a href="../../privacy-policy/" target="_self">Privacy</a>
+</div>
+</div>
+<div class="footer-middle"><a class="footer-logo" href="../../"><span class="icon-logo"></span>
+<span class="footer-title"><span>underground</span>
+<span>mathematics</span>
+</span>
+</a>
+<div class="footer-strapline">Rich resources for teaching A level mathematics</div>
+<small>Copyright © and Database Right 2013-2021 University of Cambridge <br>
+<a href="../../terms/#copyright">All rights reserved</a>
+</small>
+</div>
+<div class="footer-bottom"><div class="footer-cambridge"><img src="../../static/img/cambridge-logo-white.png" alt="University of Cambridge logo">
+</div>
+<div class="footer-dfe"><img src="../../static/img/dfe-logo-white.png" alt="Department for Education logo">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/js-cookie/2.1.1/js.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.devbridge-autocomplete/1.2.24/jquery.autocomplete.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-resource.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-sanitize.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/markdown-it/8.3.1/markdown-it.min.js"></script>
+<script src="../../static/js/main.min.js"></script>
+<script type="text/x-mathjax-config;executed=true">MathJax.Hub.Config({skipStartupTypeset: true,
+TeX: { equationNumbers: { autoNumber: "AMS" },
+Macros: {Var: "\\mathrm{Var}",
+cosec: "\\mathop{\\rm cosec}\\nolimits",
+sech: "\\mathop{\\rm sech}\\nolimits",
+cosech: "\\mathop{\\rm cosech}\\nolimits",
+arsinh: "\\mathop{\\rm arsinh}\\nolimits",
+arcosh: "\\mathop{\\rm arcosh}\\nolimits",
+artanh: "\\mathop{\\rm artanh}\\nolimits",
+arccot: "\\mathop{\\rm arccot}\\nolimits",
+arcsec: "\\mathop{\\rm arcsec}\\nolimits",
+arccosec: "\\mathop{\\rm arccosec}\\nolimits",
+quantity: ["{#1}\\,\\mathrm{#2}", 2],
+cmlongdiv: ["\\enclose{longdiv}{#1}", 1],
+cmlongdivbr: ["\\\\[-3pt]"],
+cmarraystretch: ["{}", 1]}},
+"HTML-CSS": {linebreaks: {automatic: true,
+width: "57%"},
+mtextFontInherit: true,
+preferredFont: "STIX",
+webFont: "STIX-Web",
+imageFont:null,
+minScaleAdjust: 100},
+"SVG": {linebreaks: {automatic: true,
+width: "57%"},
+mtextFontInherit: true,
+font: "STIX-Web",
+minScaleAdjust: 100},
+tex2jax: {displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+processEscapes: true}});
+MathJax.Hub.Register.StartupHook("TeX AMSsymbols Ready",function () { MathJax.InputJax.TeX.Definitions.mathchar0mi.square = ["25FB",{mathvariant:"normal"}];});
+MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {MathJax.Hub.Insert(MathJax.InputJax.TeX.Definitions.macros,{cancel: ["Extension","cancel"],
+bcancel: ["Extension","cancel"],
+xcancel: ["Extension","cancel"],
+cancelto: ["Extension","cancel"],
+enclose: ["Extension","enclose"]});});</script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script src="../../static/js/lib/manup/manup.min.js"></script>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-50571661-2', 'auto');</script>
+<script src="../../static/js/public/blog.min.js"></script><script>var spaSetup = {"accountSettings":{"imminentPasswordExpiryHours":168,"invalidPasswordMessage":"Your password must contain at least 1 upper case letter, 1 lower case letter, 1 digit and be at least 8 characters long.","verificationExpiryHours":48,"passwordResetExpiryHours":48},"appSettings":{"disableLogins":false,"webmasterEmail":"info@undergroundmathematics.org","disabledLoginMessage":null,"webmasterName":"Underground Mathematics "},"contactSettings":{"linkedInPage":"underground-mathematics","googlePlusPage":"107933654652080928819","webmasterEmail":"info@undergroundmathematics.org","adminPhone":"+44 1223 554 985","twitterUsername":"UndergroundMath","facebookPage":"UndergroundMathematics","adminEmail":"info@undergroundmathematics.org"},"currentUser":{}};</script>
+
+
+<div class="autocomplete-suggestions" style="position: absolute; display: none; max-height: 300px; z-index: 9999;"></div></body></html>
